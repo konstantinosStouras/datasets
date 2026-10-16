@@ -11,6 +11,7 @@ Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the co
 - 12:02 Batch 3 live: patent text similarity, PatCit, inventor ages (run 38897774771). Png R&D directory data left unresolved (no downloadable file visible).
 - 11:52 Batch 2 live: patent text and novelty measures, in-text patent citations, inventor disambiguation (run 38896605298).
 - 11:35 Batch 1 live: the three pending items from the pause (run 38894715168). Website sharing update confirmed live earlier in the session (HTML, image, icons; crawler user agents return 200).
+- 12:22 Batch 6 submitted: ride-hail deskilling experiments (SMJ) and three named public datasets found through the abstract scan (PSED, Kauffman Firm Survey, World Bank Enterprise Surveys). SBIR.gov blocked.
 - Running: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000, started 12:06, about 3 minutes per chunk (3 of 21 done at 12:15). Next: vet hits from each finished chunk by hand, add verified ones, publish, record each batch here.
 - Unresolved and blocked by publisher bot challenges (not bypassed): INFORMS supplements (two Management Science leads), Wiley, SAGE.
 
@@ -107,6 +108,29 @@ Status: **published and confirmed 2026-10-16.** Merged in PR 7 (merge commit `85
 | `kickstarter-relational-database` | Yu, Johnson, Lai, Cricelli, Fleming, Research Policy 46(10), 1723-1737 (2017), DOI 10.1016/j.respol.2017.07.008 | [Harvard Dataverse EOYBXM](https://doi.org/10.7910/DVN/EOYBXM), CC0, two public files (split ZIP, about 3.5 GB). The record cites the paper. Range requests: first part has the split-archive signature and its start inflates to a SQLite 3 header with tables project, creator, comments, reward, funding_trend, location; the second part's central directory lists one file, `hdd/kickstarter.db`. | Full database not downloaded. Creator profiles and comments: personal-data note. Scraped from Kickstarter (platform terms). Coverage years not stated. The paper's Kiva and CrowdRise databases were not found. Paper full text not read. |
 
 Found by following a lead (the paper presents public databases) with Dataverse and DataCite title searches after a web search found no download page.
+
+## Batch 6 (2026-10-16): deskilling-technology experiments and three named public datasets
+
+Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+
+| Dataset ID | Papers | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `deskilling-technology-ride-hail-experiments` | Ong and Png, Strategic Management Journal 47(2), 364-389 (2025), DOI 10.1002/smj.70017 | [Harvard Dataverse IGBHPE](https://doi.org/10.7910/DVN/IGBHPE), CC0, registered as a supplement to the paper (DataCite hit). Nine public files; README, bootstrap table, field table (200 rows) and vignette table (26,499 rows, 803 participants) parsed. | Participant-level data with age and sex (de-identified IDs). Country not stated in the files read. Paper full text not read. |
+| `kauffman-firm-survey` | Three Journal of Business Venturing papers (2014, 2020, 2022) | Kauffman Foundation page links public-use files. Stata file downloaded and read: 4,928 firms, 4,492 variables. Imputed-data ZIP listed. | Abstracts do not say whether public-use or restricted data were used. Confidential data need the paid NORC enclave. A Management Science paper (2022) and a Review of Financial Studies paper (2012) used restricted data and are deliberately not cited. |
+| `panel-study-of-entrepreneurial-dynamics-psed` | Five papers in Entrepreneurship Theory and Practice and Journal of Business Venturing (2012-2024), including a replication study | PSED project site opened: data through ICPSR. DataCite records exist for ICPSR studies 37203, 37202, 38153, 38154. | **ICPSR blocks scripted access: no data file was opened.** Needs a free ICPSR account. Use shown in each paper's abstract only. |
+| `world-bank-enterprise-surveys` | Research Policy 2018 and 2019, Entrepreneurship Theory and Practice 2017 | Program page states survey information is publicly available. Microdata Library API: 794 studies, a study record, and the public sampling note PDF downloaded. One paper checked in its author working paper. | **Microdata sit behind a free login: no data file was opened.** Evidence of use is the abstract (and one working paper). |
+
+Dry run of the publisher's merge code before pushing: 142 collections, 25 research entries, no duplicate IDs. The queues gained 22 appended rows and updated rows for the cited papers.
+
+### Leads found in this pass and not added
+
+- SBIR.gov (small business awards): the site and its API answer scripted requests with HTTP 403, so nothing could be verified. 17 FT50 abstracts mention SBIR/STTR (Research Policy, Organization Science, Strategic Management Journal, Management Science, AER). Not added; a person with a browser could check the bulk award files.
+- Global Entrepreneurship Monitor: ICPSR lists the Adult Population Survey 1998-2017 (study 20320), but ICPSR access is blocked here; GEM's own site not yet checked. 16 abstracts mention it.
+- Community Innovation Survey (Eurostat), FDA Orange Book/Drugs@FDA, Crunchbase, Kauffman restricted data: not yet reviewed.
+
+### New method: named public datasets in abstracts
+
+Scanned 2006-2026 FT50 abstracts that match the innovation/entrepreneurship words for names of public data sources (count of matching papers in brackets): Kickstarter (78), PatentsView/USPTO (51), PATSTAT/EPO (48), Community Innovation Survey (36), Compustat (32, licensed), FDA data (21), Crunchbase (17), SBIR/STTR (17), Global Entrepreneurship Monitor (16), PSED (12), Kauffman Firm Survey (6), World Bank Enterprise Surveys (5). Reading the abstract wording shows genuine use versus false matches. This finds datasets used by many papers, a good complement to the per-paper repository search.
 
 ## State at the earlier pause (historical)
 
