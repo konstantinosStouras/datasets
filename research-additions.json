@@ -33,6 +33,36 @@
       "evidenceSection": "Section 3.1, Trademark Data and Measure of New Trademark Intensity",
       "verifiedAt": "2026-10-16",
       "verification": "Publisher article and PDF confirm title, authors, issue and explicit use of USPTO Trademark Case Files. The ManSci Replication Project independently lists USPTO trademark data among the study sources."
+    },
+    "10.1287/msom.2022.1129": {
+      "title": "Business Method Innovation in U.S. Manufacturing and Trade",
+      "authors": "Tian Heong Chan; Anandhi Bharadwaj; Deepa Varadarajan",
+      "journal": "Manufacturing & Service Operations Management",
+      "year": 2023,
+      "volume": "25",
+      "issue": "1",
+      "pages": "50–69",
+      "doi": "10.1287/msom.2022.1129",
+      "url": "https://doi.org/10.1287/msom.2022.1129",
+      "evidenceUrl": "https://pubsonline.informs.org/doi/10.1287/msom.2022.1129",
+      "evidenceSection": "Business Method Patents in the United States: Data and Trends",
+      "verifiedAt": "2026-10-16",
+      "verification": "Publisher full text explicitly states that the firm matching uses NBER Patent Data Project identifiers. Publisher PDF independently confirms the authors, title, issue year and pages."
+    },
+    "10.1111/poms.13914": {
+      "title": "“High” innovators? Marijuana legalization and regional innovation",
+      "authors": "Stephanie Cheng; Pengkai Lin; Yinliang Tan; Yuchen Zhang",
+      "journal": "Production and Operations Management",
+      "year": 2023,
+      "volume": "32",
+      "issue": "3",
+      "pages": "685–703",
+      "doi": "10.1111/poms.13914",
+      "url": "https://doi.org/10.1111/poms.13914",
+      "evidenceUrl": "https://www.ceibs.edu/sites/portal.prod1.dpmgr.ceibs.edu/files/2022%20POMS%20Innovation.pdf",
+      "evidenceSection": "Section 4.1, Sample construction",
+      "verifiedAt": "2026-10-16",
+      "verification": "Published paper hosted by CEIBS explicitly names PatentsView and describes the patent sample. Singapore Management University independently confirms bibliographic metadata and DOI."
     }
   },
   "datasets": [
@@ -59,7 +89,8 @@
         "Technology management",
         "Patents",
         "Knowledge spillovers",
-        "R&D"
+        "R&D",
+        "Business model innovation"
       ],
       "dateAdded": "2026-10-16",
       "verifiedAt": "2026-10-16",
@@ -85,7 +116,8 @@
       ],
       "verification": "Provider documentation read; both ZIP endpoints returned HTTP 200 to HEAD requests on 2026-10-16. Full archives were not downloaded.",
       "paperDois": [
-        "10.1287/mnsc.2022.00857"
+        "10.1287/mnsc.2022.00857",
+        "10.1287/msom.2022.1129"
       ]
     },
     {
@@ -112,7 +144,8 @@
         "Technology management",
         "Patents",
         "Inventors",
-        "R&D"
+        "R&D",
+        "Regional innovation"
       ],
       "dateAdded": "2026-10-16",
       "verifiedAt": "2026-10-16",
@@ -134,7 +167,8 @@
       ],
       "verification": "Official USPTO documentation read; the product page returned HTTP 200 on 2026-10-16. Registration-gated files were not downloaded.",
       "paperDois": [
-        "10.1287/mnsc.2022.00857"
+        "10.1287/mnsc.2022.00857",
+        "10.1111/poms.13914"
       ]
     },
     {
