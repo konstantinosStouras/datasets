@@ -1197,6 +1197,51 @@
       "evidenceSection": "Harvard Dataverse record states it holds the data from this article",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Dataverse description and a DataCite link name the article. The article's full text was not read."
+    },
+    "10.1287/mnsc.2022.4369": {
+      "title": "Measuring Founding Strategy",
+      "authors": "Jorge Guzman; Aishen Li",
+      "journal": "Management Science",
+      "year": 2023,
+      "volume": "69",
+      "issue": "1",
+      "pages": "101–118",
+      "doi": "10.1287/mnsc.2022.4369",
+      "url": "https://doi.org/10.1287/mnsc.2022.4369",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/NRYTAA",
+      "evidenceSection": "Harvard Dataverse record and README name the paper; the article abstract says public datasets of the differentiation score and scraped website data are provided",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Dataverse README names the paper and the abstract in the owner's literature database announces the public data. The article's full text was not read."
+    },
+    "10.1287/mnsc.2023.4760": {
+      "title": "Automation Enables Specialization: Field Evidence",
+      "authors": "Jie Gong; I. P. L. Png",
+      "journal": "Management Science",
+      "year": 2024,
+      "volume": "70",
+      "issue": "3",
+      "pages": "1580–1595",
+      "doi": "10.1287/mnsc.2023.4760",
+      "url": "https://doi.org/10.1287/mnsc.2023.4760",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/JKYRPS",
+      "evidenceSection": "Harvard Dataverse record description cites the article DOI; the README names the paper",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Dataverse description and README name the paper. The article's full text was not read."
+    },
+    "10.1287/mnsc.2023.4868": {
+      "title": "Can Technology Startups Hire Talented Early Employees? Ability, Preferences, and Employee First Job Choice",
+      "authors": "Michael Roach; Henry Sauermann",
+      "journal": "Management Science",
+      "year": 2024,
+      "volume": "70",
+      "issue": "6",
+      "pages": "3619–3644",
+      "doi": "10.1287/mnsc.2023.4868",
+      "url": "https://doi.org/10.1287/mnsc.2023.4868",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/IGFCET",
+      "evidenceSection": "Harvard Dataverse record title and do-file header name the paper",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Dataverse record and the do-file name Roach and Sauermann's Management Science article. The article's full text was not read."
     }
   },
   "datasets": [
@@ -3702,17 +3747,14 @@
       "years": "1926–2025",
       "geography": "United States",
       "types": [
-        "Administrative"
+        "Administrative records"
       ],
       "units": [
-        "Patents",
-        "Firms"
+        "Firms & institutions"
       ],
-      "tools": [
-        "CSV"
-      ],
+      "tools": [],
       "designs": [
-        "Panel"
+        "Panel / longitudinal"
       ],
       "paperDois": [
         "10.1093/qje/qjw040"
@@ -3751,18 +3793,17 @@
       "years": "Birth cohorts and patent grants by area; income outcomes by age",
       "geography": "United States",
       "types": [
-        "Administrative"
+        "Administrative records"
       ],
       "units": [
         "Individuals",
-        "Regions"
+        "Places & geographic areas"
       ],
       "tools": [
-        "Stata",
-        "CSV"
+        "Stata"
       ],
       "designs": [
-        "Panel"
+        "Panel / longitudinal"
       ],
       "paperDois": [
         "10.1093/qje/qjy028"
@@ -3802,11 +3843,11 @@
       "years": "Applications 2000–2013",
       "geography": "United States",
       "types": [
-        "Administrative"
+        "Administrative records"
       ],
       "units": [
         "Patents",
-        "Firms"
+        "Firms & institutions"
       ],
       "tools": [
         "Stata"
@@ -3854,13 +3895,13 @@
         "Survey"
       ],
       "units": [
-        "Firms"
+        "Firms & institutions"
       ],
       "tools": [
         "Stata"
       ],
       "designs": [
-        "Panel"
+        "Panel / longitudinal"
       ],
       "paperDois": [
         "10.1162/qjec.2007.122.4.1351"
@@ -3892,6 +3933,160 @@
         }
       ],
       "verification": "Both data tables were downloaded in full and parsed (rows, columns, years, countries, firm codes counted) and the instruction note was read. The do-file and log were listed but not rerun, and the paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Entrepreneurship",
+      "years": "2003–2018",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata",
+        "Python"
+      ],
+      "designs": [
+        "Repeated cross-section"
+      ],
+      "paperDois": [
+        "10.1287/mnsc.2022.4369"
+      ],
+      "id": "founding-strategy-startup-website-text",
+      "title": "Measuring founding strategy: startup and public-firm website text and similarity data",
+      "url": "https://doi.org/10.7910/DVN/NRYTAA",
+      "description": "Author-released data behind a text-based measure of how differentiated a startup's founding strategy is. For each year it holds the archived website text of Crunchbase startups and public firms, the fitted text models, similarity scores, and a table listing each startup's most similar public firms and startups, with the Stata scripts used in the paper.",
+      "tags": [
+        "Entrepreneurship",
+        "Startups",
+        "Founding strategy",
+        "Differentiation",
+        "Website text",
+        "Text analysis",
+        "Crunchbase",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "102 files, about 11 GB, CC0. Yearly website-text tables for 2003 to 2018 (2003 table parsed: 4,674 rows, 493 Crunchbase startups and 4,181 public firms from Orbis, with website, text, type and Wayback Machine snapshot fields). A 245 MB Stata file lists the most similar websites (17 variables including similarity score, focal website and year; only its header was read). Fitted doc2vec, tf-idf and industry-cluster models are stored as Python pickle and NumPy files; these were not opened.",
+        "The README calls this a beta release, says the analysis file can be rebuilt only with the Crunchbase academic files, and points to a GitHub organisation for the code; that page could not be reached from this environment. Website text comes from third-party sites, so copyright may limit reuse of the text itself.",
+        "Only the 2003 text table was downloaded; later years were listed, not read."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (102 files, about 11 GB)",
+          "url": "https://doi.org/10.7910/DVN/NRYTAA",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The Dataverse file list and README were read in full. The 2003 website-text table was downloaded (size matches) and parsed; the header of the most-similar-websites Stata file was read with a range request. The pickle files and the paper's full text were not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Businesses",
+      "years": "Not stated in the deposit",
+      "geography": "Other / not specified",
+      "types": [
+        "Survey",
+        "Administrative records"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal",
+        "Cross-section"
+      ],
+      "paperDois": [
+        "10.1287/mnsc.2023.4760"
+      ],
+      "id": "automation-specialization-cashier-taxi-data",
+      "title": "Automation and worker specialization: supermarket cashier and taxi driver data",
+      "url": "https://doi.org/10.7910/DVN/JKYRPS",
+      "description": "Replication data from a field study of how automation changes what workers specialise in. It pairs a disguised panel of supermarket cashier transactions, with scanning versus manual entry and productivity measures, with an author survey of taxi drivers on map-app use, plus the Stata code for the paper's tables.",
+      "tags": [
+        "Automation",
+        "Technology adoption",
+        "Productivity",
+        "Workers",
+        "Field data",
+        "Survey data",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Cashier table: 152,246 rows and 350 columns (4 stores, shift, day, hour, scan versus manual entry, scanning and payment times, basket composition by category). The authors say it is proprietary data covered by a non-disclosure agreement, released in disguised form: store names, cashier IDs, dates and most categories are masked and basket size and value are replaced by interval averages, so main results replicate to one decimal place and one appendix table cannot be reproduced. A larger 1.2 GB variant for one appendix table was listed, not read.",
+        "Taxi survey: 402 drivers and 39 variables (experience, age, hours, rides, income, map use and attitude items). Country and survey year are not stated in the deposit; check the paper.",
+        "CC0 on Harvard Dataverse. README and disguise note read."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (7 files)",
+          "url": "https://doi.org/10.7910/DVN/JKYRPS",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "README, disguise note and both do-files were read. The cashier and taxi tables were downloaded in full and parsed (rows, columns, store count). The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Entrepreneurship",
+      "years": "Not stated in the deposit",
+      "geography": "United States",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1287/mnsc.2023.4868"
+      ],
+      "id": "startup-hiring-phd-job-choice-replication",
+      "title": "Technology startups and talented early employees: PhD job-choice replication data",
+      "url": "https://doi.org/10.7910/DVN/IGFCET",
+      "description": "Replication file from a survey-based study of which science and engineering PhDs apply to, receive offers from and join technology startups, with ability, career preferences, demographics, field, visa status and local venture funding variables, plus the Stata code for the paper's regressions.",
+      "tags": [
+        "Entrepreneurship",
+        "Startups",
+        "Hiring",
+        "Scientists and engineers",
+        "Career choice",
+        "Survey data",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "One table of 2,415 respondents and 22 variables (startup employment, application and offer indicators, log starting salary, an ability measure, preference scores, visa, gender, family, postdoc, log venture funding, GDP growth, field and university codes) and a do-file for Tables 3, 5 and 6.",
+        "Important limit: the depositors state the data are provided for replication only and that use for other research is not permitted, even though the Dataverse licence is CC0. Treat it as a replication file, not a reusable dataset.",
+        "Survey years are not given in the deposit; the paper describes the underlying longitudinal PhD survey."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (table and do-file)",
+          "url": "https://doi.org/10.7910/DVN/IGFCET",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Both files were downloaded in full; the table was parsed (rows and columns) and the do-file read. The paper's full text was not read."
     }
   ]
 }
