@@ -16,7 +16,8 @@ Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the co
 - 12:35 Batch 7 confirmed live (run 38901007519 at 12:30:56: 147 collections, 30 research entries). Batch 8 submitted: Mannheim Innovation Panel (application-gated) and six open Research Policy deposits from sweep chunks 6 and 7.
 - 12:42 Batch 8 confirmed live (run 38901669227 at 12:36:30: 154 collections, 37 research entries; raw feed caught up). Batch 9 submitted: Community Innovation Survey (Eurostat tables) and Global Entrepreneurship Monitor.
 - 12:51 Batch 9 confirmed live (run 38902467271 at 12:43:11: 156 collections, 39 research entries). Batch 10 submitted: NBER Orange Book, ClinicalTrials.gov, World Bank FAT survey (found through the abstract scan and sweep chunks 9 to 12).
-- Running: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000, started 12:06, about 3 minutes per chunk (12 of 21 done at 12:51; chunks now reach AER, QJE, JPE, marketing and finance journals). Two failed requests so far (proxy drops); failed DOIs are rerun at the end. Next: vet hits from each finished chunk by hand, add verified ones, publish, record each batch here.
+- 12:56 Batch 10 confirmed live (run 38903631072 at 12:52:56: 159 collections, 42 research entries). Added a 'Known blockers' section. AER deposits on openICPSR are blocked like ICPSR; QJE deposits on Dataverse are often README-only or code-only.
+- Running: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000, started 12:06, about 3 minutes per chunk (14 of 21 done at 12:56; chunks now reach AER, QJE, JPE, marketing and finance journals). Two failed requests so far (proxy drops); failed DOIs are rerun at the end. Next: vet hits from each finished chunk by hand, add verified ones, publish, record each batch here.
 - Unresolved and blocked by publisher bot challenges (not bypassed): INFORMS supplements (two Management Science leads), Wiley, SAGE.
 
 ## Resumption log
@@ -40,6 +41,22 @@ A separate offline check run [38893493750](https://github.com/konstantinosStoura
 The owner then requested that all relevant local work be saved on GitHub. Historical helpers and evidence have been added under `_research/archive/` and `_research/evidence/`, and the handoff documents now point to repository files. Abstract snippets were omitted from the discovery snapshot. Duplicate local exports are superseded; unrelated computer-recovery/session artifacts do not belong in this public research repository.
 
 This synchronization pass does not restart new research in the original paused conversation. A separate continuation session had already recorded its own resumption above; preserve that history without interpreting it as authorization for unrelated work.
+
+## Known blockers: hosts that cannot be checked by script
+
+These hosts answer scripted requests with a bot challenge, a 403 or an empty file list. Nothing was bypassed. Papers whose data sit only on these hosts stay 'unresolved', not 'no public data'. A person with a browser could open them and report what they hold.
+
+| Host | Effect on coverage |
+| --- | --- |
+| INFORMS (pubsonline.informs.org) | Management Science, M&SOM, Organization Science, ISR and Information Systems Research supplements. This is the main reason priority journals Management Science, M&SOM and POM yield few additions: most of their shared data sit in INFORMS-hosted supplements. |
+| Wiley, SAGE (journal sites and SAGE figshare) | Supplements of SMJ, POM, ETP, JOM and similar journals. |
+| ICPSR and openICPSR | Study pages and downloads; AER, PSED, GEM (ICPSR copy), MIDUS and other deposits cannot be opened. DataCite metadata still confirms they exist. |
+| SBIR.gov | Official SBIR/STTR award data and API. |
+| Bielefeld University repository | Data publications behind an anti-bot page. |
+| NUS ScholarBank | Records show no files to anonymous requests. |
+| SharePoint and Dropbox links | Used by some QJE deposits; not stable repositories and not verified. |
+
+Hosts that work well: Zenodo, Harvard Dataverse and DataverseNL, Mendeley Data, OSF, Hugging Face, GitHub (git), Dryad, institutional DSpace APIs, Eurostat, the World Bank Microdata Library catalog API, NBER, Kauffman, GEM and ClinicalTrials.gov.
 
 ## Batch 2 (2026-10-16): three patent-research datasets, published
 
@@ -193,9 +210,9 @@ Dry run of the publisher's merge code before pushing: 156 collections, 39 resear
 - ICPSR links without a stated use: PSED II is listed on ICPSR for an SMJ 2023 paper (racial gap in entrepreneurship), an ETP 2022 paper (growth mindset) and an ETP 2025 paper; the abstracts do not say PSED/MIDUS was used (the SMJ abstract says only 'a representative sample of American new business founders in 2005', consistent with PSED II). Not added to the PSED entry.
 - openICPSR `e100177` (Tangail survey, Bangladesh, JBV 2019): not verified (ICPSR access blocked).
 
-## Batch 10 (2026-10-16): Orange Book, ClinicalTrials.gov and the World Bank FAT survey
+## Batch 10 (2026-10-16): Orange Book, ClinicalTrials.gov and the World Bank FAT survey, published
 
-Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+Status: **published and confirmed 2026-10-16.** Merged in PR 13 (merge commit `5c3d5aa`). Cloud publisher run [38903631072](https://github.com/konstantinosStouras/datasets/actions/runs/38903631072) completed successfully (12:52:56 UTC). `catalog-public.json` on `main` then showed **159 collections, 42 research entries**, all three IDs below with correct access classes, and no URLs in the sanitized JSON.
 
 | Dataset ID | Paper | Evidence and file check | Limits |
 | --- | --- | --- | --- |
@@ -246,21 +263,21 @@ NBER Patent Data Project; PatentsView; USPTO Trademark Case Files; Business Dyna
 
 Last confirmed successful cloud catalog run before this pause: [38892242758](https://github.com/konstantinosStouras/datasets/actions/runs/38892242758). It published the prior seven research entries. The site bundled fallback has fewer research entries than the live feed; refresh it deliberately when needed, never use it to overwrite the newer fork.
 
-## Review coverage and unresolved leads
+## Review coverage and unresolved leads (current)
 
-Initial exploratory metadata scan: 102,778 unique DOI records in metadata years 2006–2026; 11,253 broad topic matches; 355 with availability cues. Title-focused subset: 125. Three manually verified missed papers were appended, yielding 358 broad and 128 priority queue rows. These counts describe a heuristic scan, not completed FT50 coverage. Neither boundary dates nor journal completeness has been fully audited.
+Catalog state: 42 research entries citing 69 distinct papers (see the live progress log for the total number of collections).
 
-Both queues now mark the British-patents and crowdfunding papers as having a verified public component. They also mark these Management Science leads as under review:
+Queues: the priority queue has 186 rows (unverified lead 110, under review 9, verified 63, code only/restricted 4) and the broader queue has 415 rows (unverified lead 337, under review 9, verified 65, code only/restricted 4). Rows come from three heuristic sources, none a complete census: the abstract-availability scan (102,778 DOIs, 2006 to 2026), an abstract scan for named public data sources, and a DataCite sweep of 20,247 topic-matched papers in FT50 journals (14 of 21 chunks reviewed so far). 'Unverified lead' rows from the first scan are mostly publisher supplements on blocked hosts (see Known blockers), so they are unresolved, not 'no public data'.
 
-- **Artificial Intelligence, Lean Startup Method, and Product Innovations**, DOI `10.1287/mnsc.2022.03905`: publisher identity and availability statement checked; actual supplement files not verified. No dataset added from this lead.
-- **The Uneven Impact of Generative Artificial Intelligence on Entrepreneurial Performance: Evidence from a Field Experiment in Kenya**, DOI `10.1287/mnsc.2024.06909`: publisher full text and availability statement checked; actual supplement files not verified. No dataset added from this lead.
+What these searches do and do not establish: the DataCite sweep finds deposits (Zenodo, Dataverse, Mendeley Data, Dryad, figshare, OSF, institutional repositories) whose metadata mention a topic-matched paper's DOI, so it misses deposits that do not cite the DOI. The abstract scans find datasets that abstracts name. Sources such as NBER, Eurostat, GEM, the World Bank and Kauffman were reached through the abstract scan and by following leads, not through any systematic crawl. Together they give verified additions and leads, not a count of how many papers have public data. Nothing can be said about papers whose data sit on INFORMS, Wiley, SAGE, ICPSR or openICPSR pages.
 
-Do not count these unresolved leads as unavailable or as published additions.
+Still unresolved Management Science leads: **Artificial Intelligence, Lean Startup Method, and Product Innovations** (DOI `10.1287/mnsc.2022.03905`; the source data are described as a commercial Chinese enterprise database) and **The Uneven Impact of Generative Artificial Intelligence on Entrepreneurial Performance** (DOI `10.1287/mnsc.2024.06909`; pre-registered on OSF but no data link found). The INFORMS supplements for both could not be opened. Do not count them as unavailable or as published additions.
 
 ## Next steps for an authorized continuation
 
-1. Clone or pull the current repository and read AGENTS, HANDOFF, METHODS and this checkpoint. No local pending catalog or queue files need to be retrieved from the original machine.
-2. Inspect current workflow/feed state if making further changes; the ten research entries and the sharing deployment above are already confirmed. Do not duplicate the three additions.
-3. Before any Firebase rules deployment, repair the missing project configuration and deployment guard reported above, following the website repository instructions. This remains unfinished and was not part of the file-publication request.
-4. When the user authorizes further research in the relevant session, continue Management Science/M&SOM/POM priority leads, then other FT50 journals. The full twenty-year review remains outstanding.
-5. Keep documentation current and preserve dated evidence, unresolved leads and actual deployment outcomes. Read the archive warning before reusing historical scripts.
+1. Pull the repository and read AGENTS, HANDOFF, METHODS and this checkpoint. Everything published is already in `main`; no local-only files need to be retrieved.
+2. Finish reviewing the DataCite sweep output (the outputs are kept outside the repository; rerun `_research/archive/datacite-sweep.py` over the topic list if needed) and rerun the DOIs that failed with a transient error.
+3. Ask the owner whether a person can open the blocked hosts for the priority papers (INFORMS supplements for Management Science, M&SOM and POM first), or whether another route is acceptable.
+4. Possible new sources of leads: Dryad and figshare searches by journal title, OSF searches by DOI, authors' GitHub repositories named in papers. Read the abstract's whole data sentence before trusting a repository word.
+5. Before any Firebase rules deployment, repair the missing project configuration and deployment guard reported above, following the website repository instructions. This is separate from catalog publication and remains unfinished.
+6. Keep the documentation current: record observed outcomes, not intended ones, and keep unresolved leads.
