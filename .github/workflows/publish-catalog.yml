@@ -1,0 +1,49 @@
+name: Publish website dataset catalog
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 * * * *'
+  push:
+    branches: [main]
+    paths: ['README.md', 'research-additions.json', '.github/catalog/**', '.github/workflows/publish-catalog.yml']
+permissions:
+  contents: write
+  id-token: write
+concurrency:
+  group: dataset-catalog-publisher
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'konstantinosStouras/datasets'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: Install publisher authentication library
+        run: npm install --prefix .github/catalog --no-package-lock --no-save google-auth-library@9.15.1
+      - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093 # v3
+        with:
+          project_id: stouras-dataset-library
+          workload_identity_provider: projects/430353187364/locations/global/workloadIdentityPools/github-datasets/providers/github
+          service_account: dataset-publisher@stouras-dataset-library.iam.gserviceaccount.com
+      - name: Publish protected source links and public descriptions
+        env:
+          DATASET_SOURCE_PATH: README.md
+          DATASET_RESEARCH_PATH: research-additions.json
+          CATALOG_OUTPUT: catalog-public.json
+        run: node .github/catalog/_backend/admin.mjs import
+      - name: Save public catalog
+        run: |
+          git config user.name 'Dataset Library'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add catalog-public.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update public dataset catalog'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
