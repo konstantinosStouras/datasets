@@ -789,6 +789,216 @@
       "evidenceSection": "The repository record is registered as a supplement to this article: Mendeley Data deposit",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms title, authors, journal, volume, issue and pages. DataCite records the repository entry as a supplement (IsSupplementTo) to this DOI. The article's full text was not read."
+    },
+    "10.1016/j.respol.2020.104047": {
+      "title": "Business innovation modes and their impact on innovation outputs: Regional variations and the nature of innovation across EU regions",
+      "authors": "Mario Davide Parrilli; Merima Balavac; Dragana Radicic",
+      "journal": "Research Policy",
+      "year": 2020,
+      "volume": "49",
+      "issue": "8",
+      "pages": "104047",
+      "doi": "10.1016/j.respol.2020.104047",
+      "url": "https://doi.org/10.1016/j.respol.2020.104047",
+      "evidenceUrl": "https://doi.org/10.1016/j.respol.2020.104047",
+      "evidenceSection": "Abstract: analysis based on Community Innovation Survey (CIS 2014) data from the Eurostat office about EU regions",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened."
+    },
+    "10.1016/j.respol.2010.01.010": {
+      "title": "Technological regimes and the variety of innovation behaviour: Creating integrated taxonomies of firms and sectors",
+      "authors": "Michael Peneder",
+      "journal": "Research Policy",
+      "year": 2010,
+      "volume": "39",
+      "issue": "3",
+      "pages": "323–334",
+      "doi": "10.1016/j.respol.2010.01.010",
+      "url": "https://doi.org/10.1016/j.respol.2010.01.010",
+      "evidenceUrl": "https://doi.org/10.1016/j.respol.2010.01.010",
+      "evidenceSection": "Abstract: identification based on the micro-data of the Community Innovation Survey for 22 European countries",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened."
+    },
+    "10.1016/j.respol.2018.08.008": {
+      "title": "Same but different? Research and technology organizations, universities and the innovation activities of firms",
+      "authors": "Eleni Giannopoulou; Pierre-Jean Barlatier; Julien Pénin",
+      "journal": "Research Policy",
+      "year": 2019,
+      "volume": "48",
+      "issue": "1",
+      "pages": "223–233",
+      "doi": "10.1016/j.respol.2018.08.008",
+      "url": "https://doi.org/10.1016/j.respol.2018.08.008",
+      "evidenceUrl": "https://doi.org/10.1016/j.respol.2018.08.008",
+      "evidenceSection": "Abstract: based on Community Innovation Survey micro-data (CIS 2012)",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened."
+    },
+    "10.1016/j.respol.2024.105122": {
+      "title": "Climate change affectedness and innovation in firms",
+      "authors": "Jens Horbach; Christian Rammer",
+      "journal": "Research Policy",
+      "year": 2025,
+      "volume": "54",
+      "issue": "1",
+      "pages": "105122",
+      "doi": "10.1016/j.respol.2024.105122",
+      "url": "https://doi.org/10.1016/j.respol.2024.105122",
+      "evidenceUrl": "https://doi.org/10.1016/j.respol.2024.105122",
+      "evidenceSection": "Abstract: uses a novel data source from the Community Innovation Survey 2020",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened."
+    },
+    "10.1016/j.respol.2014.12.001": {
+      "title": "The open eco-innovation mode. An empirical investigation of eleven European countries",
+      "authors": "Claudia Ghisetti; Alberto Marzucchi; Sandro Montresor",
+      "journal": "Research Policy",
+      "year": 2015,
+      "volume": "44",
+      "issue": "5",
+      "pages": "1080–1093",
+      "doi": "10.1016/j.respol.2014.12.001",
+      "url": "https://doi.org/10.1016/j.respol.2014.12.001",
+      "evidenceUrl": "https://doi.org/10.1016/j.respol.2014.12.001",
+      "evidenceSection": "Abstract: uses the Community Innovation Survey 2006-2008",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened."
+    },
+    "10.1016/j.respol.2016.03.006": {
+      "title": "Firms’ innovation benefiting from networking and institutional support: A global analysis of national and firm effects",
+      "authors": "Thomas Schøtt; Kent Wickstrøm Jensen",
+      "journal": "Research Policy",
+      "year": 2016,
+      "volume": "45",
+      "issue": "6",
+      "pages": "1233–1246",
+      "doi": "10.1016/j.respol.2016.03.006",
+      "url": "https://doi.org/10.1016/j.respol.2016.03.006",
+      "evidenceUrl": "https://doi.org/10.1016/j.respol.2016.03.006",
+      "evidenceSection": "Abstract: 68 countries with 18,880 firms surveyed in the Global Entrepreneurship Monitor",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened."
+    },
+    "10.1016/j.respol.2016.02.004": {
+      "title": "Where do spinouts come from? The role of technology relatedness and institutional context",
+      "authors": "Sepideh Yeganegi; André O. Laplume; Parshotam Dass; Cam-Loi Huynh",
+      "journal": "Research Policy",
+      "year": 2016,
+      "volume": "45",
+      "issue": "5",
+      "pages": "1103–1112",
+      "doi": "10.1016/j.respol.2016.02.004",
+      "url": "https://doi.org/10.1016/j.respol.2016.02.004",
+      "evidenceUrl": "https://doi.org/10.1016/j.respol.2016.02.004",
+      "evidenceSection": "Abstract: sub-sample of the Global Entrepreneurship Monitor 2011 survey covering 29 countries",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened."
+    },
+    "10.1016/j.respol.2020.104061": {
+      "title": "Goal heterogeneity at start-up: are greener start-ups more innovative?",
+      "authors": "Brigitte Hoogendoorn; Peter van der Zwan; Roy Thurik",
+      "journal": "Research Policy",
+      "year": 2020,
+      "volume": "49",
+      "issue": "10",
+      "pages": "104061",
+      "doi": "10.1016/j.respol.2020.104061",
+      "url": "https://doi.org/10.1016/j.respol.2020.104061",
+      "evidenceUrl": "https://doi.org/10.1016/j.respol.2020.104061",
+      "evidenceSection": "Abstract: 2,945 start-up entrepreneurs in 31 countries (Global Entrepreneurship Monitor data)",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened."
+    },
+    "10.1016/j.jbusvent.2012.05.001": {
+      "title": "Which institutions encourage entrepreneurial growth aspirations?",
+      "authors": "Saul Estrin; Julia Korosteleva; Tomasz Mickiewicz",
+      "journal": "Journal of Business Venturing",
+      "year": 2013,
+      "volume": "28",
+      "issue": "4",
+      "pages": "564–580",
+      "doi": "10.1016/j.jbusvent.2012.05.001",
+      "url": "https://doi.org/10.1016/j.jbusvent.2012.05.001",
+      "evidenceUrl": "https://doi.org/10.1016/j.jbusvent.2012.05.001",
+      "evidenceSection": "Abstract: Global Entrepreneurship Monitor surveys in 42 countries for 2001-2006",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened."
+    },
+    "10.1016/j.jbusvent.2008.10.008": {
+      "title": "Nations of entrepreneurs: A social capital perspective",
+      "authors": "Seok-Woo Kwon; Pia Arenius",
+      "journal": "Journal of Business Venturing",
+      "year": 2010,
+      "volume": "25",
+      "issue": "3",
+      "pages": "315–330",
+      "doi": "10.1016/j.jbusvent.2008.10.008",
+      "url": "https://doi.org/10.1016/j.jbusvent.2008.10.008",
+      "evidenceUrl": "https://doi.org/10.1016/j.jbusvent.2008.10.008",
+      "evidenceSection": "Abstract: individual-level data from the Global Entrepreneurship Monitor",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened."
+    },
+    "10.1177/1042258718795344": {
+      "title": "The More the Merrier? Immigrant Share and Entrepreneurial Activities",
+      "authors": "Chengguang Li; Rodrigo Isidor; Luis Alfonso Dau; Rudy Kabst",
+      "journal": "Entrepreneurship Theory and Practice",
+      "year": 2018,
+      "volume": "42",
+      "issue": "5",
+      "pages": "698–733",
+      "doi": "10.1177/1042258718795344",
+      "url": "https://doi.org/10.1177/1042258718795344",
+      "evidenceUrl": "https://doi.org/10.1177/1042258718795344",
+      "evidenceSection": "Abstract: data for 32 countries from the Global Entrepreneurship Monitor",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened."
+    },
+    "10.1086/698750": {
+      "title": "Demographics and Entrepreneurship",
+      "authors": "James Liang; Hui Wang; Edward P. Lazear",
+      "journal": "Journal of Political Economy",
+      "year": 2018,
+      "volume": "126",
+      "issue": "S1",
+      "pages": "S140–S196",
+      "doi": "10.1086/698750",
+      "url": "https://doi.org/10.1086/698750",
+      "evidenceUrl": "https://doi.org/10.1086/698750",
+      "evidenceSection": "Abstract: theory tested using the Global Entrepreneurship Monitor data",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened."
+    },
+    "10.1177/10422587221134928": {
+      "title": "A Critical Assessment of the National Expert Survey Data of the Global Entrepreneurship Monitor",
+      "authors": "Cornelius A. Rietveld; Pankaj C. Patel",
+      "journal": "Entrepreneurship Theory and Practice",
+      "year": 2022,
+      "volume": "47",
+      "issue": "6",
+      "pages": "2494–2507",
+      "doi": "10.1177/10422587221134928",
+      "url": "https://doi.org/10.1177/10422587221134928",
+      "evidenceUrl": "https://doi.org/10.1177/10422587221134928",
+      "evidenceSection": "Abstract: assessment of the National Expert Survey of the Global Entrepreneurship Monitor",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened."
+    },
+    "10.1016/j.jbusvent.2024.106404": {
+      "title": "A framework for investigating new firm entry: The (limited) overlap between informal-formal and necessity-opportunity entrepreneurship",
+      "authors": "Saul Estrin; Maribel Guerrero; Tomasz Mickiewicz",
+      "journal": "Journal of Business Venturing",
+      "year": 2024,
+      "volume": "39",
+      "issue": "4",
+      "pages": "106404",
+      "doi": "10.1016/j.jbusvent.2024.106404",
+      "url": "https://doi.org/10.1016/j.jbusvent.2024.106404",
+      "evidenceUrl": "https://doi.org/10.1016/j.jbusvent.2024.106404",
+      "evidenceSection": "Abstract: individual GEM data from Chile (2019-2021)",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened."
     }
   },
   "datasets": [
@@ -2689,6 +2899,123 @@
         }
       ],
       "verification": "Mendeley Data lists one public file. It was downloaded (size matches the declared size) and parsed with 72,778 rows and 73 columns."
+    },
+    {
+      "topic": "Businesses",
+      "years": "Survey waves 2006–2024 in Eurostat's catalogue",
+      "access": "Public",
+      "geography": "Europe",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "API"
+      ],
+      "designs": [
+        "Repeated cross-section"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "paperDois": [
+        "10.1016/j.respol.2020.104047",
+        "10.1016/j.respol.2010.01.010",
+        "10.1016/j.respol.2018.08.008",
+        "10.1016/j.respol.2024.105122",
+        "10.1016/j.respol.2014.12.001"
+      ],
+      "id": "community-innovation-survey-eurostat",
+      "title": "Community Innovation Survey (Eurostat published tables)",
+      "url": "https://ec.europa.eu/eurostat/cache/metadata/en/inn_cis13_esms.htm",
+      "description": "European survey of business innovation, run every two years, with Eurostat's free aggregate tables on innovation activity, spending, cooperation and turnover by country, industry and firm size.",
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Firm-level survey",
+        "Community Innovation Survey",
+        "Public dataset used in research"
+      ],
+      "notes": [
+        "The public component is Eurostat's aggregate tables. The catalogue lists ten waves, CIS2006 to CIS2024 (263 tables in all), by country, industry (NACE) and size class, and some by region. Tables are free to download through the Eurostat API.",
+        "The cited papers use CIS firm-level microdata (several national, one from Eurostat), not these tables. Microdata are for research only: scientific-use files and secure-use files in Eurostat's Safe Centre or at accredited end points, after Eurostat accepts the applicant's organisation as a research entity. National statistical offices also run their own access routes.",
+        "Table codes follow the pattern inn_cis<n>_*; for example inn_cis13 is CIS2022. Questions and definitions changed over waves, so check the methodology page before comparing waves.",
+        "A separate library entry covers the German part of the survey (Mannheim Innovation Panel)."
+      ],
+      "links": [
+        {
+          "title": "CIS2022 methodology and metadata",
+          "url": "https://ec.europa.eu/eurostat/cache/metadata/en/inn_cis13_esms.htm",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Table API example: enterprises by innovation status, CIS2022 (JSON)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/inn_cis13_bas?format=JSON&lang=en",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Eurostat microdata access for the CIS",
+          "url": "https://ec.europa.eu/eurostat/web/microdata/community-innovation-survey",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The Eurostat catalogue lists ten CIS waves. The CIS2022 table inn_cis13_bas was downloaded in full as JSON: 60,076 values across 31 geographies, 103 industry codes and 4 size classes. The methodology page and the microdata access page were read. Papers' microdata were not accessed."
+    },
+    {
+      "topic": "Entrepreneurship",
+      "years": "Adult Population Survey 1999–2022; National Expert Survey 1999–2021",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Individuals",
+        "Places & geographic areas"
+      ],
+      "tools": [],
+      "designs": [
+        "Repeated cross-section"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "paperDois": [
+        "10.1016/j.respol.2016.03.006",
+        "10.1016/j.respol.2016.02.004",
+        "10.1016/j.respol.2020.104061",
+        "10.1016/j.jbusvent.2012.05.001",
+        "10.1016/j.jbusvent.2008.10.008",
+        "10.1177/1042258718795344",
+        "10.1086/698750",
+        "10.1177/10422587221134928",
+        "10.1016/j.jbusvent.2024.106404"
+      ],
+      "id": "global-entrepreneurship-monitor-gem",
+      "title": "Global Entrepreneurship Monitor (GEM) public data",
+      "url": "https://www.gemconsortium.org/data/sets",
+      "description": "Annual cross-country surveys of entrepreneurial attitudes, activity and aspirations among adults (Adult Population Survey), and of national entrepreneurial framework conditions (National Expert Survey), with country-level and individual-level files.",
+      "tags": [
+        "Entrepreneurship",
+        "Startups",
+        "Cross-country survey",
+        "Entrepreneurial ecosystems",
+        "Public dataset used in research"
+      ],
+      "notes": [
+        "The data page offers 68 Adult Population Survey files (1999 to 2022, national-level summaries and individual-level files) and 61 National Expert Survey files (1999 to 2021). Files are free to download without an account; the site says full datasets are released to the public three years after data collection.",
+        "Checked file: the 2019 individual-level Adult Population Survey (SPSS format, 836 MB unzipped, 27 MB zipped) has 163,006 respondents and 419 variables from 50 countries; the matching national-level file has 50 country rows and 218 variables.",
+        "No license or terms-of-use text was found on the pages read (the site's terms page returned 'not found'). The site asks for GEM to be cited; check the GEM Consortium's current conditions before reuse.",
+        "Some cited papers combine GEM with other country data; one critiques the National Expert Survey as a benchmark. GEM weights and sampling differ by country and year, so read the codebooks."
+      ],
+      "links": [
+        {
+          "title": "GEM public data sets (Adult Population Survey and National Expert Survey)",
+          "url": "https://www.gemconsortium.org/data/sets",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The data page and its inline file list were read (130 download entries). Three files were downloaded through the page's own download action: the 2019 Adult Population Survey individual-level file and its national-level file were unzipped and parsed; a 2021 National Expert Survey national file was downloaded and its zip listing shows an SPSS file (not parsed). Other files were listed only. Individual files have no stable direct links; they download through the page's buttons."
     }
   ]
 }
