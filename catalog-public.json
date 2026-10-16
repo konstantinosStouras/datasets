@@ -3938,6 +3938,192 @@
         }
       ],
       "search": "u.s. patent inventor disambiguation and co-authorship networks patents inventor-level records for u.s. utility patents with disambiguated inventor identities, assignees, classes, citations and co-inventor network measures, with network files. the dataverse record (version 5.1) holds 64 files: tab-separated inventor-patent tables in three-year slices, graphml network files, and zip archives of patent, assignee, class, citation and related tables. the largest files exceed 1 gb. disambiguation is a statistical estimate. error rates are discussed in the paper and in the deposited documentation. the dataverse record is marked cc0 1.0. the underlying patent records are u.s. government data. newer inventor disambiguation data, such as patentsview, supersede this 2010 snapshot. patentsview is already listed separately. inventor table, 1975 slice (tsv) documentation (pdf) disambiguation code dataverse api lists 64 public files. one 73 mb inventor table was streamed and parsed: 337,483 rows, 31 columns, grant years 1975 to 2010. the documentation pdf was read. the other files were listed but not downloaded. innovation technology management patents inventors social networks author-shared data disambiguation and co-authorship networks of the u.s. patent inventor database (1975–2010) guan-cheng li; ronald lai; alexander d'amour; david m. doolin; ye sun; vetle i. torvik; amy z. yu; lee fleming research policy 2014"
+    },
+    {
+      "id": "us-patent-text-similarity-pairs",
+      "title": "U.S. patent text similarity (closest-match pairs)",
+      "topic": "Patents",
+      "description": "Author-released text-based similarity scores between U.S. utility patents, with keyword lists per patent and files of each patent's closest matches, for measuring technological proximity and novelty.",
+      "years": "1976–2013",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "features": [
+        "Text / transcripts"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          1976,
+          2013
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Patent text",
+        "Patent similarity",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "The Dataverse record describes patents granted by the USPTO between 1976 and 2013. Coverage was taken from that description and was not recomputed.",
+        "Thirteen data files, each 0.1 to 2.5 GB: ten files of each patent's 200 closest matches, one file of closest-match pairs, and the keyword list per patent. Only the first bytes of three files were read.",
+        "The record is marked CC0 1.0. The deposited PDF describes the Java code in words. The file list shows no code file, so do not assume runnable code is included.",
+        "A later release for other years and text sections exists on Zenodo (see the separate U.S. patent text entry); the two are different data products.",
+        "Closest-match pairs (TSV, 100 MB)",
+        "Description of code and data files (PDF)",
+        "Dataverse API lists 13 public files under CC0 1.0. A range request on three data files returned HTTP 206 with tab-separated patent numbers and similarity scores (for example 4322, 4134614, .1363). The description PDF was downloaded and read. Full files were not downloaded."
+      ],
+      "papers": [
+        {
+          "title": "Text matching to measure patent similarity",
+          "authors": "Sam Arts; Bruno Cassiman; Juan Carlos Gomez",
+          "journal": "Strategic Management Journal",
+          "year": 2018,
+          "volume": "39",
+          "issue": "1",
+          "evidenceSection": "Harvard Dataverse record lists this article as its publication and describes the released similarity data and code description"
+        }
+      ],
+      "search": "u.s. patent text similarity (closest-match pairs) patents author-released text-based similarity scores between u.s. utility patents, with keyword lists per patent and files of each patent's closest matches, for measuring technological proximity and novelty. the dataverse record describes patents granted by the uspto between 1976 and 2013. coverage was taken from that description and was not recomputed. thirteen data files, each 0.1 to 2.5 gb: ten files of each patent's 200 closest matches, one file of closest-match pairs, and the keyword list per patent. only the first bytes of three files were read. the record is marked cc0 1.0. the deposited pdf describes the java code in words. the file list shows no code file, so do not assume runnable code is included. a later release for other years and text sections exists on zenodo (see the separate u.s. patent text entry); the two are different data products. closest-match pairs (tsv, 100 mb) description of code and data files (pdf) dataverse api lists 13 public files under cc0 1.0. a range request on three data files returned http 206 with tab-separated patent numbers and similarity scores (for example 4322, 4134614, .1363). the description pdf was downloaded and read. full files were not downloaded. innovation technology management patents patent text patent similarity author-shared data text matching to measure patent similarity sam arts; bruno cassiman; juan carlos gomez strategic management journal 2018"
+    },
+    {
+      "id": "patcit-patent-citations",
+      "title": "PatCit — front-page and in-text patent citations",
+      "topic": "Patents",
+      "description": "Author-released dataset of citations made in patents, including citations to other patents and to scientific literature found in the patent text, linked to patent identifiers.",
+      "years": "In-text patent citations: best coverage from 1976 (per the paper)",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [
+        "Python"
+      ],
+      "designs": [],
+      "features": [
+        "Text / transcripts"
+      ],
+      "period": "Not specified",
+      "ranges": [
+        [
+          1976,
+          1976
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Patent citations",
+        "Knowledge flows",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "The concept DOI resolves to the latest Zenodo version, 0.3.1 (December 2020). Two earlier versions exist. The paper reports 49.5 million in-text patent citations; its data statement points to an online appendix that was not read, so which version matches the paper's counts is not verified.",
+        "Eight data archives of 6 MB to 4 GB plus a README. The archives are named .tar but are gzip-wrapped and hold gzip-compressed shards, so decompress twice. Only the start of the in-text patent file was read.",
+        "A citation_flag column marks citations likely taken from patent headers. The schema advises excluding flagged rows from most analyses.",
+        "Zenodo labels the record CC-BY-4.0. The data build on DOCDB/PATSTAT and Google Patents sources, which may carry their own terms.",
+        "Different from the Bryan, Ozcan and Sampat database in this library: that one links patents to scientific articles, while the SMJ paper focuses on in-text citations between patents.",
+        "In-text patent citations (CSV shards, 2.8 GB archive)",
+        "README",
+        "Project documentation",
+        "Zenodo API lists 9 open files for version 0.3.1 under CC-BY-4.0. A 3 MB range of the in-text patent archive decoded to a schema CSV and the first rows of a data shard (for example US-5728520-A, publication date 19980317, with cited-patent identifiers). Full archives were not downloaded. The project website link was not checked."
+      ],
+      "papers": [
+        {
+          "title": "Beyond the front page: In-text citations to patents as traces of inventor knowledge",
+          "authors": "Cyril Verluise; Gabriele Cristelli; Kyle Higham; Gaétan de Rassenfosse",
+          "journal": "Strategic Management Journal",
+          "year": 2025,
+          "volume": "47",
+          "issue": "3",
+          "evidenceSection": "Abstract says the dataset is released as open data; footnote 3 gives the Zenodo DOI 10.5281/zenodo.3710993 and the project website"
+        }
+      ],
+      "search": "patcit — front-page and in-text patent citations patents author-released dataset of citations made in patents, including citations to other patents and to scientific literature found in the patent text, linked to patent identifiers. the concept doi resolves to the latest zenodo version, 0.3.1 (december 2020). two earlier versions exist. the paper reports 49.5 million in-text patent citations; its data statement points to an online appendix that was not read, so which version matches the paper's counts is not verified. eight data archives of 6 mb to 4 gb plus a readme. the archives are named .tar but are gzip-wrapped and hold gzip-compressed shards, so decompress twice. only the start of the in-text patent file was read. a citation_flag column marks citations likely taken from patent headers. the schema advises excluding flagged rows from most analyses. zenodo labels the record cc-by-4.0. the data build on docdb/patstat and google patents sources, which may carry their own terms. different from the bryan, ozcan and sampat database in this library: that one links patents to scientific articles, while the smj paper focuses on in-text citations between patents. in-text patent citations (csv shards, 2.8 gb archive) readme project documentation zenodo api lists 9 open files for version 0.3.1 under cc-by-4.0. a 3 mb range of the in-text patent archive decoded to a schema csv and the first rows of a data shard (for example us-5728520-a, publication date 19980317, with cited-patent identifiers). full archives were not downloaded. the project website link was not checked. innovation technology management patents patent citations knowledge flows author-shared data beyond the front page: in-text citations to patents as traces of inventor knowledge cyril verluise; gabriele cristelli; kyle higham; gaétan de rassenfosse strategic management journal 2025"
+    },
+    {
+      "id": "us-inventor-ages-gender-death-dates",
+      "title": "U.S. inventor ages, gender and death dates matched to patents",
+      "topic": "Patents",
+      "description": "Author-built database matching U.S.-resident patent inventors to estimated birth years, inferred gender and some death dates collected from public web directories, linked to patents by inventor ID.",
+      "years": "1976–2018 (patent grants)",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "Python"
+      ],
+      "designs": [],
+      "features": [
+        "Demographics",
+        "Names / addresses"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          1976,
+          2018
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Inventors",
+        "Age and creativity",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Personal data warning: the files contain inventor names, city and state of residence, estimated birth years and, for some inventors, death dates, collected from people-search websites. Use only for legitimate research, follow your institution's data-ethics rules, and do not use it to identify or contact individuals.",
+        "Quality caveats from the authors: ages come from heuristics and a quality score; death dates are described as less reliable. The checked age file has birth years from 1800 to 2013, so apply plausibility filters.",
+        "Twenty-three public files, 3 MB to 1.9 GB. The key files are the inventor age and gender table (2,408,326 rows; 1,858,516 unique inventors), a patent-to-inventor crosswalk (8,080,135 rows, grant years 1976 to 2018) and a death-date table. Other files were listed but not read.",
+        "Gender is inferred from first name and birth year by an algorithm; 571,074 rows are marked unknown.",
+        "The Dataverse record is marked CC0 1.0. Source websites for the scraped information may have their own terms.",
+        "A companion data paper (Kaltenberg, Jaffe and Lachman, “The Age of Invention”, NBER working paper 28768) documents the database.",
+        "Inventor ages, scores and gender (CSV, 198 MB)",
+        "Patent-to-inventor crosswalk (CSV, 228 MB)",
+        "README (RTF)",
+        "Dataverse API lists 23 public files under CC0 1.0 (version 1.1, May 2021). The age and gender table and the crosswalk were streamed in full and parsed; the death-date table, scraped-source table and patent table were sampled by range request. The README was downloaded and read."
+      ],
+      "papers": [
+        {
+          "title": "Invention and the life course: Age differences in patenting",
+          "authors": "Mary Kaltenberg; Adam B. Jaffe; Margie E. Lachman",
+          "journal": "Research Policy",
+          "year": 2023,
+          "volume": "52",
+          "issue": "1",
+          "evidenceSection": "Abstract says the inventor-age database was made publicly available on the Harvard Dataverse; the Dataverse record is by the same three authors"
+        }
+      ],
+      "search": "u.s. inventor ages, gender and death dates matched to patents patents author-built database matching u.s.-resident patent inventors to estimated birth years, inferred gender and some death dates collected from public web directories, linked to patents by inventor id. personal data warning: the files contain inventor names, city and state of residence, estimated birth years and, for some inventors, death dates, collected from people-search websites. use only for legitimate research, follow your institution's data-ethics rules, and do not use it to identify or contact individuals. quality caveats from the authors: ages come from heuristics and a quality score; death dates are described as less reliable. the checked age file has birth years from 1800 to 2013, so apply plausibility filters. twenty-three public files, 3 mb to 1.9 gb. the key files are the inventor age and gender table (2,408,326 rows; 1,858,516 unique inventors), a patent-to-inventor crosswalk (8,080,135 rows, grant years 1976 to 2018) and a death-date table. other files were listed but not read. gender is inferred from first name and birth year by an algorithm; 571,074 rows are marked unknown. the dataverse record is marked cc0 1.0. source websites for the scraped information may have their own terms. a companion data paper (kaltenberg, jaffe and lachman, “the age of invention”, nber working paper 28768) documents the database. inventor ages, scores and gender (csv, 198 mb) patent-to-inventor crosswalk (csv, 228 mb) readme (rtf) dataverse api lists 23 public files under cc0 1.0 (version 1.1, may 2021). the age and gender table and the crosswalk were streamed in full and parsed; the death-date table, scraped-source table and patent table were sampled by range request. the readme was downloaded and read. innovation technology management patents inventors age and creativity author-shared data invention and the life course: age differences in patenting mary kaltenberg; adam b. jaffe; margie e. lachman research policy 2023"
     }
   ]
 }
