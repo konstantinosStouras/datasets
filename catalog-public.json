@@ -3396,6 +3396,126 @@
         }
       ],
       "search": "uspto trademark case files intellectual property trademark applications and registrations with ownership, product classes and prosecution and renewal histories, useful for studying product introductions and innovation. the paper explicitly uses the 1970–2015 trademark files. the current provider release extends through march 2024; it is not the identical historical extract. the paper also uses subscription financial databases; this entry covers its public trademark component. uspto downloads use temporary signed urls through the open data portal. account requirements apply; full archives were not downloaded. official download product independent paper replication report official dataset documentation and its linked download product opened successfully on 2026-10-16. publisher pdf section 3.1 explicitly identifies the dataset. no claim of unrestricted access to the complete study data. new product development innovation technology management trademarks brands valuation of new trademarks po-hsuan hsu; dongmei li; qin li; siew hong teoh; kevin tseng management science 2022"
+    },
+    {
+      "id": "firm-technology-position-differentiation",
+      "title": "Firm technology position and differentiation — author-shared data",
+      "topic": "Patents",
+      "description": "Firm-level technology differentiation measures and patent-text resources for studying innovation strategy and technological positioning.",
+      "years": "1980-2015",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [
+        "Text / transcripts"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          1980,
+          2015
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Technology differentiation",
+        "Patent text",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Author-shared research data. The publisher explicitly links this repository in endnote 1.",
+        "The firm differentiation CSV is about 4 MB. Similarity and raw text files are much larger; the complete archive totals about 43 GB.",
+        "Zenodo metadata lists license CC-BY-NC-1.0 for this release. Review its license and cite the associated paper before reuse.",
+        "Technology differentiation CSV (TF-IDF)",
+        "Authors’ analysis code",
+        "Zenodo API marks the record open and lists actual data files. A range request returned HTTP 206; CSV column names and first data rows were inspected. The complete large archives were not downloaded."
+      ],
+      "papers": [
+        {
+          "title": "Position and Differentiation of Firms in Technology Space",
+          "authors": "Sam Arts; Bruno Cassiman; Jianan Hou",
+          "journal": "Management Science",
+          "year": 2023,
+          "volume": "69",
+          "issue": "12",
+          "evidenceSection": "Introduction and endnotes 1 and 4"
+        }
+      ],
+      "search": "firm technology position and differentiation — author-shared data patents firm-level technology differentiation measures and patent-text resources for studying innovation strategy and technological positioning. author-shared research data. the publisher explicitly links this repository in endnote 1. the firm differentiation csv is about 4 mb. similarity and raw text files are much larger; the complete archive totals about 43 gb. zenodo metadata lists license cc-by-nc-1.0 for this release. review its license and cite the associated paper before reuse. technology differentiation csv (tf-idf) authors’ analysis code zenodo api marks the record open and lists actual data files. a range request returned http 206; csv column names and first data rows were inspected. the complete large archives were not downloaded. innovation technology management technology differentiation patent text author-shared data position and differentiation of firms in technology space sam arts; bruno cassiman; jianan hou management science 2023"
+    },
+    {
+      "id": "discern-patent-firm-matches",
+      "title": "DISCERN — innovation data linked to public firms",
+      "topic": "Patents",
+      "description": "Patent-to-firm matching data accounting for company name changes, subsidiaries and ownership changes, used to construct firm technology portfolios.",
+      "years": "1980-2015",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [
+        "Names / addresses"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          1980,
+          2015
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Firm ownership",
+        "Public dataset used in research"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Public input dataset used by the cited Management Science paper; explicitly identified in endnote 4.",
+        "This entry links the historical release cited by the paper. Zenodo flags newer versions; consult version documentation before combining releases.",
+        "The matching database is public, but underlying commercial inputs such as Compustat and Orbis are not made freely available by this listing.",
+        "Zenodo labels this release CC-BY-4.0. Follow the repository’s citation requirements.",
+        "DISCERN historical data ZIP",
+        "Zenodo API marks the record open. The linked data ZIP returned HTTP 206 to a range request and its initial bytes have the ZIP signature 504b0304. Full archive contents were not inspected."
+      ],
+      "papers": [
+        {
+          "title": "Position and Differentiation of Firms in Technology Space",
+          "authors": "Sam Arts; Bruno Cassiman; Jianan Hou",
+          "journal": "Management Science",
+          "year": 2023,
+          "volume": "69",
+          "issue": "12",
+          "evidenceSection": "Introduction and endnotes 1 and 4"
+        }
+      ],
+      "search": "discern — innovation data linked to public firms patents patent-to-firm matching data accounting for company name changes, subsidiaries and ownership changes, used to construct firm technology portfolios. public input dataset used by the cited management science paper; explicitly identified in endnote 4. this entry links the historical release cited by the paper. zenodo flags newer versions; consult version documentation before combining releases. the matching database is public, but underlying commercial inputs such as compustat and orbis are not made freely available by this listing. zenodo labels this release cc-by-4.0. follow the repository’s citation requirements. discern historical data zip zenodo api marks the record open. the linked data zip returned http 206 to a range request and its initial bytes have the zip signature 504b0304. full archive contents were not inspected. innovation technology management patents firm ownership public dataset used in research position and differentiation of firms in technology space sam arts; bruno cassiman; jianan hou management science 2023"
     }
   ]
 }
