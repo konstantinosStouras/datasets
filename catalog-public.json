@@ -5726,6 +5726,188 @@
         }
       ],
       "search": "global entrepreneurship monitor (gem) public data entrepreneurship annual cross-country surveys of entrepreneurial attitudes, activity and aspirations among adults (adult population survey), and of national entrepreneurial framework conditions (national expert survey), with country-level and individual-level files. the data page offers 68 adult population survey files (1999 to 2022, national-level summaries and individual-level files) and 61 national expert survey files (1999 to 2021). files are free to download without an account; the site says full datasets are released to the public three years after data collection. checked file: the 2019 individual-level adult population survey (spss format, 836 mb unzipped, 27 mb zipped) has 163,006 respondents and 419 variables from 50 countries; the matching national-level file has 50 country rows and 218 variables. no license or terms-of-use text was found on the pages read (the site's terms page returned 'not found'). the site asks for gem to be cited; check the gem consortium's current conditions before reuse. some cited papers combine gem with other country data; one critiques the national expert survey as a benchmark. gem weights and sampling differ by country and year, so read the codebooks. gem public data sets (adult population survey and national expert survey) the data page and its inline file list were read (130 download entries). three files were downloaded through the page's own download action: the 2019 adult population survey individual-level file and its national-level file were unzipped and parsed; a 2021 national expert survey national file was downloaded and its zip listing shows an spss file (not parsed). other files were listed only. individual files have no stable direct links; they download through the page's buttons. entrepreneurship startups cross-country survey entrepreneurial ecosystems public dataset used in research firms’ innovation benefiting from networking and institutional support: a global analysis of national and firm effects thomas schøtt; kent wickstrøm jensen research policy 2016 where do spinouts come from? the role of technology relatedness and institutional context sepideh yeganegi; andré o. laplume; parshotam dass; cam-loi huynh research policy 2016 goal heterogeneity at start-up: are greener start-ups more innovative? brigitte hoogendoorn; peter van der zwan; roy thurik research policy 2020 which institutions encourage entrepreneurial growth aspirations? saul estrin; julia korosteleva; tomasz mickiewicz journal of business venturing 2013 nations of entrepreneurs: a social capital perspective seok-woo kwon; pia arenius journal of business venturing 2010 the more the merrier? immigrant share and entrepreneurial activities chengguang li; rodrigo isidor; luis alfonso dau; rudy kabst entrepreneurship theory and practice 2018 demographics and entrepreneurship james liang; hui wang; edward p. lazear journal of political economy 2018 a critical assessment of the national expert survey data of the global entrepreneurship monitor cornelius a. rietveld; pankaj c. patel entrepreneurship theory and practice 2022 a framework for investigating new firm entry: the (limited) overlap between informal-formal and necessity-opportunity entrepreneurship saul estrin; maribel guerrero; tomasz mickiewicz journal of business venturing 2024"
+    },
+    {
+      "id": "nber-fda-orange-book-patent-exclusivity",
+      "title": "FDA Orange Book patent and exclusivity data, 1985–2016 (NBER)",
+      "topic": "Patents",
+      "description": "Digitized editions of the U.S. Food and Drug Administration's Orange Book linking approved small-molecule drugs to their listed patents and regulatory exclusivity periods, with use-code lookups and the original scanned books.",
+      "years": "1985–2016 (Orange Book editions)",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [],
+      "features": [],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          1985,
+          2016
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Pharmaceuticals",
+        "Regulatory exclusivity",
+        "Public dataset used in research"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Four folders: the scanned FDA Orange Books from a Freedom of Information Act request (1980 to 2016), the hand-entered Excel files, the cross-check sources, and the clean Stata tables with the code that builds them. Each folder can be downloaded as a zip.",
+        "Clean tables checked: 130,259 drug-patent rows (5,511 distinct patent numbers across 31 editions), 32,427 exclusivity rows, and two code lookup tables. No Orange Book was published in 1986.",
+        "Patents are those active at each edition's date; editions are snapshots, so one patent appears in many editions. Read the README and the user's guide for how to compute exclusivity periods.",
+        "The pages show no license statement; the data come from U.S. government publications via a records request. This is a historical extract; the FDA's current Orange Book data are a separate, more recent source.",
+        "README (PDF)",
+        "Clean tables folder (Stata)",
+        "Drug patents table (Stata, 32 MB)",
+        "The NBER data page and README were read. All four clean Stata tables were downloaded and parsed (row counts above; sizes 4.5 to 32 MB). The scanned PDFs, Excel files and cross-check folders were not opened."
+      ],
+      "papers": [
+        {
+          "title": "The NBER Orange Book Dataset: A user’s guide",
+          "authors": "Maya Durvasula; C. Scott Hemphill; Lisa Larrimore Ouellette; Bhaven Sampat; Heidi L. Williams",
+          "journal": "Research Policy",
+          "year": 2023,
+          "volume": "52",
+          "issue": "7",
+          "evidenceSection": "The NBER data page tells users to read this article ('The NBER Orange Book Dataset: A User's Guide') for the contents of the Orange Book; the article's abstract introduces the digitized open-access dataset"
+        }
+      ],
+      "search": "fda orange book patent and exclusivity data, 1985–2016 (nber) patents digitized editions of the u.s. food and drug administration's orange book linking approved small-molecule drugs to their listed patents and regulatory exclusivity periods, with use-code lookups and the original scanned books. four folders: the scanned fda orange books from a freedom of information act request (1980 to 2016), the hand-entered excel files, the cross-check sources, and the clean stata tables with the code that builds them. each folder can be downloaded as a zip. clean tables checked: 130,259 drug-patent rows (5,511 distinct patent numbers across 31 editions), 32,427 exclusivity rows, and two code lookup tables. no orange book was published in 1986. patents are those active at each edition's date; editions are snapshots, so one patent appears in many editions. read the readme and the user's guide for how to compute exclusivity periods. the pages show no license statement; the data come from u.s. government publications via a records request. this is a historical extract; the fda's current orange book data are a separate, more recent source. readme (pdf) clean tables folder (stata) drug patents table (stata, 32 mb) the nber data page and readme were read. all four clean stata tables were downloaded and parsed (row counts above; sizes 4.5 to 32 mb). the scanned pdfs, excel files and cross-check folders were not opened. innovation technology management patents pharmaceuticals regulatory exclusivity public dataset used in research the nber orange book dataset: a user’s guide maya durvasula; c. scott hemphill; lisa larrimore ouellette; bhaven sampat; heidi l. williams research policy 2023"
+    },
+    {
+      "id": "clinicaltrials-gov-registry",
+      "title": "ClinicalTrials.gov study registry and results",
+      "topic": "Health, public health, and epidemiology",
+      "description": "U.S. National Library of Medicine registry of clinical studies worldwide, with study design, sponsor, conditions, timelines and, for many studies, posted results, available through a free API and bulk downloads.",
+      "years": "Registered studies through 2026",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [
+        "API"
+      ],
+      "designs": [],
+      "features": [
+        "Text / transcripts"
+      ],
+      "period": "Not specified",
+      "ranges": [
+        [
+          2026,
+          2026
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Innovation",
+        "Pharmaceuticals",
+        "R&D disclosure",
+        "Clinical trials",
+        "Public dataset used in research"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "On 16 October 2026 the API reported 607,349 registered studies, 80,551 of them with posted results. The registry updates daily.",
+        "Access: a free REST API (version 2, no account) and a bulk download of all study records as a zip of XML files (several gigabytes; its exact size was not recorded and it was not downloaded in full).",
+        "The cited Research Policy paper studies pharmaceutical firms that must publish their trial results on ClinicalTrials.gov. The abstract describes its focus on this registry, so the paper's use of its records is inferred from that description.",
+        "Records are sponsor-reported and may be incomplete or revised; check how a study's results fields are filled before analysing disclosure behaviour.",
+        "API example: studies with posted results (JSON)",
+        "One study record (JSON)",
+        "Bulk download (zip of all studies)",
+        "The API returned the study counts above and one complete study record. The bulk archive redirected to a zip download whose first bytes had the ZIP signature; its content was not inspected."
+      ],
+      "papers": [
+        {
+          "title": "Timing, modifications, and tenor of firms' mandatory R&D disclosures: The role of competition",
+          "authors": "Chandrika Rathee; Sumeet Malik; Rossella Salandra",
+          "journal": "Research Policy",
+          "year": 2025,
+          "volume": "54",
+          "issue": "1",
+          "evidenceSection": "Abstract: focuses on pharmaceutical firms required to publish their clinical trial results on ClinicalTrials.gov"
+        }
+      ],
+      "search": "clinicaltrials.gov study registry and results health, public health, and epidemiology u.s. national library of medicine registry of clinical studies worldwide, with study design, sponsor, conditions, timelines and, for many studies, posted results, available through a free api and bulk downloads. on 16 october 2026 the api reported 607,349 registered studies, 80,551 of them with posted results. the registry updates daily. access: a free rest api (version 2, no account) and a bulk download of all study records as a zip of xml files (several gigabytes; its exact size was not recorded and it was not downloaded in full). the cited research policy paper studies pharmaceutical firms that must publish their trial results on clinicaltrials.gov. the abstract describes its focus on this registry, so the paper's use of its records is inferred from that description. records are sponsor-reported and may be incomplete or revised; check how a study's results fields are filled before analysing disclosure behaviour. api example: studies with posted results (json) one study record (json) bulk download (zip of all studies) the api returned the study counts above and one complete study record. the bulk archive redirected to a zip download whose first bytes had the zip signature; its content was not inspected. innovation pharmaceuticals r&d disclosure clinical trials public dataset used in research timing, modifications, and tenor of firms' mandatory r&d disclosures: the role of competition chandrika rathee; sumeet malik; rossella salandra research policy 2025"
+    },
+    {
+      "id": "world-bank-firm-adoption-of-technology-fat",
+      "title": "Firm Adoption of Technology (FAT) Survey (World Bank)",
+      "topic": "Businesses",
+      "description": "Nationally representative surveys of formal firms in agriculture, manufacturing and services that measure which technologies firms use for different business functions, and how sophisticated they are.",
+      "years": "2019–2023",
+      "access": "Public · registration required",
+      "geography": "International",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [],
+      "designs": [
+        "Repeated cross-section"
+      ],
+      "features": [
+        "Employment"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          2019,
+          2023
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Technology management",
+        "Innovation",
+        "Technology adoption",
+        "Firm-level survey",
+        "Developing economies",
+        "Public dataset used in research"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "The World Bank Microdata Library lists 16 FAT studies, with fieldwork between 2019 and 2023, for countries including Bangladesh, Brazil, Burkina Faso, Cambodia, Chile, Croatia, Ethiopia, Georgia, Ghana, India, Kenya, Korea, Poland, Senegal and Viet Nam, plus a combined multi-country record.",
+        "The sample is stratified random and covers formal establishments with five or more employees. The unit of analysis is the establishment.",
+        "Microdata are for registered Microdata Library users (a free account). Users must cite the dataset and the Quarterly Journal of Economics article that documents the method. The replication package for the article is at the World Bank reproducibility site.",
+        "Not verified: microdata files sit behind the login, so no data file was opened for this entry. Study records and access conditions were read through the library's open catalog API.",
+        "FAT collection in the World Bank Microdata Library",
+        "Example study record: Brazil 2019-2021 (catalog API)",
+        "Replication package record for the article",
+        "The catalog API returned the 16-study FAT collection and one full study record with its abstract, sampling description and citation requirement. The article's replication DOI resolves to the World Bank reproducibility site. Login-gated microdata were not accessed."
+      ],
+      "papers": [
+        {
+          "title": "Technology Sophistication Across Establishments",
+          "authors": "Xavier Cirera; Diego Comin; Marcio Cruz",
+          "journal": "The Quarterly Journal of Economics",
+          "year": 2026,
+          "volume": "141",
+          "issue": "3",
+          "evidenceSection": "The paper's replication record on Harvard Dataverse states where the survey microdata are; each FAT study record in the World Bank Microdata Library requires citing this article"
+        }
+      ],
+      "search": "firm adoption of technology (fat) survey (world bank) businesses nationally representative surveys of formal firms in agriculture, manufacturing and services that measure which technologies firms use for different business functions, and how sophisticated they are. the world bank microdata library lists 16 fat studies, with fieldwork between 2019 and 2023, for countries including bangladesh, brazil, burkina faso, cambodia, chile, croatia, ethiopia, georgia, ghana, india, kenya, korea, poland, senegal and viet nam, plus a combined multi-country record. the sample is stratified random and covers formal establishments with five or more employees. the unit of analysis is the establishment. microdata are for registered microdata library users (a free account). users must cite the dataset and the quarterly journal of economics article that documents the method. the replication package for the article is at the world bank reproducibility site. not verified: microdata files sit behind the login, so no data file was opened for this entry. study records and access conditions were read through the library's open catalog api. fat collection in the world bank microdata library example study record: brazil 2019-2021 (catalog api) replication package record for the article the catalog api returned the 16-study fat collection and one full study record with its abstract, sampling description and citation requirement. the article's replication doi resolves to the world bank reproducibility site. login-gated microdata were not accessed. technology management innovation technology adoption firm-level survey developing economies public dataset used in research technology sophistication across establishments xavier cirera; diego comin; marcio cruz the quarterly journal of economics 2026"
     }
   ]
 }
