@@ -63,9 +63,9 @@ Queue rows: Arts et al. 2018 appended to both queues; the other two set to verif
 
 Searched all abstracts in the cloned site database (269,424 unique DOIs across `lit/data` and `lit/data-ft50`) for repository words (Zenodo, Dataverse, OSF, GitHub, figshare, Dryad, DOI prefixes 10.5281, 10.7910, 10.17605) combined with innovation topic words: 77 hits, most from INFORMS Journal on Computing optimization code (off-topic, not reviewed). Hits that were relevant were checked by hand. Also checked repository search APIs by title; results are noisy. Abstract cues cover only part of the field: many papers state data locations only in the full text.
 
-## Batch 4 (2026-10-16): three new datasets and one enriched collection
+## Batch 4 (2026-10-16): three new datasets and one enriched collection, published
 
-Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+Status: **published and confirmed 2026-10-16.** Merged in PR 5 (merge commit `27585c2`). Cloud publisher run [38898838401](https://github.com/konstantinosStouras/datasets/actions/runs/38898838401) completed successfully. The live public feed then showed **137 collections, 20 research entries**, all four IDs below with their paper titles and date added 2026-10-16 (NHANES enriched in place, only one NHANES entry), and no URLs of any kind in the sanitized JSON.
 
 | Dataset ID | Paper | Evidence and file check | Limits |
 | --- | --- | --- | --- |
