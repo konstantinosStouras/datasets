@@ -43,9 +43,9 @@ Queue rows for these three papers were set to the verified status in both CSVs. 
 
 Neither 403 was bypassed. A person with a browser could open the supplements and report what they contain.
 
-## Batch 3 (2026-10-16): two patent-research datasets added, one lead left unresolved
+## Batch 3 (2026-10-16): three patent-research datasets published, one lead left unresolved
 
-Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+Status: **published and confirmed 2026-10-16.** Merged in PR 4 (merge commit `fe1235d`). Cloud publisher run [38897774771](https://github.com/konstantinosStouras/datasets/actions/runs/38897774771) completed successfully. The live public feed then showed **134 collections, 16 research entries**, all three IDs below with their paper titles and date added 2026-10-16, and no Zenodo, Dataverse, DOI, GitHub, OSF, Hugging Face or ScholarBank URLs in the sanitized JSON.
 
 | Dataset ID | Paper | Evidence and file check | Limits |
 | --- | --- | --- | --- |
