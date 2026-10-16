@@ -68,4 +68,8 @@ After publication check the actual GitHub workflow outcome and live feed. Record
 - Zenodo concept DOIs resolve to the latest version. When a record has many versions (Reliance on Science has 64), say which version was inspected and that an older version may match the paper; list `/versions?size=10&page=N` (larger sizes return HTTP 400).
 - Dataverse datasets may mix public and restricted files; list `restricted` per file and say which part is public in the entry.
 - Build paper records from Crossref programmatically, and always state in `verification` that the full text was not read unless it was.
+- Mendeley Data deposits: `GET https://data.mendeley.com/public-api/datasets/<id>/files?folder_id=root&version=1` lists files with sizes, SHA-256 and a `download_url`; compare downloaded byte counts with the declared sizes. Title, license and the linked article come from DataCite (`10.17632/<id>.<version>`), whose `IsSupplementTo` relation names the paper.
+- A DataCite record's `IsDocumentedBy` list is the data provider's own list of publications that document or use the data (used for the Mannheim Innovation Panel). It is provider evidence, but it does not say which data version a paper used.
+- Application-gated survey data (for example ZEW scientific use files): read the provider pages for who may apply and for what, classify as 'Agreement or mixed', and state that no data file was opened.
+- Dataverse records can list zero files; do not add them.
 

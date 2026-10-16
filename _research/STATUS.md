@@ -13,7 +13,8 @@ Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the co
 - 11:35 Batch 1 live: the three pending items from the pause (run 38894715168). Website sharing update confirmed live earlier in the session (HTML, image, icons; crawler user agents return 200).
 - 12:22 Batch 6 submitted: ride-hail deskilling experiments (SMJ) and three named public datasets found through the abstract scan (PSED, Kauffman Firm Survey, World Bank Enterprise Surveys). SBIR.gov blocked.
 - 12:30 Batch 6 confirmed live (run 38900143266 at 12:23:29: 142 collections, 25 research entries). Batch 7 submitted: five patent and entrepreneurship replication deposits found in sweep chunks 4 to 6 (Marx and Fuegi, SBIR/DoD, disruptive patents, topology of technology space, AngelList social vision).
-- Running: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000, started 12:06, about 3 minutes per chunk (6 of 21 done at 12:30). Two failed requests so far (proxy drops); failed DOIs are rerun at the end. Next: vet hits from each finished chunk by hand, add verified ones, publish, record each batch here.
+- 12:35 Batch 7 confirmed live (run 38901007519 at 12:30:56: 147 collections, 30 research entries). Batch 8 submitted: Mannheim Innovation Panel (application-gated) and six open Research Policy deposits from sweep chunks 6 and 7.
+- Running: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000, started 12:06, about 3 minutes per chunk (8 of 21 done at 12:35). Two failed requests so far (proxy drops); failed DOIs are rerun at the end. Next: vet hits from each finished chunk by hand, add verified ones, publish, record each batch here.
 - Unresolved and blocked by publisher bot challenges (not bypassed): INFORMS supplements (two Management Science leads), Wiley, SAGE.
 
 ## Resumption log
@@ -133,9 +134,9 @@ Dry run of the publisher's merge code before pushing: 142 collections, 25 resear
 
 Scanned 2006-2026 FT50 abstracts that match the innovation/entrepreneurship words for names of public data sources (count of matching papers in brackets): Kickstarter (78), PatentsView/USPTO (51), PATSTAT/EPO (48), Community Innovation Survey (36), Compustat (32, licensed), FDA data (21), Crunchbase (17), SBIR/STTR (17), Global Entrepreneurship Monitor (16), PSED (12), Kauffman Firm Survey (6), World Bank Enterprise Surveys (5). Reading the abstract wording shows genuine use versus false matches. This finds datasets used by many papers, a good complement to the per-paper repository search.
 
-## Batch 7 (2026-10-16): five patent and entrepreneurship replication deposits
+## Batch 7 (2026-10-16): five patent and entrepreneurship replication deposits, published
 
-Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+Status: **published and confirmed 2026-10-16.** Merged in PR 10 (merge commit `5a00e92`). Cloud publisher run [38901007519](https://github.com/konstantinosStouras/datasets/actions/runs/38901007519) completed successfully (12:30:56 UTC). `catalog-public.json` on `main` then showed **147 collections, 30 research entries**, all five IDs below, and no URLs in the sanitized JSON.
 
 | Dataset ID | Paper | Evidence and file check | Limits |
 | --- | --- | --- | --- |
@@ -152,6 +153,26 @@ Dry run of the publisher's merge code before pushing: 147 collections, 30 resear
 - `10.1002/smj.3464` (Hou, Png, Xiong, SMJ 2022): a replication package record at NUS ScholarBank (`10.25540/amvf-6ty0`) exists, but, like the Png R&D directory record, anonymous requests show no downloadable files.
 - `10.1016/j.respol.2023.104740` (Hotte, Research Policy 2023): a Bielefeld data publication (`10.4119/unibi/2967659`, CC BY 4.0, about 7.4 GB) exists, but the host answers scripted requests with an anti-bot challenge. Not bypassed.
 - Also seen in chunks 4 to 6 and not reviewed: a Federal Court Cases Integrated Data Base record linked to a patent enforcement paper (Organization Science 2012), and an SMJ 2023 paper whose link to the PSED II record needs checking against its abstract.
+
+## Batch 8 (2026-10-16): the Mannheim Innovation Panel and six open Research Policy deposits
+
+Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+
+| Dataset ID | Paper(s) | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `mannheim-innovation-panel-mip` | Eight Research Policy papers (2008-2016) listed by the data provider's own DOI records as documenting publications | ZEW pages read (annual survey since 1993; scientific use files; on-site and remote access). DataCite records give the rights wording and the publication list. | **Access class 'Agreement or mixed'. No data file was opened.** Researchers at publicly funded institutions only; non-commercial. Which data version each paper used is not stated. |
+| `democracy-innovation-country-panel` | Zang, Research Policy 46(7), 1272-1283 (2017), DOI 10.1016/j.respol.2017.05.014 | [Dataverse KPOT20](https://doi.org/10.7910/DVN/KPOT20), CC0, six files; all downloaded, four Stata tables parsed (10,914 country-years, 214 countries, 1960-2010). | Variable sources not checked. Paper full text not read. |
+| `us-cleantech-startup-alliances-panel` | Doblinger, Surana, Anadon, Research Policy 48(6), 1458-1475 (2019), DOI 10.1016/j.respol.2019.02.006 | Mendeley Data `t8rrxnb6p2`, CC BY-NC 3.0, supplement to the paper. Panel table 2,408 rows x 24 numeric columns, 657 startups, 2008-2012; do-file read. | Non-commercial. No codebook. |
+| `lithium-ion-battery-core-patents` | Malhotra, Zhang, Beuse, Schmidt, Research Policy 50(9), 104318 (2021), DOI 10.1016/j.respol.2021.104318 | Mendeley Data `c5nydpmxt2`, CC BY-NC 3.0. 419 patent-family rows x 50 columns. | Only the core trajectory, not the full 101,620 families. |
+| `government-ideology-innovation-country-panel` | Wang, Feng, Chen, Wen, Chang, Research Policy 48(5), 1232-1247 (2019), DOI 10.1016/j.respol.2018.12.009 | Mendeley Data `jgcg2y64sw`, CC BY 4.0. 1,573 rows x 73 columns, 102 countries, 1995-2015. | Paper says 110 countries. Chinese column headings. No codebook. |
+| `expert-surveys-research-spending-replication` | Urbatsch, Research Policy 49(8), 104058 (2020), DOI 10.1016/j.respol.2020.104058 | Mendeley Data `2587f727rh`, CC BY 4.0, six files downloaded; research-spending table 1,078 rows, 138 countries, 2006-2017. | Source of the official figures not named in the abstract. |
+| `emerging-market-categories-innovation-data` | Lo, Nag, Xu, Agung, Research Policy 49(3), 103911 (2020), DOI 10.1016/j.respol.2019.103911 | Mendeley Data `ws8gbhtntj`, CC BY 4.0. One Stata table of 72,778 rows x 73 columns. | **No codebook or code; the unit and years are not stated.** Read the paper first. |
+
+Dry run of the publisher's merge code before pushing: 154 collections, 37 research entries, no duplicate IDs. The queues gained 28 appended rows.
+
+### Unresolved lead from this pass
+
+- DataverseNL `10.34894/0vlsgb` (a Research Policy 2019 paper on repeated ties in university-industry consortia): the record lists no files, so nothing could be verified. Not added.
 
 ## State at the earlier pause (historical)
 
