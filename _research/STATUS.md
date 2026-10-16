@@ -6,6 +6,7 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the container clock. (An earlier version of this log used estimated times; they have been replaced with these observed ones.)
 
+- 18:05 Batch 17 submitted: four Dataverse deposits found through the FT50 sweep leads (firm-level political risk from earnings calls; Opportunity Insights Economic Tracker; corporate foundation grants and regulatory comments; watch design images and visual conjoint). Zenodo lead metadata fetch finished (109 records); review next.
 - 17:48 Batch 16 live (run 38939877345, 17:28:21; 186 entries).
 - 17:40 Batch 15 live (run 38939563044, 17:25:37; 185 entries). Batch 16 (Brazilian hospital panel) submitted. Metadata fetch for the remaining Dataverse and Zenodo sweep leads running.
 - 17:30 FT50-wide sweep finished (113,511 papers; 750 clean leads). Batch 15 submitted: AIOE, Twin-2K-500, scientific complexity, OM-OR conference survey, EHR event logs, MLB managers, IRI category survey. Session worker restarted once during this stretch; files and results survived.
@@ -361,6 +362,23 @@ Status: published and confirmed. Workflow run 38939877345 succeeded at 17:28:21 
 | `brazil-public-hospitals-private-management-panel` | Coube, Fontes, Rocha, QJE 141(3), 2597-2673 (2026), DOI 10.1093/qje/qjag028 | [Dataverse D7IMCO](https://doi.org/10.7910/DVN/D7IMCO), CC0. 74.5 MB zip downloaded; README data section read; all 16 Stata headers read (hospital panel 37,584 x 45; OSS register 43,607 x 30; staff panels up to 4.1 million rows). | Some variables from identified records are aggregated or masked. Portuguese variable names. |
 
 Leads inspected and not added: Boehm and Oberfield (ASI data not redistributable); Biswas et al. JM channel adoption (5% noisy sample under NDA); Minni managers (proprietary personnel data); Weidmann et al. good manager (experiment); Autor et al. superstar firms (public aggregates plus Census code); Gopinath et al. South Europe (Orbis); Gumpert et al. multiple establishments (do-files only).
+
+## Batch 17 (2026-10-16): four deposits from the sweep's Dataverse leads
+
+Status: submitted; confirmation pending (see the live log).
+
+Found by scoring the 750 sweep leads and the Harvard Dataverse QJE and JPE listings for management relevance and inspecting the top Dataverse records (metadata for all 178 remaining Dataverse leads fetched first).
+
+| Dataset ID | Paper | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `firm-level-political-risk-earnings-calls` | Hassan, Hollander, van Lent, Tahoun, QJE 134(4), 2135-2202 (2019), DOI 10.1093/qje/qjz021 | [Dataverse OBNRBP](https://doi.org/10.7910/DVN/OBNRBP), CC0. Three tables downloaded and parsed (firm-year 63,179 x 26, 2002-2016; firm-quarter 208,794 x 38; executives 45,481 x 5); 147 MB firm-topic-quarter header read by range; do-file read. | Compustat, IBES and ExecuComp columns set to missing (MISSING prefix). Deposit stops at 2016. |
+| `opportunity-insights-economic-tracker` | Chetty, Friedman, Stepner and the Opportunity Insights Team, QJE 139(2), 829-889 (2024), DOI 10.1093/qje/qjad048 | [Dataverse 4CFSZW](https://doi.org/10.7910/DVN/4CFSZW) v2, CC0, 349 files, 491 MB. Both READMEs read; Affinity county daily table parsed (1,613,319 x 7, 2018-12-31 to 2023-09-03). | Indexed changes, not levels; providers must be credited; the GitHub copy keeps updating. GitHub link not opened from here. |
+| `corporate-foundation-grants-regulatory-comments` | Bertrand, Bombardini, Fisman, Hackinen, Trebbi, QJE 136(4), 2413-2465 (2021), DOI 10.1093/qje/qjab023 | [Dataverse UBRTKS](https://doi.org/10.7910/DVN/UBRTKS), CC0, 2 GB zip. Directory listed by range (83 files); headers of grants.csv (182 MB), orgs.csv, orgComments_idsOnly.csv read from partial members; README (docx) read. | Not downloaded in full; no row counts; years taken from the paper's window, unverified in files. |
+| `watch-design-images-visual-conjoint` | Sisodia, Burnap, Kumar, JMR 62(3), 405-428 (2025), DOI 10.1177/00222437241276736 | [Dataverse 48AFKL](https://doi.org/10.7910/DVN/48AFKL), CC BY-SA 4.0, 372 MB zip. Directory listed; README, three conjoint CSVs (7,680 choice rows; 440 respondents; 729 stimulus map) and one 16 MB image archive (313 images, 128 x 128, labels) extracted and parsed. | Main 286 MB image file listed only; generated stimulus images not found in the listing; conjoint part is a human-subject survey. |
+
+Leads inspected and not added (logged in both queues): GDPR and firm production, JPE 2026 (cloud, Aberdeen and Orbis inputs replaced by simulated files; only public auxiliary inputs are real); uniform pricing in US retail chains (323 processed chart inputs, Nielsen data excluded); Great East Japan earthquake supply chains (aggregate production tables only); sweat equity (public national-accounts inputs with code); consideration sets from asymmetric demand (Medicare data restricted). Also seen and set aside: an open-banking deposit with pseudo-data, a deposit whose data files are marked fake, and a field experiment.
+
+Dry run of the publisher's merge code before pushing: 190 collections, 73 research entries, no duplicate IDs.
 
 ## State at the earlier pause (historical)
 
