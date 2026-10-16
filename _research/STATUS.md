@@ -6,7 +6,8 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the container clock. (An earlier version of this log used estimated times; they have been replaced with these observed ones.)
 
-- 13:25 Batch 12 KPSS entry live (run 38905816430, 13:10:38). Two more QJE deposits (Bell et al., Kline et al.) committed through a pull request, not yet confirmed. Batch 11 confirmed live (run 38905315190, 13:06:36). DataCite sweep: 18 of 21 chunks done.
+- 13:35 DataCite sweep complete (21 of 21). Bloom and Van Reenen management practices data added (found in chunk 19), submitted as batch 12 part 3.
+- 13:25 Batch 12 KPSS entry live (run 38905816430, 13:10:38). Two more QJE deposits (Bell et al., Kline et al.) live too (run 38906120243, 13:13:08; 168 entries). Sweep chunks 18 and 19 of 21 reviewed or in progress. Batch 11 confirmed live (run 38905315190, 13:06:36). DataCite sweep: 18 of 21 chunks done.
 - 12:15 Batch 5 live (CrowdBerkeley Kickstarter database; run 38899203737 succeeded at 12:15:15). `main`'s `catalog-public.json` then showed 138 collections, 21 research entries, no URLs. The raw.githubusercontent.com copy lagged for a few minutes behind `main`, so I checked the file in git.
 - 12:12 Batch 4 live: open source write-access data, WWII patent secrecy orders, inventor-firm replication archive, NHANES enrichment (run 38898838401).
 - 12:02 Batch 3 live: patent text similarity, PatCit, inventor ages (run 38897774771). Png R&D directory data left unresolved (no downloadable file visible).
@@ -250,22 +251,26 @@ Status: published and confirmed. Workflow run 38905315190 succeeded at 13:06:36 
 
 Dry run of the publisher's merge code before pushing: 165 collections, 48 research entries, no duplicate IDs.
 
-## Batch 12 (2026-10-16): KPSS patent values extended to 2025, and two QJE patent deposits
+## Batch 12 (2026-10-16): KPSS patent values extended to 2025, and three QJE deposits
 
-Status: KPSS published and confirmed (run 38905816430 succeeded at 13:10:38 UTC; the live feed then showed 166 entries including `kpss-patent-values-extended-2025`). The two QJE deposits below are committed through a pull request and **not confirmed until the run and feed are recorded here.**
+Status: KPSS published and confirmed (run 38905816430 succeeded at 13:10:38 UTC; the live feed then showed 166 entries including `kpss-patent-values-extended-2025`). The two QJE deposits below are also published and confirmed: run 38906120243 succeeded at 13:13:08 UTC, and `catalog-public.json` on `main` (read through git, since the raw.githubusercontent.com copy lagged) then held 168 entries including both IDs. The management practices entry is committed through a pull request and **not confirmed until the run and feed are recorded here.**
 
 | Dataset ID | Paper | Evidence and file check | Limits |
 | --- | --- | --- | --- |
 | `kpss-patent-values-extended-2025` | Kogan, Papanikolaou, Seru, Stoffman, Quarterly Journal of Economics 132(2), 665-712 (2017), DOI 10.1093/qje/qjw040 | [GitHub repository](https://github.com/KPSS2017/Technological-Innovation-Resource-Allocation-and-Growth-Extended-Data), head 78ecbc8 (2026-09-09). Three zips cloned and read in full: 3,831,908 rows each; issue years 1926-2025; 10,599 distinct permnos. | No license stated. CRSP codes come from a licensed source. Values differ slightly from the paper. Paper full text not read. |
-
 | `who-becomes-an-inventor-public-tables` | Bell, Chetty, Jaravel, Petkova, Van Reenen, QJE 134(2), 647-713 (2019), DOI 10.1093/qje/qjy028 | [Dataverse UITDYS](https://doi.org/10.7910/DVN/UITDYS), CC0, 26.7 MB zip downloaded in full. README read; seven aggregate CSV tables opened (741 to 574,741 rows). | Aggregates only; microdata not public. Codebook PDF not read. |
 | `who-profits-from-patents-application-data` | Kline, Petkova, Williams, Zidar, QJE 134(3), 1343-1404 (2019), DOI 10.1093/qje/qjz011 | [Dataverse HMFYON](https://doi.org/10.7910/DVN/HMFYON), CC0, 32.6 MB zip downloaded in full. Application file opened: 3,737,351 rows, years 2000-2013. | Partial: tax and wage data are confidential. Mostly code. |
+| `management-practices-survey-bloom-van-reenen` | Bloom, Van Reenen, QJE 122(4), 1351-1408 (2007), DOI 10.1162/qjec.2007.122.4.1351 | [Dataverse NUOTSQ](https://doi.org/10.7910/DVN/NUOTSQ), CC0, found in sweep chunk 19. Both data tables downloaded and parsed: 6,267 rows x 189 columns each, 732 firm codes, 1994-2004, four countries. Instruction note read. | Anonymized (company names removed), so results may differ from the paper. The two tables are not labelled and differ in 94 columns; not investigated. Do-file not rerun. |
 
 Considered and not added: Emerick, de Janvry, Sadoulet, Dar, AER 106(6) (2016), Dataverse W97NZB (CC0, 5.8 MB). It is a field experiment on flood-tolerant rice in India, an agricultural development topic outside the innovation-management focus. Revisit if the owner wants technology adoption in development.
 
 An earlier sweep hit pointed to Zenodo 15545361 for this paper; that record is a different dataset (Green AI patents), so it was not used.
 
-Dry run of the publisher's merge code before pushing the two QJE deposits: 168 collections, 51 research entries, no duplicate IDs.
+Sweep review, chunk 18 (EJOR, Review of Economic Studies, JOM, JMIS, AER 2009-2010 and others): almost all hits were unrelated figshare supplements from other journals' articles. The real leads are about 25 AER 2009-2010 replication deposits on openICPSR (for example Do Traditional Institutions Constrain Female Entrepreneurship? e112341; Risk Taking by Entrepreneurs e113334; Estate Taxation, Entrepreneurship, and Wealth e113293; Burden of the Nondiversifiable Risk of Entrepreneurship e112349; Learning about a New Technology: Pineapple in Ghana e112329; Technological Revolutions and Stock Prices e113321). openICPSR cannot be checked by script, so none were added. A person with a browser could verify them. The eight DOIs that failed during the sweep were rerun: none has a deposit.
+
+Sweep finished (all 21 chunks, 20,247 topic-matched FT50 papers). Chunks 19 and 20 added one verified dataset (Bloom and Van Reenen above). The rest of their hits were unrelated figshare or Zenodo records and another set of AER 2006-2008 openICPSR deposits that cannot be checked by script (for example Does Innovation Cause Stock Market Runups? e113255; Restructuring Research e113260; On the Cyclicality of Research and Development e116283; Estimating the Effects of Global Patent Protection in Pharmaceuticals e116242). The sweep only covers papers that DataCite links by DOI, so it is a floor and not a census.
+
+Dry run of the publisher's merge code before pushing the management practices entry: 169 collections, 52 research entries, no duplicate IDs.
 
 ## State at the earlier pause (historical)
 
