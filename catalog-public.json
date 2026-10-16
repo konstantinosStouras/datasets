@@ -2400,9 +2400,9 @@
       "title": "National Health and Nutrition Examination Survey (NHANES)",
       "topic": "Health, public health, and epidemiology",
       "description": "National survey for adults and children with various health-related questions",
-      "years": "",
-      "access": "Not specified",
-      "geography": "Other / not specified",
+      "years": "2011–2012 cycle verified",
+      "access": "Public",
+      "geography": "United States",
       "types": [
         "Survey"
       ],
@@ -2411,13 +2411,48 @@
       ],
       "tools": [],
       "designs": [],
-      "features": [],
-      "period": "Not specified",
-      "ranges": [],
-      "paper": false,
-      "details": [],
-      "papers": [],
-      "search": "national health and nutrition examination survey (nhanes) health, public health, and epidemiology national survey for adults and children with various health-related questions"
+      "features": [
+        "Demographics",
+        "Employment"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          2011,
+          2012
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Entrepreneurship",
+        "Self-employment",
+        "Health and biomarkers",
+        "Public dataset used in research"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Existing library entry enriched with a verified research citation and tags on 16 October 2026.",
+        "The cited Management Science paper uses the 2011-2012 cycle for its first study: serum total testosterone and work-situation questions for adults. Its other studies use different data, including the Understanding Society Innovation Panel, which is not part of this entry.",
+        "Checked files are the 2011-2012 testosterone (TST_G), occupation (OCQ_G) and demographics (DEMO_G) SAS transport files. NHANES publishes other cycles and many other files.",
+        "Older CDC download links (the Nchs/Nhanes/2011-2012 path) now return an HTML 'page not found' with status 200. Use the Data/Nhanes/Public path linked here.",
+        "2011-2012 total testosterone file (TST_G, SAS transport)",
+        "2011-2012 occupation questionnaire (OCQ_G, SAS transport)",
+        "The three CDC files downloaded as SAS transport and parsed: TST_G has 7,821 respondents (6,826 with a testosterone value), OCQ_G has 6,175 respondents with a work-situation item (OCQ260), DEMO_G has 9,756 respondents and covers every TST_G respondent. The paper's abstract explicitly names NHANES 2011-2012."
+      ],
+      "papers": [
+        {
+          "title": "Testosterone and Tendency to Engage in Self-Employment",
+          "authors": "Nicos Nicolaou; Pankaj C. Patel; Marcus T. Wolfe",
+          "journal": "Management Science",
+          "year": 2018,
+          "volume": "64",
+          "issue": "4",
+          "evidenceSection": "Abstract: first study draws on 2,146 individuals from the National Health and Nutrition Examination Surveys 2011-2012 sample"
+        }
+      ],
+      "search": "national health and nutrition examination survey (nhanes) health, public health, and epidemiology national survey for adults and children with various health-related questions existing library entry enriched with a verified research citation and tags on 16 october 2026. the cited management science paper uses the 2011-2012 cycle for its first study: serum total testosterone and work-situation questions for adults. its other studies use different data, including the understanding society innovation panel, which is not part of this entry. checked files are the 2011-2012 testosterone (tst_g), occupation (ocq_g) and demographics (demo_g) sas transport files. nhanes publishes other cycles and many other files. older cdc download links (the nchs/nhanes/2011-2012 path) now return an html 'page not found' with status 200. use the data/nhanes/public path linked here. 2011-2012 total testosterone file (tst_g, sas transport) 2011-2012 occupation questionnaire (ocq_g, sas transport) the three cdc files downloaded as sas transport and parsed: tst_g has 7,821 respondents (6,826 with a testosterone value), ocq_g has 6,175 respondents with a work-situation item (ocq260), demo_g has 9,756 respondents and covers every tst_g respondent. the paper's abstract explicitly names nhanes 2011-2012. entrepreneurship self-employment health and biomarkers public dataset used in research testosterone and tendency to engage in self-employment nicos nicolaou; pankaj c. patel; marcus t. wolfe management science 2018"
     },
     {
       "id": "national-health-interview-survey",
@@ -4124,6 +4159,187 @@
         }
       ],
       "search": "u.s. inventor ages, gender and death dates matched to patents patents author-built database matching u.s.-resident patent inventors to estimated birth years, inferred gender and some death dates collected from public web directories, linked to patents by inventor id. personal data warning: the files contain inventor names, city and state of residence, estimated birth years and, for some inventors, death dates, collected from people-search websites. use only for legitimate research, follow your institution's data-ethics rules, and do not use it to identify or contact individuals. quality caveats from the authors: ages come from heuristics and a quality score; death dates are described as less reliable. the checked age file has birth years from 1800 to 2013, so apply plausibility filters. twenty-three public files, 3 mb to 1.9 gb. the key files are the inventor age and gender table (2,408,326 rows; 1,858,516 unique inventors), a patent-to-inventor crosswalk (8,080,135 rows, grant years 1976 to 2018) and a death-date table. other files were listed but not read. gender is inferred from first name and birth year by an algorithm; 571,074 rows are marked unknown. the dataverse record is marked cc0 1.0. source websites for the scraped information may have their own terms. a companion data paper (kaltenberg, jaffe and lachman, “the age of invention”, nber working paper 28768) documents the database. inventor ages, scores and gender (csv, 198 mb) patent-to-inventor crosswalk (csv, 228 mb) readme (rtf) dataverse api lists 23 public files under cc0 1.0 (version 1.1, may 2021). the age and gender table and the crosswalk were streamed in full and parsed; the death-date table, scraped-source table and patent table were sampled by range request. the readme was downloaded and read. innovation technology management patents inventors age and creativity author-shared data invention and the life course: age differences in patenting mary kaltenberg; adam b. jaffe; margie e. lachman research policy 2023"
+    },
+    {
+      "id": "open-source-write-access-novelty-survival",
+      "title": "Open source projects: write access, novelty and survival (replication data)",
+      "topic": "Businesses",
+      "description": "Author replication package with project-month data on open source repositories, measures of contribution novelty, contributor diversity and survival, plus Stata code and the training data for the novelty classifier.",
+      "years": "Not specified (12 monthly observations per repository)",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [
+        "Names / addresses"
+      ],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Open source software",
+        "Novelty",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Complete analysis data and Stata code for the paper's main tables, according to the deposit. The code that built the data from GitHub and the classifier code are not listed in the deposit; the training data and test results are.",
+        "Files: a project-month panel (45,418 rows, 6,277 repositories, months 1 to 12), a survival table (6,563 rows), classifier training data (759 rows) and test data (190 rows). CSV files use semicolons as separators.",
+        "Repository names and owner handles appear in the panel. They are public GitHub identifiers, but treat them as personal data in publications.",
+        "DataverseNL labels the record GNU GPL v3.0, a software license, applied here to data as well. Confirm reuse terms with the authors.",
+        "Novelty scores come from a classifier trained on hand-coded commits, so measurement error is part of the data.",
+        "Project-month panel for the novelty analysis (CSV)",
+        "Stata replication code",
+        "DataverseNL API lists 13 public files in version 1.0 (September 2025). Eight files were downloaded and parsed, including the panel, survival, training and test tables, the Stata code, manifest and classifier performance log. The Excel copies were not opened."
+      ],
+      "papers": [
+        {
+          "title": "Write access provisioning and organizational ownership in open source software projects: Exploring the impact on project novelty and survival",
+          "authors": "Poonacha K. Medappa; Shirish C. Srivastava; Saverio D. Favaron",
+          "journal": "Research Policy",
+          "year": 2025,
+          "volume": "54",
+          "issue": "8",
+          "evidenceSection": "DataverseNL record is titled as replication data for this article and cites it as its publication"
+        }
+      ],
+      "search": "open source projects: write access, novelty and survival (replication data) businesses author replication package with project-month data on open source repositories, measures of contribution novelty, contributor diversity and survival, plus stata code and the training data for the novelty classifier. complete analysis data and stata code for the paper's main tables, according to the deposit. the code that built the data from github and the classifier code are not listed in the deposit; the training data and test results are. files: a project-month panel (45,418 rows, 6,277 repositories, months 1 to 12), a survival table (6,563 rows), classifier training data (759 rows) and test data (190 rows). csv files use semicolons as separators. repository names and owner handles appear in the panel. they are public github identifiers, but treat them as personal data in publications. dataversenl labels the record gnu gpl v3.0, a software license, applied here to data as well. confirm reuse terms with the authors. novelty scores come from a classifier trained on hand-coded commits, so measurement error is part of the data. project-month panel for the novelty analysis (csv) stata replication code dataversenl api lists 13 public files in version 1.0 (september 2025). eight files were downloaded and parsed, including the panel, survival, training and test tables, the stata code, manifest and classifier performance log. the excel copies were not opened. innovation technology management open source software novelty replication data author-shared data write access provisioning and organizational ownership in open source software projects: exploring the impact on project novelty and survival poonacha k. medappa; shirish c. srivastava; saverio d. favaron research policy 2025"
+    },
+    {
+      "id": "wwii-us-patent-secrecy-orders",
+      "title": "U.S. patent secrecy orders in World War II",
+      "topic": "Patents",
+      "description": "Author-compiled list of U.S. patent applications placed under secrecy orders in the Second World War era, with filing dates, serial numbers and, where granted, patent numbers for linking to other patent data.",
+      "years": "Applications 1932–1945; grants 1940–1976",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [],
+      "features": [],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          1932,
+          1945
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Government secrecy",
+        "Economic history",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "One data table (8,475 secrecy-order records) and a README. 6,353 records have a patent number and grant date; the rest were not matched to a granted patent.",
+        "The table has five columns: filing date, serial number, secrecy determination, patent number and grant date. All rows carry the same determination value, 'Secrecy Recommended'.",
+        "Compiled from War Department and Office of Scientific Research and Development records held at the U.S. National Archives; the README gives the finding aids.",
+        "Licensed CC BY-NC 4.0 (non-commercial). The README asks users to cite the paper. Patent numbers link to USPTO data such as PatentsView, which is already listed.",
+        "Secrecy orders table (tab-separated)",
+        "README with provenance (PDF)",
+        "Dataverse API lists two public files under CC BY-NC 4.0. Both were downloaded: the table parsed to 8,475 rows and 5 columns (filing dates 1932-05-09 to 1945-10-15; grant dates 1940-06-18 to 1976-11-09) and the README was read."
+      ],
+      "papers": [
+        {
+          "title": "The Hidden Costs of Securing Innovation: The Manifold Impacts of Compulsory Invention Secrecy",
+          "authors": "Daniel P. Gross",
+          "journal": "Management Science",
+          "year": 2023,
+          "volume": "69",
+          "issue": "4",
+          "evidenceSection": "Dataverse record lists this article (with DOI) as its publication; the deposited README asks users to cite it"
+        }
+      ],
+      "search": "u.s. patent secrecy orders in world war ii patents author-compiled list of u.s. patent applications placed under secrecy orders in the second world war era, with filing dates, serial numbers and, where granted, patent numbers for linking to other patent data. one data table (8,475 secrecy-order records) and a readme. 6,353 records have a patent number and grant date; the rest were not matched to a granted patent. the table has five columns: filing date, serial number, secrecy determination, patent number and grant date. all rows carry the same determination value, 'secrecy recommended'. compiled from war department and office of scientific research and development records held at the u.s. national archives; the readme gives the finding aids. licensed cc by-nc 4.0 (non-commercial). the readme asks users to cite the paper. patent numbers link to uspto data such as patentsview, which is already listed. secrecy orders table (tab-separated) readme with provenance (pdf) dataverse api lists two public files under cc by-nc 4.0. both were downloaded: the table parsed to 8,475 rows and 5 columns (filing dates 1932-05-09 to 1945-10-15; grant dates 1940-06-18 to 1976-11-09) and the readme was read. innovation technology management patents government secrecy economic history author-shared data the hidden costs of securing innovation: the manifold impacts of compulsory invention secrecy daniel p. gross management science 2023"
+    },
+    {
+      "id": "inventor-firm-innovation-replication-archive",
+      "title": "Inventors, firms and patent output (replication archive)",
+      "topic": "Patents",
+      "description": "Author replication archive linking U.S. patents and inventors to publicly listed firms, with citation measures, inventor employment spells, firm financial variables, Stata code and bootstrap results.",
+      "years": "Not specified",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Individuals",
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [
+        "Names / addresses",
+        "Employment"
+      ],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Inventor mobility",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "25 public files, about 2.9 GB. The largest is the inventor-patent file at 1.9 GB. Includes Stata code (a master script runs the analysis in order), MATLAB files and a README listing every variable.",
+        "The README says some source files, for example full Compustat data, cannot be shared publicly. The archive contains Compustat-derived files; the authors' record says the files and code replicate the paper's results, but check which inputs are partial before assuming a full rebuild.",
+        "Personal data: the LinkedIn match file (23,703 rows) contains inventor names with employer names and employment dates. Handle in line with research ethics rules.",
+        "Underlying patent data derive from the NBER patent files (already listed). Compustat terms may restrict reuse of the financial variables. The repository labels the record CC-BY-4.0.",
+        "Bootstrapped results may not replicate exactly because of random resampling, according to the authors.",
+        "Replication README (PDF)",
+        "Inventor-firm LinkedIn match file (Stata)",
+        "Master script (Stata)",
+        "DataverseNL API lists 25 public files under CC-BY-4.0 (version 1.0, August 2025; the original Erasmus repository DOI forwards here). The README was read in full. Small files were downloaded and parsed (LinkedIn matches 23,703 rows, ownership changes 1,728 rows, a price-deflator table, the master script). Range requests on the three largest Stata files returned HTTP 206 with the Stata file signature. Full large files were not downloaded."
+      ],
+      "papers": [
+        {
+          "title": "Are Inventors or Firms the Engines of Innovation?",
+          "authors": "Ajay Bhaskarabhatla; Luis Cabral; Deepak Hegde; Thomas Peeters",
+          "journal": "Management Science",
+          "year": 2021,
+          "volume": "67",
+          "issue": "6",
+          "evidenceSection": "The repository record is titled as the replication archive for this article and is registered as a supplement to its DOI; the deposited README describes the data and code"
+        }
+      ],
+      "search": "inventors, firms and patent output (replication archive) patents author replication archive linking u.s. patents and inventors to publicly listed firms, with citation measures, inventor employment spells, firm financial variables, stata code and bootstrap results. 25 public files, about 2.9 gb. the largest is the inventor-patent file at 1.9 gb. includes stata code (a master script runs the analysis in order), matlab files and a readme listing every variable. the readme says some source files, for example full compustat data, cannot be shared publicly. the archive contains compustat-derived files; the authors' record says the files and code replicate the paper's results, but check which inputs are partial before assuming a full rebuild. personal data: the linkedin match file (23,703 rows) contains inventor names with employer names and employment dates. handle in line with research ethics rules. underlying patent data derive from the nber patent files (already listed). compustat terms may restrict reuse of the financial variables. the repository labels the record cc-by-4.0. bootstrapped results may not replicate exactly because of random resampling, according to the authors. replication readme (pdf) inventor-firm linkedin match file (stata) master script (stata) dataversenl api lists 25 public files under cc-by-4.0 (version 1.0, august 2025; the original erasmus repository doi forwards here). the readme was read in full. small files were downloaded and parsed (linkedin matches 23,703 rows, ownership changes 1,728 rows, a price-deflator table, the master script). range requests on the three largest stata files returned http 206 with the stata file signature. full large files were not downloaded. innovation technology management patents inventor mobility replication data author-shared data are inventors or firms the engines of innovation? ajay bhaskarabhatla; luis cabral; deepak hegde; thomas peeters management science 2021"
     }
   ]
 }
