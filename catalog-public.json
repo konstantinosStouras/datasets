@@ -5138,9 +5138,18 @@
           "volume": "44",
           "issue": "4",
           "evidenceSection": "The provider's DataCite records for the Mannheim Innovation Panel list this article among the publications that document or use the data"
+        },
+        {
+          "title": "R&D cooperation and innovation activities of firms: evidence for the German manufacturing industry",
+          "authors": "Wolfgang Becker; Jürgen Dietz",
+          "journal": "Research Policy",
+          "year": 2004,
+          "volume": "33",
+          "issue": "2",
+          "evidenceSection": "DataCite links the ZEW Mannheim Innovation Panel scientific-use-file record to this article"
         }
       ],
-      "search": "mannheim innovation panel (mip), german innovation survey businesses annual representative survey of the innovation activities of german firms (new products and processes, innovation spending, returns), the german part of the community innovation surveys, available to researchers as anonymised scientific use files. not freely downloadable. the zew research data centre offers on-site use, time-limited remote access, an anonymised scientific use file for non-commercial research and, for some mip data, an education use file. scientific use is limited to researchers at publicly funded research institutions, according to zew and the datacite record's rights statement. the survey has run annually since 1993 and is a panel of firms in mining, manufacturing, energy, construction and business-related and distribution services, according to the datacite description. the scientific use files in the doi records cover 1993 to 2016 (one earlier release 1993 to 2014). the eight research policy papers cited are those the data provider's own doi records list as documenting publications; which version of the mip data each paper used (scientific use, on-site or earlier releases) is not stated in the record. their full texts were not read. not verified: no data file was opened. zew's pages and doi records were checked; the files need an application to the zew research data centre. zew: mannheim innovation panel zew research data centre (access routes) scientific use files 1993-2016 (doi record) zew's mip page and research data centre page were read and confirm the annual survey since 1993, scientific use files and the access routes. datacite records for the scientific use files give the restriction wording and list the documenting publications. no data file could be inspected. innovation technology management community innovation survey firm-level survey germany public dataset used in research innovation, employment growth, and foreign ownership of firms bernhard dachs; bettina peters research policy 2014 cooperation with public research institutions and success in innovation: evidence from france and germany stéphane robin; torben schubert research policy 2013 to protect or not to protect? modes of appropriability in the small enterprise sector jörg thomä; kilian bizer research policy 2013 complementarities of innovation activities: an empirical analysis of the german manufacturing sector claudia schmiedeberg research policy 2008 determinants of environmental innovation—new evidence from german panel data sources jens horbach research policy 2008 complementarities in the search for innovation—managing markets and relationships christoph grimpe; wolfgang sofka research policy 2016 the impact of r&d subsidies during the crisis martin hud; katrin hussinger research policy 2015 r&d outsourcing and intellectual property infringement philipp buss; christian peukert research policy 2015"
+      "search": "mannheim innovation panel (mip), german innovation survey businesses annual representative survey of the innovation activities of german firms (new products and processes, innovation spending, returns), the german part of the community innovation surveys, available to researchers as anonymised scientific use files. not freely downloadable. the zew research data centre offers on-site use, time-limited remote access, an anonymised scientific use file for non-commercial research and, for some mip data, an education use file. scientific use is limited to researchers at publicly funded research institutions, according to zew and the datacite record's rights statement. the survey has run annually since 1993 and is a panel of firms in mining, manufacturing, energy, construction and business-related and distribution services, according to the datacite description. the scientific use files in the doi records cover 1993 to 2016 (one earlier release 1993 to 2014). the eight research policy papers cited are those the data provider's own doi records list as documenting publications; which version of the mip data each paper used (scientific use, on-site or earlier releases) is not stated in the record. their full texts were not read. not verified: no data file was opened. zew's pages and doi records were checked; the files need an application to the zew research data centre. zew: mannheim innovation panel zew research data centre (access routes) scientific use files 1993-2016 (doi record) zew's mip page and research data centre page were read and confirm the annual survey since 1993, scientific use files and the access routes. datacite records for the scientific use files give the restriction wording and list the documenting publications. no data file could be inspected. innovation technology management community innovation survey firm-level survey germany public dataset used in research innovation, employment growth, and foreign ownership of firms bernhard dachs; bettina peters research policy 2014 cooperation with public research institutions and success in innovation: evidence from france and germany stéphane robin; torben schubert research policy 2013 to protect or not to protect? modes of appropriability in the small enterprise sector jörg thomä; kilian bizer research policy 2013 complementarities of innovation activities: an empirical analysis of the german manufacturing sector claudia schmiedeberg research policy 2008 determinants of environmental innovation—new evidence from german panel data sources jens horbach research policy 2008 complementarities in the search for innovation—managing markets and relationships christoph grimpe; wolfgang sofka research policy 2016 the impact of r&d subsidies during the crisis martin hud; katrin hussinger research policy 2015 r&d outsourcing and intellectual property infringement philipp buss; christian peukert research policy 2015 r&d cooperation and innovation activities of firms: evidence for the german manufacturing industry wolfgang becker; jürgen dietz research policy 2004"
     },
     {
       "id": "democracy-innovation-country-panel",
@@ -7030,7 +7039,9 @@
         "One 610 MB zip with 190 files, including 74 Stata datasets. Main firm panel: 1,040,621 software-or-patent level rows with 120 variables (firm id, year, month, patent and software ids, AI industry flag, contract timing, police contracts, city, province, capital). Other tables: contracts (4 MB), software versions (74,229 rows), prefecture-quarter unrest (8,060 rows), weather station panel (257 MB), GDELT event files (up to 3 GB).",
         "The README says the firm, software, capital and demographic data were bought from commercial providers (Tianyancha, Pitchbook, qcc.com, CEIC) and are released in deidentified form; procurement data were scraped from the Chinese Government Procurement site. Reuse beyond replication may be limited by those providers' terms. One column name in the software table is in Chinese.",
         "CC0 on Harvard Dataverse (QJE collection).",
+        "The earlier Review of Economic Studies paper by three of the same authors has its own replication package on Zenodo (record 6607692, CC BY 4.0, 112 MB zip with 105 files, 939 MB unpacked) built on the same baseline firm data file plus a second-contract table; that zip was downloaded and its contents listed.",
         "Dataverse record (zip and README)",
+        "Zenodo package for the REStud paper (same baseline data)",
         "The README PDF was read, the zip downloaded in full (size matches), its contents listed, and the row counts and variable names of four Stata tables read from their headers. The paper's full text was not read."
       ],
       "papers": [
@@ -7042,9 +7053,18 @@
           "volume": "138",
           "issue": "3",
           "evidenceSection": "QJE Dataverse record 'Replication Data for: AI-tocracy'; README names the paper"
+        },
+        {
+          "title": "Data-intensive Innovation and the State: Evidence from AI Firms in China",
+          "authors": "Martin Beraja; David Y. Yang; Noam Yuchtman",
+          "journal": "The Review of Economic Studies",
+          "year": 2023,
+          "volume": "90",
+          "issue": "4",
+          "evidenceSection": "Zenodo record in the REStud replication community names the paper; its zip holds the same baseline firm data files as the QJE deposit"
         }
       ],
-      "search": "chinese facial-recognition ai firms: software, patents, government contracts and unrest data (ai-tocracy) businesses deidentified firm-level data behind a study of how government demand for surveillance technology shaped china's ai industry. the package combines ai firms' software registrations and patents, public-security procurement contracts, firm capital and location, prefecture-level unrest events from gdelt, weather, police hiring and firms' export of facial-recognition technology. one 610 mb zip with 190 files, including 74 stata datasets. main firm panel: 1,040,621 software-or-patent level rows with 120 variables (firm id, year, month, patent and software ids, ai industry flag, contract timing, police contracts, city, province, capital). other tables: contracts (4 mb), software versions (74,229 rows), prefecture-quarter unrest (8,060 rows), weather station panel (257 mb), gdelt event files (up to 3 gb). the readme says the firm, software, capital and demographic data were bought from commercial providers (tianyancha, pitchbook, qcc.com, ceic) and are released in deidentified form; procurement data were scraped from the chinese government procurement site. reuse beyond replication may be limited by those providers' terms. one column name in the software table is in chinese. cc0 on harvard dataverse (qje collection). dataverse record (zip and readme) the readme pdf was read, the zip downloaded in full (size matches), its contents listed, and the row counts and variable names of four stata tables read from their headers. the paper's full text was not read. artificial intelligence innovation government procurement surveillance china firm-level data replication data author-shared data ai-tocracy martin beraja; andrew kao; david y. yang; noam yuchtman the quarterly journal of economics 2023"
+      "search": "chinese facial-recognition ai firms: software, patents, government contracts and unrest data (ai-tocracy) businesses deidentified firm-level data behind a study of how government demand for surveillance technology shaped china's ai industry. the package combines ai firms' software registrations and patents, public-security procurement contracts, firm capital and location, prefecture-level unrest events from gdelt, weather, police hiring and firms' export of facial-recognition technology. one 610 mb zip with 190 files, including 74 stata datasets. main firm panel: 1,040,621 software-or-patent level rows with 120 variables (firm id, year, month, patent and software ids, ai industry flag, contract timing, police contracts, city, province, capital). other tables: contracts (4 mb), software versions (74,229 rows), prefecture-quarter unrest (8,060 rows), weather station panel (257 mb), gdelt event files (up to 3 gb). the readme says the firm, software, capital and demographic data were bought from commercial providers (tianyancha, pitchbook, qcc.com, ceic) and are released in deidentified form; procurement data were scraped from the chinese government procurement site. reuse beyond replication may be limited by those providers' terms. one column name in the software table is in chinese. cc0 on harvard dataverse (qje collection). the earlier review of economic studies paper by three of the same authors has its own replication package on zenodo (record 6607692, cc by 4.0, 112 mb zip with 105 files, 939 mb unpacked) built on the same baseline firm data file plus a second-contract table; that zip was downloaded and its contents listed. dataverse record (zip and readme) zenodo package for the restud paper (same baseline data) the readme pdf was read, the zip downloaded in full (size matches), its contents listed, and the row counts and variable names of four stata tables read from their headers. the paper's full text was not read. artificial intelligence innovation government procurement surveillance china firm-level data replication data author-shared data ai-tocracy martin beraja; andrew kao; david y. yang; noam yuchtman the quarterly journal of economics 2023 data-intensive innovation and the state: evidence from ai firms in china martin beraja; david y. yang; noam yuchtman the review of economic studies 2023"
     },
     {
       "id": "induced-automation-innovation-patent-panels",
@@ -7113,6 +7133,459 @@
         }
       ],
       "search": "automation patent classification and firm and industry panels (induced automation innovation) patents large replication package behind a study of whether higher wages induce firms to innovate in automation. it provides the authors' keyword and classification-code method for identifying automation patents in european patent office filings, the resulting lists of classified applications, firm-level automation patent measures, country-industry panels of wages, value added and employment from eu klems, wiod and national sources, and the final regression datasets. 1,045 files, 56 gb, in folders for independent variables (26 gb), final data (13 gb), weights, spillovers, classification, macro simulation, wage data and the autor-levy-murnane reproduction. two tables were parsed as a check: industry-year automation patent measures (133 rows, 104 columns) and firm-year citation-bounded automation measures keyed by orbis bvd id (58,731 rows). variable names on the largest files were not read. the readme says proprietary patstat, epo full-text and orbis inputs are excluded; freely available raw data (eu klems, oecd, swiss bfs, wiod) and intermediate datasets derived from the proprietary sources are included so tables can be rerun. the pipeline uses powershell on windows plus python and stata. a sources.md file documents every input. cc0 on harvard dataverse (jpe collection). downloading everything is a large job; pick folders. dataverse record (1,045 files, 56 gb) the package readme, classification readme and sources.md were read, the full file list with folder sizes was retrieved through the api, and two data tables were downloaded and parsed. nothing else was downloaded and the paper's full text was not read. patents automation innovation wages firm-level data industry panels replication data author-shared data induced automation innovation: evidence from firm-level patent data david hémous; morten olsen; carlo zanella; antoine dechezleprêtre journal of political economy 2025"
+    },
+    {
+      "id": "ai-occupational-exposure-aioe",
+      "title": "AI Occupational Exposure (AIOE) scores by occupation, industry and county",
+      "topic": "Working",
+      "description": "Author-maintained scores measuring how exposed each US occupation, industry and county is to progress in artificial intelligence, built by linking ten AI application areas to O*NET abilities through a crowd-sourced relatedness matrix. Later releases add exposure scores for language modeling and image generation, the inputs and the Stata code that builds the measures.",
+      "years": "Occupational abilities 2020; wages 2021; county data 2019",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Individuals",
+        "Places & geographic areas"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Cross-section"
+      ],
+      "features": [
+        "Income / earnings",
+        "Employment"
+      ],
+      "period": "Not specified",
+      "ranges": [
+        [
+          2020,
+          2020
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Artificial intelligence",
+        "Technology exposure",
+        "Occupations",
+        "Industries",
+        "Labor",
+        "Automation",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Main workbook: AIOE by six-digit SOC occupation (774 rows), AIIE by four-digit NAICS industry (250 rows), AIGE by county FIPS code (3,271 rows), the application-by-ability matrix (52 abilities by 10 applications) and ability-level exposure (52 rows). Two further workbooks give language-modeling and image-generation versions of the occupation and industry scores. Input folder holds the O*NET abilities table (100,672 rows), the Mechanical Turk mapping matrix, occupation titles, county-industry employment and wage archives, and the construction do-file.",
+        "No licence file is in the repository; the README asks users to cite the paper. Last commit on the default branch: 2024-06-03 (adca5fc).",
+        "Scores are relative indices, not probabilities; see the paper for construction and limits.",
+        "GitHub repository (workbooks, inputs, Stata code)",
+        "The repository was cloned (shallow) and every workbook sheet and Stata input file was opened with row and column counts recorded. The paper's full text was not read."
+      ],
+      "papers": [
+        {
+          "title": "Occupational, industry, and geographic exposure to artificial intelligence: A novel dataset and its potential uses",
+          "authors": "Edward Felten; Manav Raj; Robert Seamans",
+          "journal": "Strategic Management Journal",
+          "year": 2021,
+          "volume": "42",
+          "issue": "12",
+          "evidenceSection": "GitHub README names the paper as the source of the data and asks users to cite it"
+        }
+      ],
+      "search": "ai occupational exposure (aioe) scores by occupation, industry and county working author-maintained scores measuring how exposed each us occupation, industry and county is to progress in artificial intelligence, built by linking ten ai application areas to o*net abilities through a crowd-sourced relatedness matrix. later releases add exposure scores for language modeling and image generation, the inputs and the stata code that builds the measures. main workbook: aioe by six-digit soc occupation (774 rows), aiie by four-digit naics industry (250 rows), aige by county fips code (3,271 rows), the application-by-ability matrix (52 abilities by 10 applications) and ability-level exposure (52 rows). two further workbooks give language-modeling and image-generation versions of the occupation and industry scores. input folder holds the o*net abilities table (100,672 rows), the mechanical turk mapping matrix, occupation titles, county-industry employment and wage archives, and the construction do-file. no licence file is in the repository; the readme asks users to cite the paper. last commit on the default branch: 2024-06-03 (adca5fc). scores are relative indices, not probabilities; see the paper for construction and limits. github repository (workbooks, inputs, stata code) the repository was cloned (shallow) and every workbook sheet and stata input file was opened with row and column counts recorded. the paper's full text was not read. artificial intelligence technology exposure occupations industries labor automation author-shared data occupational, industry, and geographic exposure to artificial intelligence: a novel dataset and its potential uses edward felten; manav raj; robert seamans strategic management journal 2021"
+    },
+    {
+      "id": "twin-2k-500-digital-twin-personas",
+      "title": "Twin-2K-500: survey personas of 2,058 US adults for digital-twin simulation",
+      "topic": "Beliefs and values",
+      "description": "Four waves of survey responses from a representative sample of 2,058 US adults covering demographics, psychological scales, cognitive tests, economic preferences and behavioural-economics experiments, packaged as text and JSON personas for building large-language-model digital twins, with a repeat wave for test-retest checks and the authors' simulation results.",
+      "years": "2025 (four survey waves)",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "Python"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [
+        "Demographics",
+        "Text / transcripts"
+      ],
+      "period": "Not specified",
+      "ranges": [
+        [
+          2025,
+          2025
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Digital twins",
+        "Large language models",
+        "Consumer research",
+        "Survey data",
+        "Personas",
+        "Behavioural economics",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Human responses: waves 1 to 3 table of 2,058 participants by 761 question columns and a wave 4 table of 2,058 by 127 columns, plus anonymised raw wave files and a question catalog. Persona files: 14 Parquet chunks (392 MB) with participant id, persona text, summary and JSON; one chunk parsed (294 rows). A results folder holds the authors' LLM simulation outputs.",
+        "Licence CC BY 4.0 on Hugging Face. The dataset card links the project's preprint and GitHub code; a separate Zenodo escrow record for a benchmark built on these data is restricted.",
+        "Wave content includes heuristics-and-biases experiments; it is used here as a reusable survey panel rather than for its experimental results.",
+        "Hugging Face dataset (CSV, JSON and Parquet)",
+        "The dataset card and file list were read through the Hugging Face API; the two human-response CSV tables and one persona Parquet chunk were downloaded and parsed. The paper's full text was not read."
+      ],
+      "papers": [
+        {
+          "title": "Database Report: Twin-2K-500: A Data Set for Building Digital Twins of over 2,000 People Based on Their Answers to over 500 Questions",
+          "authors": "Olivier Toubia; George Z. Gui; Tianyi Peng; Daniel J. Merlau; Ang Li; Haozhe Chen",
+          "journal": "Marketing Science",
+          "year": 2025,
+          "volume": "44",
+          "issue": "6",
+          "evidenceSection": "Hugging Face dataset card describes the same four-wave Twin-2K-500 study; the title of the Marketing Science database report names the dataset"
+        }
+      ],
+      "search": "twin-2k-500: survey personas of 2,058 us adults for digital-twin simulation beliefs and values four waves of survey responses from a representative sample of 2,058 us adults covering demographics, psychological scales, cognitive tests, economic preferences and behavioural-economics experiments, packaged as text and json personas for building large-language-model digital twins, with a repeat wave for test-retest checks and the authors' simulation results. human responses: waves 1 to 3 table of 2,058 participants by 761 question columns and a wave 4 table of 2,058 by 127 columns, plus anonymised raw wave files and a question catalog. persona files: 14 parquet chunks (392 mb) with participant id, persona text, summary and json; one chunk parsed (294 rows). a results folder holds the authors' llm simulation outputs. licence cc by 4.0 on hugging face. the dataset card links the project's preprint and github code; a separate zenodo escrow record for a benchmark built on these data is restricted. wave content includes heuristics-and-biases experiments; it is used here as a reusable survey panel rather than for its experimental results. hugging face dataset (csv, json and parquet) the dataset card and file list were read through the hugging face api; the two human-response csv tables and one persona parquet chunk were downloaded and parsed. the paper's full text was not read. digital twins large language models consumer research survey data personas behavioural economics author-shared data database report: twin-2k-500: a data set for building digital twins of over 2,000 people based on their answers to over 500 questions olivier toubia; george z. gui; tianyi peng; daniel j. merlau; ang li; haozhe chen marketing science 2025"
+    },
+    {
+      "id": "scientific-complexity-pubmed-openalex",
+      "title": "Scientific complexity scores for 9.6 million biomedical papers",
+      "topic": "Academia",
+      "description": "Paper-level measure of scientific complexity for biomedical articles indexed in PubMed and matched to OpenAlex, computed from the chemical substances each paper uses, released with the Research Policy article on novel science and its uncertain impact.",
+      "years": "1950–2023",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Research & publications"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Python"
+      ],
+      "designs": [
+        "Cross-section"
+      ],
+      "features": [],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          1950,
+          2023
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Science of science",
+        "Novelty",
+        "Bibliometrics",
+        "OpenAlex",
+        "PubMed",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "One CSV of 9,627,624 rows and four columns: OpenAlex work id, PubMed id, number of indexed substances and complexity score (413 MB). The first 200 KB were read to confirm the header and format; the file was not downloaded in full. A short data description PDF is included.",
+        "Licence: the Zenodo record says CC BY 4.0 but the data description says O-UDA-1.0, which excludes commercial use; treat the stricter statement as binding.",
+        "Unit of analysis is the paper; scores cover only papers with defined complexity.",
+        "Zenodo record (CSV and description)",
+        "The Zenodo record and data description were read, and the CSV header and first rows were read with a range request. The paper's full text was not read."
+      ],
+      "papers": [
+        {
+          "title": "Complexity and the uncertain impact of novel science",
+          "authors": "Nicola Melluso",
+          "journal": "Research Policy",
+          "year": 2026,
+          "volume": "55",
+          "issue": "8",
+          "evidenceSection": "Zenodo record is marked as a supplement to the article DOI and its data description cites the paper"
+        }
+      ],
+      "search": "scientific complexity scores for 9.6 million biomedical papers academia paper-level measure of scientific complexity for biomedical articles indexed in pubmed and matched to openalex, computed from the chemical substances each paper uses, released with the research policy article on novel science and its uncertain impact. one csv of 9,627,624 rows and four columns: openalex work id, pubmed id, number of indexed substances and complexity score (413 mb). the first 200 kb were read to confirm the header and format; the file was not downloaded in full. a short data description pdf is included. licence: the zenodo record says cc by 4.0 but the data description says o-uda-1.0, which excludes commercial use; treat the stricter statement as binding. unit of analysis is the paper; scores cover only papers with defined complexity. zenodo record (csv and description) the zenodo record and data description were read, and the csv header and first rows were read with a range request. the paper's full text was not read. science of science novelty bibliometrics openalex pubmed author-shared data complexity and the uncertain impact of novel science nicola melluso research policy 2026"
+    },
+    {
+      "id": "om-or-conference-value-survey",
+      "title": "Survey of operations researchers on in-person and virtual conferences",
+      "topic": "Academia",
+      "description": "Responses from a global survey of members of INFORMS, MSOM, POMS and EurOMA on how they value in-person and virtual academic conferences, released with an M&SOM forum article on the future of operations conferences.",
+      "years": "2022 (survey)",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "R"
+      ],
+      "designs": [
+        "Cross-section"
+      ],
+      "features": [
+        "Demographics"
+      ],
+      "period": "Not specified",
+      "ranges": [
+        [
+          2022,
+          2022
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Academic conferences",
+        "Operations management",
+        "Survey data",
+        "Researchers",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "555 responses and 58 columns (age, country, gender, professional status, society memberships, and conference value items), in CSV and Excel. Licence CC BY 4.0.",
+        "Small and specific to the academic community surveyed.",
+        "Zenodo record (CSV and XLSX)",
+        "The CSV was downloaded in full and parsed. The paper's full text was not read."
+      ],
+      "papers": [
+        {
+          "title": "OM Forum: In-Person or Virtual? What Will Operations Management/Research Conferences Look Like?",
+          "authors": "Antonio Cavallin Toscani; Atalay Atasu; Luk N. Van Wassenhove; Andrea Vinelli",
+          "journal": "Manufacturing & Service Operations Management",
+          "year": 2024,
+          "volume": "26",
+          "issue": "1",
+          "evidenceSection": "Zenodo record is marked as a supplement to the article DOI"
+        }
+      ],
+      "search": "survey of operations researchers on in-person and virtual conferences academia responses from a global survey of members of informs, msom, poms and euroma on how they value in-person and virtual academic conferences, released with an m&som forum article on the future of operations conferences. 555 responses and 58 columns (age, country, gender, professional status, society memberships, and conference value items), in csv and excel. licence cc by 4.0. small and specific to the academic community surveyed. zenodo record (csv and xlsx) the csv was downloaded in full and parsed. the paper's full text was not read. academic conferences operations management survey data researchers author-shared data om forum: in-person or virtual? what will operations management/research conferences look like? antonio cavallin toscani; atalay atasu; luk n. van wassenhove; andrea vinelli manufacturing & service operations management 2024"
+    },
+    {
+      "id": "ehr-audit-trail-event-logs",
+      "title": "Electronic health record audit-trail event logs from outpatient clinics",
+      "topic": "Health, public health, and epidemiology",
+      "description": "Two anonymised event logs from an electronic health record system, with a time stamp, action, role and person for every system action during about 95,000 clinic visits in dermatology, orthopaedics and paediatric oncology, used to study how work routines and digital traces evolve.",
+      "years": "2016–2019",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "R"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [
+        "Demographics"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          2016,
+          2019
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Process mining",
+        "Event logs",
+        "Routines",
+        "Digital trace data",
+        "Health care",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "One R data file (42.5 MB) with two data frames: dermatology (7,728,927 rows, 56,835 visits, 2016 to 2017) and orthopaedics with paediatric oncology (7,623,255 rows, 38,718 visits, 2018 to 2019). Variables: time stamp, visit id, patient id, action, role, person id, workstation, diagnosis group, clinic, visit number and level-of-service code, per the README. Visit start times were shifted for anonymity; relative timing is preserved.",
+        "The file was downloaded (size matches) but not opened, because no R or R-file reader was available here; the row counts come from the README. CC0 on Harvard Dataverse.",
+        "Dataverse record (R data file and README)",
+        "The README was read in full and the data file downloaded with its size checked against the record. The data frames were not parsed. The papers' full texts were not read."
+      ],
+      "papers": [
+        {
+          "title": "Theorizing Process Dynamics with Directed Graphs: A Diachronic Analysis of Digital Trace Data",
+          "authors": "Brian T. Pentland; Emmanuelle Vaast; Julie Ryan Wolf",
+          "journal": "MIS Quarterly",
+          "year": 2021,
+          "volume": "45",
+          "issue": "2",
+          "evidenceSection": "DataCite record lists the article as citing this dataset"
+        },
+        {
+          "title": "Path Coherence and Disruption in Routine Dynamics",
+          "authors": "Inkyu Kim; Brian T. Pentland; Kenneth A. Frank; Julie Ryan Wolf",
+          "journal": "Organization Science",
+          "year": 2025,
+          "volume": "36",
+          "issue": "2",
+          "evidenceSection": "DataCite record lists the article as citing this dataset"
+        }
+      ],
+      "search": "electronic health record audit-trail event logs from outpatient clinics health, public health, and epidemiology two anonymised event logs from an electronic health record system, with a time stamp, action, role and person for every system action during about 95,000 clinic visits in dermatology, orthopaedics and paediatric oncology, used to study how work routines and digital traces evolve. one r data file (42.5 mb) with two data frames: dermatology (7,728,927 rows, 56,835 visits, 2016 to 2017) and orthopaedics with paediatric oncology (7,623,255 rows, 38,718 visits, 2018 to 2019). variables: time stamp, visit id, patient id, action, role, person id, workstation, diagnosis group, clinic, visit number and level-of-service code, per the readme. visit start times were shifted for anonymity; relative timing is preserved. the file was downloaded (size matches) but not opened, because no r or r-file reader was available here; the row counts come from the readme. cc0 on harvard dataverse. dataverse record (r data file and readme) the readme was read in full and the data file downloaded with its size checked against the record. the data frames were not parsed. the papers' full texts were not read. process mining event logs routines digital trace data health care author-shared data theorizing process dynamics with directed graphs: a diachronic analysis of digital trace data brian t. pentland; emmanuelle vaast; julie ryan wolf mis quarterly 2021 path coherence and disruption in routine dynamics inkyu kim; brian t. pentland; kenneth a. frank; julie ryan wolf organization science 2025"
+    },
+    {
+      "id": "mlb-managers-team-performance-peeters",
+      "title": "Major League Baseball managers, general managers, lineups and team performance",
+      "topic": "Sports",
+      "description": "Replication archive from a study of how upper and middle managers affect team performance, built from public baseball sources: team-season inputs (payroll, market size, stadium, wins), field manager and general manager careers, player salaries, game characteristics, game results and lineups, with the Stata and Matlab code.",
+      "years": "About 1985–2013 (team-seasons; exact span not checked)",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions",
+        "Individuals"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [
+        "Income / earnings"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          1985,
+          2013
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Managers",
+        "Firm performance",
+        "Baseball",
+        "Sports data",
+        "Panel data",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Parsed: team-season inputs (723 rows, 32 variables), field managers (158), general managers (116), player salaries (20,369 rows). Listed only: lineups (96 MB), game characteristics (30 MB), game results (19 MB), result tables and model files. 58 files, CC BY 4.0 on DataverseNL (the Erasmus DOI 10.25397/eur.13636682 forwards here).",
+        "The README lists the public sources (USA Today salaries, Census population, shrpsports, ballparksofbaseball and others). Years were not checked on the large files.",
+        "DataverseNL record (58 files)",
+        "The README was read and four Stata tables downloaded and parsed; the large game and lineup files were listed only. The paper's full text was not read."
+      ],
+      "papers": [
+        {
+          "title": "Matching and Winning? The Impact of Upper and Middle Managers on Firm Performance in Major League Baseball",
+          "authors": "Thomas L. P. R. Peeters; Steven Salaga; Matthew Juravich",
+          "journal": "Management Science",
+          "year": 2020,
+          "volume": "66",
+          "issue": "6",
+          "evidenceSection": "DataverseNL record title and README name the paper"
+        }
+      ],
+      "search": "major league baseball managers, general managers, lineups and team performance sports replication archive from a study of how upper and middle managers affect team performance, built from public baseball sources: team-season inputs (payroll, market size, stadium, wins), field manager and general manager careers, player salaries, game characteristics, game results and lineups, with the stata and matlab code. parsed: team-season inputs (723 rows, 32 variables), field managers (158), general managers (116), player salaries (20,369 rows). listed only: lineups (96 mb), game characteristics (30 mb), game results (19 mb), result tables and model files. 58 files, cc by 4.0 on dataversenl (the erasmus doi 10.25397/eur.13636682 forwards here). the readme lists the public sources (usa today salaries, census population, shrpsports, ballparksofbaseball and others). years were not checked on the large files. dataversenl record (58 files) the readme was read and four stata tables downloaded and parsed; the large game and lineup files were listed only. the paper's full text was not read. managers firm performance baseball sports data panel data replication data author-shared data matching and winning? the impact of upper and middle managers on firm performance in major league baseball thomas l. p. r. peeters; steven salaga; matthew juravich management science 2020"
+    },
+    {
+      "id": "iri-marketing-dataset-category-characteristics",
+      "title": "IRI Marketing Data Set (academic) and its public category-characteristics survey",
+      "topic": "Shopping",
+      "description": "The IRI academic dataset is a multi-year panel of store sales and household purchases for packaged-goods categories in US markets, provided to researchers under agreement and described in a Marketing Science database paper. The public companion here is a survey that scores each of its product categories on hedonic nature, performance risk, social value, involvement and utilitarian nature.",
+      "years": "IRI data 2001–2012; category survey 2016",
+      "access": "Agreement or mixed",
+      "geography": "United States",
+      "types": [
+        "Administrative records",
+        "Survey"
+      ],
+      "units": [
+        "Individuals",
+        "Firms & institutions"
+      ],
+      "tools": [
+        "R"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          2001,
+          2012
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Consumer packaged goods",
+        "Retail scanner data",
+        "Household panel",
+        "Brand equity",
+        "Product categories",
+        "Marketing"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Public part (DataverseNL): a 2016 Mechanical Turk survey of 752 respondents and 412 columns rating grocery categories, with an SPSS version, R cleaning script, construct-level output and codebook. Terms are custom: the depositors ask users to contact them before use.",
+        "The IRI dataset itself (now distributed by Circana) is not in the deposit; the request page moved from the IRI site to circana.com and was not checked here. The database paper describes 30 categories, 2001 to 2012 (per the codebook's citation; the span was not verified).",
+        "Access class reflects the agreement needed for the IRI data; the survey file downloads freely.",
+        "DataverseNL record (category survey, codebook, R script)",
+        "The survey CSV was downloaded in full and parsed and the codebook PDF read. The IRI data were not accessed. The papers' full texts were not read."
+      ],
+      "papers": [
+        {
+          "title": "Database Paper: The IRI Marketing Data Set",
+          "authors": "Bart J. Bronnenberg; Michael W. Kruger; Carl F. Mela",
+          "journal": "Marketing Science",
+          "year": 2008,
+          "volume": "27",
+          "issue": "4",
+          "evidenceSection": "DataverseNL record is marked as a supplement to this database paper, which describes the IRI academic dataset the survey complements"
+        },
+        {
+          "title": "How Well Does Consumer-Based Brand Equity Align with Sales-Based Brand Equity and Marketing-Mix Response?",
+          "authors": "Hannes Datta; Kusum L. Ailawadi; Harald J. van Heerde",
+          "journal": "Journal of Marketing",
+          "year": 2017,
+          "volume": "81",
+          "issue": "3",
+          "evidenceSection": "DataverseNL record is marked as a supplement to the article and its codebook names the authors"
+        }
+      ],
+      "search": "iri marketing data set (academic) and its public category-characteristics survey shopping the iri academic dataset is a multi-year panel of store sales and household purchases for packaged-goods categories in us markets, provided to researchers under agreement and described in a marketing science database paper. the public companion here is a survey that scores each of its product categories on hedonic nature, performance risk, social value, involvement and utilitarian nature. public part (dataversenl): a 2016 mechanical turk survey of 752 respondents and 412 columns rating grocery categories, with an spss version, r cleaning script, construct-level output and codebook. terms are custom: the depositors ask users to contact them before use. the iri dataset itself (now distributed by circana) is not in the deposit; the request page moved from the iri site to circana.com and was not checked here. the database paper describes 30 categories, 2001 to 2012 (per the codebook's citation; the span was not verified). access class reflects the agreement needed for the iri data; the survey file downloads freely. dataversenl record (category survey, codebook, r script) the survey csv was downloaded in full and parsed and the codebook pdf read. the iri data were not accessed. the papers' full texts were not read. consumer packaged goods retail scanner data household panel brand equity product categories marketing database paper: the iri marketing data set bart j. bronnenberg; michael w. kruger; carl f. mela marketing science 2008 how well does consumer-based brand equity align with sales-based brand equity and marketing-mix response? hannes datta; kusum l. ailawadi; harald j. van heerde journal of marketing 2017"
     }
   ]
 }
