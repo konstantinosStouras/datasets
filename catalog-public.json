@@ -6283,6 +6283,67 @@
         }
       ],
       "search": "populist discourse and entrepreneurship (author dataset) entrepreneurship author-shared individual-level dataset combining survey-style entrepreneurship variables with country characteristics and measures of populist political discourse, with the stata code for the paper's tables and figures. one stata table of 2,467,779 rows and 43 columns (407 mb) and a do-file. variable names include entrepreneurship-survey style items such as fear of failure and a high household income indicator; the deposit does not describe the underlying surveys, so check the paper before reuse. the 'year' variable runs from 1960 to 2020, so it mixes survey and country-level time series. country codes are numeric. licensed cc by-nc-sa 4.0 on mendeley data (non-commercial, share alike). if the individual-level data derive from a survey with its own terms, those apply too. dataset (stata, 407 mb) mendeley data lists two public files. the dataset was downloaded (size matches the declared size) and its row count, column names, and year range were read; the do-file was listed. entrepreneurship institutions populism cross-country data replication data author-shared data populist discourse and entrepreneurship: the role of political ideology and institutions daniel l. bennett; christopher boudreaux; boris nikolaev journal of international business studies 2022"
+    },
+    {
+      "id": "kpss-patent-values-extended-2025",
+      "title": "KPSS patent values, extended to 2025 (author-updated)",
+      "topic": "Patents",
+      "description": "Author-maintained patent-level file with the stock-market-based value of each US patent granted to a public firm, its forward citations and its filing and issue dates, plus patent-to-CRSP and patent-to-CPC match files. Updated by the authors each year since the 2017 paper.",
+      "years": "1926–2025",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative"
+      ],
+      "units": [
+        "Patents",
+        "Firms"
+      ],
+      "tools": [
+        "CSV"
+      ],
+      "designs": [
+        "Panel"
+      ],
+      "features": [],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          1926,
+          2025
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Patents",
+        "Patent value",
+        "Stock market",
+        "Firm innovation",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Three zipped CSV files, each with 3,831,908 patent rows: the value file (patent number, CRSP permno, issue date, filing date, nominal and real value in millions of dollars, forward citations; issue years 1926 to 2025, 10,599 distinct permnos), a patent-to-permco/permno match, and a patent-to-CPC match. Dates are stored as yyyymmdd.",
+        "The README says the 2026-09-09 release runs to the end of 2025 and that updated values differ slightly from the numbers in the paper, so results may not reproduce exactly. It asks users to cite the paper.",
+        "No license file is shown in the repository, so reuse terms are not stated. The CRSP permno and permco codes are identifiers from a separately licensed database; the files do not contain CRSP prices.",
+        "The deposit holds the values and match tables only, not the paper's estimation code.",
+        "GitHub repository (three zipped CSVs and README)",
+        "The repository was cloned (head 78ecbc8, 2026-09-09). All three zips were opened and every row counted, with headers matching the README; the value file was also scanned for its issue-year range and distinct permnos. The paper's full text was not read."
+      ],
+      "papers": [
+        {
+          "title": "Technological Innovation, Resource Allocation, and Growth",
+          "authors": "Leonid Kogan; Dimitris Papanikolaou; Amit Seru; Noah Stoffman",
+          "journal": "The Quarterly Journal of Economics",
+          "year": 2017,
+          "volume": "132",
+          "issue": "2",
+          "evidenceSection": "Repository README names the article and says the files extend its patent value series"
+        }
+      ],
+      "search": "kpss patent values, extended to 2025 (author-updated) patents author-maintained patent-level file with the stock-market-based value of each us patent granted to a public firm, its forward citations and its filing and issue dates, plus patent-to-crsp and patent-to-cpc match files. updated by the authors each year since the 2017 paper. three zipped csv files, each with 3,831,908 patent rows: the value file (patent number, crsp permno, issue date, filing date, nominal and real value in millions of dollars, forward citations; issue years 1926 to 2025, 10,599 distinct permnos), a patent-to-permco/permno match, and a patent-to-cpc match. dates are stored as yyyymmdd. the readme says the 2026-09-09 release runs to the end of 2025 and that updated values differ slightly from the numbers in the paper, so results may not reproduce exactly. it asks users to cite the paper. no license file is shown in the repository, so reuse terms are not stated. the crsp permno and permco codes are identifiers from a separately licensed database; the files do not contain crsp prices. the deposit holds the values and match tables only, not the paper's estimation code. github repository (three zipped csvs and readme) the repository was cloned (head 78ecbc8, 2026-09-09). all three zips were opened and every row counted, with headers matching the readme; the value file was also scanned for its issue-year range and distinct permnos. the paper's full text was not read. patents patent value stock market firm innovation author-shared data technological innovation, resource allocation, and growth leonid kogan; dimitris papanikolaou; amit seru; noah stoffman the quarterly journal of economics 2017"
     }
   ]
 }
