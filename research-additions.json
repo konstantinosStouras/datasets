@@ -323,6 +323,187 @@
       "evidenceSection": "The paper's abstract says it presents public crowdfunding databases; the Dataverse record for the Kickstarter database cites this article as its publication",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The abstract states that three public databases are presented (Kickstarter, Kiva, CrowdRise); only the Kickstarter database was found in a repository, and its Dataverse record names this article. The article's full text was not read."
+    },
+    "10.1002/smj.70017": {
+      "title": "Deskilling technology affords work amenity, increases labor supply",
+      "authors": "Pinchuan Ong; I. P. L. Png",
+      "journal": "Strategic Management Journal",
+      "year": 2025,
+      "volume": "47",
+      "issue": "2",
+      "pages": "364–389",
+      "onlineDate": "2025-09-19",
+      "doi": "10.1002/smj.70017",
+      "url": "https://doi.org/10.1002/smj.70017",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/IGBHPE",
+      "evidenceSection": "Dataverse record is titled as replication data for the article and is registered as a supplement to its DOI; the deposited README names the paper",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue, pages and online date. The Dataverse record (relation IsSupplementTo) and the deposited README both name the article. The article's full text was not read."
+    },
+    "10.1016/j.jbusvent.2023.106344": {
+      "title": "Doing the right things at the right times: The role of temporal enactment in venture outcome attainment",
+      "authors": "Trey Lewis; Diana M. Hechavarría; David W. Williams; Melissa S. Cardon",
+      "journal": "Journal of Business Venturing",
+      "year": 2024,
+      "volume": "39",
+      "issue": "1",
+      "pages": "106344",
+      "doi": "10.1016/j.jbusvent.2023.106344",
+      "url": "https://doi.org/10.1016/j.jbusvent.2023.106344",
+      "evidenceUrl": "https://doi.org/10.1016/j.jbusvent.2023.106344",
+      "evidenceSection": "Abstract: logit analysis with data from the harmonized PSED",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened (automated access is blocked or not open access)."
+    },
+    "10.1111/j.1540-6520.2011.00461.x": {
+      "title": "Resource Acquisition in the Emergence Phase: Considering the Effects of Embeddedness and Resource Dependence",
+      "authors": "Scott L. Newbert; Erno T. Tornikoski",
+      "journal": "Entrepreneurship Theory and Practice",
+      "year": 2013,
+      "volume": "37",
+      "issue": "2",
+      "pages": "249–280",
+      "doi": "10.1111/j.1540-6520.2011.00461.x",
+      "url": "https://doi.org/10.1111/j.1540-6520.2011.00461.x",
+      "evidenceUrl": "https://doi.org/10.1111/j.1540-6520.2011.00461.x",
+      "evidenceSection": "Abstract: analyzes data from the Panel Study of Entrepreneurial Dynamics I",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened (automated access is blocked or not open access)."
+    },
+    "10.1016/j.jbusvent.2012.09.003": {
+      "title": "Exploring the evolution of supporter networks in the creation of new organizations",
+      "authors": "Scott L. Newbert; Erno T. Tornikoski; Narda R. Quigley",
+      "journal": "Journal of Business Venturing",
+      "year": 2013,
+      "volume": "28",
+      "issue": "2",
+      "pages": "281–298",
+      "doi": "10.1016/j.jbusvent.2012.09.003",
+      "url": "https://doi.org/10.1016/j.jbusvent.2012.09.003",
+      "evidenceUrl": "https://doi.org/10.1016/j.jbusvent.2012.09.003",
+      "evidenceSection": "Abstract: longitudinal analysis using data from PSED I",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened (automated access is blocked or not open access)."
+    },
+    "10.1111/j.1540-6520.2012.00508.x": {
+      "title": "Understanding Gendered Variations in Business Growth Intentions across the Life Course",
+      "authors": "Amy E. Davis; Kelly G. Shaver",
+      "journal": "Entrepreneurship Theory and Practice",
+      "year": 2012,
+      "volume": "36",
+      "issue": "3",
+      "pages": "495–512",
+      "doi": "10.1111/j.1540-6520.2012.00508.x",
+      "url": "https://doi.org/10.1111/j.1540-6520.2012.00508.x",
+      "evidenceUrl": "https://doi.org/10.1111/j.1540-6520.2012.00508.x",
+      "evidenceSection": "Abstract: uses data from the U.S. Panel Study of Entrepreneurial Dynamics I and II",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened (automated access is blocked or not open access)."
+    },
+    "10.1177/10422587211057422": {
+      "title": "Advancing Entrepreneurship Theory Through Replication: A Case Study on Contemporary Methodological Challenges, Future Best Practices, and an Entreaty for Communality",
+      "authors": "G. Christopher Crawford; Vitaliy Skorodziyevskiy; Casey J. Frid; Thomas E. Nelson; Zahra Booyavi; Diana M. Hechavarria; Xuanye Li; Paul D. Reynolds; Ehsan Teymourian",
+      "journal": "Entrepreneurship Theory and Practice",
+      "year": 2022,
+      "volume": "46",
+      "issue": "3",
+      "pages": "779–799",
+      "doi": "10.1177/10422587211057422",
+      "url": "https://doi.org/10.1177/10422587211057422",
+      "evidenceUrl": "https://doi.org/10.1177/10422587211057422",
+      "evidenceSection": "Abstract: attempted replications of 19 seminal studies of new venture emergence that used PSED-type data",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened (automated access is blocked or not open access)."
+    },
+    "10.1016/j.jbusvent.2019.02.002": {
+      "title": "Debt signaling and outside investors in early stage firms",
+      "authors": "Mircea Epure; Martí Guasch",
+      "journal": "Journal of Business Venturing",
+      "year": 2020,
+      "volume": "35",
+      "issue": "2",
+      "pages": "105929",
+      "doi": "10.1016/j.jbusvent.2019.02.002",
+      "url": "https://doi.org/10.1016/j.jbusvent.2019.02.002",
+      "evidenceUrl": "https://doi.org/10.1016/j.jbusvent.2019.02.002",
+      "evidenceSection": "Abstract: tests hypotheses using the Kauffman Firm Survey",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened (automated access is blocked or not open access)."
+    },
+    "10.1016/j.jbusvent.2012.10.002": {
+      "title": "Industry and startup experience on entrepreneur forecast performance in new firms",
+      "authors": "Gavin Cassar",
+      "journal": "Journal of Business Venturing",
+      "year": 2014,
+      "volume": "29",
+      "issue": "1",
+      "pages": "137–151",
+      "doi": "10.1016/j.jbusvent.2012.10.002",
+      "url": "https://doi.org/10.1016/j.jbusvent.2012.10.002",
+      "evidenceUrl": "https://doi.org/10.1016/j.jbusvent.2012.10.002",
+      "evidenceSection": "Abstract: uses the Kauffman Firm Survey for 2,304 entrepreneurs",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened (automated access is blocked or not open access)."
+    },
+    "10.1016/j.jbusvent.2022.106208": {
+      "title": "The origins of capabilities: Resource allocation strategies, capability development, and the performance of new firms",
+      "authors": "Noni Symeonidou; Aija Leiponen; Erkko Autio; Johan Bruneel",
+      "journal": "Journal of Business Venturing",
+      "year": 2022,
+      "volume": "37",
+      "issue": "4",
+      "pages": "106208",
+      "doi": "10.1016/j.jbusvent.2022.106208",
+      "url": "https://doi.org/10.1016/j.jbusvent.2022.106208",
+      "evidenceUrl": "https://doi.org/10.1016/j.jbusvent.2022.106208",
+      "evidenceSection": "Abstract: draws on the longitudinal Kauffman Firm Survey of U.S. start-ups",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened (automated access is blocked or not open access)."
+    },
+    "10.1016/j.respol.2018.07.003": {
+      "title": "Innovation and productivity among heterogeneous firms",
+      "authors": "Diego M. Morris",
+      "journal": "Research Policy",
+      "year": 2018,
+      "volume": "47",
+      "issue": "10",
+      "pages": "1918–1932",
+      "doi": "10.1016/j.respol.2018.07.003",
+      "url": "https://doi.org/10.1016/j.respol.2018.07.003",
+      "evidenceUrl": "https://doi.org/10.1016/j.respol.2018.07.003",
+      "evidenceSection": "Abstract: harmonized data on 40,577 firms surveyed in the World Bank Enterprise Surveys",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened (automated access is blocked or not open access)."
+    },
+    "10.1111/etap.12238": {
+      "title": "Informal Entrepreneurship in Developing Economies: The Impacts of Starting up Unregistered on firm Performance",
+      "authors": "Colin C. Williams; Alvaro Martinez–Perez; Abbi M. Kedir",
+      "journal": "Entrepreneurship Theory and Practice",
+      "year": 2017,
+      "volume": "41",
+      "issue": "5",
+      "pages": "773–799",
+      "doi": "10.1111/etap.12238",
+      "url": "https://doi.org/10.1111/etap.12238",
+      "evidenceUrl": "https://doi.org/10.1111/etap.12238",
+      "evidenceSection": "Abstract: analyzes World Bank Enterprise Survey data across 127 countries",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened (automated access is blocked or not open access)."
+    },
+    "10.1016/j.respol.2019.103806": {
+      "title": "The employment impact of product innovations in sub-Saharan Africa: Firm-level evidence",
+      "authors": "Elvis Korku Avenyo; Maty Konte; Pierre Mohnen",
+      "journal": "Research Policy",
+      "year": 2019,
+      "volume": "48",
+      "issue": "9",
+      "pages": "103806",
+      "doi": "10.1016/j.respol.2019.103806",
+      "url": "https://doi.org/10.1016/j.respol.2019.103806",
+      "evidenceUrl": "https://unu-merit.nl/publications/wppdf/2019/wp2019-019.pdf",
+      "evidenceSection": "Working-paper version states it uses the Enterprise Survey merged with the Innovation Follow-Up Survey for sub-Saharan African countries",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The author working paper (UNU-MERIT, 2019) was read and states the use of the Enterprise Survey merged with the Innovation Follow-Up Survey; the published article's full text was not read."
     }
   },
   "datasets": [
@@ -1391,6 +1572,243 @@
         }
       ],
       "verification": "Dataverse API lists two public files under CC0 1.0. Range requests returned HTTP 206: the first part carries the split-archive signature and its start inflates to a SQLite 3 database header with the table names above; the second part's central directory lists the single file hdd/kickstarter.db. Complete files were not downloaded."
+    },
+    {
+      "topic": "Businesses",
+      "years": "Not specified",
+      "access": "Public",
+      "geography": "Other / not specified",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "paperDois": [
+        "10.1002/smj.70017"
+      ],
+      "id": "deskilling-technology-ride-hail-experiments",
+      "title": "Deskilling technology and ride-hail labor supply (replication data)",
+      "url": "https://doi.org/10.7910/DVN/IGBHPE",
+      "description": "Author replication package with participant-level data from a vignette experiment and a field experiment on how navigation technology affects ride-hail drivers' willingness to work, with Stata code.",
+      "tags": [
+        "Technology management",
+        "Technology strategy",
+        "Labor supply",
+        "Experiment",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Complete analysis data and Stata code for the paper's tables and figures, according to the deposited README. Stata 18 and the reghdfe, twoway_parea and ppmlhdfe packages are listed as requirements.",
+        "Vignette experiment: 26,499 choice rows from 803 participants. Field experiment: 200 rows from 50 participants. A small bootstrap-results table is also included (11 rows).",
+        "Participant-level data with de-identified IDs, including age and sex. The country or city of the ride-hail drivers is not stated in the files I read, so geography is left unspecified.",
+        "The README lists the data as .dta files; Dataverse serves converted tab-separated copies. The record is marked CC0 1.0 (version 2.0, October 2025)."
+      ],
+      "links": [
+        {
+          "title": "Vignette experiment data (tab-separated)",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/12555246",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Field experiment data (tab-separated)",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/12555249",
+          "checkedStatus": 200
+        },
+        {
+          "title": "README",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/12555250",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Dataverse API lists nine public files under CC0 1.0. The README, main script, bootstrap table, field experiment table (200 rows, 140 columns) and vignette table (26,499 rows, 32 columns) were downloaded and parsed."
+    },
+    {
+      "topic": "Entrepreneurship",
+      "years": "1998–2011",
+      "access": "Public · registration required",
+      "geography": "United States",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "paperDois": [
+        "10.1016/j.jbusvent.2023.106344",
+        "10.1111/j.1540-6520.2011.00461.x",
+        "10.1016/j.jbusvent.2012.09.003",
+        "10.1111/j.1540-6520.2012.00508.x",
+        "10.1177/10422587211057422"
+      ],
+      "id": "panel-study-of-entrepreneurial-dynamics-psed",
+      "title": "Panel Study of Entrepreneurial Dynamics (PSED)",
+      "url": "https://www.psed.isr.umich.edu/psed/home",
+      "description": "Longitudinal surveys that follow nationally representative samples of people starting businesses in the United States, with data on start-up activities, resources, networks and whether the venture emerges.",
+      "tags": [
+        "Entrepreneurship",
+        "Nascent entrepreneurs",
+        "Startups",
+        "New venture creation",
+        "Public dataset used in research"
+      ],
+      "notes": [
+        "Two cohorts: PSED I (screening 1998-2000, 830 nascent entrepreneurs, three follow-ups) and PSED II (screening 2005-2006, six yearly interviews), plus harmonized outcome files that combine them, according to the project site.",
+        "The PSED project site states that the data, including restricted geographic data, are distributed through ICPSR. ICPSR downloads need a free account; the restricted geographic data have extra conditions.",
+        "The cited papers state in their abstracts that they use PSED I, PSED II or the harmonized files. One cited paper is a replication study of PSED-based work and reports that only some replications succeeded; treat results from this survey with that in mind.",
+        "Not verified: ICPSR blocks scripted access, so the data files themselves were not opened for this entry. The ICPSR studies were confirmed through their DOI records, not by download."
+      ],
+      "links": [
+        {
+          "title": "PSED project site (data access statement)",
+          "url": "https://www.psed.isr.umich.edu/psed/home",
+          "checkedStatus": 200
+        },
+        {
+          "title": "PSED I at ICPSR (study 37203)",
+          "url": "https://doi.org/10.3886/ICPSR37203.v1"
+        },
+        {
+          "title": "PSED II at ICPSR (study 37202)",
+          "url": "https://doi.org/10.3886/ICPSR37202.v1"
+        },
+        {
+          "title": "PSED I and II harmonized transitions outcomes (ICPSR study 38153)",
+          "url": "https://doi.org/10.3886/ICPSR38153.v1"
+        }
+      ],
+      "verification": "The project site opened and states that PSED data are available through ICPSR. DataCite records exist for ICPSR studies 37203 (PSED I, 1998-2004), 37202 (PSED II, 2005-2011), 38153 and 38154 (harmonized files). ICPSR pages and files were not opened (access blocked), so no file content was inspected."
+    },
+    {
+      "topic": "Entrepreneurship",
+      "years": "2004–2011",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "paperDois": [
+        "10.1016/j.jbusvent.2019.02.002",
+        "10.1016/j.jbusvent.2012.10.002",
+        "10.1016/j.jbusvent.2022.106208"
+      ],
+      "id": "kauffman-firm-survey",
+      "title": "Kauffman Firm Survey (public-use microdata)",
+      "url": "https://www.kauffman.org/resources/kauffman-firm-survey/",
+      "description": "Panel survey of 4,928 U.S. businesses founded in 2004 and followed through 2011, covering strategy, financing, employment and founder characteristics of new firms.",
+      "tags": [
+        "Entrepreneurship",
+        "Startups",
+        "New firms",
+        "Entrepreneurial finance",
+        "Public dataset used in research"
+      ],
+      "notes": [
+        "Public-use microdata in SAS, SPSS and Stata formats, from the baseline (2004) to the seventh follow-up (2011), plus a Stata version with logically imputed values in wide and long format.",
+        "More detailed confidential data (finer industry and location codes) are available only through the paid NORC Data Enclave. Some papers use that restricted version, for example a Management Science paper on minority-owned start-ups and a Review of Financial Studies paper on capital structure. They are not cited here because they did not use the public files.",
+        "The cited papers state in their abstracts that they use the Kauffman Firm Survey but do not say whether it was the public-use or the restricted version. Check before comparing results.",
+        "The Stata public-use file name has dashes; SAS users must remove them, according to the foundation's page."
+      ],
+      "links": [
+        {
+          "title": "Public-use microdata, Stata (171 MB)",
+          "url": "https://kauffman-firm-survey.s3-us-west-2.amazonaws.com/KFS8---PublicUse-101413---STATA.dta",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Logically imputed public data, Stata (ZIP, 11 MB)",
+          "url": "https://kauffman-firm-survey.s3-us-west-2.amazonaws.com/Logically_Imputed_KFS_Public_Data.zip",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Kauffman Foundation survey page",
+          "url": "https://www.kauffman.org/resources/kauffman-firm-survey/",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The Stata public-use file was downloaded and read: 4,928 firms (unique IDs) and 4,492 variables, matching the foundation's description. The imputed-data ZIP was downloaded and listed (wide and long Stata files, an Excel file and a read-me). No terms of use were found on the page; the foundation provides the files for download."
+    },
+    {
+      "topic": "Businesses",
+      "years": "2001–2026 (survey years in the catalog)",
+      "access": "Public · registration required",
+      "geography": "International",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [],
+      "designs": [
+        "Repeated cross-section"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "paperDois": [
+        "10.1016/j.respol.2018.07.003",
+        "10.1111/etap.12238",
+        "10.1016/j.respol.2019.103806"
+      ],
+      "id": "world-bank-enterprise-surveys",
+      "title": "World Bank Enterprise Surveys",
+      "url": "https://www.enterprisesurveys.org/en/enterprisesurveys",
+      "description": "Firm-level surveys of managers and owners in emerging and developing economies on the business environment, innovation, finance, workforce and performance, with matching economy-level indicators.",
+      "tags": [
+        "Entrepreneurship",
+        "Innovation",
+        "Firm-level survey",
+        "Developing economies",
+        "Public dataset used in research"
+      ],
+      "notes": [
+        "The Microdata Library lists 794 Enterprise Surveys studies, from country surveys to topical follow-ups such as the Innovation Follow-Up Surveys and a 2026 artificial intelligence follow-up (India).",
+        "Firm-level microdata need a free login on the Enterprise Surveys portal; economy-level indicators are shown without one. Users must cite the dataset in the form the World Bank gives for each study.",
+        "Most surveys are repeated cross-sections of different firms; a smaller set of panel data exists, according to the program. The cited papers use pooled or merged survey rounds.",
+        "Not verified: microdata files sit behind the login, so no data file was opened for this entry. The public sampling methodology note (a PDF) and the catalog records were checked instead."
+      ],
+      "links": [
+        {
+          "title": "Enterprise Surveys home and data access",
+          "url": "https://www.enterprisesurveys.org/en/enterprisesurveys",
+          "checkedStatus": 200
+        },
+        {
+          "title": "World Bank Microdata Library: Enterprise Surveys collection",
+          "url": "https://microdata.worldbank.org/index.php/catalog/enterprise_surveys",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Sampling methodology note (PDF)",
+          "url": "https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/methodology/Sampling_Note-Consolidated-2-16-22.pdf",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The program page states that the survey information is publicly available at economy and firm level. The Microdata Library API returned 794 studies in the collection (earliest study year 2001) and a study record with its citation requirement and stratified sampling description. The sampling note PDF was downloaded. Login-gated microdata were not accessed."
     }
   ]
 }
