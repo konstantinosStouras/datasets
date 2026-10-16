@@ -6,6 +6,7 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the container clock. (An earlier version of this log used estimated times; they have been replaced with these observed ones.)
 
+- 14:10 Batch 13 submitted: three Management Science deposits (Guzman and Li founding strategy; Gong and Png automation; Roach and Sauermann startup hiring) found by matching the site's Management Science paper list against Dataverse search results. Six other Management Science leads logged and not added.
 - 13:35 DataCite sweep complete (21 of 21). Bloom and Van Reenen management practices data added (found in chunk 19) and live (run 38906891938, 13:19:05; 169 entries). `research-additions.json` now holds 52 datasets and 79 papers.
 - 13:25 Batch 12 KPSS entry live (run 38905816430, 13:10:38). Two more QJE deposits (Bell et al., Kline et al.) live too (run 38906120243, 13:13:08; 168 entries). Sweep chunks 18 and 19 of 21 reviewed or in progress. Batch 11 confirmed live (run 38905315190, 13:06:36). DataCite sweep: 18 of 21 chunks done.
 - 12:15 Batch 5 live (CrowdBerkeley Kickstarter database; run 38899203737 succeeded at 12:15:15). `main`'s `catalog-public.json` then showed 138 collections, 21 research entries, no URLs. The raw.githubusercontent.com copy lagged for a few minutes behind `main`, so I checked the file in git.
@@ -271,6 +272,24 @@ Sweep review, chunk 18 (EJOR, Review of Economic Studies, JOM, JMIS, AER 2009-20
 Sweep finished (all 21 chunks, 20,247 topic-matched FT50 papers). Chunks 19 and 20 added one verified dataset (Bloom and Van Reenen above). The rest of their hits were unrelated figshare or Zenodo records and another set of AER 2006-2008 openICPSR deposits that cannot be checked by script (for example Does Innovation Cause Stock Market Runups? e113255; Restructuring Research e113260; On the Cyclicality of Research and Development e116283; Estimating the Effects of Global Patent Protection in Pharmaceuticals e116242). The sweep only covers papers that DataCite links by DOI, so it is a floor and not a census.
 
 Dry run of the publisher's merge code before pushing the management practices entry: 169 collections, 52 research entries, no duplicate IDs.
+
+## Batch 13 (2026-10-16): Management Science deposits found through the owner's literature database
+
+Status: committed through a pull request. **Not confirmed until the workflow run and live feed are recorded here.**
+
+Method: the 12,485 Management Science records in the site's `papers-ms.json` were filtered to innovation, new product, entrepreneurship, patent and technology topics (2,766 not yet in the review queues; 690 of them from 2010 on with a narrow topic match). Abstract cues were checked, and the Harvard Dataverse and DataverseNL search APIs were queried for records mentioning "Management Science" (68 records) and matched to paper titles. Most Management Science abstracts point only to the INFORMS supplement, which scripts cannot read.
+
+| Dataset ID | Paper | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `founding-strategy-startup-website-text` | Guzman, Li, Management Science 69(1), 101-118 (2023), DOI 10.1287/mnsc.2022.4369 | [Dataverse NRYTAA](https://doi.org/10.7910/DVN/NRYTAA), CC0, 102 files, about 11 GB. README read; 2003 website-text table downloaded and parsed (4,674 rows: 493 startups, 4,181 public firms); Stata similarity file header read by range request. | Beta release; analysis file needs Crunchbase academic data. Model files are Python pickles, not opened. GitHub code page unreachable from here. Third-party website text. |
+| `automation-specialization-cashier-taxi-data` | Gong, Png, Management Science 70(3), 1580-1595 (2024), DOI 10.1287/mnsc.2023.4760 | [Dataverse JKYRPS](https://doi.org/10.7910/DVN/JKYRPS), CC0. README and disguise note read; cashier table 152,246 x 350 (4 stores) and taxi survey 402 x 39 downloaded in full and parsed. | Cashier data disguised under an NDA; one appendix table not reproducible. Country and years not stated in the deposit. |
+| `startup-hiring-phd-job-choice-replication` | Roach, Sauermann, Management Science 70(6), 3619-3644 (2024), DOI 10.1287/mnsc.2023.4868 | [Dataverse IGFCET](https://doi.org/10.7910/DVN/IGFCET), CC0. Table 2,415 x 22 and do-file downloaded and read. | Depositors allow replication use only, despite the CC0 label. Survey years not in the deposit. |
+
+Management Science leads checked and not added: Younkin and Kuppuswamy 2018 crowdfunding (the DataCite link is the UNC copy of the article text, no data); Zhang, Yu and Chen 2022 return insurance (DataverseNL JD.com files all restricted); Niu et al. 2024 bullwhip (data-report PDF only); Gillingham and Bollinger 2021 solar adoption (openICPSR, blocked); Becker et al. 2022 crowd classification (CC0 experiment files, outside the core topic, not inspected); Cappelen et al. 2025 consumer exploitation experiment (CC0, outside topic). A Zenodo search for Management Science deposits was started and had not returned when this batch was committed.
+
+Also in this batch: the batch 12 entries now use the catalog's standard vocabulary (Administrative records, Firms & institutions, Panel / longitudinal, Places & geographic areas).
+
+Dry run of the publisher's merge code before pushing: 172 collections, 55 research entries, no duplicate IDs.
 
 ## State at the earlier pause (historical)
 
