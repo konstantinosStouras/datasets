@@ -16,7 +16,7 @@ if(process.env.GOOGLE_APPLICATION_CREDENTIALS){
 }
 const project='stouras-dataset-library';
 async function api(url,method='GET',body){
-  const response=await fetch(url,{method,headers:{Authorization:'Bearer '+credentials.access_token,'Content-Type':'application/json','x-goog-user-project':project},...(body?{body:JSON.stringify(body)}:{})});
+  const response=await fetch(url,{method,headers:{Authorization:'Bearer '+credentials.access_token,'Content-Type':'application/json',...(!process.env.GOOGLE_APPLICATION_CREDENTIALS?{'x-goog-user-project':project}:{})},...(body?{body:JSON.stringify(body)}:{})});
   const result=await response.json();if(!response.ok)throw new Error(JSON.stringify(result.error||result));return result;
 }
 if(process.argv.includes('enable')){
