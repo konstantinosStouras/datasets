@@ -6,6 +6,7 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the container clock. (An earlier version of this log used estimated times; they have been replaced with these observed ones.)
 
+- 15:12 Batch 14 live (run 38920471271, 15:01:20; 178 entries). REStud Zenodo community (544 records) matched and scored; ten mid-sized packages downloaded and listed, four large ones listed by reading the zip directory with range requests.
 - 15:05 Batch 14 submitted: six QJE and JPE deposits (patent applications 1998-2003, French industrialization panels, inventor migration database, federal R&D funding tables, Chinese AI firms, automation patent panels). Sweep at about 18,000 of 113,511 with 458 hits.
 - 14:40 FT50-wide DataCite batch sweep started (113,511 papers from 1996 on); QJE, JPE, REStud and Econometric Society replication archives listed. Owner: no experiments category, focus on 1996 on, prefer reusable datasets.
 - 14:12 Batch 13 live (run 38913236095, 14:07:51; 172 entries).
@@ -309,7 +310,7 @@ Next: triage the sweep hits by host and journal, drop figshare "Additional file"
 
 ## Batch 14 (2026-10-16): six deposits from the QJE and JPE replication archives
 
-Status: committed through a pull request. **Not confirmed until the workflow run and live feed are recorded here.**
+Status: published and confirmed. Workflow run 38920471271 succeeded at 15:01:20 UTC; `catalog-public.json` on `main` then held 178 entries including all six IDs. The Chinese AI-firm entry was then enriched with the REStud 2023 paper and its Zenodo package (next pull request).
 
 Found by listing the Harvard Dataverse QJE and JPE collections, matching deposit titles and citations to the Lit, scoring the 826 matched papers from 1996 on by management relevance, and inspecting the top of that list.
 

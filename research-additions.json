@@ -1335,6 +1335,22 @@
       "evidenceSection": "QJE Dataverse record titled with the paper's name",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
+    },
+    "10.1093/restud/rdac056": {
+      "title": "Data-intensive Innovation and the State: Evidence from AI Firms in China",
+      "authors": "Martin Beraja; David Y. Yang; Noam Yuchtman",
+      "journal": "The Review of Economic Studies",
+      "year": 2023,
+      "volume": "90",
+      "issue": "4",
+      "pages": "1701–1723",
+      "onlineDate": "2022-08-13",
+      "doi": "10.1093/restud/rdac056",
+      "url": "https://doi.org/10.1093/restud/rdac056",
+      "evidenceUrl": "https://doi.org/10.5281/zenodo.6607692",
+      "evidenceSection": "Zenodo record in the REStud replication community names the paper; its zip holds the same baseline firm data files as the QJE deposit",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Zenodo record names the paper. The article's full text was not read."
     }
   },
   "datasets": [
@@ -4401,7 +4417,8 @@
         "Panel / longitudinal"
       ],
       "paperDois": [
-        "10.1093/qje/qjad012"
+        "10.1093/qje/qjad012",
+        "10.1093/restud/rdac056"
       ],
       "id": "china-ai-firms-surveillance-contracts-data",
       "title": "Chinese facial-recognition AI firms: software, patents, government contracts and unrest data (AI-tocracy)",
@@ -4420,12 +4437,18 @@
       "notes": [
         "One 610 MB zip with 190 files, including 74 Stata datasets. Main firm panel: 1,040,621 software-or-patent level rows with 120 variables (firm id, year, month, patent and software ids, AI industry flag, contract timing, police contracts, city, province, capital). Other tables: contracts (4 MB), software versions (74,229 rows), prefecture-quarter unrest (8,060 rows), weather station panel (257 MB), GDELT event files (up to 3 GB).",
         "The README says the firm, software, capital and demographic data were bought from commercial providers (Tianyancha, Pitchbook, qcc.com, CEIC) and are released in deidentified form; procurement data were scraped from the Chinese Government Procurement site. Reuse beyond replication may be limited by those providers' terms. One column name in the software table is in Chinese.",
-        "CC0 on Harvard Dataverse (QJE collection)."
+        "CC0 on Harvard Dataverse (QJE collection).",
+        "The earlier Review of Economic Studies paper by three of the same authors has its own replication package on Zenodo (record 6607692, CC BY 4.0, 112 MB zip with 105 files, 939 MB unpacked) built on the same baseline firm data file plus a second-contract table; that zip was downloaded and its contents listed."
       ],
       "links": [
         {
           "title": "Dataverse record (zip and README)",
           "url": "https://doi.org/10.7910/DVN/GCOVGX",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Zenodo package for the REStud paper (same baseline data)",
+          "url": "https://doi.org/10.5281/zenodo.6607692",
           "checkedStatus": 200
         }
       ],
