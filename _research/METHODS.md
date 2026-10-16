@@ -55,4 +55,9 @@ After publication check the actual GitHub workflow outcome and live feed. Record
 - Read an abstract's whole data sentence before trusting a repository word: a link to an Open Practices badge page is not a data location.
 - When a record is public but anonymous requests show no files, do not add it; log it as an unresolved lead with the reason.
 - For datasets containing personal data, state it in the entry notes and advise ethical use.
+- DataCite quoted-DOI search is the best systematic finder: `https://api.datacite.org/dois?query="<paper DOI>"` returns deposits that mention the paper (Zenodo, Dataverse, Dryad, figshare, ICPSR, institutional repositories). A hit is a lead: confirm the deposit names the paper, then open the files. An ICPSR record that lists a paper in its bibliography does not by itself show the paper used the data.
+- Publisher-hosted supplements (INFORMS, Wiley, SAGE) answer scripted requests with HTTP 403 or a challenge page; do not bypass them. Record such papers as unresolved and prefer open repositories.
+- Government sites may return an HTML 'page not found' with HTTP 200. Open the downloaded bytes; for SAS transport files check for the `HEADER RECORD*****LIBRARY HEADER RECORD` text and parse with `pandas.read_sas(format='xport')`.
+- For a dataset already in the upstream README, add a research record with the same `id` and `url`: the publisher merge replaces fields in place. Dry-run it with the repository's own `mergeResearch` and `parseCatalog` before pushing.
+- Many replication packages contain inventor, author or repository-owner names. Say so in the entry notes.
 

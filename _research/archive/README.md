@@ -1,6 +1,6 @@
 # Historical research helpers
 
-These six scripts preserve the discovery, verification and entry-preparation work from 16 October 2026. They were previously stored only in the original assistant's local working folder. They are reference material, not part of the website build or an instruction to repeat completed work.
+These scripts preserve the discovery, verification and entry-preparation work from 16 October 2026. They were previously stored only in the original assistant's local working folder. They are reference material, not part of the website build or an instruction to repeat completed work.
 
 **Do not run them unchanged.** Several contain original-machine paths. In particular, `export-shortlist.py` overwrites the research README and reconstructs review statuses from an older candidate snapshot; running it could erase newer manual findings. The two `add-*.py` files reconstruct older catalog entries and could replace later improvements. Adapt paths and behavior, preserve current records, and review proposed diffs before any reuse.
 
@@ -10,6 +10,7 @@ These six scripts preserve the discovery, verification and entry-preparation wor
 | `export-shortlist.py` | Original queue export; superseded by the maintained CSV files |
 | `check-zenodo.py` | Public API metadata and bounded file checks for two Zenodo records |
 | `verify-research.py` | NBER page links and Crossref metadata check |
+| `datacite-sweep.py` | Added 2026-10-16 by the continuation session. Usage: `python3 -I datacite-sweep.py dois.txt out.json` (one DOI per line). Queries DataCite for deposits that mention each paper DOI; read-only, polite 6-thread pool. Output is a list of leads to verify by hand |
 | `add-dell-data.py` | Prepared the already-published Dell entry and citations |
 | `add-verified-technology-data.py` | Prepared the already-published firm technology and DISCERN entries |
 

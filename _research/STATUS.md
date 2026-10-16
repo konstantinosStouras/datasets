@@ -63,6 +63,29 @@ Queue rows: Arts et al. 2018 appended to both queues; the other two set to verif
 
 Searched all abstracts in the cloned site database (269,424 unique DOIs across `lit/data` and `lit/data-ft50`) for repository words (Zenodo, Dataverse, OSF, GitHub, figshare, Dryad, DOI prefixes 10.5281, 10.7910, 10.17605) combined with innovation topic words: 77 hits, most from INFORMS Journal on Computing optimization code (off-topic, not reviewed). Hits that were relevant were checked by hand. Also checked repository search APIs by title; results are noisy. Abstract cues cover only part of the field: many papers state data locations only in the full text.
 
+## Batch 4 (2026-10-16): three new datasets and one enriched collection
+
+Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+
+| Dataset ID | Paper | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `open-source-write-access-novelty-survival` | Medappa, Srivastava, Favaron, Research Policy 54(8), 105284 (2025), DOI 10.1016/j.respol.2025.105284 | [DataverseNL VQC4OD](https://doi.org/10.34894/VQC4OD), 13 public files, record titled as replication data for the paper. Eight files downloaded and parsed: panel 45,418 rows (6,277 repositories), survival 6,563 rows, training 759 and test 190 rows, Stata code. | Semicolon-delimited. Code that built the data from GitHub is not in the deposit. License field says GNU GPL v3.0. Repository owner handles appear. Paper full text not read. |
+| `wwii-us-patent-secrecy-orders` | Gross, Management Science 69(4), 2318-2338 (2023), DOI 10.1287/mnsc.2022.4457 | [Harvard Dataverse 6ZAJGK](https://doi.org/10.7910/DVN/6ZAJGK), CC BY-NC 4.0, two files, both downloaded: 8,475 records, 5 columns, filings 1932-1945, 6,353 with patent numbers. README read, names the paper. | Non-commercial license. Only 6,353 records link to granted patents. Paper full text not read. Found through DataCite; paper was missing from both queues. |
+| `inventor-firm-innovation-replication-archive` | Bhaskarabhatla, Cabral, Hegde, Peeters, Management Science 67(6), 3899-3920 (2021), DOI 10.1287/mnsc.2020.3646 | [DataverseNL NLQTNC](https://doi.org/10.34894/NLQTNC) (the Erasmus DOI forwards here), CC-BY-4.0, 25 public files, 2.9 GB. README read in full. Small files parsed; largest Stata files returned 206 with the Stata signature. | README says some source files (full Compustat) cannot be shared. Contains inventor names with LinkedIn employment spells: personal-data note in the entry. Compustat-derived terms. Large files not downloaded. Also missing from the queues. |
+| `national-health-and-nutrition-examination-survey-nhanes` (existing upstream entry, enriched) | Nicolaou, Patel, Wolfe, Management Science 64(4), 1825-1841 (2018), DOI 10.1287/mnsc.2016.2664 | Abstract names NHANES 2011-2012. Three CDC SAS transport files (TST_G, OCQ_G, DEMO_G) downloaded and parsed. | Only the 2011-2012 cycle files were checked. The paper's other data (Understanding Society Innovation Panel) are not covered. The CDC `Nchs/Nhanes/2011-2012/*.XPT` links return HTML 'not found' with status 200; the working path is `Nchs/Data/Nhanes/Public/2011/DataFiles/`. Date added is today because the original had none. |
+
+The dry run of the publisher's own merge code (`mergeResearch`) before pushing gave 137 collections, 20 research entries, no duplicate IDs, NHANES enriched in place.
+
+### Leads found in this pass and not added
+
+- `10.1177/10422587221084249` (Block et al., Entrepreneurship Theory and Practice, family-firm innovation replication): DataCite lists SAGE-hosted supplement files (CSV, XLSX, R, DOCX), but the host answers automated requests with a Cloudflare challenge. Not verified, not bypassed.
+- `10.1177/10422587251322409` (Replicating Davidsson and Honig, ETP 2025) and `10.1016/j.respol.2017.07.008` (CrowdBerkeley, Research Policy 2017): ICPSR records (PSED II, Kickstarter Data) list these papers, but this only shows a bibliography link, not use; ICPSR needs registration. The CrowdBerkeley paper presents three public databases whose download location was not found yet.
+- Off-priority replication records found for Management Science: servitization bullwhip effect (DataverseNL `10.34894/oveyga`), return-insurance JD.com data (DataverseNL `10.34894/uxtgk8`), corporate environmental engagement (SMU RDR `10.25440/smu.17869031`), "Cancel the deal?" experiment (Dataverse `10.7910/DVN/TOYM2W`). Not reviewed because outside the priority topics; available for a later pass.
+
+### Systematic discovery by DataCite
+
+DataCite indexes Zenodo, Dataverse, Dryad, figshare, ICPSR and many institutional repositories. A quoted-DOI query finds deposits whose metadata mention a paper. Run over the 359 DOIs in the two queues: 20 had hits. A second sweep over 20,247 topic-matched FT50 papers (2006 onward; order: Management Science, M&SOM, POM, SMJ, Organization Science, Research Policy, others) runs in chunks; the first 1,000 (all Management Science) gave the Gross and Bhaskarabhatla et al. records. The sweep output is kept outside the repository; rerun with `_research/archive/datacite-sweep.py` after adding it if needed.
+
 ## State at the earlier pause (historical)
 
 - Dataset fork checkout: `C:/Users/LENOVO/Dropbox/Others/GitHub/datasets`, branch `main`, last local committed checkpoint `2c9ee34` (review queues). Inspect current status/remotes before continuing; remote scheduled jobs can advance independently.
