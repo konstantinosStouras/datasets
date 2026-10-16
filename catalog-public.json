@@ -6344,6 +6344,131 @@
         }
       ],
       "search": "kpss patent values, extended to 2025 (author-updated) patents author-maintained patent-level file with the stock-market-based value of each us patent granted to a public firm, its forward citations and its filing and issue dates, plus patent-to-crsp and patent-to-cpc match files. updated by the authors each year since the 2017 paper. three zipped csv files, each with 3,831,908 patent rows: the value file (patent number, crsp permno, issue date, filing date, nominal and real value in millions of dollars, forward citations; issue years 1926 to 2025, 10,599 distinct permnos), a patent-to-permco/permno match, and a patent-to-cpc match. dates are stored as yyyymmdd. the readme says the 2026-09-09 release runs to the end of 2025 and that updated values differ slightly from the numbers in the paper, so results may not reproduce exactly. it asks users to cite the paper. no license file is shown in the repository, so reuse terms are not stated. the crsp permno and permco codes are identifiers from a separately licensed database; the files do not contain crsp prices. the deposit holds the values and match tables only, not the paper's estimation code. github repository (three zipped csvs and readme) the repository was cloned (head 78ecbc8, 2026-09-09). all three zips were opened and every row counted, with headers matching the readme; the value file was also scanned for its issue-year range and distinct permnos. the paper's full text was not read. patents patent value stock market firm innovation author-shared data technological innovation, resource allocation, and growth leonid kogan; dimitris papanikolaou; amit seru; noah stoffman the quarterly journal of economics 2017"
+    },
+    {
+      "id": "who-becomes-an-inventor-public-tables",
+      "title": "Who becomes an inventor in America: public data tables",
+      "topic": "Patents",
+      "description": "Aggregate tables from linked tax and patent records showing the share of children who become inventors by commuting zone, state, parents' income, and also patent grants by area and year, inventors by college, and inventor income by age. Released by the authors with the Stata code for the paper.",
+      "years": "Birth cohorts and patent grants by area; income outcomes by age",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative"
+      ],
+      "units": [
+        "Individuals",
+        "Regions"
+      ],
+      "tools": [
+        "Stata",
+        "CSV"
+      ],
+      "designs": [
+        "Panel"
+      ],
+      "features": [
+        "Demographics",
+        "Income / earnings"
+      ],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Patents",
+        "Inventors",
+        "Social mobility",
+        "Regional data",
+        "Exposure to innovation",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Seven CSV tables: 741 commuting zones (table 1a), 51 states (1b), 574,741 rows of grants by commuting zone, cohort, age and year (2a), 51,051 rows by state (2b), 423 colleges (3), and two tables of inventor income by age (4a with 684 rows, 4b with 46 rows). A codebook PDF is included but was not read.",
+        "These are aggregate tables only. The README says the individual-level tax and patent microdata are not public, so the paper cannot be fully replicated; the Stata code is provided for reference.",
+        "Licensed CC0 on Harvard Dataverse (one 26.7 MB zip).",
+        "Dataverse record (code_and_data.zip, 26.7 MB)",
+        "The zip was downloaded in full (size matches Dataverse). The README was read, and all seven tables were opened with their row and column counts recorded. The codebook and the paper's full text were not read."
+      ],
+      "papers": [
+        {
+          "title": "Who Becomes an Inventor in America? The Importance of Exposure to Innovation",
+          "authors": "Alex Bell; Raj Chetty; Xavier Jaravel; Neviana Petkova; John Van Reenen",
+          "journal": "The Quarterly Journal of Economics",
+          "year": 2019,
+          "volume": "134",
+          "issue": "2",
+          "evidenceSection": "Harvard Dataverse record lists this article as its related publication"
+        }
+      ],
+      "search": "who becomes an inventor in america: public data tables patents aggregate tables from linked tax and patent records showing the share of children who become inventors by commuting zone, state, parents' income, and also patent grants by area and year, inventors by college, and inventor income by age. released by the authors with the stata code for the paper. seven csv tables: 741 commuting zones (table 1a), 51 states (1b), 574,741 rows of grants by commuting zone, cohort, age and year (2a), 51,051 rows by state (2b), 423 colleges (3), and two tables of inventor income by age (4a with 684 rows, 4b with 46 rows). a codebook pdf is included but was not read. these are aggregate tables only. the readme says the individual-level tax and patent microdata are not public, so the paper cannot be fully replicated; the stata code is provided for reference. licensed cc0 on harvard dataverse (one 26.7 mb zip). dataverse record (code_and_data.zip, 26.7 mb) the zip was downloaded in full (size matches dataverse). the readme was read, and all seven tables were opened with their row and column counts recorded. the codebook and the paper's full text were not read. patents inventors social mobility regional data exposure to innovation replication data author-shared data who becomes an inventor in america? the importance of exposure to innovation alex bell; raj chetty; xavier jaravel; neviana petkova; john van reenen the quarterly journal of economics 2019"
+    },
+    {
+      "id": "who-profits-from-patents-application-data",
+      "title": "Who profits from patents: patent application sample (partial replication data)",
+      "topic": "Patents",
+      "description": "Partial replication package from a study of rent-sharing at patenting firms. The shared data are a USPTO patent application sample with filing dates and assignee names, small decision-lag tables and summary results, together with the full Stata and SAS build and analysis code. The tax and wage records the study relies on are not included.",
+      "years": "Applications 2000–2013",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative"
+      ],
+      "units": [
+        "Patents",
+        "Firms"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Cross-section"
+      ],
+      "features": [
+        "Income / earnings",
+        "Names / addresses"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          2000,
+          2013
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Patents",
+        "Patent applications",
+        "Rent-sharing",
+        "Replication code",
+        "Partial data",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Main data file: KPWZ_waterfall.dta with 3,737,351 patent application rows (application years 2000 to 2013; columns for assignee name, application number, filing date, status, kind code and a count of earlier grants). 3,314,571 rows carry an assignee name. Smaller files: years-to-decision for 99,871 applications, a 12-row table of years until grant after a first rejection, and a table of summary estimates.",
+        "This is a partial package. The firm-level tax, payroll and wage data behind the main results are confidential and not included; the build code is there to show how they were made. Estimation output tables are included.",
+        "Licensed CC0 on Harvard Dataverse (one 32.6 MB zip, version 2).",
+        "Dataverse record (KPWZ_replication.zip, 32.6 MB)",
+        "The zip was downloaded in full and its contents listed. The READMEs were read, and the four small Stata files and the large application file were opened with their rows counted. The paper's full text and the appendix PDF were not read."
+      ],
+      "papers": [
+        {
+          "title": "Who Profits from Patents? Rent-Sharing at Innovative Firms",
+          "authors": "Patrick Kline; Neviana Petkova; Heidi Williams; Owen Zidar",
+          "journal": "The Quarterly Journal of Economics",
+          "year": 2019,
+          "volume": "134",
+          "issue": "3",
+          "evidenceSection": "Harvard Dataverse record lists this article as its related publication"
+        }
+      ],
+      "search": "who profits from patents: patent application sample (partial replication data) patents partial replication package from a study of rent-sharing at patenting firms. the shared data are a uspto patent application sample with filing dates and assignee names, small decision-lag tables and summary results, together with the full stata and sas build and analysis code. the tax and wage records the study relies on are not included. main data file: kpwz_waterfall.dta with 3,737,351 patent application rows (application years 2000 to 2013; columns for assignee name, application number, filing date, status, kind code and a count of earlier grants). 3,314,571 rows carry an assignee name. smaller files: years-to-decision for 99,871 applications, a 12-row table of years until grant after a first rejection, and a table of summary estimates. this is a partial package. the firm-level tax, payroll and wage data behind the main results are confidential and not included; the build code is there to show how they were made. estimation output tables are included. licensed cc0 on harvard dataverse (one 32.6 mb zip, version 2). dataverse record (kpwz_replication.zip, 32.6 mb) the zip was downloaded in full and its contents listed. the readmes were read, and the four small stata files and the large application file were opened with their rows counted. the paper's full text and the appendix pdf were not read. patents patent applications rent-sharing replication code partial data author-shared data who profits from patents? rent-sharing at innovative firms patrick kline; neviana petkova; heidi williams; owen zidar the quarterly journal of economics 2019"
     }
   ]
 }
