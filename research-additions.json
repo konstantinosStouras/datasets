@@ -1518,6 +1518,70 @@
       "evidenceSection": "QJE Dataverse record and README name the paper",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Dataverse record and README name the paper. The article's full text was not read."
+    },
+    "10.1093/qje/qjz021": {
+      "title": "Firm-Level Political Risk: Measurement and Effects",
+      "authors": "Tarek A. Hassan; Stephan Hollander; Laurence van Lent; Ahmed Tahoun",
+      "journal": "The Quarterly Journal of Economics",
+      "year": 2019,
+      "volume": "134",
+      "issue": "4",
+      "pages": "2135–2202",
+      "onlineDate": "2019-08-26",
+      "doi": "10.1093/qje/qjz021",
+      "url": "https://doi.org/10.1093/qje/qjz021",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/OBNRBP",
+      "evidenceSection": "QJE Dataverse record names the paper; the do-file reproduces its tables",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Dataverse record is the paper's replication deposit in the QJE collection. The article's full text was not read."
+    },
+    "10.1093/qje/qjad048": {
+      "title": "The Economic Impacts of COVID-19: Evidence from a New Public Database Built Using Private Sector Data",
+      "authors": "Raj Chetty; John N. Friedman; Michael Stepner; and the Opportunity Insights Team",
+      "journal": "The Quarterly Journal of Economics",
+      "year": 2024,
+      "volume": "139",
+      "issue": "2",
+      "pages": "829–889",
+      "onlineDate": "2023-10-04",
+      "doi": "10.1093/qje/qjad048",
+      "url": "https://doi.org/10.1093/qje/qjad048",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/4CFSZW",
+      "evidenceSection": "QJE Dataverse record and the tracker README name the paper",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, lead authors, journal, volume, issue and pages (Crossref lists the Opportunity Insights Team members individually). The Dataverse record is the paper's replication deposit and the README cites the paper. The article's full text was not read."
+    },
+    "10.1093/qje/qjab023": {
+      "title": "Hall of Mirrors: Corporate Philanthropy and Strategic Advocacy",
+      "authors": "Marianne Bertrand; Matilde Bombardini; Raymond Fisman; Brad Hackinen; Francesco Trebbi",
+      "journal": "The Quarterly Journal of Economics",
+      "year": 2021,
+      "volume": "136",
+      "issue": "4",
+      "pages": "2413–2465",
+      "onlineDate": "2021-07-02",
+      "doi": "10.1093/qje/qjab023",
+      "url": "https://doi.org/10.1093/qje/qjab023",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/UBRTKS",
+      "evidenceSection": "QJE Dataverse record and README name the paper",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Dataverse README is titled as the replication package for the paper and maps each table and figure to code. The article's full text was not read."
+    },
+    "10.1177/00222437241276736": {
+      "title": "Generative Interpretable Visual Design: Using Disentanglement for Visual Conjoint Analysis",
+      "authors": "Ankit Sisodia; Alex Burnap; Vineet Kumar",
+      "journal": "Journal of Marketing Research",
+      "year": 2025,
+      "volume": "62",
+      "issue": "3",
+      "pages": "405–428",
+      "onlineDate": "2024-12-16",
+      "doi": "10.1177/00222437241276736",
+      "url": "https://doi.org/10.1177/00222437241276736",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/48AFKL",
+      "evidenceSection": "Dataverse record and README name the paper",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The README inside the deposit names the paper (as under review at JMR) and lists the figures and tables it reproduces. The article's full text was not read."
     }
   },
   "datasets": [
@@ -5064,6 +5128,213 @@
         }
       ],
       "verification": "The zip was downloaded in full, its contents listed, the README's data-availability section read, and the row counts and variable names of all 16 Stata tables read from their headers. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Businesses",
+      "years": "2002–2016",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1093/qje/qjz021"
+      ],
+      "id": "firm-level-political-risk-earnings-calls",
+      "title": "Firm-level political risk and sentiment from earnings-call transcripts (US listed firms, 2002–2016)",
+      "url": "https://doi.org/10.7910/DVN/OBNRBP",
+      "description": "Firm-quarter and firm-year measures of political risk, overall and non-political risk, sentiment and political sentiment built from the text of quarterly earnings conference calls of US listed firms, keyed by Compustat gvkey, plus topic-specific political risk by firm, quarter and political topic and a CEO identifier table, from the study that introduced the measures.",
+      "tags": [
+        "Political risk",
+        "Text analysis",
+        "Earnings calls",
+        "Firm-level data",
+        "Panel data",
+        "Corporate strategy",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Four tab-separated tables and one do-file. Parsed: firm-year 63,179 rows x 26 columns (gvkey, year 2002 to 2016, Risk, PRisk, NPRisk, Sentiment, PSentiment, their standardised versions and PRiskMDA); firm-quarter 208,794 rows x 38 (2002Q1 to 2016Q4, including lobbying, donation and federal-contract variables); executive table 45,481 rows x 5 (gvkey, year, CEO id). The 147 MB firm-topic-quarter table (15 columns: topic id and string, topic-specific PRisk, instrument dummies) was read by header only.",
+        "Columns from licensed Compustat, IBES and ExecuComp inputs (industry codes, earnings surprises, assets, returns, volatility, executive names) are set to missing and renamed with a MISSING prefix, so the firm-level outcome regressions need those sources. The do-file lists which variables are affected.",
+        "CC0 on Harvard Dataverse (QJE collection). The authors also maintain an updated series on their own site; this entry covers the deposited 2002 to 2016 version only."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (four tables and do-file)",
+          "url": "https://doi.org/10.7910/DVN/OBNRBP",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Three of the four tables were downloaded in full and parsed (row counts and column names above); the largest table's header was read with a range request; the do-file was read. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Macroeconomics",
+      "years": "2019–2023",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Places & geographic areas"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1093/qje/qjad048"
+      ],
+      "id": "opportunity-insights-economic-tracker",
+      "title": "Opportunity Insights Economic Tracker: daily and weekly US economic series from private-sector data (2019–2023)",
+      "url": "https://doi.org/10.7910/DVN/4CFSZW",
+      "description": "County, metro, state and national series on consumer spending (Affinity Solutions card data), small-business revenue and openings (Womply), employment (Paychex, Intuit, Earnin, Kronos), job postings (Lightcast), unemployment claims, student engagement (Zearn), COVID-19 cases and mobility, built during the pandemic as a public real-time database, with the code that produced the paper's figures.",
+      "tags": [
+        "COVID-19",
+        "Consumer spending",
+        "Small business",
+        "Employment",
+        "Job postings",
+        "Real-time data",
+        "County data",
+        "Replication data",
+        "Public dataset used in research"
+      ],
+      "notes": [
+        "Version 2 (2024-04-02): 349 files, 491 MB, of which 46 data tables are a snapshot of the public EconomicTracker GitHub repository. Parsed: Affinity county daily spending, 1,613,319 rows x 7 (year, month, day, county FIPS, frequency, spend_all, provisional flag) from 2018-12-31 to 2023-09-03. Other tables include employment, job postings, unemployment claims, Zearn and Womply series at county, city, state and national level and daily COVID-19 counts.",
+        "The data are indexed changes relative to January 2020 (not dollar levels) and are aggregated and anonymised by the providers; the paper's README asks users to credit the named data providers and to cite the tracker and the paper. Underlying microdata are not released.",
+        "CC0 on Harvard Dataverse (QJE collection). The GitHub repository continues to be updated, so later vintages can differ from this deposit."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (replication package with the tracker data snapshot)",
+          "url": "https://doi.org/10.7910/DVN/4CFSZW",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Live tracker data on GitHub (OpportunityInsights/EconomicTracker)",
+          "url": "https://github.com/OpportunityInsights/EconomicTracker"
+        }
+      ],
+      "verification": "The file list was read from the Dataverse API, both READMEs were read, and the county daily spending table was downloaded in full and parsed. The GitHub repository was not opened from this session. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Government",
+      "years": "2003–2015",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata",
+        "Python"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1093/qje/qjab023"
+      ],
+      "id": "corporate-foundation-grants-regulatory-comments",
+      "title": "Corporate foundation grants and comments on federal rules (Hall of Mirrors replication data)",
+      "url": "https://doi.org/10.7910/DVN/UBRTKS",
+      "description": "Grants made by corporate foundations to non-profits (from IRS filings, with grantee, amount, year and description), organisations identified in public comments on proposed federal regulations on regulations.gov, a table matching comment documents to dockets and commenting organisations, and the comment text corpus used to measure how firms' charitable giving lines up with their advocacy.",
+      "tags": [
+        "Corporate philanthropy",
+        "Lobbying",
+        "Regulation",
+        "Non-profits",
+        "Text analysis",
+        "Corporate political activity",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "One 2 GB zip (83 files). Its directory was listed and the headers of the main tables were read with range requests: data/grants.csv (182 MB; EIN, foundation name, city and state, grantee name, city and state, giving category, amount, year, grant description, grantee and firm ids), data/orgs.csv (95 MB), data/orgComments_idsOnly.csv (73 MB; document id, docket id, agency, posted date, organisation id), data/significantComments.csv and a 6.8 GB comment text corpus (corpus.txt). The zip was not downloaded in full and no row counts were taken.",
+        "The README (Word file) documents a Stata 16.1 and Python 3.6 pipeline that rebuilds every table and figure from these inputs; the years here are those of the paper's analysis window and should be checked against the files.",
+        "CC0 on Harvard Dataverse (QJE collection). Organisation and person names appear in the grant and comment tables."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (README and 2 GB zip)",
+          "url": "https://doi.org/10.7910/DVN/UBRTKS",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The zip's central directory was read with HTTP range requests, the first bytes of the main CSV tables were decompressed to read their headers, and the README was read. Row counts and the year span of the tables were not verified. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "New product development",
+      "years": "Not specified",
+      "geography": "Other / not specified",
+      "types": [
+        "Administrative records",
+        "Survey"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "Python"
+      ],
+      "designs": [
+        "Cross-section"
+      ],
+      "paperDois": [
+        "10.1177/00222437241276736"
+      ],
+      "id": "watch-design-images-visual-conjoint",
+      "title": "Watch design images with brand, price and attribute labels, and a visual conjoint survey (generative visual design study)",
+      "url": "https://doi.org/10.7910/DVN/48AFKL",
+      "description": "Standardised 128 x 128 images of wristwatches from Christie's auction listings labelled with brand, era, case material, movement type and sale price, together with choice-based conjoint responses in which people chose between generated watch designs that vary six visual attributes, from a study that learns interpretable visual characteristics of product designs for conjoint analysis.",
+      "tags": [
+        "Product design",
+        "Images",
+        "Conjoint analysis",
+        "Watches",
+        "Machine learning",
+        "Marketing",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "One 372 MB zip (about 600 files; code, trained models, results). Image data are NumPy archives: the main training file christies.npz (286 MB, listed only) and two test files (16 MB each). The second test file was extracted and read: 313 images of 128 x 128 x 3, with model name, source filename, continuous price and one-hot labels for brand (4), era (7), material (3) and movement (2) and their combinations.",
+        "Conjoint files were extracted and parsed: 7,680 choice rows (respondent, task, concept, levels of dial colour, dial shape, strap colour, dial size, knob size and rim colour, choice), a 440-row respondent file (survey system fields, consent, task answers) and a 729-row mapping from attribute levels to the generated stimulus image files. The generated stimulus images themselves were not found in the zip listing.",
+        "CC BY-SA 4.0 on Harvard Dataverse. The README points to a Dropbox folder for the watch dataset; the same files are present inside the zip. The code needs a GPU PyTorch environment. Conjoint responses come from a human-subject survey (IRB letter included)."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (zip with data, code and README; IRB letter)",
+          "url": "https://doi.org/10.7910/DVN/48AFKL",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The zip's directory was listed with range requests; the README, the three conjoint CSVs and one 16 MB image archive were extracted and parsed. The 286 MB main image file was not downloaded. The paper's full text was not read."
     }
   ]
 }
