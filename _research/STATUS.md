@@ -4,14 +4,14 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 ## Live progress log (newest first; updated as work proceeds)
 
-Times are UTC on 2026-10-16. Counts are what was observed at that moment.
+Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the container clock. (An earlier version of this log used estimated times; they have been replaced with these observed ones.)
 
-- 12:45 Batch 5 (CrowdBerkeley Kickstarter database) submitted. DataCite sweep still running: see below. Earlier entry follows.
-- 12:20 Batches 1 to 4 are published and confirmed in the live feed (137 collections, 20 research entries). Running now: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000 (2 of 21 done, 49 papers with deposits mentioning them, roughly 2.5 minutes per chunk). Next: vet the hits from each finished chunk by hand, add verified ones, publish, and record each batch here.
-- 12:15 Batch 4 live: open source write-access data, WWII patent secrecy orders, inventor-firm replication archive, NHANES enrichment (run 38898838401).
-- 12:00 Batch 3 live: patent text similarity, PatCit, inventor ages (run 38897774771). Png R&D directory data left unresolved (no downloadable file visible).
-- 11:45 Batch 2 live: patent text and novelty measures, in-text patent citations, inventor disambiguation (run 38896605298).
-- 11:35 Batch 1 live: the three pending items from the pause (run 38894715168). Website sharing update confirmed live (HTML, image, icons; crawler user agents return 200).
+- 12:15 Batch 5 live (CrowdBerkeley Kickstarter database; run 38899203737 succeeded at 12:15:15). `main`'s `catalog-public.json` then showed 138 collections, 21 research entries, no URLs. The raw.githubusercontent.com copy lagged for a few minutes behind `main`, so I checked the file in git.
+- 12:12 Batch 4 live: open source write-access data, WWII patent secrecy orders, inventor-firm replication archive, NHANES enrichment (run 38898838401).
+- 12:02 Batch 3 live: patent text similarity, PatCit, inventor ages (run 38897774771). Png R&D directory data left unresolved (no downloadable file visible).
+- 11:52 Batch 2 live: patent text and novelty measures, in-text patent citations, inventor disambiguation (run 38896605298).
+- 11:35 Batch 1 live: the three pending items from the pause (run 38894715168). Website sharing update confirmed live earlier in the session (HTML, image, icons; crawler user agents return 200).
+- Running: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000, started 12:06, about 3 minutes per chunk (3 of 21 done at 12:15). Next: vet hits from each finished chunk by hand, add verified ones, publish, record each batch here.
 - Unresolved and blocked by publisher bot challenges (not bypassed): INFORMS supplements (two Management Science leads), Wiley, SAGE.
 
 ## Resumption log
@@ -98,9 +98,9 @@ The dry run of the publisher's own merge code (`mergeResearch`) before pushing g
 
 DataCite indexes Zenodo, Dataverse, Dryad, figshare, ICPSR and many institutional repositories. A quoted-DOI query finds deposits whose metadata mention a paper. Run over the 359 DOIs in the two queues: 20 had hits. A second sweep over 20,247 topic-matched FT50 papers (2006 onward; order: Management Science, M&SOM, POM, SMJ, Organization Science, Research Policy, others) runs in chunks; the first 1,000 (all Management Science) gave the Gross and Bhaskarabhatla et al. records. The sweep output is kept outside the repository; rerun with `_research/archive/datacite-sweep.py` after adding it if needed.
 
-## Batch 5 (2026-10-16): CrowdBerkeley Kickstarter database
+## Batch 5 (2026-10-16): CrowdBerkeley Kickstarter database, published
 
-Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+Status: **published and confirmed 2026-10-16.** Merged in PR 7 (merge commit `8598959`). Cloud publisher run [38899203737](https://github.com/konstantinosStouras/datasets/actions/runs/38899203737) completed successfully. `catalog-public.json` on `main` then showed **138 collections, 21 research entries**, the new ID with its paper title and date added 2026-10-16, and no URLs in the sanitized JSON.
 
 | Dataset ID | Paper | Evidence and file check | Limits |
 | --- | --- | --- | --- |
