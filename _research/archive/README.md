@@ -20,3 +20,7 @@ These scripts preserve the discovery, verification and entry-preparation work fr
 Historical discovery metadata is in `../evidence/initial-discovery-candidates.json`; copyrighted abstract excerpts were omitted. Current review dispositions belong in the maintained CSV queues. Zenodo verification results are in `../evidence/zenodo-link-checks-2026-10-16.json`; these are dated checks, not a guarantee of current availability.
 
 All essential research state is now in this repository. Local duplicate CSV exports and one-off helper copies are not separate sources of truth. Unrelated GitHub Desktop recovery backups, account/session state and temporary lock files were not copied into this public research repository.
+
+- `datacite-batch-sweep.py`: DataCite sweep that sends about 40 paper DOIs per query (`relatedIdentifiers.relatedIdentifier:(a OR b ...)`), with the todo list and output path as arguments. Used for the FT50-wide pass.
+- `zenodo-community-list.py`: lists every record in a Zenodo community (slug as argument) through `/api/communities/{slug}/records`, 25 per page.
+- `title-search.py`: searches Harvard Dataverse or Zenodo by paper title for a JSON list of (doi, title, year) items and flags title matches.

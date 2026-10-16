@@ -6,6 +6,7 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the container clock. (An earlier version of this log used estimated times; they have been replaced with these observed ones.)
 
+- 14:40 FT50-wide DataCite batch sweep started (113,511 papers from 1996 on); QJE, JPE, REStud and Econometric Society replication archives listed. Owner: no experiments category, focus on 1996 on, prefer reusable datasets.
 - 14:12 Batch 13 live (run 38913236095, 14:07:51; 172 entries).
 - 14:10 Batch 13 submitted: three Management Science deposits (Guzman and Li founding strategy; Gong and Png automation; Roach and Sauermann startup hiring) found by matching the site's Management Science paper list against Dataverse search results. Six other Management Science leads logged and not added.
 - 13:35 DataCite sweep complete (21 of 21). Bloom and Van Reenen management practices data added (found in chunk 19) and live (run 38906891938, 13:19:05; 169 entries). `research-additions.json` now holds 52 datasets and 79 papers.
@@ -291,6 +292,19 @@ Management Science leads checked and not added: Younkin and Kuppuswamy 2018 crow
 Also in this batch: the batch 12 entries now use the catalog's standard vocabulary (Administrative records, Firms & institutions, Panel / longitudinal, Places & geographic areas).
 
 Dry run of the publisher's merge code before pushing: 172 collections, 55 research entries, no duplicate IDs.
+
+## FT50-wide discovery pass (started 2026-10-16, in progress)
+
+Owner's instructions this session: check all FT50 papers in the Lit for public datasets, focus on papers from the last 30 years (1996 on), prefer datasets that are useful for follow-up studies, and do not build a separate experiments category.
+
+Methods and outcomes so far:
+
+- Management Science title search: the 690 Management Science papers from 2010 on with innovation, entrepreneurship, patent or technology topics (not already in the queues) were searched by title on Harvard Dataverse and Zenodo. Dataverse returned no deposits beyond batch 13 (the only matches were the editorial column "Management Insights" against an unrelated rental-market dataset, and the two deposits already handled). Zenodo returned nothing usable in the part completed (about 560 of 690; the remainder hit connection resets and was not rerun).
+- Dataverse journal-name searches ("Management Science", "10.1287/mnsc") on Harvard Dataverse and DataverseNL: 68 and 132 records, mostly ICPSR archive links for old papers or deposits for finance and behavioural papers; the on-topic ones are in batch 13. A lead not added: Kelley, Management Science 40(11), 1406-1425 (1994), survey of metalworking plants on programmable automation, held at ICPSR 1087 (blocked for scripts).
+- DataCite batch sweep: the DataCite API accepts up to about 40 DOIs joined with OR in one `relatedIdentifiers.relatedIdentifier` query, so the whole list can be swept in roughly 3,000 requests. The Lit holds 248,793 FT50 DOIs; 20,247 were swept earlier; 113,511 of the rest are from 1996 on and are being swept now in priority order (MS, M&SOM, POM, Research Policy, SMJ, Organization Science, JBV, SEJ, ETP, AMJ, MISQ, ISR, JOM, Operations Research, IJOC, Marketing Science, JMR, JM, then the others). Script: scratchpad `sweep2/dc2.py` (to be archived under `_research/archive/`). Results go to `sweep2/res.json`.
+- Journal replication archives listed directly: Harvard Dataverse QJE (431 datasets) and JPE (284) collections; Zenodo communities `restud-replication` (544 records) and `es-replication-repository` (290, Econometric Society journals). American Economic Review deposits sit on openICPSR, which blocks scripts.
+
+Next: triage the sweep hits by host and journal, drop figshare "Additional file" noise and ICPSR archive links, verify candidates with actual file reads, and publish in batches with the usual STATUS records.
 
 ## State at the earlier pause (historical)
 
