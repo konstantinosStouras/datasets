@@ -6,6 +6,7 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the container clock. (An earlier version of this log used estimated times; they have been replaced with these observed ones.)
 
+- 14:12 Batch 13 live (run 38913236095, 14:07:51; 172 entries).
 - 14:10 Batch 13 submitted: three Management Science deposits (Guzman and Li founding strategy; Gong and Png automation; Roach and Sauermann startup hiring) found by matching the site's Management Science paper list against Dataverse search results. Six other Management Science leads logged and not added.
 - 13:35 DataCite sweep complete (21 of 21). Bloom and Van Reenen management practices data added (found in chunk 19) and live (run 38906891938, 13:19:05; 169 entries). `research-additions.json` now holds 52 datasets and 79 papers.
 - 13:25 Batch 12 KPSS entry live (run 38905816430, 13:10:38). Two more QJE deposits (Bell et al., Kline et al.) live too (run 38906120243, 13:13:08; 168 entries). Sweep chunks 18 and 19 of 21 reviewed or in progress. Batch 11 confirmed live (run 38905315190, 13:06:36). DataCite sweep: 18 of 21 chunks done.
@@ -275,7 +276,7 @@ Dry run of the publisher's merge code before pushing the management practices en
 
 ## Batch 13 (2026-10-16): Management Science deposits found through the owner's literature database
 
-Status: committed through a pull request. **Not confirmed until the workflow run and live feed are recorded here.**
+Status: published and confirmed. Workflow run 38913236095 succeeded at 14:07:51 UTC; `catalog-public.json` on `main` then held 172 entries including all three IDs.
 
 Method: the 12,485 Management Science records in the site's `papers-ms.json` were filtered to innovation, new product, entrepreneurship, patent and technology topics (2,766 not yet in the review queues; 690 of them from 2010 on with a narrow topic match). Abstract cues were checked, and the Harvard Dataverse and DataverseNL search APIs were queried for records mentioning "Management Science" (68 records) and matched to paper titles. Most Management Science abstracts point only to the INFORMS supplement, which scripts cannot read.
 
