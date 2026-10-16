@@ -1182,6 +1182,21 @@
       "evidenceSection": "Harvard Dataverse record lists this article as its related publication",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Dataverse record names the article. The article's full text was not read."
+    },
+    "10.1162/qjec.2007.122.4.1351": {
+      "title": "Measuring and Explaining Management Practices Across Firms and Countries",
+      "authors": "Nicholas Bloom; John Van Reenen",
+      "journal": "The Quarterly Journal of Economics",
+      "year": 2007,
+      "volume": "122",
+      "issue": "4",
+      "pages": "1351–1408",
+      "doi": "10.1162/qjec.2007.122.4.1351",
+      "url": "https://doi.org/10.1162/qjec.2007.122.4.1351",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/NUOTSQ",
+      "evidenceSection": "Harvard Dataverse record states it holds the data from this article",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Dataverse description and a DataCite link name the article. The article's full text was not read."
     }
   },
   "datasets": [
@@ -3827,6 +3842,56 @@
         }
       ],
       "verification": "The zip was downloaded in full and its contents listed. The READMEs were read, and the four small Stata files and the large application file were opened with their rows counted. The paper's full text and the appendix PDF were not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Businesses",
+      "years": "1994–2004",
+      "geography": "International",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Firms"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel"
+      ],
+      "paperDois": [
+        "10.1162/qjec.2007.122.4.1351"
+      ],
+      "id": "management-practices-survey-bloom-van-reenen",
+      "title": "Management practices across firms and countries (anonymized author data)",
+      "url": "https://doi.org/10.7910/DVN/NUOTSQ",
+      "description": "Author-released anonymized data on management practices (monitoring, targets, incentives, lean operations and talent) scored from interviews with medium-sized manufacturing firms in the United States, United Kingdom, France and Germany, matched to firm performance measures. Includes the Stata code that reproduces the paper's results.",
+      "tags": [
+        "Management practices",
+        "Operations",
+        "Productivity",
+        "Firm performance",
+        "Cross-country data",
+        "Survey data",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Two tab-delimited tables with the same 189 columns and 6,267 rows each (732 distinct firm codes; years 1994 to 2004; countries us 2,920 rows, uk 1,251, gr 1,098, fr 998). Columns include the practice scores and their standardized versions, employment, sector codes and performance measures. The record does not say how the two tables differ; they differ in the values of 94 columns, which was not investigated further.",
+        "The author's instructions say company names were removed and firm identifiers replaced by new codes, and that the true data used in the paper cannot be shared freely, so results from the anonymized data may not match the paper exactly. The deposit also holds the Stata do-file, a log, the paper PDF and the author's instruction note, which was read.",
+        "Licensed CC0 on Harvard Dataverse (version 1.0)."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (two data tables, do-file, log, notes)",
+          "url": "https://doi.org/10.7910/DVN/NUOTSQ",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Both data tables were downloaded in full and parsed (rows, columns, years, countries, firm codes counted) and the instruction note was read. The do-file and log were listed but not rerun, and the paper's full text was not read."
     }
   ]
 }
