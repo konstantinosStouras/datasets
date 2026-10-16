@@ -1502,6 +1502,22 @@
       "evidenceSection": "DataCite links the ZEW Mannheim Innovation Panel scientific-use-file record to this article",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
+    },
+    "10.1093/qje/qjag028": {
+      "title": "Public Services Under Private Management",
+      "authors": "Maíra Coube; Luiz Felipe Fontes; Rudi Rocha",
+      "journal": "The Quarterly Journal of Economics",
+      "year": 2026,
+      "volume": "141",
+      "issue": "3",
+      "pages": "2597–2673",
+      "onlineDate": "2026-05-12",
+      "doi": "10.1093/qje/qjag028",
+      "url": "https://doi.org/10.1093/qje/qjag028",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/D7IMCO",
+      "evidenceSection": "QJE Dataverse record and README name the paper",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Dataverse record and README name the paper. The article's full text was not read."
     }
   },
   "datasets": [
@@ -4997,6 +5013,57 @@
         }
       ],
       "verification": "The survey CSV was downloaded in full and parsed and the codebook PDF read. The IRI data were not accessed. The papers' full texts were not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Health, public health, and epidemiology",
+      "years": "2006–2022",
+      "geography": "Other / not specified",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1093/qje/qjag028"
+      ],
+      "id": "brazil-public-hospitals-private-management-panel",
+      "title": "Brazilian public hospitals under private management: hospital panel and contract data",
+      "url": "https://doi.org/10.7910/DVN/D7IMCO",
+      "description": "Hospital-year panel of Brazilian public hospitals assembled from the Ministry of Health's DATASUS systems, with admissions, mortality, readmissions, beds, equipment, staff and costs, linked to the register of management contracts with private non-profit organisations (OSS), plus matched staff and municipal tables, from a study of outsourcing public hospital management.",
+      "tags": [
+        "Hospitals",
+        "Public services",
+        "Outsourcing",
+        "Management",
+        "Brazil",
+        "Health care",
+        "Panel data",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "One 74.5 MB zip (364 MB unpacked, 273 files, 16 Stata datasets). Headers read: public hospital panel 37,584 hospital-years x 45 variables (hospital id, year, state, physicians, staff, equipment, beds, full-time equivalents); OSS contract register 43,607 rows x 30; matched-hospital staff panel 1,144,065 rows x 24; full matched labour-supply sample 4,129,686 rows x 9; municipal panel 41,755 rows x 30; predicted mortality tables; cost and target tables. Stata code and packages included.",
+        "The README says the core data are public (BDOSS contract portal and DATASUS SIH, CNES and related systems, with download instructions) and that a few variables come from identified administrative records, so the package carries aggregated data and masked identifiers where individual records appear.",
+        "CC0 on Harvard Dataverse (QJE collection). Variable names are in Portuguese."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (zip with data, code and README)",
+          "url": "https://doi.org/10.7910/DVN/D7IMCO",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The zip was downloaded in full, its contents listed, the README's data-availability section read, and the row counts and variable names of all 16 Stata tables read from their headers. The paper's full text was not read."
     }
   ]
 }

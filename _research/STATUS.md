@@ -6,6 +6,7 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the container clock. (An earlier version of this log used estimated times; they have been replaced with these observed ones.)
 
+- 17:40 Batch 15 live (run 38939563044, 17:25:37; 185 entries). Batch 16 (Brazilian hospital panel) submitted. Metadata fetch for the remaining Dataverse and Zenodo sweep leads running.
 - 17:30 FT50-wide sweep finished (113,511 papers; 750 clean leads). Batch 15 submitted: AIOE, Twin-2K-500, scientific complexity, OM-OR conference survey, EHR event logs, MLB managers, IRI category survey. Session worker restarted once during this stretch; files and results survived.
 - 15:12 Batch 14 live (run 38920471271, 15:01:20; 178 entries). REStud Zenodo community (544 records) matched and scored; ten mid-sized packages downloaded and listed, four large ones listed by reading the zip directory with range requests.
 - 15:05 Batch 14 submitted: six QJE and JPE deposits (patent applications 1998-2003, French industrialization panels, inventor migration database, federal R&D funding tables, Chinese AI firms, automation patent panels). Sweep at about 18,000 of 113,511 with 458 hits.
@@ -330,7 +331,7 @@ Dry run of the publisher's merge code before pushing: 178 collections, 61 resear
 
 ## Batch 15 (2026-10-16): seven deposits from the FT50-wide sweep and companion searches
 
-Status: committed through a pull request. **Not confirmed until the workflow run and live feed are recorded here.**
+Status: published and confirmed. Workflow run 38939563044 succeeded at 17:25:37 UTC; `catalog-public.json` on `main` then held 185 entries including all seven IDs.
 
 Sweep outcome: all 113,511 papers from 1996 on were swept (40 DOIs failed with transient errors and were not rerun). 7,673 raw hits; 750 clean leads after removing figshare "Additional file" supplements, SAGE and publisher figshare collections, arXiv, ICPSR archive links and other noise, and papers already in the queues. By journal: QJE 358, EJOR 64, JPE 48, AER 45, JMR 37, RFS 29, JM 25, Psychological Science 21, JFE 21, MS 10, ASR 10, Research Policy 9. By host: Harvard Dataverse 550, Zenodo 111, Mendeley 36, SMU 20, Dryad 20, Erasmus 19, DataverseNL 17. The lead list is in the scratchpad `sweep2/triage2.json` and should be copied to the archive if the session ends.
 
@@ -349,6 +350,16 @@ Also: the Mannheim Innovation Panel entry now cites Becker and Dietz, Research P
 Leads inspected and not added: two Research Policy deposits on Dryad (synthesis centres; citation inflation and the disruption index), whose downloads sit behind the Anubis anti-bot check (same blocker as Bielefeld; metadata and file lists are readable through the Dryad API); AMJ framing study (newspaper PDFs only); a 2026 third-party replication of Flammer (2013) on Dataverse; a Zenodo escrow record for a digital-twin benchmark (restricted). Of the Management Science sweep hits, the climate-concern stock study, copy trading, bank-run contagion, leadership and incentives, group-size tournaments and country-image trade deposits are outside the owner's topics and were not inspected.
 
 Dry run of the publisher's merge code before pushing: 185 collections, 68 research entries, no duplicate IDs.
+
+## Batch 16 (2026-10-16): Brazilian public-hospital panel
+
+Status: committed through a pull request. **Not confirmed until the workflow run and live feed are recorded here.**
+
+| Dataset ID | Paper | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `brazil-public-hospitals-private-management-panel` | Coube, Fontes, Rocha, QJE 141(3), 2597-2673 (2026), DOI 10.1093/qje/qjag028 | [Dataverse D7IMCO](https://doi.org/10.7910/DVN/D7IMCO), CC0. 74.5 MB zip downloaded; README data section read; all 16 Stata headers read (hospital panel 37,584 x 45; OSS register 43,607 x 30; staff panels up to 4.1 million rows). | Some variables from identified records are aggregated or masked. Portuguese variable names. |
+
+Leads inspected and not added: Boehm and Oberfield (ASI data not redistributable); Biswas et al. JM channel adoption (5% noisy sample under NDA); Minni managers (proprietary personnel data); Weidmann et al. good manager (experiment); Autor et al. superstar firms (public aggregates plus Census code); Gopinath et al. South Europe (Orbis); Gumpert et al. multiple establishments (do-files only).
 
 ## State at the earlier pause (historical)
 
