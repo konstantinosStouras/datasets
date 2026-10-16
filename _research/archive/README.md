@@ -24,3 +24,4 @@ All essential research state is now in this repository. Local duplicate CSV expo
 - `datacite-batch-sweep.py`: DataCite sweep that sends about 40 paper DOIs per query (`relatedIdentifiers.relatedIdentifier:(a OR b ...)`), with the todo list and output path as arguments. Used for the FT50-wide pass.
 - `zenodo-community-list.py`: lists every record in a Zenodo community (slug as argument) through `/api/communities/{slug}/records`, 25 per page.
 - `title-search.py`: searches Harvard Dataverse or Zenodo by paper title for a JSON list of (doi, title, year) items and flags title matches.
+- `ft50-sweep-leads-2026-10-16.json`: the 750 clean leads from the FT50-wide DataCite sweep (journal key, paper DOI, year, title, up to four repository hits), for later review.

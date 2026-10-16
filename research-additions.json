@@ -1351,6 +1351,157 @@
       "evidenceSection": "Zenodo record in the REStud replication community names the paper; its zip holds the same baseline firm data files as the QJE deposit",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Zenodo record names the paper. The article's full text was not read."
+    },
+    "10.1002/smj.3286": {
+      "title": "Occupational, industry, and geographic exposure to artificial intelligence: A novel dataset and its potential uses",
+      "authors": "Edward Felten; Manav Raj; Robert Seamans",
+      "journal": "Strategic Management Journal",
+      "year": 2021,
+      "volume": "42",
+      "issue": "12",
+      "pages": "2195–2217",
+      "onlineDate": "2021-05-08",
+      "doi": "10.1002/smj.3286",
+      "url": "https://doi.org/10.1002/smj.3286",
+      "evidenceUrl": "https://github.com/AIOE-Data/AIOE",
+      "evidenceSection": "GitHub README names the paper as the source of the data and asks users to cite it",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
+    },
+    "10.1287/mksc.2025.0262": {
+      "title": "Database Report: Twin-2K-500: A Data Set for Building Digital Twins of over 2,000 People Based on Their Answers to over 500 Questions",
+      "authors": "Olivier Toubia; George Z. Gui; Tianyi Peng; Daniel J. Merlau; Ang Li; Haozhe Chen",
+      "journal": "Marketing Science",
+      "year": 2025,
+      "volume": "44",
+      "issue": "6",
+      "pages": "1446–1455",
+      "doi": "10.1287/mksc.2025.0262",
+      "url": "https://doi.org/10.1287/mksc.2025.0262",
+      "evidenceUrl": "https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500",
+      "evidenceSection": "Hugging Face dataset card describes the same four-wave Twin-2K-500 study; the title of the Marketing Science database report names the dataset",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The dataset card links the project's preprint rather than the journal DOI; the match rests on the dataset name and design. The article's full text was not read."
+    },
+    "10.1016/j.respol.2026.105570": {
+      "title": "Complexity and the uncertain impact of novel science",
+      "authors": "Nicola Melluso",
+      "journal": "Research Policy",
+      "year": 2026,
+      "volume": "55",
+      "issue": "8",
+      "pages": "105570",
+      "doi": "10.1016/j.respol.2026.105570",
+      "url": "https://doi.org/10.1016/j.respol.2026.105570",
+      "evidenceUrl": "https://doi.org/10.5281/zenodo.20813591",
+      "evidenceSection": "Zenodo record is marked as a supplement to the article DOI and its data description cites the paper",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
+    },
+    "10.1287/msom.2022.0591": {
+      "title": "OM Forum: In-Person or Virtual? What Will Operations Management/Research Conferences Look Like?",
+      "authors": "Antonio Cavallin Toscani; Atalay Atasu; Luk N. Van Wassenhove; Andrea Vinelli",
+      "journal": "Manufacturing & Service Operations Management",
+      "year": 2024,
+      "volume": "26",
+      "issue": "1",
+      "pages": "66–79",
+      "doi": "10.1287/msom.2022.0591",
+      "url": "https://doi.org/10.1287/msom.2022.0591",
+      "evidenceUrl": "https://doi.org/10.5281/zenodo.8256528",
+      "evidenceSection": "Zenodo record is marked as a supplement to the article DOI",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
+    },
+    "10.25300/misq/2021/15360": {
+      "title": "Theorizing Process Dynamics with Directed Graphs: A Diachronic Analysis of Digital Trace Data",
+      "authors": "Brian T. Pentland; Emmanuelle Vaast; Julie Ryan Wolf",
+      "journal": "MIS Quarterly",
+      "year": 2021,
+      "volume": "45",
+      "issue": "2",
+      "pages": "967–984",
+      "doi": "10.25300/misq/2021/15360",
+      "url": "https://doi.org/10.25300/misq/2021/15360",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/5FSJ1G",
+      "evidenceSection": "DataCite record lists the article as citing this dataset",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
+    },
+    "10.1287/orsc.2022.16749": {
+      "title": "Path Coherence and Disruption in Routine Dynamics",
+      "authors": "Inkyu Kim; Brian T. Pentland; Kenneth A. Frank; Julie Ryan Wolf",
+      "journal": "Organization Science",
+      "year": 2025,
+      "volume": "36",
+      "issue": "2",
+      "pages": "862–880",
+      "doi": "10.1287/orsc.2022.16749",
+      "url": "https://doi.org/10.1287/orsc.2022.16749",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/5FSJ1G",
+      "evidenceSection": "DataCite record lists the article as citing this dataset",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
+    },
+    "10.1287/mnsc.2019.3323": {
+      "title": "Matching and Winning? The Impact of Upper and Middle Managers on Firm Performance in Major League Baseball",
+      "authors": "Thomas L. P. R. Peeters; Steven Salaga; Matthew Juravich",
+      "journal": "Management Science",
+      "year": 2020,
+      "volume": "66",
+      "issue": "6",
+      "pages": "2735–2751",
+      "doi": "10.1287/mnsc.2019.3323",
+      "url": "https://doi.org/10.1287/mnsc.2019.3323",
+      "evidenceUrl": "https://doi.org/10.34894/EKHDNA",
+      "evidenceSection": "DataverseNL record title and README name the paper",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
+    },
+    "10.1509/jm.15.0340": {
+      "title": "How Well Does Consumer-Based Brand Equity Align with Sales-Based Brand Equity and Marketing-Mix Response?",
+      "authors": "Hannes Datta; Kusum L. Ailawadi; Harald J. van Heerde",
+      "journal": "Journal of Marketing",
+      "year": 2017,
+      "volume": "81",
+      "issue": "3",
+      "pages": "1–20",
+      "doi": "10.1509/jm.15.0340",
+      "url": "https://doi.org/10.1509/jm.15.0340",
+      "evidenceUrl": "https://doi.org/10.34894/ELVF0J",
+      "evidenceSection": "DataverseNL record is marked as a supplement to the article and its codebook names the authors",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
+    },
+    "10.1287/mksc.1080.0450": {
+      "title": "Database Paper: The IRI Marketing Data Set",
+      "authors": "Bart J. Bronnenberg; Michael W. Kruger; Carl F. Mela",
+      "journal": "Marketing Science",
+      "year": 2008,
+      "volume": "27",
+      "issue": "4",
+      "pages": "745–748",
+      "doi": "10.1287/mksc.1080.0450",
+      "url": "https://doi.org/10.1287/mksc.1080.0450",
+      "evidenceUrl": "https://doi.org/10.34894/ELVF0J",
+      "evidenceSection": "DataverseNL record is marked as a supplement to this database paper, which describes the IRI academic dataset the survey complements",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
+    },
+    "10.1016/j.respol.2003.07.003": {
+      "title": "R&D cooperation and innovation activities of firms: evidence for the German manufacturing industry",
+      "authors": "Wolfgang Becker; Jürgen Dietz",
+      "journal": "Research Policy",
+      "year": 2004,
+      "volume": "33",
+      "issue": "2",
+      "pages": "209–223",
+      "doi": "10.1016/j.respol.2003.07.003",
+      "url": "https://doi.org/10.1016/j.respol.2003.07.003",
+      "evidenceUrl": "https://doi.org/10.7806/zew.mip.2018.v1.suf",
+      "evidenceSection": "DataCite links the ZEW Mannheim Innovation Panel scientific-use-file record to this article",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
     }
   },
   "datasets": [
@@ -2933,7 +3084,8 @@
         "10.1016/j.respol.2007.08.006",
         "10.1016/j.respol.2016.07.007",
         "10.1016/j.respol.2015.06.003",
-        "10.1016/j.respol.2014.11.006"
+        "10.1016/j.respol.2014.11.006",
+        "10.1016/j.respol.2003.07.003"
       ],
       "id": "mannheim-innovation-panel-mip",
       "title": "Mannheim Innovation Panel (MIP), German innovation survey",
@@ -4504,6 +4656,347 @@
         }
       ],
       "verification": "The package README, classification README and Sources.md were read, the full file list with folder sizes was retrieved through the API, and two data tables were downloaded and parsed. Nothing else was downloaded and the paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Working",
+      "years": "Occupational abilities 2020; wages 2021; county data 2019",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Individuals",
+        "Places & geographic areas"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Cross-section"
+      ],
+      "paperDois": [
+        "10.1002/smj.3286"
+      ],
+      "id": "ai-occupational-exposure-aioe",
+      "title": "AI Occupational Exposure (AIOE) scores by occupation, industry and county",
+      "url": "https://github.com/AIOE-Data/AIOE",
+      "description": "Author-maintained scores measuring how exposed each US occupation, industry and county is to progress in artificial intelligence, built by linking ten AI application areas to O*NET abilities through a crowd-sourced relatedness matrix. Later releases add exposure scores for language modeling and image generation, the inputs and the Stata code that builds the measures.",
+      "tags": [
+        "Artificial intelligence",
+        "Technology exposure",
+        "Occupations",
+        "Industries",
+        "Labor",
+        "Automation",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Main workbook: AIOE by six-digit SOC occupation (774 rows), AIIE by four-digit NAICS industry (250 rows), AIGE by county FIPS code (3,271 rows), the application-by-ability matrix (52 abilities by 10 applications) and ability-level exposure (52 rows). Two further workbooks give language-modeling and image-generation versions of the occupation and industry scores. Input folder holds the O*NET abilities table (100,672 rows), the Mechanical Turk mapping matrix, occupation titles, county-industry employment and wage archives, and the construction do-file.",
+        "No licence file is in the repository; the README asks users to cite the paper. Last commit on the default branch: 2024-06-03 (adca5fc).",
+        "Scores are relative indices, not probabilities; see the paper for construction and limits."
+      ],
+      "links": [
+        {
+          "title": "GitHub repository (workbooks, inputs, Stata code)",
+          "url": "https://github.com/AIOE-Data/AIOE",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The repository was cloned (shallow) and every workbook sheet and Stata input file was opened with row and column counts recorded. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Beliefs and values",
+      "years": "2025 (four survey waves)",
+      "geography": "United States",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "Python"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1287/mksc.2025.0262"
+      ],
+      "id": "twin-2k-500-digital-twin-personas",
+      "title": "Twin-2K-500: survey personas of 2,058 US adults for digital-twin simulation",
+      "url": "https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500",
+      "description": "Four waves of survey responses from a representative sample of 2,058 US adults covering demographics, psychological scales, cognitive tests, economic preferences and behavioural-economics experiments, packaged as text and JSON personas for building large-language-model digital twins, with a repeat wave for test-retest checks and the authors' simulation results.",
+      "tags": [
+        "Digital twins",
+        "Large language models",
+        "Consumer research",
+        "Survey data",
+        "Personas",
+        "Behavioural economics",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Human responses: waves 1 to 3 table of 2,058 participants by 761 question columns and a wave 4 table of 2,058 by 127 columns, plus anonymised raw wave files and a question catalog. Persona files: 14 Parquet chunks (392 MB) with participant id, persona text, summary and JSON; one chunk parsed (294 rows). A results folder holds the authors' LLM simulation outputs.",
+        "Licence CC BY 4.0 on Hugging Face. The dataset card links the project's preprint and GitHub code; a separate Zenodo escrow record for a benchmark built on these data is restricted.",
+        "Wave content includes heuristics-and-biases experiments; it is used here as a reusable survey panel rather than for its experimental results."
+      ],
+      "links": [
+        {
+          "title": "Hugging Face dataset (CSV, JSON and Parquet)",
+          "url": "https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The dataset card and file list were read through the Hugging Face API; the two human-response CSV tables and one persona Parquet chunk were downloaded and parsed. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Academia",
+      "years": "1950–2023",
+      "geography": "International",
+      "types": [
+        "Research & publications"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Python"
+      ],
+      "designs": [
+        "Cross-section"
+      ],
+      "paperDois": [
+        "10.1016/j.respol.2026.105570"
+      ],
+      "id": "scientific-complexity-pubmed-openalex",
+      "title": "Scientific complexity scores for 9.6 million biomedical papers",
+      "url": "https://doi.org/10.5281/zenodo.20813591",
+      "description": "Paper-level measure of scientific complexity for biomedical articles indexed in PubMed and matched to OpenAlex, computed from the chemical substances each paper uses, released with the Research Policy article on novel science and its uncertain impact.",
+      "tags": [
+        "Science of science",
+        "Novelty",
+        "Bibliometrics",
+        "OpenAlex",
+        "PubMed",
+        "Author-shared data"
+      ],
+      "notes": [
+        "One CSV of 9,627,624 rows and four columns: OpenAlex work id, PubMed id, number of indexed substances and complexity score (413 MB). The first 200 KB were read to confirm the header and format; the file was not downloaded in full. A short data description PDF is included.",
+        "Licence: the Zenodo record says CC BY 4.0 but the data description says O-UDA-1.0, which excludes commercial use; treat the stricter statement as binding.",
+        "Unit of analysis is the paper; scores cover only papers with defined complexity."
+      ],
+      "links": [
+        {
+          "title": "Zenodo record (CSV and description)",
+          "url": "https://doi.org/10.5281/zenodo.20813591",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The Zenodo record and data description were read, and the CSV header and first rows were read with a range request. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Academia",
+      "years": "2022 (survey)",
+      "geography": "International",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "R"
+      ],
+      "designs": [
+        "Cross-section"
+      ],
+      "paperDois": [
+        "10.1287/msom.2022.0591"
+      ],
+      "id": "om-or-conference-value-survey",
+      "title": "Survey of operations researchers on in-person and virtual conferences",
+      "url": "https://doi.org/10.5281/zenodo.8256528",
+      "description": "Responses from a global survey of members of INFORMS, MSOM, POMS and EurOMA on how they value in-person and virtual academic conferences, released with an M&SOM forum article on the future of operations conferences.",
+      "tags": [
+        "Academic conferences",
+        "Operations management",
+        "Survey data",
+        "Researchers",
+        "Author-shared data"
+      ],
+      "notes": [
+        "555 responses and 58 columns (age, country, gender, professional status, society memberships, and conference value items), in CSV and Excel. Licence CC BY 4.0.",
+        "Small and specific to the academic community surveyed."
+      ],
+      "links": [
+        {
+          "title": "Zenodo record (CSV and XLSX)",
+          "url": "https://doi.org/10.5281/zenodo.8256528",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The CSV was downloaded in full and parsed. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Health, public health, and epidemiology",
+      "years": "2016–2019",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "R"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.25300/misq/2021/15360",
+        "10.1287/orsc.2022.16749"
+      ],
+      "id": "ehr-audit-trail-event-logs",
+      "title": "Electronic health record audit-trail event logs from outpatient clinics",
+      "url": "https://doi.org/10.7910/DVN/5FSJ1G",
+      "description": "Two anonymised event logs from an electronic health record system, with a time stamp, action, role and person for every system action during about 95,000 clinic visits in dermatology, orthopaedics and paediatric oncology, used to study how work routines and digital traces evolve.",
+      "tags": [
+        "Process mining",
+        "Event logs",
+        "Routines",
+        "Digital trace data",
+        "Health care",
+        "Author-shared data"
+      ],
+      "notes": [
+        "One R data file (42.5 MB) with two data frames: dermatology (7,728,927 rows, 56,835 visits, 2016 to 2017) and orthopaedics with paediatric oncology (7,623,255 rows, 38,718 visits, 2018 to 2019). Variables: time stamp, visit id, patient id, action, role, person id, workstation, diagnosis group, clinic, visit number and level-of-service code, per the README. Visit start times were shifted for anonymity; relative timing is preserved.",
+        "The file was downloaded (size matches) but not opened, because no R or R-file reader was available here; the row counts come from the README. CC0 on Harvard Dataverse."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (R data file and README)",
+          "url": "https://doi.org/10.7910/DVN/5FSJ1G",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The README was read in full and the data file downloaded with its size checked against the record. The data frames were not parsed. The papers' full texts were not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Sports",
+      "years": "About 1985–2013 (team-seasons; exact span not checked)",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions",
+        "Individuals"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1287/mnsc.2019.3323"
+      ],
+      "id": "mlb-managers-team-performance-peeters",
+      "title": "Major League Baseball managers, general managers, lineups and team performance",
+      "url": "https://doi.org/10.34894/EKHDNA",
+      "description": "Replication archive from a study of how upper and middle managers affect team performance, built from public baseball sources: team-season inputs (payroll, market size, stadium, wins), field manager and general manager careers, player salaries, game characteristics, game results and lineups, with the Stata and Matlab code.",
+      "tags": [
+        "Managers",
+        "Firm performance",
+        "Baseball",
+        "Sports data",
+        "Panel data",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Parsed: team-season inputs (723 rows, 32 variables), field managers (158), general managers (116), player salaries (20,369 rows). Listed only: lineups (96 MB), game characteristics (30 MB), game results (19 MB), result tables and model files. 58 files, CC BY 4.0 on DataverseNL (the Erasmus DOI 10.25397/eur.13636682 forwards here).",
+        "The README lists the public sources (USA Today salaries, Census population, shrpsports, ballparksofbaseball and others). Years were not checked on the large files."
+      ],
+      "links": [
+        {
+          "title": "DataverseNL record (58 files)",
+          "url": "https://doi.org/10.34894/EKHDNA",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The README was read and four Stata tables downloaded and parsed; the large game and lineup files were listed only. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Agreement or mixed",
+      "topic": "Shopping",
+      "years": "IRI data 2001–2012; category survey 2016",
+      "geography": "United States",
+      "types": [
+        "Administrative records",
+        "Survey"
+      ],
+      "units": [
+        "Individuals",
+        "Firms & institutions"
+      ],
+      "tools": [
+        "R"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1287/mksc.1080.0450",
+        "10.1509/jm.15.0340"
+      ],
+      "id": "iri-marketing-dataset-category-characteristics",
+      "title": "IRI Marketing Data Set (academic) and its public category-characteristics survey",
+      "url": "https://doi.org/10.34894/ELVF0J",
+      "description": "The IRI academic dataset is a multi-year panel of store sales and household purchases for packaged-goods categories in US markets, provided to researchers under agreement and described in a Marketing Science database paper. The public companion here is a survey that scores each of its product categories on hedonic nature, performance risk, social value, involvement and utilitarian nature.",
+      "tags": [
+        "Consumer packaged goods",
+        "Retail scanner data",
+        "Household panel",
+        "Brand equity",
+        "Product categories",
+        "Marketing"
+      ],
+      "notes": [
+        "Public part (DataverseNL): a 2016 Mechanical Turk survey of 752 respondents and 412 columns rating grocery categories, with an SPSS version, R cleaning script, construct-level output and codebook. Terms are custom: the depositors ask users to contact them before use.",
+        "The IRI dataset itself (now distributed by Circana) is not in the deposit; the request page moved from the IRI site to circana.com and was not checked here. The database paper describes 30 categories, 2001 to 2012 (per the codebook's citation; the span was not verified).",
+        "Access class reflects the agreement needed for the IRI data; the survey file downloads freely."
+      ],
+      "links": [
+        {
+          "title": "DataverseNL record (category survey, codebook, R script)",
+          "url": "https://doi.org/10.34894/ELVF0J",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The survey CSV was downloaded in full and parsed and the codebook PDF read. The IRI data were not accessed. The papers' full texts were not read."
     }
   ]
 }
