@@ -1,6 +1,6 @@
 import {execFileSync} from 'node:child_process';
 import {appendFileSync} from 'node:fs';
-import {parseCatalog} from './catalog.mjs';
+import {newEntries} from './additions.mjs';
 
 const repo = 'konstantinosStouras/datasets', upstream = 'toddrjones/datasets';
 const initial = '7264eb6f6cae52b2a92fc3c0eee4b3dd2d0396a1';
@@ -20,12 +20,6 @@ async function issueOnce(marker, title, body) {
     if (issues.length < 100) break;
   }
   return (await api('issues','POST',{title,body:`${marker}\n\n@konstantinosStouras\n\n${body}`})).html_url;
-}
-function newEntries(before, after) {
-  const prior = parseCatalog(before);
-  const names = new Set(prior.map(e => e.id));
-  const urls = new Set(prior.flatMap(e => [e.url, ...e.links.map(l => l.url)]).filter(Boolean));
-  return parseCatalog(after).filter(e => !names.has(e.id) && (!e.url || !urls.has(e.url)));
 }
 git('config','user.name','github-actions[bot]');
 git('config','user.email','41898282+github-actions[bot]@users.noreply.github.com');
