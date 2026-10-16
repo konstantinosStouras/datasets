@@ -6,7 +6,7 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the container clock. (An earlier version of this log used estimated times; they have been replaced with these observed ones.)
 
-- 13:20 Batch 12 (KPSS patent values, extended to 2025) committed through a pull request; confirmation to be added once the workflow run is seen. Batch 11 confirmed live (run 38905315190, 13:06:36). DataCite sweep: 18 of 21 chunks done.
+- 13:25 Batch 12 KPSS entry live (run 38905816430, 13:10:38). Two more QJE deposits (Bell et al., Kline et al.) committed through a pull request, not yet confirmed. Batch 11 confirmed live (run 38905315190, 13:06:36). DataCite sweep: 18 of 21 chunks done.
 - 12:15 Batch 5 live (CrowdBerkeley Kickstarter database; run 38899203737 succeeded at 12:15:15). `main`'s `catalog-public.json` then showed 138 collections, 21 research entries, no URLs. The raw.githubusercontent.com copy lagged for a few minutes behind `main`, so I checked the file in git.
 - 12:12 Batch 4 live: open source write-access data, WWII patent secrecy orders, inventor-firm replication archive, NHANES enrichment (run 38898838401).
 - 12:02 Batch 3 live: patent text similarity, PatCit, inventor ages (run 38897774771). Png R&D directory data left unresolved (no downloadable file visible).
@@ -250,17 +250,22 @@ Status: published and confirmed. Workflow run 38905315190 succeeded at 13:06:36 
 
 Dry run of the publisher's merge code before pushing: 165 collections, 48 research entries, no duplicate IDs.
 
-## Batch 12 (2026-10-16): KPSS patent values extended to 2025
+## Batch 12 (2026-10-16): KPSS patent values extended to 2025, and two QJE patent deposits
 
-Status: committed through a pull request. **Not confirmed until the workflow run and live feed are recorded here.**
+Status: KPSS published and confirmed (run 38905816430 succeeded at 13:10:38 UTC; the live feed then showed 166 entries including `kpss-patent-values-extended-2025`). The two QJE deposits below are committed through a pull request and **not confirmed until the run and feed are recorded here.**
 
 | Dataset ID | Paper | Evidence and file check | Limits |
 | --- | --- | --- | --- |
 | `kpss-patent-values-extended-2025` | Kogan, Papanikolaou, Seru, Stoffman, Quarterly Journal of Economics 132(2), 665-712 (2017), DOI 10.1093/qje/qjw040 | [GitHub repository](https://github.com/KPSS2017/Technological-Innovation-Resource-Allocation-and-Growth-Extended-Data), head 78ecbc8 (2026-09-09). Three zips cloned and read in full: 3,831,908 rows each; issue years 1926-2025; 10,599 distinct permnos. | No license stated. CRSP codes come from a licensed source. Values differ slightly from the paper. Paper full text not read. |
 
+| `who-becomes-an-inventor-public-tables` | Bell, Chetty, Jaravel, Petkova, Van Reenen, QJE 134(2), 647-713 (2019), DOI 10.1093/qje/qjy028 | [Dataverse UITDYS](https://doi.org/10.7910/DVN/UITDYS), CC0, 26.7 MB zip downloaded in full. README read; seven aggregate CSV tables opened (741 to 574,741 rows). | Aggregates only; microdata not public. Codebook PDF not read. |
+| `who-profits-from-patents-application-data` | Kline, Petkova, Williams, Zidar, QJE 134(3), 1343-1404 (2019), DOI 10.1093/qje/qjz011 | [Dataverse HMFYON](https://doi.org/10.7910/DVN/HMFYON), CC0, 32.6 MB zip downloaded in full. Application file opened: 3,737,351 rows, years 2000-2013. | Partial: tax and wage data are confidential. Mostly code. |
+
+Considered and not added: Emerick, de Janvry, Sadoulet, Dar, AER 106(6) (2016), Dataverse W97NZB (CC0, 5.8 MB). It is a field experiment on flood-tolerant rice in India, an agricultural development topic outside the innovation-management focus. Revisit if the owner wants technology adoption in development.
+
 An earlier sweep hit pointed to Zenodo 15545361 for this paper; that record is a different dataset (Green AI patents), so it was not used.
 
-Dry run of the publisher's merge code before pushing: 166 collections, 49 research entries, no duplicate IDs.
+Dry run of the publisher's merge code before pushing the two QJE deposits: 168 collections, 51 research entries, no duplicate IDs.
 
 ## State at the earlier pause (historical)
 

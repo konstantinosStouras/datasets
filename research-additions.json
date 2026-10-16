@@ -1150,6 +1150,38 @@
       "evidenceSection": "Repository README names the article and says the files extend its patent value series",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository README names the paper and links to it. The article's full text was not read."
+    },
+    "10.1093/qje/qjy028": {
+      "title": "Who Becomes an Inventor in America? The Importance of Exposure to Innovation",
+      "authors": "Alex Bell; Raj Chetty; Xavier Jaravel; Neviana Petkova; John Van Reenen",
+      "journal": "The Quarterly Journal of Economics",
+      "year": 2019,
+      "volume": "134",
+      "issue": "2",
+      "pages": "647–713",
+      "onlineDate": "2018-11-29",
+      "doi": "10.1093/qje/qjy028",
+      "url": "https://doi.org/10.1093/qje/qjy028",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/UITDYS",
+      "evidenceSection": "Harvard Dataverse record lists this article as its related publication",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Dataverse record names the article. The article's full text was not read."
+    },
+    "10.1093/qje/qjz011": {
+      "title": "Who Profits from Patents? Rent-Sharing at Innovative Firms",
+      "authors": "Patrick Kline; Neviana Petkova; Heidi Williams; Owen Zidar",
+      "journal": "The Quarterly Journal of Economics",
+      "year": 2019,
+      "volume": "134",
+      "issue": "3",
+      "pages": "1343–1404",
+      "onlineDate": "2019-03-27",
+      "doi": "10.1093/qje/qjz011",
+      "url": "https://doi.org/10.1093/qje/qjz011",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/HMFYON",
+      "evidenceSection": "Harvard Dataverse record lists this article as its related publication",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Dataverse record names the article. The article's full text was not read."
     }
   },
   "datasets": [
@@ -3695,6 +3727,106 @@
         }
       ],
       "verification": "The repository was cloned (head 78ecbc8, 2026-09-09). All three zips were opened and every row counted, with headers matching the README; the value file was also scanned for its issue-year range and distinct permnos. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Patents",
+      "years": "Birth cohorts and patent grants by area; income outcomes by age",
+      "geography": "United States",
+      "types": [
+        "Administrative"
+      ],
+      "units": [
+        "Individuals",
+        "Regions"
+      ],
+      "tools": [
+        "Stata",
+        "CSV"
+      ],
+      "designs": [
+        "Panel"
+      ],
+      "paperDois": [
+        "10.1093/qje/qjy028"
+      ],
+      "id": "who-becomes-an-inventor-public-tables",
+      "title": "Who becomes an inventor in America: public data tables",
+      "url": "https://doi.org/10.7910/DVN/UITDYS",
+      "description": "Aggregate tables from linked tax and patent records showing the share of children who become inventors by commuting zone, state, parents' income, and also patent grants by area and year, inventors by college, and inventor income by age. Released by the authors with the Stata code for the paper.",
+      "tags": [
+        "Patents",
+        "Inventors",
+        "Social mobility",
+        "Regional data",
+        "Exposure to innovation",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Seven CSV tables: 741 commuting zones (table 1a), 51 states (1b), 574,741 rows of grants by commuting zone, cohort, age and year (2a), 51,051 rows by state (2b), 423 colleges (3), and two tables of inventor income by age (4a with 684 rows, 4b with 46 rows). A codebook PDF is included but was not read.",
+        "These are aggregate tables only. The README says the individual-level tax and patent microdata are not public, so the paper cannot be fully replicated; the Stata code is provided for reference.",
+        "Licensed CC0 on Harvard Dataverse (one 26.7 MB zip)."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (code_and_data.zip, 26.7 MB)",
+          "url": "https://doi.org/10.7910/DVN/UITDYS",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The zip was downloaded in full (size matches Dataverse). The README was read, and all seven tables were opened with their row and column counts recorded. The codebook and the paper's full text were not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Patents",
+      "years": "Applications 2000–2013",
+      "geography": "United States",
+      "types": [
+        "Administrative"
+      ],
+      "units": [
+        "Patents",
+        "Firms"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Cross-section"
+      ],
+      "paperDois": [
+        "10.1093/qje/qjz011"
+      ],
+      "id": "who-profits-from-patents-application-data",
+      "title": "Who profits from patents: patent application sample (partial replication data)",
+      "url": "https://doi.org/10.7910/DVN/HMFYON",
+      "description": "Partial replication package from a study of rent-sharing at patenting firms. The shared data are a USPTO patent application sample with filing dates and assignee names, small decision-lag tables and summary results, together with the full Stata and SAS build and analysis code. The tax and wage records the study relies on are not included.",
+      "tags": [
+        "Patents",
+        "Patent applications",
+        "Rent-sharing",
+        "Replication code",
+        "Partial data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Main data file: KPWZ_waterfall.dta with 3,737,351 patent application rows (application years 2000 to 2013; columns for assignee name, application number, filing date, status, kind code and a count of earlier grants). 3,314,571 rows carry an assignee name. Smaller files: years-to-decision for 99,871 applications, a 12-row table of years until grant after a first rejection, and a table of summary estimates.",
+        "This is a partial package. The firm-level tax, payroll and wage data behind the main results are confidential and not included; the build code is there to show how they were made. Estimation output tables are included.",
+        "Licensed CC0 on Harvard Dataverse (one 32.6 MB zip, version 2)."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (KPWZ_replication.zip, 32.6 MB)",
+          "url": "https://doi.org/10.7910/DVN/HMFYON",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The zip was downloaded in full and its contents listed. The READMEs were read, and the four small Stata files and the large application file were opened with their rows counted. The paper's full text and the appendix PDF were not read."
     }
   ]
 }
