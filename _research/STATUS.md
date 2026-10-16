@@ -17,7 +17,8 @@ Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the co
 - 12:42 Batch 8 confirmed live (run 38901669227 at 12:36:30: 154 collections, 37 research entries; raw feed caught up). Batch 9 submitted: Community Innovation Survey (Eurostat tables) and Global Entrepreneurship Monitor.
 - 12:51 Batch 9 confirmed live (run 38902467271 at 12:43:11: 156 collections, 39 research entries). Batch 10 submitted: NBER Orange Book, ClinicalTrials.gov, World Bank FAT survey (found through the abstract scan and sweep chunks 9 to 12).
 - 12:56 Batch 10 confirmed live (run 38903631072 at 12:52:56: 159 collections, 42 research entries). Added a 'Known blockers' section. AER deposits on openICPSR are blocked like ICPSR; QJE deposits on Dataverse are often README-only or code-only.
-- Running: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000, started 12:06, about 3 minutes per chunk (14 of 21 done at 12:56; chunks now reach AER, QJE, JPE, marketing and finance journals). Two failed requests so far (proxy drops); failed DOIs are rerun at the end. Next: vet hits from each finished chunk by hand, add verified ones, publish, record each batch here.
+- 13:05 Batch 10 confirmed live earlier; batch 11 submitted: six replication deposits (RFS, QJE x2, JPE, JFE, JIBS) from sweep chunks 13 and 14.
+- Running: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000, started 12:06, about 3 minutes per chunk (17 of 21 done at 13:05; chunks now reach AER, QJE, JPE, marketing and finance journals). Two failed requests so far (proxy drops); failed DOIs are rerun at the end. Next: vet hits from each finished chunk by hand, add verified ones, publish, record each batch here.
 - Unresolved and blocked by publisher bot challenges (not bypassed): INFORMS supplements (two Management Science leads), Wiley, SAGE.
 
 ## Resumption log
@@ -232,6 +233,21 @@ Dry run of the publisher's merge code before pushing: 159 collections, 42 resear
 ### Large downloads
 
 One request for the ClinicalTrials.gov bulk zip used a range header that the server ignored and pulled about 3 GB before I stopped it. The partial file was deleted. Use `curl --max-filesize` or request only headers for large bulk files.
+
+## Batch 11 (2026-10-16): six replication deposits in finance, economics and international business journals
+
+Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+
+| Dataset ID | Paper | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `startup-patent-scope-timing-data` | Hegde, Ljungqvist, Raj, Review of Financial Studies 35(6), 2705-2742 (2021), DOI 10.1093/rfs/hhab097 | [Dataverse I6PMAE](https://doi.org/10.7910/DVN/I6PMAE), CC0, seven files. Four tables and the do-file downloaded and parsed (29,933 x 131; 12,180 x 47; 8,281 x 30). | Identifiers not examined; do-file not rerun. |
+| `taxation-innovation-state-inventor-panels` | Akcigit, Grigsby, Nicholas, Stantcheva, Quarterly Journal of Economics 137(1), 329-385 (2021), DOI 10.1093/qje/qjab022 | [Dataverse SR410I](https://doi.org/10.7910/DVN/SR410I), CC0. 344 MB packet downloaded in full; inner archive opened: state panel 3,848 rows, inventor panel 6,465,562 rows, location choice 4,659,712 rows. | Only top corporate tax rate and a few tax-base variables included. |
+| `directed-innovation-climate-agriculture-data` | Moscona, Sastry, QJE 138(2), 637-701 (2022), DOI 10.1093/qje/qjac039 | [Dataverse 5ELEPA](https://doi.org/10.7910/DVN/5ELEPA), CC0, 82 files (3.6 GB). README read; crop (632 x 43) and county (21,027 x 16) tables parsed. | Large climate inputs listed only. Nothing rerun. |
+| `compustat-uspto-patent-assignment-link` | Arque-Castells, Spulber, Journal of Political Economy 130(7), 1860-1918 (2022), DOI 10.1086/719908 | [Zenodo 6352357](https://doi.org/10.5281/zenodo.6352357) (files in 6352358), CC BY 4.0. README read in full; smallest archive downloaded and listed. | Large archives (up to 1.6 GB) not downloaded. Compustat identifiers: licensed source. Coverage 1981-2012 per README. |
+| `employment-protection-process-innovation-data` | Bena, Ortiz-Molina, Simintzi, Journal of Financial Economics 146(2), 637-664 (2022), DOI 10.1016/j.jfineco.2021.10.005 | Mendeley Data `jpg9bjzjwk`, CC BY 4.0, supplement to the paper. Firm-year panel 45,263 x 78 (fiscal years 1975-1997, 4,447 firms). | 'Public version' of the data; what was left out is not stated. |
+| `populism-entrepreneurship-individual-data` | Bennett, Boudreaux, Nikolaev, Journal of International Business Studies 54(1), 151-181 (2023), DOI 10.1057/s41267-022-00515-9 | Mendeley Data `c8vz84fzfz`, CC BY-NC-SA 4.0. 407 MB Stata table: 2,467,779 rows x 43 columns. | Underlying surveys not described; may carry their own terms. Years variable 1960-2020. |
+
+Dry run of the publisher's merge code before pushing: 165 collections, 48 research entries, no duplicate IDs.
 
 ## State at the earlier pause (historical)
 

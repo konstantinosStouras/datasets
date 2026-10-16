@@ -1044,6 +1044,96 @@
       "evidenceSection": "The paper's replication record on Harvard Dataverse states where the survey microdata are; each FAT study record in the World Bank Microdata Library requires citing this article",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms title, authors, journal and year. The Dataverse replication record (README only) names the paper and points to the World Bank microdata and reproducibility package, and the Microdata Library's study record lists this article in its citation requirement. The article's full text was not read."
+    },
+    "10.1093/rfs/hhab097": {
+      "title": "Quick or Broad Patents? Evidence from U.S. Startups",
+      "authors": "Deepak Hegde; Alexander Ljungqvist; Manav Raj",
+      "journal": "The Review of Financial Studies",
+      "year": 2021,
+      "volume": "35",
+      "issue": "6",
+      "pages": "2705–2742",
+      "doi": "10.1093/rfs/hhab097",
+      "url": "https://doi.org/10.1093/rfs/hhab097",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/I6PMAE",
+      "evidenceSection": "Dataverse record is the replication data and code for this article and cites it as its publication",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its deposited README names the paper. The article's full text was not read."
+    },
+    "10.1093/qje/qjab022": {
+      "title": "Taxation and Innovation in the Twentieth Century",
+      "authors": "Ufuk Akcigit; John Grigsby; Tom Nicholas; Stefanie Stantcheva",
+      "journal": "The Quarterly Journal of Economics",
+      "year": 2021,
+      "volume": "137",
+      "issue": "1",
+      "pages": "329–385",
+      "doi": "10.1093/qje/qjab022",
+      "url": "https://doi.org/10.1093/qje/qjab022",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/SR410I",
+      "evidenceSection": "Dataverse record and deposited README are the replication packet for this article and ask users to cite it",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its deposited README names the paper. The article's full text was not read."
+    },
+    "10.1093/qje/qjac039": {
+      "title": "Does Directed Innovation Mitigate Climate Damage? Evidence from U.S. Agriculture",
+      "authors": "Jacob Moscona; Karthik A Sastry",
+      "journal": "The Quarterly Journal of Economics",
+      "year": 2022,
+      "volume": "138",
+      "issue": "2",
+      "pages": "637–701",
+      "doi": "10.1093/qje/qjac039",
+      "url": "https://doi.org/10.1093/qje/qjac039",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/5ELEPA",
+      "evidenceSection": "Dataverse record and README are the replication files for this article",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its deposited README names the paper. The article's full text was not read."
+    },
+    "10.1086/719908": {
+      "title": "Measuring the Private and Social Returns to R&D: Unintended Spillovers versus Technology Markets",
+      "authors": "Pere Arqué-Castells; Daniel F. Spulber",
+      "journal": "Journal of Political Economy",
+      "year": 2022,
+      "volume": "130",
+      "issue": "7",
+      "pages": "1860–1918",
+      "doi": "10.1086/719908",
+      "url": "https://doi.org/10.1086/719908",
+      "evidenceUrl": "https://doi.org/10.5281/zenodo.6352357",
+      "evidenceSection": "The Zenodo README asks users of the data to cite this article and says the code is in the article's replication package",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its deposited README names the paper. The article's full text was not read."
+    },
+    "10.1016/j.jfineco.2021.10.005": {
+      "title": "Shielding firm value: Employment protection and process innovation",
+      "authors": "Jan Bena; Hernán Ortiz-Molina; Elena Simintzi",
+      "journal": "Journal of Financial Economics",
+      "year": 2022,
+      "volume": "146",
+      "issue": "2",
+      "pages": "637–664",
+      "doi": "10.1016/j.jfineco.2021.10.005",
+      "url": "https://doi.org/10.1016/j.jfineco.2021.10.005",
+      "evidenceUrl": "https://doi.org/10.17632/jpg9bjzjwk.1",
+      "evidenceSection": "Mendeley Data deposit is registered as a supplement to this article and describes itself as the Stata code and public version of its data",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its deposited README names the paper. The article's full text was not read."
+    },
+    "10.1057/s41267-022-00515-9": {
+      "title": "Populist discourse and entrepreneurship: The role of political ideology and institutions",
+      "authors": "Daniel L. Bennett; Christopher Boudreaux; Boris Nikolaev",
+      "journal": "Journal of International Business Studies",
+      "year": 2022,
+      "volume": "54",
+      "issue": "1",
+      "pages": "151–181",
+      "doi": "10.1057/s41267-022-00515-9",
+      "url": "https://doi.org/10.1057/s41267-022-00515-9",
+      "evidenceUrl": "https://doi.org/10.17632/c8vz84fzfz.1",
+      "evidenceSection": "Mendeley Data deposit description cites this article as the paper whose dataset and analysis code it holds",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its deposited README names the paper. The article's full text was not read."
     }
   },
   "datasets": [
@@ -3226,6 +3316,320 @@
         }
       ],
       "verification": "The catalog API returned the 16-study FAT collection and one full study record with its abstract, sampling description and citation requirement. The article's replication DOI resolves to the World Bank reproducibility site. Login-gated microdata were not accessed."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Entrepreneurship",
+      "years": "Not specified (analysis restricted to patent actions before 2010)",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [],
+      "paperDois": [
+        "10.1093/rfs/hhab097"
+      ],
+      "id": "startup-patent-scope-timing-data",
+      "title": "U.S. startups' patent scope and timing (replication data)",
+      "url": "https://doi.org/10.7910/DVN/I6PMAE",
+      "description": "Author replication data on patent applications by U.S. startups, with patent claim counts, examiner leniency, technology classes, venture financing and exit outcomes, plus Stata code.",
+      "tags": [
+        "Entrepreneurship",
+        "Startups",
+        "Innovation",
+        "Patents",
+        "Venture capital",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Seven public files, 23 MB: a main table with 29,933 rows and 131 columns, a table of rejected applications (12,180 rows, 47 columns), a second-patent table (8,281 rows, 30 columns), two small figure-data tables, a Stata do-file and its log.",
+        "Columns checked include patent-action dates, art unit and technology center, examiner leniency, claim counts, IPO and exit dates. Underlying startup and patent identifiers were not examined.",
+        "Licensed CC0 1.0 on Harvard Dataverse. The analysis files were read but the do-file was not rerun."
+      ],
+      "links": [
+        {
+          "title": "Main data table (tab-separated, 18 MB)",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/6297272",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Stata do-file",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/6297267",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Dataverse API lists seven public files under CC0 1.0. Four data tables and the do-file were downloaded and parsed (row and column counts above)."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Patents",
+      "years": "State panel 1937–2010 in the file (analysis 1940–2000); inventor panels not dated in the README",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Individuals",
+        "Places & geographic areas"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1093/qje/qjab022"
+      ],
+      "id": "taxation-innovation-state-inventor-panels",
+      "title": "Taxation and innovation: U.S. state and inventor panels (replication packet)",
+      "url": "https://doi.org/10.7910/DVN/SR410I",
+      "description": "Author replication packet with a state-level panel of patenting, inventors and tax rates, an inventor-level panel with inventors' home-state tax rates, and inventor location-choice data, plus Stata code.",
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Inventors",
+        "Taxation",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "One zip of 344 MB. Data: a state panel (3,848 rows, 62 columns), an inventor-level panel (6,465,562 inventor-year rows, 44 columns) and a location-choice table (4,659,712 rows, 21 columns), plus 11 Stata programs and a master script.",
+        "Only the top corporate tax rate and a few tax-base variables are included; the authors say more detailed tax data can be requested by email.",
+        "Inventor-level rows use inventor ID numbers; check the README before linking to other patent data. The record is marked CC0 1.0 and asks users to cite the paper.",
+        "The state panel runs 1937 to 2010 in the file, while the README describes the paper's analysis as 1940 to 2000."
+      ],
+      "links": [
+        {
+          "title": "README (PDF)",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/4750835",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Replication packet (ZIP, 344 MB)",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/4750834",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Dataverse API lists two public files under CC0 1.0. The README was read; the packet was downloaded in full, its inner archive was opened and the three data tables were read for row and column counts."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Patents",
+      "years": "Not specified (county and crop panels by decade)",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Places & geographic areas"
+      ],
+      "tools": [
+        "Stata",
+        "Python"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1093/qje/qjac039"
+      ],
+      "id": "directed-innovation-climate-agriculture-data",
+      "title": "Directed innovation and climate damage in U.S. agriculture (replication data)",
+      "url": "https://doi.org/10.7910/DVN/5ELEPA",
+      "description": "Author replication data linking crop-level and county-level agricultural outcomes to climate shocks and to agricultural innovation, with Stata and Python code and the climate inputs behind the counterfactuals.",
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Climate",
+        "Agriculture",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "82 public files, about 3.6 GB. The main analysis tables are small: a crop-by-decade table (632 rows, 43 columns) and a county-by-decade table (21,027 rows, 16 columns). Large climate-projection files and zipped inputs make up most of the size.",
+        "The README states the package contains all data needed to replicate the paper, including raw and cleaned crop-level and county-level data, code and counterfactual inputs. Nothing was rerun.",
+        "The record is marked CC0 1.0. The raw inputs come from public sources named in the paper, which may have their own terms."
+      ],
+      "links": [
+        {
+          "title": "Crop-level data table",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/6553835",
+          "checkedStatus": 200
+        },
+        {
+          "title": "County-level data table",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/6553799",
+          "checkedStatus": 200
+        },
+        {
+          "title": "README (PDF)",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/6553781"
+        }
+      ],
+      "verification": "Dataverse API lists 82 public files under CC0 1.0. The README was read and the two main tables were downloaded and parsed. Other files were listed only."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Patents",
+      "years": "Transactions 1970–2013 (coverage described as sufficient for 1981–2012)",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [],
+      "paperDois": [
+        "10.1086/719908"
+      ],
+      "id": "compustat-uspto-patent-assignment-link",
+      "title": "Link between Compustat and the USPTO Patent Assignment Dataset",
+      "url": "https://doi.org/10.5281/zenodo.6352357",
+      "description": "Author-built links between assignees and assignors in the USPTO Patent Assignment Dataset and Compustat firm identifiers, with the underlying assignment tables, for studying trade in patents and technology markets.",
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Technology markets",
+        "Patent assignment",
+        "Author-shared data"
+      ],
+      "notes": [
+        "The authors worked with a version of the assignment dataset shared with them by a colleague. It covers 5,534,135 transactions recorded between January 1970 and January 2013, and precedes the first release on the USPTO website by one year. Coverage seems sufficient for 1981 to 2012, according to the README.",
+        "The Zenodo record has multiple zip files, from 3 MB to 1.6 GB, with the original assignment tables and the linking files. The README says some auxiliary inputs used in the match (SDC Platinum, Osiris, Compustat) are not provided because they are licensed.",
+        "Licensed CC BY 4.0 on Zenodo. Compustat is a licensed commercial source: the links use its firm identifiers, but check the terms before combining with Compustat data.",
+        "The README asks users to cite the Journal of Political Economy article and a working paper on firm matching in the technology market."
+      ],
+      "links": [
+        {
+          "title": "README (PDF)",
+          "url": "https://zenodo.org/api/records/6352358/files/00%20Readme%20-%20Zenodo.pdf/content",
+          "checkedStatus": 200
+        },
+        {
+          "title": "NBER-style assignee link file (ZIP, 3 MB)",
+          "url": "https://zenodo.org/api/records/6352358/files/dynass_nber_searle.zip/content",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Zenodo API lists the files as open under CC BY 4.0. The README was read in full and the smallest linking archive was downloaded and listed (one Stata file of 25 MB). The large archives were not downloaded."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Businesses",
+      "years": "1975–1997 (fiscal years in the file)",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1016/j.jfineco.2021.10.005"
+      ],
+      "id": "employment-protection-process-innovation-data",
+      "title": "Employment protection and process innovation (public version of the data)",
+      "url": "https://doi.org/10.17632/jpg9bjzjwk.1",
+      "description": "Author-shared public version of a firm-year panel on process and product innovation and state employment protection, with the Stata code used in the paper.",
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Process innovation",
+        "Employment protection",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Two Stata tables: a firm-year panel (45,263 rows, 78 columns, 4,447 firms, fiscal years 1975 to 1997) and a table for two figures (125,345 rows, 5 columns), plus a do-file. The deposit calls it the 'public version' of the paper's data.",
+        "Firms are identified by Compustat-style identifiers (gvkey). Compustat is a licensed source; the deposit's own terms (CC BY 4.0) apply to the files, but check how the financial variables may be reused.",
+        "The deposit does not say what was left out of the public version relative to the paper's full data."
+      ],
+      "links": [
+        {
+          "title": "Firm-year panel (Stata, 14 MB)",
+          "url": "https://data.mendeley.com/public-api/datasets/jpg9bjzjwk/files?folder_id=root&version=1",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Mendeley Data lists three public files. All were downloaded (sizes match the declared sizes) and the two tables parsed with the counts above."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Entrepreneurship",
+      "years": "'year' variable runs 1960–2020",
+      "geography": "International",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Repeated cross-section"
+      ],
+      "paperDois": [
+        "10.1057/s41267-022-00515-9"
+      ],
+      "id": "populism-entrepreneurship-individual-data",
+      "title": "Populist discourse and entrepreneurship (author dataset)",
+      "url": "https://doi.org/10.17632/c8vz84fzfz.1",
+      "description": "Author-shared individual-level dataset combining survey-style entrepreneurship variables with country characteristics and measures of populist political discourse, with the Stata code for the paper's tables and figures.",
+      "tags": [
+        "Entrepreneurship",
+        "Institutions",
+        "Populism",
+        "Cross-country data",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "One Stata table of 2,467,779 rows and 43 columns (407 MB) and a do-file. Variable names include entrepreneurship-survey style items such as fear of failure and a high household income indicator; the deposit does not describe the underlying surveys, so check the paper before reuse.",
+        "The 'year' variable runs from 1960 to 2020, so it mixes survey and country-level time series. Country codes are numeric.",
+        "Licensed CC BY-NC-SA 4.0 on Mendeley Data (non-commercial, share alike). If the individual-level data derive from a survey with its own terms, those apply too."
+      ],
+      "links": [
+        {
+          "title": "Dataset (Stata, 407 MB)",
+          "url": "https://data.mendeley.com/public-api/datasets/c8vz84fzfz/files?folder_id=root&version=1",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Mendeley Data lists two public files. The dataset was downloaded (size matches the declared size) and its row count, column names, and year range were read; the do-file was listed."
     }
   ]
 }
