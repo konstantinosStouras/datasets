@@ -6,6 +6,7 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the container clock. (An earlier version of this log used estimated times; they have been replaced with these observed ones.)
 
+- 15:05 Batch 14 submitted: six QJE and JPE deposits (patent applications 1998-2003, French industrialization panels, inventor migration database, federal R&D funding tables, Chinese AI firms, automation patent panels). Sweep at about 18,000 of 113,511 with 458 hits.
 - 14:40 FT50-wide DataCite batch sweep started (113,511 papers from 1996 on); QJE, JPE, REStud and Econometric Society replication archives listed. Owner: no experiments category, focus on 1996 on, prefer reusable datasets.
 - 14:12 Batch 13 live (run 38913236095, 14:07:51; 172 entries).
 - 14:10 Batch 13 submitted: three Management Science deposits (Guzman and Li founding strategy; Gong and Png automation; Roach and Sauermann startup hiring) found by matching the site's Management Science paper list against Dataverse search results. Six other Management Science leads logged and not added.
@@ -305,6 +306,25 @@ Methods and outcomes so far:
 - Journal replication archives listed directly: Harvard Dataverse QJE (431 datasets) and JPE (284) collections; Zenodo communities `restud-replication` (544 records) and `es-replication-repository` (290, Econometric Society journals). American Economic Review deposits sit on openICPSR, which blocks scripts.
 
 Next: triage the sweep hits by host and journal, drop figshare "Additional file" noise and ICPSR archive links, verify candidates with actual file reads, and publish in batches with the usual STATUS records.
+
+## Batch 14 (2026-10-16): six deposits from the QJE and JPE replication archives
+
+Status: committed through a pull request. **Not confirmed until the workflow run and live feed are recorded here.**
+
+Found by listing the Harvard Dataverse QJE and JPE collections, matching deposit titles and citations to the Lit, scoring the 826 matched papers from 1996 on by management relevance, and inspecting the top of that list.
+
+| Dataset ID | Paper | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `uspto-patent-applications-1998-2003-aipa` | Hegde, Herkenhoff, Zhu, JPE 131(7), 1845-1903 (2023), DOI 10.1086/723636 | [Dataverse PFSRVT](https://doi.org/10.7910/DVN/PFSRVT), CC0. README read; 159.5 MB Stata file read end to end: 1,107,710 rows, 36 columns. | Public version drops 428,690 pending or abandoned applications; twin-patent and firm files not deposited. |
+| `french-industrialization-firm-panels-1794-1840` | Juhász, Squicciarini, Voigtländer, JPE 132(10), 3215-3259 (2024), DOI 10.1086/730205 | [Dataverse EGWOPG](https://doi.org/10.7910/DVN/EGWOPG), CC0. README read; six tables parsed (cotton 868, metallurgy 1,366, paper 867 rows). | Two-period panels; study-specific firm ids. |
+| `inventor-migration-patents-database-prato` | Prato, QJE 140(1), 165-238 (2025), DOI 10.1093/qje/qjae040 | [Dataverse IX6AW9](https://doi.org/10.7910/DVN/IX6AW9), CC0. 687 MB zip downloaded; ReadMe read; Stata headers read: inventors_database 8,981,831 x 62, inventors_year 6,099,891 x 22, inventors_unique 4,009,660 x 13, coauthors 35,659,955 x 4. | Raw PATENTS-ICRIOS and WIPO inputs not included; tables not loaded in full; inventor names present. |
+| `federal-rd-funding-university-tables-babina` | Babina, He, Howell, Perlman, Staudt, QJE 138(2), 895-954 (2023), DOI 10.1093/qje/qjac046 | [Dataverse EZZBCR](https://doi.org/10.7910/DVN/EZZBCR), CC0. All public tables parsed (Single Audit 97,766 rows; IPEDS 92,397 rows; CFDA 5,884). | Partial: IRIS and Census outcomes restricted, code only. |
+| `china-ai-firms-surveillance-contracts-data` | Beraja, Kao, Yang, Yuchtman, QJE 138(3), 1349-1402 (2023), DOI 10.1093/qje/qjad012 | [Dataverse GCOVGX](https://doi.org/10.7910/DVN/GCOVGX), CC0. 610 MB zip downloaded; README read; headers of four Stata tables read (firm panel 1,040,621 x 120). | Commercial source data released deidentified; reuse terms uncertain. |
+| `induced-automation-innovation-patent-panels` | Hémous, Olsen, Zanella, Dechezleprêtre, JPE 133(6), 1975-2028 (2025), DOI 10.1086/734778 | [Dataverse IMCSW1](https://doi.org/10.7910/DVN/IMCSW1), CC0, 1,045 files, 56 GB. READMEs and Sources.md read; folder sizes listed; two tables parsed (133 x 104; 58,731 x 8). | PATSTAT, EPO text and Orbis inputs excluded; most files not downloaded. |
+
+Leads inspected and not added (recorded in the broader queue): JPE military innovation (simulated table only); QJE trust and innovation, generative AI at work, workplace knowledge flows, unequal gains from product innovations, discretion in hiring, capitalists (code only); New Frontiers (README only, NBER-restricted inputs); worker evaluations in auto manufacturing (field experiment, set aside per the owner); codification and technology absorption (README only); Econometrica female entrepreneurship (code only), managerial autonomy (simulated Prowess data), screening property rights (17 GB, not inspected). Technology Sophistication Across Establishments (QJE 2026) is already cited on the FAT entry.
+
+Dry run of the publisher's merge code before pushing: 178 collections, 61 research entries, no duplicate IDs.
 
 ## State at the earlier pause (historical)
 
