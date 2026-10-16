@@ -11,7 +11,7 @@ export function parseCatalog(markdown) {
     if (bullet[1].length < 2 && !/^From\s+\[/i.test(bullet[2])) {
       current = {topic, title: '', description: '', details: [], links: []};
       const lead = bullet[2].match(/^\[([^\]]+)\]\((https?:\/\/[^)]+)\)(.*)/);
-      if (lead) { current.title = plain(lead[1]); current.url = lead[2]; current.description = plain(lead[3].replace(/^\s*[-–—]\s*/, '')); }
+      if (lead) { current.title = plain(lead[1]); current.url = lead[2]; current.descriptionMarkdown=lead[3].replace(/^\s*[-–—]\s*/, ''); current.description = plain(current.descriptionMarkdown); }
       else { const split = bullet[2].split(/\s[-–—]\s/); current.title = plain(split.shift()); current.description = plain(split.join(' — ')); }
       if (/(see above|see [a-z]+ above)/i.test(bullet[2]) && !lead) { current = null; continue; }
       if (!lead && current.title.length > 100) {
@@ -22,12 +22,14 @@ export function parseCatalog(markdown) {
     } else if (current) current.details.push(bullet[2]);
   }
   for (const entry of entries) {
-    const text = [entry.description, ...entry.details].join('\n');
+    const text = [entry.descriptionMarkdown || entry.description, ...entry.details].join('\n');
     entry.links = [...text.matchAll(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g)].map(m => ({title:plain(m[1]), url:m[2]}));
     if (!entry.url) entry.url = entry.links[0]?.url || '';
-    entry.access = /requires?|agreement|permission|not available|not publicly|rest requires/i.test(text) ? 'Agreement or mixed' : /access:\s*(public|free)|publicly available|free (to download|download)|access: public/i.test(text) ? 'Public' : 'Not specified';
+    entry.access = /agreement|permission|not available|not publicly/i.test(text) ? 'Agreement or mixed' : /access:\s*(public|free)|publicly available|free (to download|download)/i.test(text) ? 'Public' : 'Not specified';
     entry.years = (plain(text).match(/Years(?: covered)?:\s*([^.;\n]+)/i)?.[1] || '').trim();
     entry.search = plain([entry.title, entry.topic, text].join(' ')).toLowerCase();
+    if (entry.topic==='Temperature') entry.search+=' climate weather rainfall precipitation';
+    if (entry.topic==='Environment and energy') entry.search+=' climate environment energy';
     entry.id = entry.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
     entry.geography = /worldwide|global|countries|international|multinational/i.test(entry.search) ? 'International' : /england|wales|united kingdom/i.test(entry.search) ? 'United Kingdom' : /\b(us|u\.s\.|american|census|ssa|cdc|nchs|nber|nfl|nba|mlb|congress|texas|chicago|new york|california|seattle|los angeles)\b/i.test(entry.search) ? 'United States' : 'Other / not specified';
     if (/european|europe\b/i.test(entry.search) && entry.geography === 'Other / not specified') entry.geography='Europe';
@@ -43,7 +45,7 @@ export function parseCatalog(markdown) {
     entry.features=[];
     for(const [value,re] of [['Geocoded / spatial',/geocod|gridded|maps|borders|elevation|census block/],['Demographics',/demograph|\bage\b|race|ethnic|gender|\bsex\b/],['Income / earnings',/income|earning|wage|salary|salaries/],['Names / addresses',/\bnames?\b|addresses|\baddress\b/],['Text / transcripts',/transcript|text|scouting reports|abstract/],['Employment',/employ|occupation|labor|labour|job/]])if(re.test(s))entry.features.push(value);
     entry.paper = /sample paper|from \[|see \[.*(?:dataset|survey)|nature\.com\/articles|doi\.org|sciencedirect|onlinelibrary\.wiley|arxiv\.org/.test(s);
-    entry.period=/present|ongoing|per day|per month/i.test(entry.years || text)?'Ongoing': /\b(?:1[0-9]{3}|20[0-9]{2})\s*[-–]\s*(?:1[0-9]{3}|20[0-9]{2})/.test(entry.years || text)?'Historical / fixed period':'Not specified';
+    entry.period=/present|ongoing/i.test(entry.years || text)?'Ongoing': /\b(?:1[0-9]{3}|20[0-9]{2})\s*[-–]\s*(?:1[0-9]{3}|20[0-9]{2})/.test(entry.years || text)?'Historical / fixed period':'Not specified';
     const ranges=[...entry.years.matchAll(/\b(1[0-9]{3}|20[0-9]{2})\s*[-–]\s*(present|1[0-9]{3}|20[0-9]{2})\b/gi)];
     entry.ranges=ranges.map(m=>[Number(m[1]),m[2].toLowerCase()==='present'?new Date().getFullYear():Number(m[2])]);
     if(!ranges.length)entry.ranges=[...entry.years.matchAll(/\b(1[0-9]{3}|20[0-9]{2})\b/g)].map(m=>[Number(m[1]),Number(m[1])]);
