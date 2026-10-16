@@ -3203,7 +3203,8 @@
         "Technology management",
         "Patents",
         "Knowledge spillovers",
-        "R&D"
+        "R&D",
+        "Business model innovation"
       ],
       "dateAdded": "2026-10-16",
       "verifiedAt": "2026-10-16",
@@ -3224,9 +3225,18 @@
           "volume": "72",
           "issue": "9",
           "evidenceSection": "Section 3.2, Dependent Variables Capturing Technologically Significant Inventions"
+        },
+        {
+          "title": "Business Method Innovation in U.S. Manufacturing and Trade",
+          "authors": "Tian Heong Chan; Anandhi Bharadwaj; Deepa Varadarajan",
+          "journal": "Manufacturing & Service Operations Management",
+          "year": 2023,
+          "volume": "25",
+          "issue": "1",
+          "evidenceSection": "Business Method Patents in the United States: Data and Trends"
         }
       ],
-      "search": "nber patent data project — patents and citations patents historical u.s. patent records, citations, technology classifications and assignee identifiers for studying innovation and knowledge flows. the author-hosted page provides historical files and cautions that some are interim or not completely cleaned. follow its project link for documentation and later releases. the public patent files are not the cited paper's complete replication package: the study also combines other sources, including restricted financial data. patent records zip (stata) citation pairs zip (stata) patent data project provider documentation read; both zip endpoints returned http 200 to head requests on 2026-10-16. full archives were not downloaded. innovation technology management patents knowledge spillovers r&d the changing nature of firm innovation: short-termism and influential innovation in u.s. public firms yuan shi; rachelle c. sampson; brent goldfarb; rafael a. corredoira management science 2026"
+      "search": "nber patent data project — patents and citations patents historical u.s. patent records, citations, technology classifications and assignee identifiers for studying innovation and knowledge flows. the author-hosted page provides historical files and cautions that some are interim or not completely cleaned. follow its project link for documentation and later releases. the public patent files are not the cited paper's complete replication package: the study also combines other sources, including restricted financial data. patent records zip (stata) citation pairs zip (stata) patent data project provider documentation read; both zip endpoints returned http 200 to head requests on 2026-10-16. full archives were not downloaded. innovation technology management patents knowledge spillovers r&d business model innovation the changing nature of firm innovation: short-termism and influential innovation in u.s. public firms yuan shi; rachelle c. sampson; brent goldfarb; rafael a. corredoira management science 2026 business method innovation in u.s. manufacturing and trade tian heong chan; anandhi bharadwaj; deepa varadarajan manufacturing & service operations management 2023"
     },
     {
       "id": "patentsview-disambiguated-patents",
@@ -3257,7 +3267,8 @@
         "Technology management",
         "Patents",
         "Inventors",
-        "R&D"
+        "R&D",
+        "Regional innovation"
       ],
       "dateAdded": "2026-10-16",
       "verifiedAt": "2026-10-16",
@@ -3278,9 +3289,18 @@
           "volume": "72",
           "issue": "9",
           "evidenceSection": "Section 3.2, Dependent Variables Capturing Technologically Significant Inventions"
+        },
+        {
+          "title": "“High” innovators? Marijuana legalization and regional innovation",
+          "authors": "Stephanie Cheng; Pengkai Lin; Yinliang Tan; Yuchen Zhang",
+          "journal": "Production and Operations Management",
+          "year": 2023,
+          "volume": "32",
+          "issue": "3",
+          "evidenceSection": "Section 4.1, Sample construction"
         }
       ],
-      "search": "patentsview — disambiguated u.s. patent data patents research-ready u.s. patent data linking inventors, organizations and locations for studying invention, technological change and firm innovation. patentsview migrated to the uspto open data portal in march 2026. the current portal requires a uspto.gov account; api access requires a key. official documentation lists releases through december 2025. coverage depends on the chosen table; inspect its release notes and data dictionary. this specific research-ready collection is distinct from the existing general uspto portal listing. other sources used in the paper may require subscriptions. granted patent disambiguated data registration and api requirements official uspto documentation read; the product page returned http 200 on 2026-10-16. registration-gated files were not downloaded. innovation technology management patents inventors r&d the changing nature of firm innovation: short-termism and influential innovation in u.s. public firms yuan shi; rachelle c. sampson; brent goldfarb; rafael a. corredoira management science 2026"
+      "search": "patentsview — disambiguated u.s. patent data patents research-ready u.s. patent data linking inventors, organizations and locations for studying invention, technological change and firm innovation. patentsview migrated to the uspto open data portal in march 2026. the current portal requires a uspto.gov account; api access requires a key. official documentation lists releases through december 2025. coverage depends on the chosen table; inspect its release notes and data dictionary. this specific research-ready collection is distinct from the existing general uspto portal listing. other sources used in the paper may require subscriptions. granted patent disambiguated data registration and api requirements official uspto documentation read; the product page returned http 200 on 2026-10-16. registration-gated files were not downloaded. innovation technology management patents inventors r&d regional innovation the changing nature of firm innovation: short-termism and influential innovation in u.s. public firms yuan shi; rachelle c. sampson; brent goldfarb; rafael a. corredoira management science 2026 “high” innovators? marijuana legalization and regional innovation stephanie cheng; pengkai lin; yinliang tan; yuchen zhang production and operations management 2023"
     },
     {
       "id": "uspto-trademark-case-files",
