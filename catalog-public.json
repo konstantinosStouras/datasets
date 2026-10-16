@@ -5013,6 +5013,488 @@
         }
       ],
       "search": "entrepreneurs' social vision statements on angellist (study 1 data) entrepreneurship author-shared data for one of two studies: coded statements by start-ups on a talent platform about their social vision and the number of job applications received, with r scripts for both studies. only part of the paper's data is public. study 1 (a table of 1,191 start-up profiles with 66 columns, including coded statements and number of applications) and the r scripts are downloadable. the study 2 field-experiment data file is marked restricted in the repository and was not accessed. company names and platform profile links appear in the study 1 table; they come from public start-up profiles but may be sensitive in publications. licensed cc by-nc-nd 4.0: non-commercial and no derivatives. version 1.1. the record describes the two studies' datasets as xlsx files, one per study, plus scripts for descriptives and analyses and a folder of custom functions. study 1 data (xlsx, 0.8 mb) dataversenl api lists nine files, eight public and the study 2 data restricted. the study 1 workbook was downloaded and parsed (1,191 rows, 66 columns). the r scripts were listed, not run. entrepreneurship startups hiring social vision text data partial data recruiting talent through entrepreneurs’ social vision communication timo van balen; murat tarakci organization science 2024"
+    },
+    {
+      "id": "mannheim-innovation-panel-mip",
+      "title": "Mannheim Innovation Panel (MIP), German innovation survey",
+      "topic": "Businesses",
+      "description": "Annual representative survey of the innovation activities of German firms (new products and processes, innovation spending, returns), the German part of the Community Innovation Surveys, available to researchers as anonymised scientific use files.",
+      "years": "1993–2016 (scientific use files); the survey continues",
+      "access": "Agreement or mixed",
+      "geography": "Europe",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [
+        "Text / transcripts"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          1993,
+          2016
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Community Innovation Survey",
+        "Firm-level survey",
+        "Germany",
+        "Public dataset used in research"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Not freely downloadable. The ZEW Research Data Centre offers on-site use, time-limited remote access, an anonymised scientific use file for non-commercial research and, for some MIP data, an education use file. Scientific use is limited to researchers at publicly funded research institutions, according to ZEW and the DataCite record's rights statement.",
+        "The survey has run annually since 1993 and is a panel of firms in mining, manufacturing, energy, construction and business-related and distribution services, according to the DataCite description. The scientific use files in the DOI records cover 1993 to 2016 (one earlier release 1993 to 2014).",
+        "The eight Research Policy papers cited are those the data provider's own DOI records list as documenting publications; which version of the MIP data each paper used (scientific use, on-site or earlier releases) is not stated in the record. Their full texts were not read.",
+        "Not verified: no data file was opened. ZEW's pages and DOI records were checked; the files need an application to the ZEW Research Data Centre.",
+        "ZEW: Mannheim Innovation Panel",
+        "ZEW Research Data Centre (access routes)",
+        "Scientific use files 1993-2016 (DOI record)",
+        "ZEW's MIP page and Research Data Centre page were read and confirm the annual survey since 1993, scientific use files and the access routes. DataCite records for the scientific use files give the restriction wording and list the documenting publications. No data file could be inspected."
+      ],
+      "papers": [
+        {
+          "title": "Innovation, employment growth, and foreign ownership of firms",
+          "authors": "Bernhard Dachs; Bettina Peters",
+          "journal": "Research Policy",
+          "year": 2014,
+          "volume": "43",
+          "issue": "1",
+          "evidenceSection": "The provider's DataCite records for the Mannheim Innovation Panel list this article among the publications that document or use the data"
+        },
+        {
+          "title": "Cooperation with public research institutions and success in innovation: Evidence from France and Germany",
+          "authors": "Stéphane Robin; Torben Schubert",
+          "journal": "Research Policy",
+          "year": 2013,
+          "volume": "42",
+          "issue": "1",
+          "evidenceSection": "The provider's DataCite records for the Mannheim Innovation Panel list this article among the publications that document or use the data"
+        },
+        {
+          "title": "To protect or not to protect? Modes of appropriability in the small enterprise sector",
+          "authors": "Jörg Thomä; Kilian Bizer",
+          "journal": "Research Policy",
+          "year": 2013,
+          "volume": "42",
+          "issue": "1",
+          "evidenceSection": "The provider's DataCite records for the Mannheim Innovation Panel list this article among the publications that document or use the data"
+        },
+        {
+          "title": "Complementarities of innovation activities: An empirical analysis of the German manufacturing sector",
+          "authors": "Claudia Schmiedeberg",
+          "journal": "Research Policy",
+          "year": 2008,
+          "volume": "37",
+          "issue": "9",
+          "evidenceSection": "The provider's DataCite records for the Mannheim Innovation Panel list this article among the publications that document or use the data"
+        },
+        {
+          "title": "Determinants of environmental innovation—New evidence from German panel data sources",
+          "authors": "Jens Horbach",
+          "journal": "Research Policy",
+          "year": 2008,
+          "volume": "37",
+          "issue": "1",
+          "evidenceSection": "The provider's DataCite records for the Mannheim Innovation Panel list this article among the publications that document or use the data"
+        },
+        {
+          "title": "Complementarities in the search for innovation—Managing markets and relationships",
+          "authors": "Christoph Grimpe; Wolfgang Sofka",
+          "journal": "Research Policy",
+          "year": 2016,
+          "volume": "45",
+          "issue": "10",
+          "evidenceSection": "The provider's DataCite records for the Mannheim Innovation Panel list this article among the publications that document or use the data"
+        },
+        {
+          "title": "The impact of R&D subsidies during the crisis",
+          "authors": "Martin Hud; Katrin Hussinger",
+          "journal": "Research Policy",
+          "year": 2015,
+          "volume": "44",
+          "issue": "10",
+          "evidenceSection": "The provider's DataCite records for the Mannheim Innovation Panel list this article among the publications that document or use the data"
+        },
+        {
+          "title": "R&D outsourcing and intellectual property infringement",
+          "authors": "Philipp Buss; Christian Peukert",
+          "journal": "Research Policy",
+          "year": 2015,
+          "volume": "44",
+          "issue": "4",
+          "evidenceSection": "The provider's DataCite records for the Mannheim Innovation Panel list this article among the publications that document or use the data"
+        }
+      ],
+      "search": "mannheim innovation panel (mip), german innovation survey businesses annual representative survey of the innovation activities of german firms (new products and processes, innovation spending, returns), the german part of the community innovation surveys, available to researchers as anonymised scientific use files. not freely downloadable. the zew research data centre offers on-site use, time-limited remote access, an anonymised scientific use file for non-commercial research and, for some mip data, an education use file. scientific use is limited to researchers at publicly funded research institutions, according to zew and the datacite record's rights statement. the survey has run annually since 1993 and is a panel of firms in mining, manufacturing, energy, construction and business-related and distribution services, according to the datacite description. the scientific use files in the doi records cover 1993 to 2016 (one earlier release 1993 to 2014). the eight research policy papers cited are those the data provider's own doi records list as documenting publications; which version of the mip data each paper used (scientific use, on-site or earlier releases) is not stated in the record. their full texts were not read. not verified: no data file was opened. zew's pages and doi records were checked; the files need an application to the zew research data centre. zew: mannheim innovation panel zew research data centre (access routes) scientific use files 1993-2016 (doi record) zew's mip page and research data centre page were read and confirm the annual survey since 1993, scientific use files and the access routes. datacite records for the scientific use files give the restriction wording and list the documenting publications. no data file could be inspected. innovation technology management community innovation survey firm-level survey germany public dataset used in research innovation, employment growth, and foreign ownership of firms bernhard dachs; bettina peters research policy 2014 cooperation with public research institutions and success in innovation: evidence from france and germany stéphane robin; torben schubert research policy 2013 to protect or not to protect? modes of appropriability in the small enterprise sector jörg thomä; kilian bizer research policy 2013 complementarities of innovation activities: an empirical analysis of the german manufacturing sector claudia schmiedeberg research policy 2008 determinants of environmental innovation—new evidence from german panel data sources jens horbach research policy 2008 complementarities in the search for innovation—managing markets and relationships christoph grimpe; wolfgang sofka research policy 2016 the impact of r&d subsidies during the crisis martin hud; katrin hussinger research policy 2015 r&d outsourcing and intellectual property infringement philipp buss; christian peukert research policy 2015"
+    },
+    {
+      "id": "democracy-innovation-country-panel",
+      "title": "Democracy and innovation: country panel (replication data)",
+      "topic": "Government",
+      "description": "Author replication data with a country-year panel of democracy measures, patenting and control variables used to test whether democratization raises innovation.",
+      "years": "1960–2010",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Places & geographic areas"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [
+        "Geocoded / spatial"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          1960,
+          2010
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Innovation",
+        "Patents",
+        "Institutions",
+        "Democracy",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Four Stata data tables and a do-file: the main panel has 10,914 country-year rows for 214 countries from 1960 to 2010 (31 variables), plus a patent-based table of 357 rows and supplementary versions. A README maps each file to the paper's tables.",
+        "The Dataverse record is marked CC0 1.0. The source of each variable was not checked for this entry; see the README and the paper.",
+        "Files were read but the analysis was not rerun.",
+        "Main panel (Stata)",
+        "README (Word)",
+        "Dataverse API lists six public files under CC0 1.0 (version 1.0). All were downloaded; the four Stata tables parsed (10,914, 357, 10,914 and 392 rows) and the README was read."
+      ],
+      "papers": [
+        {
+          "title": "Does democracy cause innovation? An empirical test of the popper hypothesis",
+          "authors": "Yanyan Gao; Leizhen Zang; Antoine Roth; Puqu Wang",
+          "journal": "Research Policy",
+          "year": 2017,
+          "volume": "46",
+          "issue": "7",
+          "evidenceSection": "The repository record is registered as a supplement to this article: Harvard Dataverse replication data, whose README names the article"
+        }
+      ],
+      "search": "democracy and innovation: country panel (replication data) government author replication data with a country-year panel of democracy measures, patenting and control variables used to test whether democratization raises innovation. four stata data tables and a do-file: the main panel has 10,914 country-year rows for 214 countries from 1960 to 2010 (31 variables), plus a patent-based table of 357 rows and supplementary versions. a readme maps each file to the paper's tables. the dataverse record is marked cc0 1.0. the source of each variable was not checked for this entry; see the readme and the paper. files were read but the analysis was not rerun. main panel (stata) readme (word) dataverse api lists six public files under cc0 1.0 (version 1.0). all were downloaded; the four stata tables parsed (10,914, 357, 10,914 and 392 rows) and the readme was read. innovation patents institutions democracy replication data author-shared data does democracy cause innovation? an empirical test of the popper hypothesis yanyan gao; leizhen zang; antoine roth; puqu wang research policy 2017"
+    },
+    {
+      "id": "us-cleantech-startup-alliances-panel",
+      "title": "U.S. cleantech startups and their alliances (panel)",
+      "topic": "Entrepreneurship",
+      "description": "Author-built panel of U.S. cleantech startups and their alliances with governments, firms, research organisations and not-for-profits, with startup outcomes, and the Stata code for the paper.",
+      "years": "2008–2012",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [
+        "Text / transcripts"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          2008,
+          2012
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Entrepreneurship",
+        "Innovation",
+        "Cleantech",
+        "Startup alliances",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "The paper describes 657 U.S. cleantech startups and 2,015 alliances from 2008 to 2012. The deposited panel table has 2,408 rows and 24 columns with 657 distinct startup identifiers; a Stata do-file reproduces the regressions.",
+        "Licensed CC BY-NC 3.0 (non-commercial) on Mendeley Data. The table has no text columns: startups are identified by number only.",
+        "The deposit has only the panel table and a Stata do-file; there is no separate codebook, so variable meanings come from the paper and the do-file. All 24 columns are numeric.",
+        "Panel data (Stata, 125 KB)",
+        "Mendeley Data lists two public files. Both were downloaded (sizes match the declared sizes); the panel table parsed to 2,408 rows and 24 columns with 657 distinct identifiers over 2008 to 2012, and the do-file was read."
+      ],
+      "papers": [
+        {
+          "title": "Governments as partners: The role of alliances in U.S. cleantech startup innovation",
+          "authors": "Claudia Doblinger; Kavita Surana; Laura Diaz Anadon",
+          "journal": "Research Policy",
+          "year": 2019,
+          "volume": "48",
+          "issue": "6",
+          "evidenceSection": "The repository record is registered as a supplement to this article: Mendeley Data deposit"
+        }
+      ],
+      "search": "u.s. cleantech startups and their alliances (panel) entrepreneurship author-built panel of u.s. cleantech startups and their alliances with governments, firms, research organisations and not-for-profits, with startup outcomes, and the stata code for the paper. the paper describes 657 u.s. cleantech startups and 2,015 alliances from 2008 to 2012. the deposited panel table has 2,408 rows and 24 columns with 657 distinct startup identifiers; a stata do-file reproduces the regressions. licensed cc by-nc 3.0 (non-commercial) on mendeley data. the table has no text columns: startups are identified by number only. the deposit has only the panel table and a stata do-file; there is no separate codebook, so variable meanings come from the paper and the do-file. all 24 columns are numeric. panel data (stata, 125 kb) mendeley data lists two public files. both were downloaded (sizes match the declared sizes); the panel table parsed to 2,408 rows and 24 columns with 657 distinct identifiers over 2008 to 2012, and the do-file was read. entrepreneurship innovation cleantech startup alliances replication data author-shared data governments as partners: the role of alliances in u.s. cleantech startup innovation claudia doblinger; kavita surana; laura diaz anadon research policy 2019"
+    },
+    {
+      "id": "lithium-ion-battery-core-patents",
+      "title": "Lithium-ion battery core patent families",
+      "topic": "Patents",
+      "description": "Author-compiled list of the roughly 420 patent families on the core knowledge trajectory of lithium-ion battery technology, from a patent citation network analysis, with family details and network indices.",
+      "years": "Not specified (patent families with filing dates 1970–2015)",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "features": [],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          1970,
+          2015
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Technology trajectory",
+        "Batteries",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "One Excel sheet with 419 patent-family rows and 50 columns (network index, patent family identifier, filing and publication dates, grant status, country, family size and more). Earliest filing dates run from 1970 to 2015 in the file.",
+        "The paper analyses 101,620 patent families from 1970 to 2018; this deposit holds only the identified core trajectory, not the full set.",
+        "Licensed CC BY-NC 3.0 on Mendeley Data (non-commercial). Patent identifiers are DOCDB family IDs (column docdb_family_id).",
+        "Core patent families (Excel, 124 KB)",
+        "Mendeley Data lists one public file. It was downloaded (size matches the declared size) and parsed with 419 patent rows and 50 columns."
+      ],
+      "papers": [
+        {
+          "title": "How do new use environments influence a technology's knowledge trajectory? A patent citation network analysis of lithium-ion battery technology",
+          "authors": "Abhishek Malhotra; Huiting Zhang; Martin Beuse; Tobias Schmidt",
+          "journal": "Research Policy",
+          "year": 2021,
+          "volume": "50",
+          "issue": "9",
+          "evidenceSection": "The repository record is registered as a supplement to this article: Mendeley Data deposit"
+        }
+      ],
+      "search": "lithium-ion battery core patent families patents author-compiled list of the roughly 420 patent families on the core knowledge trajectory of lithium-ion battery technology, from a patent citation network analysis, with family details and network indices. one excel sheet with 419 patent-family rows and 50 columns (network index, patent family identifier, filing and publication dates, grant status, country, family size and more). earliest filing dates run from 1970 to 2015 in the file. the paper analyses 101,620 patent families from 1970 to 2018; this deposit holds only the identified core trajectory, not the full set. licensed cc by-nc 3.0 on mendeley data (non-commercial). patent identifiers are docdb family ids (column docdb_family_id). core patent families (excel, 124 kb) mendeley data lists one public file. it was downloaded (size matches the declared size) and parsed with 419 patent rows and 50 columns. innovation technology management patents technology trajectory batteries author-shared data how do new use environments influence a technology's knowledge trajectory? a patent citation network analysis of lithium-ion battery technology abhishek malhotra; huiting zhang; martin beuse; tobias schmidt research policy 2021"
+    },
+    {
+      "id": "government-ideology-innovation-country-panel",
+      "title": "Government ideology and innovation: country panel",
+      "topic": "Government",
+      "description": "Author-shared country-year panel combining measures of government ideology with patent and trademark applications, R&D spending and macroeconomic controls.",
+      "years": "1995–2015",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Places & geographic areas"
+      ],
+      "tools": [],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [
+        "Names / addresses"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          1995,
+          2015
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Innovation",
+        "Patents",
+        "Institutions",
+        "Government ideology",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "One Excel sheet with 1,573 rows and 73 columns covering 102 countries from 1995 to 2015 in the file. The paper states 110 countries, so the deposit may be a subset or an earlier version.",
+        "The column headings are in Chinese (for example country name, year, R&D spending as a share of GDP, resident and non-resident patent and trademark applications) with some indicator names in English in the format used by World Bank data (for example GDP per capita (constant 2010 US$)). The original sources of the variables were not checked.",
+        "Licensed CC BY 4.0 on Mendeley Data. The deposit's own description just says 'see detailed in data file'; there is no separate codebook.",
+        "Country panel (Excel, 1.1 MB)",
+        "Mendeley Data lists one public file. It was downloaded (size matches the declared size) and parsed with 1,573 rows, 73 columns, 102 countries and years 1995 to 2015."
+      ],
+      "papers": [
+        {
+          "title": "The impacts of government ideology on innovation: What are the main implications?",
+          "authors": "Quan-Jing Wang; Gen-Fu Feng; Yin E. Chen; Jun Wen; Chun-Ping Chang",
+          "journal": "Research Policy",
+          "year": 2019,
+          "volume": "48",
+          "issue": "5",
+          "evidenceSection": "The repository record is registered as a supplement to this article: Mendeley Data deposit"
+        }
+      ],
+      "search": "government ideology and innovation: country panel government author-shared country-year panel combining measures of government ideology with patent and trademark applications, r&d spending and macroeconomic controls. one excel sheet with 1,573 rows and 73 columns covering 102 countries from 1995 to 2015 in the file. the paper states 110 countries, so the deposit may be a subset or an earlier version. the column headings are in chinese (for example country name, year, r&d spending as a share of gdp, resident and non-resident patent and trademark applications) with some indicator names in english in the format used by world bank data (for example gdp per capita (constant 2010 us$)). the original sources of the variables were not checked. licensed cc by 4.0 on mendeley data. the deposit's own description just says 'see detailed in data file'; there is no separate codebook. country panel (excel, 1.1 mb) mendeley data lists one public file. it was downloaded (size matches the declared size) and parsed with 1,573 rows, 73 columns, 102 countries and years 1995 to 2015. innovation patents institutions government ideology author-shared data the impacts of government ideology on innovation: what are the main implications? quan-jing wang; gen-fu feng; yin e. chen; jun wen; chun-ping chang research policy 2019"
+    },
+    {
+      "id": "expert-surveys-research-spending-replication",
+      "title": "Expert survey ratings versus official research spending (replication data)",
+      "topic": "Government",
+      "description": "Author replication data comparing World Economic Forum survey ratings of business research spending, and education outcomes, with official spending figures and income across countries.",
+      "years": "2006–2017",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Survey",
+        "Administrative records"
+      ],
+      "units": [
+        "Places & geographic areas"
+      ],
+      "tools": [
+        "Stata",
+        "R"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [
+        "Income / earnings",
+        "Names / addresses",
+        "Text / transcripts"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          2006,
+          2017
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Innovation",
+        "R&D spending",
+        "Survey bias",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Two Stata country-year tables for the regressions (research spending: 1,078 rows across 138 countries, 2006 to 2017; education outcomes: 252 rows) and three CSV tables for the figures, plus a replication code file.",
+        "The paper's abstract says the ratings are World Economic Forum survey assessments compared with official spending figures; the abstract does not name the source of the official figures. Check the underlying sources' own terms for reuse.",
+        "Licensed CC BY 4.0 on Mendeley Data.",
+        "Research spending table (Stata)",
+        "Mendeley Data lists six public files. All were downloaded (sizes match the declared sizes); the tables parsed with the row counts above, and the replication code file was downloaded."
+      ],
+      "papers": [
+        {
+          "title": "Do expert surveys underrate lower-income countries?",
+          "authors": "R. Urbatsch",
+          "journal": "Research Policy",
+          "year": 2020,
+          "volume": "49",
+          "issue": "8",
+          "evidenceSection": "The repository record is registered as a supplement to this article: Mendeley Data deposit"
+        }
+      ],
+      "search": "expert survey ratings versus official research spending (replication data) government author replication data comparing world economic forum survey ratings of business research spending, and education outcomes, with official spending figures and income across countries. two stata country-year tables for the regressions (research spending: 1,078 rows across 138 countries, 2006 to 2017; education outcomes: 252 rows) and three csv tables for the figures, plus a replication code file. the paper's abstract says the ratings are world economic forum survey assessments compared with official spending figures; the abstract does not name the source of the official figures. check the underlying sources' own terms for reuse. licensed cc by 4.0 on mendeley data. research spending table (stata) mendeley data lists six public files. all were downloaded (sizes match the declared sizes); the tables parsed with the row counts above, and the replication code file was downloaded. innovation r&d spending survey bias replication data author-shared data do expert surveys underrate lower-income countries? r. urbatsch research policy 2020"
+    },
+    {
+      "id": "emerging-market-categories-innovation-data",
+      "title": "Emerging market categories and incumbent innovation (author data)",
+      "topic": "Businesses",
+      "description": "Author-shared main dataset for a study of how the number of emerging market categories in an industry relates to incumbent firms' innovation efforts.",
+      "years": "Not specified",
+      "access": "Public",
+      "geography": "Other / not specified",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [],
+      "features": [
+        "Names / addresses"
+      ],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Emerging markets categories",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "One Stata table of 72,778 rows and 73 columns whose column names suggest four-digit industry (SIC) measures and counts of publications, awards and meetings. The deposit says only 'main dataset used to test our hypotheses'; there is no codebook or code, so the variables are hard to interpret without the paper.",
+        "Licensed CC BY 4.0 on Mendeley Data (released after an embargo). The unit of observation and the years are not stated in the deposit.",
+        "Treat as a data release without documentation: read the paper's methods section before use.",
+        "Main dataset (Stata, 21 MB)",
+        "Mendeley Data lists one public file. It was downloaded (size matches the declared size) and parsed with 72,778 rows and 73 columns."
+      ],
+      "papers": [
+        {
+          "title": "Organizational innovation efforts in multiple emerging market categories: Exploring the interplay of opportunity, ambiguity, and socio-cognitive contexts",
+          "authors": "Jade Y. Lo; Rajiv Nag; Lei Xu; Shanti D. Agung",
+          "journal": "Research Policy",
+          "year": 2020,
+          "volume": "49",
+          "issue": "3",
+          "evidenceSection": "The repository record is registered as a supplement to this article: Mendeley Data deposit"
+        }
+      ],
+      "search": "emerging market categories and incumbent innovation (author data) businesses author-shared main dataset for a study of how the number of emerging market categories in an industry relates to incumbent firms' innovation efforts. one stata table of 72,778 rows and 73 columns whose column names suggest four-digit industry (sic) measures and counts of publications, awards and meetings. the deposit says only 'main dataset used to test our hypotheses'; there is no codebook or code, so the variables are hard to interpret without the paper. licensed cc by 4.0 on mendeley data (released after an embargo). the unit of observation and the years are not stated in the deposit. treat as a data release without documentation: read the paper's methods section before use. main dataset (stata, 21 mb) mendeley data lists one public file. it was downloaded (size matches the declared size) and parsed with 72,778 rows and 73 columns. innovation technology management emerging markets categories author-shared data organizational innovation efforts in multiple emerging market categories: exploring the interplay of opportunity, ambiguity, and socio-cognitive contexts jade y. lo; rajiv nag; lei xu; shanti d. agung research policy 2020"
     }
   ]
 }
