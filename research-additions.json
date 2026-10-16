@@ -125,6 +125,37 @@
       "evidenceUrl": "https://github.com/xjguo9217/ensembles-of-life-cycle-forecasts/tree/main/Dell%20Computer%20Sales",
       "verifiedAt": "2026-10-16",
       "verification": "Publisher and GitHub paper database confirm the article identity. The public research repository identifies itself as data and code for this article and explicitly documents the reused Dell data and its original dataset paper. Some comparison-model code is explicitly withheld."
+    },
+    "10.1016/j.respol.2025.105347": {
+      "title": "300 years of British patents",
+      "authors": "Enrico Berkes; Matthew Lee Chen; Matteo Tranchero",
+      "journal": "Research Policy",
+      "year": 2026,
+      "volume": "55",
+      "issue": "1",
+      "pages": "105347",
+      "onlineDate": "2025-10-24",
+      "doi": "10.1016/j.respol.2025.105347",
+      "url": "https://doi.org/10.1016/j.respol.2025.105347",
+      "evidenceUrl": "https://www.matteotranchero.com/pdf/300_Years_British_Patents.pdf",
+      "evidenceSection": "Resources and Section 3; footnote 15 links the breakthrough-score release",
+      "verifiedAt": "2026-10-16",
+      "verification": "Published article on the author website identifies the main dataset and explicitly links the score repository. Crossref independently confirms title, authors, journal, volume, issue and article number."
+    },
+    "10.1111/poms.14083": {
+      "title": "Extraction of visual information to predict crowdfunding success",
+      "authors": "Simon J. Blanchard; Theodore J. Noseworthy; Ethan Pancer; Maxwell Poole",
+      "journal": "Production and Operations Management",
+      "year": 2023,
+      "volume": "32",
+      "issue": "12",
+      "pages": "4172–4189",
+      "doi": "10.1111/poms.14083",
+      "url": "https://doi.org/10.1111/poms.14083",
+      "evidenceUrl": "https://journals.sagepub.com/doi/10.1111/poms.14083",
+      "evidenceSection": "Abstract links OSF supplement; Analysis_code.r explicitly reads fileforresearchbox.csv",
+      "verifiedAt": "2026-10-16",
+      "verification": "Publisher and Crossref confirm the paper identity. The linked public OSF project exposes its Dropbox files through the OSF API; the analysis script directly names the downloaded CSV."
     }
   },
   "datasets": [
@@ -471,6 +502,146 @@
       "paperDois": [
         "10.1287/msom.2017.0692",
         "10.1287/msom.2022.0359"
+      ]
+    },
+    {
+      "id": "british-historical-patent-texts",
+      "title": "British historical patent texts and inventor records",
+      "topic": "Patents",
+      "url": "https://huggingface.co/datasets/matthewleechen/300YearsOfBritishPatents",
+      "description": "Patent specifications with OCR text, tokens and linked inventor information for historical innovation research.",
+      "years": "1617–1899",
+      "access": "Public",
+      "geography": "United Kingdom",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [
+        "Python"
+      ],
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Economic history",
+        "Patent text",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "notes": [
+        "Provider reports 322,874 patent specifications. Unit of observation: patent, with page-level text and inventor entities.",
+        "License statements conflict: repository metadata says CC-BY-4.0, while the README license section says CC BY-SA 4.0. Confirm applicable reuse terms with the provider.",
+        "The compressed JSONL is about 1.77 GB. Verification inspected a bounded range and decoded the first record; the whole archive was not downloaded."
+      ],
+      "links": [
+        {
+          "title": "Compressed patent JSONL",
+          "url": "https://huggingface.co/datasets/matthewleechen/300YearsOfBritishPatents/resolve/main/all_patents.jsonl.gz",
+          "checkedStatus": 206
+        },
+        {
+          "title": "Processing and replication code",
+          "url": "https://github.com/matthewleechen/UKHistoricalPatents"
+        }
+      ],
+      "verification": "The file returned HTTP 206 and gzip magic bytes 1f8b. The first JSONL record decoded successfully: GB161700005A, year 1617, six text pages. The provider schema and author paper agree on the collection.",
+      "paperDois": [
+        "10.1016/j.respol.2025.105347"
+      ]
+    },
+    {
+      "id": "british-patent-breakthrough-scores",
+      "title": "British patent breakthrough and similarity scores",
+      "topic": "Patents",
+      "url": "https://huggingface.co/datasets/matthewleechen/300YearsOfBritishPatents_KPST",
+      "description": "Patent-level text-similarity and breakthrough measures, linked by patent ID to the British historical patent collection.",
+      "years": "1739–1889 (checked 10-year-forward / 5-year-backward file)",
+      "access": "Public",
+      "geography": "United Kingdom",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [
+        "Python"
+      ],
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Patent quality",
+        "Economic history",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "notes": [
+        "This is a separate derived-measures release, not another copy of the full patent-text archive. Other files use different time horizons.",
+        "License statements conflict: repository metadata says CC-BY-4.0, while the README license section says CC BY-SA 4.0. Confirm applicable reuse terms with the provider.",
+        "The checked CSV has 193,563 records and five columns. Its observed coverage is 1739–1889; do not apply the full text archive’s earlier start date to these scores."
+      ],
+      "links": [
+        {
+          "title": "Breakthrough scores CSV: forward 10 years, backward 5 years",
+          "url": "https://huggingface.co/datasets/matthewleechen/300YearsOfBritishPatents_KPST/resolve/main/breakthrough_scores_fh10_bh5_maxdf100.csv",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Downloaded and parsed the complete 9,628,241-byte CSV with HTTP 200. Columns are patent_id, year, forward_similarity, backward_similarity and breakthrough_score. Paper footnote 15 explicitly links this release.",
+      "paperDois": [
+        "10.1016/j.respol.2025.105347"
+      ]
+    },
+    {
+      "id": "kickstarter-visual-features-crowdfunding",
+      "title": "Kickstarter visual features and crowdfunding outcomes",
+      "topic": "Entrepreneurship",
+      "url": "https://osf.io/ujnzp/",
+      "description": "Author-shared campaign-level analysis data combining crowdfunding outcomes with text, image-count and visual-feature variables.",
+      "years": "Not specified",
+      "access": "Public",
+      "geography": "Other / not specified",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [
+        "R",
+        "Python"
+      ],
+      "tags": [
+        "Entrepreneurship",
+        "Crowdfunding",
+        "Innovation",
+        "Visual information",
+        "Machine learning",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "notes": [
+        "The public analysis CSV contains 16,527 rows and 156 columns, including its row-index column. The accompanying R script explicitly loads this file.",
+        "This is processed feature data. A complete archive of original campaign images and raw project pages was not verified.",
+        "No project license was specified in the checked OSF metadata. Confirm reuse terms with the authors. Coverage years and complete geographic scope remain unspecified.",
+        "The data and analysis script were inspected; the paper’s statistical results were not reproduced."
+      ],
+      "links": [
+        {
+          "title": "Campaign analysis data CSV",
+          "url": "https://osf.io/download/ky98j/",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Replication analysis script (R)",
+          "url": "https://osf.io/download/ubw8m/",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "OSF publicly lists the files under its connected Dropbox analysis folder. The CSV returned HTTP 200, 12,939,994 bytes, and parsed into 16,527 rows with consistent 156-column structure. Publisher links this OSF project; its script reads fileforresearchbox.csv.",
+      "paperDois": [
+        "10.1111/poms.14083"
       ]
     }
   ]

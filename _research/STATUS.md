@@ -1,10 +1,20 @@
-# Current checkpoint — PAUSED at the owner's request
+# Current checkpoint — RESUMED 2026-10-16
 
-Last updated: 2026-10-16 (Europe/London).
+The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a cloud checkout; the handoff files, pending JSON and updated queues were retrieved from the owner's Dropbox copy of the local workspace (they were not in the remote repository).
 
-The owner paused the overall work in this conversation because credits are low. Do not resume research, publication or other unfinished tasks until the owner requests resumption. Existing independent GitHub sync/publishing schedules were not changed by this pause. Keep this file, HANDOFF.md and METHODS.md updated when work resumes and information changes.
+## Resumption log
 
-## Exact state at pause
+- Fast-forwarded to `main` commit `7cbabe2` (documentation checkpoint). No other remote data changes.
+- Pending `research-additions.json` validated: 10 datasets, 10 papers, unique IDs, no dangling paper DOIs, 3 new IDs, no existing entry modified. Line endings normalized to LF.
+- Independent re-check of source files on 2026-10-16: both Hugging Face files and both OSF files answer HTTP 206 on range requests; the OSF CSV re-downloaded in full (12,939,994 bytes, SHA-256 matches the value below, 16,527 rows, 156 columns).
+- Queue CSV status updates (4 rows) installed in both queues.
+- Publication and live-feed confirmation: see "Publication outcome" below once recorded. Sharing-deployment check: still to do.
+
+## Publication outcome
+
+Pending at the time of this edit. Do not treat the three additions as live until a run ID and feed check are recorded here.
+
+## State at the earlier pause (historical)
 
 - Dataset fork checkout: `C:/Users/LENOVO/Dropbox/Others/GitHub/datasets`, branch `main`, last local committed checkpoint `2c9ee34` (review queues). Inspect current status/remotes before continuing; remote scheduled jobs can advance independently.
 - Three newly verified dataset additions are saved in the local `research-additions.json` but **not committed or pushed**. The local file now contains 10 research entries and 10 distinct cited papers. The last confirmed live catalog had 125 total collections, 7 research entries and 8 cited papers. The expected merged count after the three additions is 128, but this batch's merge/publication still needs validation.

@@ -2,7 +2,7 @@
 
 Read [_research/HANDOFF.md](_research/HANDOFF.md), [_research/METHODS.md](_research/METHODS.md), and [_research/STATUS.md](_research/STATUS.md) before continuing research or publication.
 
-Current state: overall work is paused at the owner's request. The owner separately authorized publishing these handoff Markdown files only. Do not interpret that documentation publication as permission to resume research or publish pending dataset changes; wait for an explicit resumption request.
+Current state: the owner lifted the earlier pause on 2026-10-16 and asked to finish the pending three-dataset batch first, then continue the research program. See STATUS.md for exactly what is verified, published or pending.
 
 The owner explicitly requests that these Markdown documents stay current. Update them in the same work session whenever methods, verified findings, publication steps, blockers, or next actions change. Record actual verification and deployment outcomes, not intended outcomes. Keep evidence and unfinished leads so another assistant can resume without conversation history.
 
