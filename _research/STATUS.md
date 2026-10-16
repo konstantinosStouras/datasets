@@ -6,7 +6,7 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the container clock. (An earlier version of this log used estimated times; they have been replaced with these observed ones.)
 
-- 13:35 DataCite sweep complete (21 of 21). Bloom and Van Reenen management practices data added (found in chunk 19) and live (run 38906891938, 13:19:05; 169 entries). Total research-catalog additions this session: 43 new datasets plus NHANES enriched in place.
+- 13:35 DataCite sweep complete (21 of 21). Bloom and Van Reenen management practices data added (found in chunk 19) and live (run 38906891938, 13:19:05; 169 entries). `research-additions.json` now holds 52 datasets and 79 papers.
 - 13:25 Batch 12 KPSS entry live (run 38905816430, 13:10:38). Two more QJE deposits (Bell et al., Kline et al.) live too (run 38906120243, 13:13:08; 168 entries). Sweep chunks 18 and 19 of 21 reviewed or in progress. Batch 11 confirmed live (run 38905315190, 13:06:36). DataCite sweep: 18 of 21 chunks done.
 - 12:15 Batch 5 live (CrowdBerkeley Kickstarter database; run 38899203737 succeeded at 12:15:15). `main`'s `catalog-public.json` then showed 138 collections, 21 research entries, no URLs. The raw.githubusercontent.com copy lagged for a few minutes behind `main`, so I checked the file in git.
 - 12:12 Batch 4 live: open source write-access data, WWII patent secrecy orders, inventor-firm replication archive, NHANES enrichment (run 38898838401).
