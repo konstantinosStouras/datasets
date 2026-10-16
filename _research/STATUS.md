@@ -43,6 +43,26 @@ Queue rows for these three papers were set to the verified status in both CSVs. 
 
 Neither 403 was bypassed. A person with a browser could open the supplements and report what they contain.
 
+## Batch 3 (2026-10-16): two patent-research datasets added, one lead left unresolved
+
+Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+
+| Dataset ID | Paper | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `us-patent-text-similarity-pairs` | Arts, Cassiman, Gomez, Strategic Management Journal 39(1), 62-84 (online 2017-10-24), DOI 10.1002/smj.2699 | [Dataverse JO2DQZ](https://doi.org/10.7910/DVN/JO2DQZ), CC0, 13 public files, publication field names the paper. Range requests on three data files returned tab-separated patent pairs with scores; the description PDF was read. | Files are 0.1 to 2.5 GB, not downloaded. The PDF describes Java code but no code file is listed. Coverage 1976 to 2013 is the record's statement. Paper full text not read. This paper was missing from both queues; appended. |
+| `patcit-patent-citations` | Verluise, Cristelli, Higham, de Rassenfosse, Strategic Management Journal 47(3), 678-698 (online 2025-10-22), DOI 10.1002/smj.70027 | Paper (accepted manuscript read from the LSE repository) says the in-text patent citation data are at Zenodo DOI 10.5281/zenodo.3710993. Zenodo is open, CC-BY-4.0, 9 files in the latest version 0.3.1. A 3 MB range of the in-text patent archive decoded to the schema and real data rows. | Which PatCit version matches the paper's 49.5 million citations is not verified (online appendix not read). Archives are gzip-wrapped. Underlying DOCDB/PATSTAT/Google Patents terms may apply. The Wiley page was blocked (403), so only the repository copy was read. |
+| `us-inventor-ages-gender-death-dates` | Kaltenberg, Jaffe, Lachman, Research Policy 52(1), 104629 (2023), DOI 10.1016/j.respol.2022.104629 | Abstract states the data are public on Harvard Dataverse; [record YRLSKU](https://doi.org/10.7910/DVN/YRLSKU) is by the same authors, CC0, 23 public files. Age/gender table (2,408,326 rows, 1,858,516 inventors) and crosswalk (8,080,135 rows, grant years 1976-2018) streamed and parsed; README read. | Contains named individuals, residence city/state, estimated birth years and some death dates scraped from people-search sites: flagged prominently in the entry. Birth years run 1800 to 2013 in the file; heuristics, not verified facts. Paper full text not read. |
+
+Queue rows: Arts et al. 2018 appended to both queues; the other two set to verified status.
+
+### Unresolved lead from this pass
+
+- `10.1002/smj.3001`, Png, "U.S. R&D, 1975-1998: A new dataset", Strategic Management Journal 40(5), 715-735 (2019). The abstract's data statement gives `five.dartmouth.edu/datasets` and DOI 10.25540/3wd8-dffw (the OSF link in the abstract is only the Open Practices badge page). The DOI resolves to NUS ScholarBank, a public record titled "U.S. R&D data (Cattell directories)", CC BY-NC 4.0, whose citation field names the paper and which lists .dta, .do, .docx and .zip file types. But anonymous API requests show no downloadable files in the original-files bundle, and the Dartmouth host returned HTTP 503. **Not added** because no actual file could be inspected. A person with a browser could check whether the files download. Dataset concerns noted by the author: facility-level R&D directories digitized from copyrighted print records.
+
+### How this batch was found
+
+Searched all abstracts in the cloned site database (269,424 unique DOIs across `lit/data` and `lit/data-ft50`) for repository words (Zenodo, Dataverse, OSF, GitHub, figshare, Dryad, DOI prefixes 10.5281, 10.7910, 10.17605) combined with innovation topic words: 77 hits, most from INFORMS Journal on Computing optimization code (off-topic, not reviewed). Hits that were relevant were checked by hand. Also checked repository search APIs by title; results are noisy. Abstract cues cover only part of the field: many papers state data locations only in the full text.
+
 ## State at the earlier pause (historical)
 
 - Dataset fork checkout: `C:/Users/LENOVO/Dropbox/Others/GitHub/datasets`, branch `main`, last local committed checkpoint `2c9ee34` (review queues). Inspect current status/remotes before continuing; remote scheduled jobs can advance independently.
