@@ -308,6 +308,21 @@
       "evidenceSection": "The repository record is titled as the replication archive for this article and is registered as a supplement to its DOI; the deposited README describes the data and code",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms title, authors, journal, volume, issue and pages. DataCite records the archive as a supplement to this DOI, and the deposited README (read in full) names the paper. The article's full text was not read."
+    },
+    "10.1016/j.respol.2017.07.008": {
+      "title": "Crowdfunding and regional entrepreneurial investment: an application of the CrowdBerkeley database",
+      "authors": "Sandy Yu; Scott Johnson; Chiayu Lai; Antonio Cricelli; Lee Fleming",
+      "journal": "Research Policy",
+      "year": 2017,
+      "volume": "46",
+      "issue": "10",
+      "pages": "1723–1737",
+      "doi": "10.1016/j.respol.2017.07.008",
+      "url": "https://doi.org/10.1016/j.respol.2017.07.008",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/EOYBXM",
+      "evidenceSection": "The paper's abstract says it presents public crowdfunding databases; the Dataverse record for the Kickstarter database cites this article as its publication",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The abstract states that three public databases are presented (Kickstarter, Kiva, CrowdRise); only the Kickstarter database was found in a repository, and its Dataverse record names this article. The article's full text was not read."
     }
   },
   "datasets": [
@@ -1327,6 +1342,55 @@
         }
       ],
       "verification": "DataverseNL API lists 25 public files under CC-BY-4.0 (version 1.0, August 2025; the original Erasmus repository DOI forwards here). The README was read in full. Small files were downloaded and parsed (LinkedIn matches 23,703 rows, ownership changes 1,728 rows, a price-deflator table, the master script). Range requests on the three largest Stata files returned HTTP 206 with the Stata file signature. Full large files were not downloaded."
+    },
+    {
+      "topic": "Entrepreneurship",
+      "years": "Not specified",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "paperDois": [
+        "10.1016/j.respol.2017.07.008"
+      ],
+      "id": "kickstarter-relational-database",
+      "title": "Kickstarter relational database (CrowdBerkeley)",
+      "url": "https://doi.org/10.7910/DVN/EOYBXM",
+      "description": "Author-built SQLite database of Kickstarter crowdfunding projects, creators, funders, comments, rewards, locations and funding trends, collected from the public platform.",
+      "tags": [
+        "Entrepreneurship",
+        "Crowdfunding",
+        "Innovation",
+        "Regional entrepreneurship",
+        "Author-shared data"
+      ],
+      "notes": [
+        "One database in a split ZIP archive: a 2 GB part and a 1.4 GB part (about 3.5 GB compressed). Download both parts into one folder before unzipping.",
+        "Checked content: the archive holds a single file, hdd/kickstarter.db. The start of it was decompressed and is a SQLite database with tables including project, creator, comments, reward, funding_trend and location. The full database was not downloaded.",
+        "Personal-data note: platform creator profiles and comment text are included. Use within research ethics rules and platform terms.",
+        "The paper presents three databases (Kickstarter, Kiva, CrowdRise). Only the Kickstarter database was found in a public repository; the other two were not located.",
+        "The Dataverse record is marked CC0 1.0 (version 2.0, January 2019). The data were scraped from Kickstarter, whose own terms may apply. Collection dates and coverage years are not stated in the record, so they are left unspecified here.",
+        "A different library entry, Kickstarter visual features, covers processed image and text features from another study."
+      ],
+      "links": [
+        {
+          "title": "Database archive, part 2 (ZIP, 1.4 GB)",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/3349504",
+          "checkedStatus": 206
+        },
+        {
+          "title": "Database archive, part 1 (2 GB)",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/3349503",
+          "checkedStatus": 206
+        }
+      ],
+      "verification": "Dataverse API lists two public files under CC0 1.0. Range requests returned HTTP 206: the first part carries the split-archive signature and its start inflates to a SQLite 3 database header with the table names above; the second part's central directory lists the single file hdd/kickstarter.db. Complete files were not downloaded."
     }
   ]
 }

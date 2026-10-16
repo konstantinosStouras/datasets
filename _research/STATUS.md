@@ -6,6 +6,7 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 Times are UTC on 2026-10-16. Counts are what was observed at that moment.
 
+- 12:45 Batch 5 (CrowdBerkeley Kickstarter database) submitted. DataCite sweep still running: see below. Earlier entry follows.
 - 12:20 Batches 1 to 4 are published and confirmed in the live feed (137 collections, 20 research entries). Running now: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000 (2 of 21 done, 49 papers with deposits mentioning them, roughly 2.5 minutes per chunk). Next: vet the hits from each finished chunk by hand, add verified ones, publish, and record each batch here.
 - 12:15 Batch 4 live: open source write-access data, WWII patent secrecy orders, inventor-firm replication archive, NHANES enrichment (run 38898838401).
 - 12:00 Batch 3 live: patent text similarity, PatCit, inventor ages (run 38897774771). Png R&D directory data left unresolved (no downloadable file visible).
@@ -90,12 +91,22 @@ The dry run of the publisher's own merge code (`mergeResearch`) before pushing g
 ### Leads found in this pass and not added
 
 - `10.1177/10422587221084249` (Block et al., Entrepreneurship Theory and Practice, family-firm innovation replication): DataCite lists SAGE-hosted supplement files (CSV, XLSX, R, DOCX), but the host answers automated requests with a Cloudflare challenge. Not verified, not bypassed.
-- `10.1177/10422587251322409` (Replicating Davidsson and Honig, ETP 2025) and `10.1016/j.respol.2017.07.008` (CrowdBerkeley, Research Policy 2017): ICPSR records (PSED II, Kickstarter Data) list these papers, but this only shows a bibliography link, not use; ICPSR needs registration. The CrowdBerkeley paper presents three public databases whose download location was not found yet.
+- `10.1177/10422587251322409` (Replicating Davidsson and Honig, ETP 2025): an ICPSR record (PSED II) lists the paper, but this only shows a bibliography link, not use; ICPSR needs registration. Unresolved. (The CrowdBerkeley paper, Research Policy 2017, was resolved afterwards: see Batch 5.)
 - Off-priority replication records found for Management Science: servitization bullwhip effect (DataverseNL `10.34894/oveyga`), return-insurance JD.com data (DataverseNL `10.34894/uxtgk8`), corporate environmental engagement (SMU RDR `10.25440/smu.17869031`), "Cancel the deal?" experiment (Dataverse `10.7910/DVN/TOYM2W`). Not reviewed because outside the priority topics; available for a later pass.
 
 ### Systematic discovery by DataCite
 
 DataCite indexes Zenodo, Dataverse, Dryad, figshare, ICPSR and many institutional repositories. A quoted-DOI query finds deposits whose metadata mention a paper. Run over the 359 DOIs in the two queues: 20 had hits. A second sweep over 20,247 topic-matched FT50 papers (2006 onward; order: Management Science, M&SOM, POM, SMJ, Organization Science, Research Policy, others) runs in chunks; the first 1,000 (all Management Science) gave the Gross and Bhaskarabhatla et al. records. The sweep output is kept outside the repository; rerun with `_research/archive/datacite-sweep.py` after adding it if needed.
+
+## Batch 5 (2026-10-16): CrowdBerkeley Kickstarter database
+
+Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+
+| Dataset ID | Paper | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `kickstarter-relational-database` | Yu, Johnson, Lai, Cricelli, Fleming, Research Policy 46(10), 1723-1737 (2017), DOI 10.1016/j.respol.2017.07.008 | [Harvard Dataverse EOYBXM](https://doi.org/10.7910/DVN/EOYBXM), CC0, two public files (split ZIP, about 3.5 GB). The record cites the paper. Range requests: first part has the split-archive signature and its start inflates to a SQLite 3 header with tables project, creator, comments, reward, funding_trend, location; the second part's central directory lists one file, `hdd/kickstarter.db`. | Full database not downloaded. Creator profiles and comments: personal-data note. Scraped from Kickstarter (platform terms). Coverage years not stated. The paper's Kiva and CrowdRise databases were not found. Paper full text not read. |
+
+Found by following a lead (the paper presents public databases) with Dataverse and DataCite title searches after a web search found no download page.
 
 ## State at the earlier pause (historical)
 
