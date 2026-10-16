@@ -6,6 +6,8 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the container clock. (An earlier version of this log used estimated times; they have been replaced with these observed ones.)
 
+- 17:30 FT50-wide sweep finished (113,511 papers; 750 clean leads). Batch 15 submitted: AIOE, Twin-2K-500, scientific complexity, OM-OR conference survey, EHR event logs, MLB managers, IRI category survey. Session worker restarted once during this stretch; files and results survived.
+- 15:12 Batch 14 live (run 38920471271, 15:01:20; 178 entries). REStud Zenodo community (544 records) matched and scored; ten mid-sized packages downloaded and listed, four large ones listed by reading the zip directory with range requests.
 - 15:05 Batch 14 submitted: six QJE and JPE deposits (patent applications 1998-2003, French industrialization panels, inventor migration database, federal R&D funding tables, Chinese AI firms, automation patent panels). Sweep at about 18,000 of 113,511 with 458 hits.
 - 14:40 FT50-wide DataCite batch sweep started (113,511 papers from 1996 on); QJE, JPE, REStud and Econometric Society replication archives listed. Owner: no experiments category, focus on 1996 on, prefer reusable datasets.
 - 14:12 Batch 13 live (run 38913236095, 14:07:51; 172 entries).
@@ -309,7 +311,7 @@ Next: triage the sweep hits by host and journal, drop figshare "Additional file"
 
 ## Batch 14 (2026-10-16): six deposits from the QJE and JPE replication archives
 
-Status: committed through a pull request. **Not confirmed until the workflow run and live feed are recorded here.**
+Status: published and confirmed. Workflow run 38920471271 succeeded at 15:01:20 UTC; `catalog-public.json` on `main` then held 178 entries including all six IDs. The Chinese AI-firm entry was then enriched with the REStud 2023 paper and its Zenodo package (next pull request).
 
 Found by listing the Harvard Dataverse QJE and JPE collections, matching deposit titles and citations to the Lit, scoring the 826 matched papers from 1996 on by management relevance, and inspecting the top of that list.
 
@@ -325,6 +327,28 @@ Found by listing the Harvard Dataverse QJE and JPE collections, matching deposit
 Leads inspected and not added (recorded in the broader queue): JPE military innovation (simulated table only); QJE trust and innovation, generative AI at work, workplace knowledge flows, unequal gains from product innovations, discretion in hiring, capitalists (code only); New Frontiers (README only, NBER-restricted inputs); worker evaluations in auto manufacturing (field experiment, set aside per the owner); codification and technology absorption (README only); Econometrica female entrepreneurship (code only), managerial autonomy (simulated Prowess data), screening property rights (17 GB, not inspected). Technology Sophistication Across Establishments (QJE 2026) is already cited on the FAT entry.
 
 Dry run of the publisher's merge code before pushing: 178 collections, 61 research entries, no duplicate IDs.
+
+## Batch 15 (2026-10-16): seven deposits from the FT50-wide sweep and companion searches
+
+Status: committed through a pull request. **Not confirmed until the workflow run and live feed are recorded here.**
+
+Sweep outcome: all 113,511 papers from 1996 on were swept (40 DOIs failed with transient errors and were not rerun). 7,673 raw hits; 750 clean leads after removing figshare "Additional file" supplements, SAGE and publisher figshare collections, arXiv, ICPSR archive links and other noise, and papers already in the queues. By journal: QJE 358, EJOR 64, JPE 48, AER 45, JMR 37, RFS 29, JM 25, Psychological Science 21, JFE 21, MS 10, ASR 10, Research Policy 9. By host: Harvard Dataverse 550, Zenodo 111, Mendeley 36, SMU 20, Dryad 20, Erasmus 19, DataverseNL 17. The lead list is in the scratchpad `sweep2/triage2.json` and should be copied to the archive if the session ends.
+
+| Dataset ID | Paper | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `ai-occupational-exposure-aioe` | Felten, Raj, Seamans, SMJ 42(12), 2195-2217 (2021), DOI 10.1002/smj.3286 | [GitHub AIOE-Data/AIOE](https://github.com/AIOE-Data/AIOE) cloned (head adca5fc, 2024-06-03). All workbook sheets and Stata inputs parsed (774 occupations, 250 industries, 3,271 counties). | No licence file. |
+| `twin-2k-500-digital-twin-personas` | Toubia et al., Marketing Science 44(6), 1446-1455 (2025), DOI 10.1287/mksc.2025.0262 | [Hugging Face](https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500), CC BY 4.0. Human-response tables parsed (2,058 x 761; 2,058 x 127); one persona Parquet chunk parsed (294 rows). | Card links the preprint, not the journal DOI. Includes behavioural experiments. |
+| `scientific-complexity-pubmed-openalex` | Melluso, Research Policy 55(8), 105570 (2026), DOI 10.1016/j.respol.2026.105570 | [Zenodo 20813591](https://doi.org/10.5281/zenodo.20813591). Data description read; CSV header and first rows read by range (9,627,624 rows per the description). | Licence conflict: CC BY 4.0 on Zenodo versus O-UDA-1.0 (non-commercial) in the description. File not downloaded in full. |
+| `om-or-conference-value-survey` | Cavallin Toscani, Atasu, Van Wassenhove, Vinelli, M&SOM 26(1), 66-79 (2024), DOI 10.1287/msom.2022.0591 | [Zenodo 8256528](https://doi.org/10.5281/zenodo.8256528), CC BY 4.0. CSV parsed: 555 x 58. | Small, academic-community survey. |
+| `ehr-audit-trail-event-logs` | Pentland, Vaast, Ryan Wolf, MISQ 45(2), 967-984 (2021), DOI 10.25300/misq/2021/15360; Kim, Pentland, Frank, Ryan Wolf, Organization Science 36(2), 862-880 (2025), DOI 10.1287/orsc.2022.16749 | [Dataverse 5FSJ1G](https://doi.org/10.7910/DVN/5FSJ1G), CC0. README read; 42.5 MB R file downloaded (size matches). | Not parsed (no R here); counts from the README. |
+| `mlb-managers-team-performance-peeters` | Peeters, Salaga, Juravich, Management Science 66(6), 2735-2751 (2020), DOI 10.1287/mnsc.2019.3323 | [DataverseNL EKHDNA](https://doi.org/10.34894/EKHDNA), CC BY 4.0, 58 files. README read; four tables parsed (723 team-seasons; 158 managers; 116 GMs; 20,369 salaries). | Large lineup and game files listed only. |
+| `iri-marketing-dataset-category-characteristics` | Bronnenberg, Kruger, Mela, Marketing Science 27(4), 745-748 (2008), DOI 10.1287/mksc.1080.0450; Datta, Ailawadi, van Heerde, JM 81(3), 1-20 (2017), DOI 10.1509/jm.15.0340 | [DataverseNL ELVF0J](https://doi.org/10.34894/ELVF0J), custom terms. Survey CSV parsed (752 x 412); codebook read. | IRI data under agreement (Circana); not accessed. Access class: Agreement or mixed. |
+
+Also: the Mannheim Innovation Panel entry now cites Becker and Dietz, Research Policy 33(2) (2004), found through the ZEW scientific-use-file record.
+
+Leads inspected and not added: two Research Policy deposits on Dryad (synthesis centres; citation inflation and the disruption index), whose downloads sit behind the Anubis anti-bot check (same blocker as Bielefeld; metadata and file lists are readable through the Dryad API); AMJ framing study (newspaper PDFs only); a 2026 third-party replication of Flammer (2013) on Dataverse; a Zenodo escrow record for a digital-twin benchmark (restricted). Of the Management Science sweep hits, the climate-concern stock study, copy trading, bank-run contagion, leadership and incentives, group-size tournaments and country-image trade deposits are outside the owner's topics and were not inspected.
+
+Dry run of the publisher's merge code before pushing: 185 collections, 68 research entries, no duplicate IDs.
 
 ## State at the earlier pause (historical)
 
