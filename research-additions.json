@@ -1242,6 +1242,99 @@
       "evidenceSection": "Harvard Dataverse record title and do-file header name the paper",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Dataverse record and the do-file name Roach and Sauermann's Management Science article. The article's full text was not read."
+    },
+    "10.1086/723636": {
+      "title": "Patent Publication and Innovation",
+      "authors": "Deepak Hegde; Kyle Herkenhoff; Chenqi Zhu",
+      "journal": "Journal of Political Economy",
+      "year": 2023,
+      "volume": "131",
+      "issue": "7",
+      "pages": "1845–1903",
+      "doi": "10.1086/723636",
+      "url": "https://doi.org/10.1086/723636",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/PFSRVT",
+      "evidenceSection": "JPE Dataverse record titled 'Replication Package for: Patent Publication and Innovation'; README names the authors and the public data file",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
+    },
+    "10.1086/730205": {
+      "title": "Technology Adoption and Productivity Growth: Evidence from Industrialization in France",
+      "authors": "Réka Juhász; Mara P. Squicciarini; Nico Voigtländer",
+      "journal": "Journal of Political Economy",
+      "year": 2024,
+      "volume": "132",
+      "issue": "10",
+      "pages": "3215–3259",
+      "doi": "10.1086/730205",
+      "url": "https://doi.org/10.1086/730205",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/EGWOPG",
+      "evidenceSection": "JPE Dataverse record and README name the paper",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
+    },
+    "10.1086/734778": {
+      "title": "Induced Automation Innovation: Evidence from Firm-Level Patent Data",
+      "authors": "David Hémous; Morten Olsen; Carlo Zanella; Antoine Dechezleprêtre",
+      "journal": "Journal of Political Economy",
+      "year": 2025,
+      "volume": "133",
+      "issue": "6",
+      "pages": "1975–2028",
+      "doi": "10.1086/734778",
+      "url": "https://doi.org/10.1086/734778",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/IMCSW1",
+      "evidenceSection": "JPE Dataverse record and package README name the paper",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
+    },
+    "10.1093/qje/qjad012": {
+      "title": "AI-tocracy",
+      "authors": "Martin Beraja; Andrew Kao; David Y. Yang; Noam Yuchtman",
+      "journal": "The Quarterly Journal of Economics",
+      "year": 2023,
+      "volume": "138",
+      "issue": "3",
+      "pages": "1349–1402",
+      "onlineDate": "2023-03-13",
+      "doi": "10.1093/qje/qjad012",
+      "url": "https://doi.org/10.1093/qje/qjad012",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/GCOVGX",
+      "evidenceSection": "QJE Dataverse record 'Replication Data for: AI-tocracy'; README names the paper",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
+    },
+    "10.1093/qje/qjae040": {
+      "title": "The Global Race for Talent: Brain Drain, Knowledge Transfer, and Growth",
+      "authors": "Marta Prato",
+      "journal": "The Quarterly Journal of Economics",
+      "year": 2025,
+      "volume": "140",
+      "issue": "1",
+      "pages": "165–238",
+      "onlineDate": "2024-11-28",
+      "doi": "10.1093/qje/qjae040",
+      "url": "https://doi.org/10.1093/qje/qjae040",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/IX6AW9",
+      "evidenceSection": "QJE Dataverse record and the package ReadMe name the paper",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
+    },
+    "10.1093/qje/qjac046": {
+      "title": "Cutting the Innovation Engine: How Federal Funding Shocks Affect University Patenting, Entrepreneurship, and Publications",
+      "authors": "Tania Babina; Alex Xi He; Sabrina T. Howell; Elisabeth Ruth Perlman; Joseph Staudt",
+      "journal": "The Quarterly Journal of Economics",
+      "year": 2023,
+      "volume": "138",
+      "issue": "2",
+      "pages": "895–954",
+      "onlineDate": "2023-01-09",
+      "doi": "10.1093/qje/qjac046",
+      "url": "https://doi.org/10.1093/qje/qjac046",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/EZZBCR",
+      "evidenceSection": "QJE Dataverse record titled with the paper's name",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its README names the paper. The article's full text was not read."
     }
   },
   "datasets": [
@@ -4087,6 +4180,307 @@
         }
       ],
       "verification": "Both files were downloaded in full; the table was parsed (rows and columns) and the do-file read. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Patents",
+      "years": "1998–2003 (applications); citations to about 2013",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Cross-section"
+      ],
+      "paperDois": [
+        "10.1086/723636"
+      ],
+      "id": "uspto-patent-applications-1998-2003-aipa",
+      "title": "USPTO patent applications 1998–2003 with citations, claims and similarity measures (AIPA study)",
+      "url": "https://doi.org/10.7910/DVN/PFSRVT",
+      "description": "Application-level file of US patent applications filed 1998 to 2003, built for a study of how the 2000 law that made pending applications public affected innovation. Each row has filing and issue dates, patent number, allowed claims, art unit class, forward citations at 3, 5, 7 and 10 years, grant within 18 months, IPC-based similarity scores, text originality and flags for European or other foreign parallel filings.",
+      "tags": [
+        "Patents",
+        "Patent applications",
+        "Patent disclosure",
+        "Citations",
+        "USPTO",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "One Stata file, 159.5 MB: 1,107,710 application rows and 36 columns. The README says this public version drops 428,690 pending or abandoned applications, so analyses of abandonment cannot be reproduced from it.",
+        "The paper's other datasets (US-EP and US-JP twin patents, firm R&D from Compustat/CRSP, similarity validation files) are described in the README but are not in the deposit; they need PATSTAT, USPTO PALM and WRDS access. Ten Stata do-files and a Matlab file are included.",
+        "CC0 on Harvard Dataverse (JPE collection), version 1."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (14 files)",
+          "url": "https://doi.org/10.7910/DVN/PFSRVT",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The README was read in full and the public Stata file was downloaded (size matches) and read end to end with its row count, columns and sample rows recorded. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Businesses",
+      "years": "1794–1840",
+      "geography": "Europe",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1086/730205"
+      ],
+      "id": "french-industrialization-firm-panels-1794-1840",
+      "title": "French industrialization firm panels: cotton, metallurgy and paper, 1794–1840",
+      "url": "https://doi.org/10.7910/DVN/EGWOPG",
+      "description": "Historical plant-level data from French industrial surveys used to study how early adopters of new technology raised productivity. Three two-period panels cover cotton spinning (1806 and 1840), metallurgy (1811 and 1840) and paper (1794 and 1840) with location, employment, output per worker, capital measures and technology indicators such as spinning-jenny types and steam or water power, plus side tables on mill building layout, strikes and British yarn prices.",
+      "tags": [
+        "Technology adoption",
+        "Productivity",
+        "Industrial revolution",
+        "Economic history",
+        "France",
+        "Firm-level data",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Cotton panel 868 rows (341 firms, 66 columns), metallurgy 1,366 rows (471 firms, 45 columns), paper 867 rows (521 firms, 43 columns). Side tables: cotton building layout (59 rows), strikes by department (258 rows), Encyclopédie plates (4 rows) and British yarn prices (Excel).",
+        "Firm identifiers are study-specific codes; place names and coordinates are included. Full Stata code for the paper and appendix is included; nothing was rerun.",
+        "CC0 on Harvard Dataverse (JPE collection), 31 files, 1.4 MB."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (31 files)",
+          "url": "https://doi.org/10.7910/DVN/EGWOPG",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The README PDF was read and all six tab-delimited tables were downloaded in full and parsed (rows, columns, years, firm counts). The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Patents",
+      "years": "Patent filings to about 2015 (exact range not stated in the deposit)",
+      "geography": "International",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1093/qje/qjae040"
+      ],
+      "id": "inventor-migration-patents-database-prato",
+      "title": "Inventor migration and patenting database (European Patent Office inventors)",
+      "url": "https://doi.org/10.7910/DVN/IX6AW9",
+      "description": "Inventor-level panel built from disambiguated European Patent Office inventor records and WIPO data on inventor migration, used to study the global race for talent. It tracks each inventor's country, region, patents, citations, co-inventors, first migration, destination and origin countries, return migration and experience, with a matched sample of migrants and non-migrant controls.",
+      "tags": [
+        "Patents",
+        "Inventors",
+        "Migration",
+        "Brain drain",
+        "Knowledge flows",
+        "Co-inventors",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "One zip of 687 MB (4.7 GB unpacked, 250 files). Main tables: inventors_database (8,981,831 inventor-patent rows, 62 variables), inventors_year (6,099,891 rows, 22 variables), inventors_unique (4,009,660 inventors, 13 variables), coauthors_database (35,659,955 pairs), inventors_excmigpat (5,858,891 rows), plus matched-migrant files and IPC assignments. Variable names were read from the Stata headers inside the zip; the tables were not loaded in full.",
+        "The ReadMe says the raw inputs are the PATENTS-ICRIOS database (Bocconi University) and the WIPO PCT inventor migration data, both available from their providers; raw files are not in the package. Inventor names appear in the inventor-patent table. Matlab code for the quantitative model is included.",
+        "CC0 on Harvard Dataverse (QJE collection)."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (one zip)",
+          "url": "https://doi.org/10.7910/DVN/IX6AW9",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The zip was downloaded in full (size matches), its contents listed, the ReadMe PDF read, and the row counts and variable names of the five main Stata tables read from their headers. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Academia",
+      "years": "Single Audit awards 1997 onward; Carnegie classifications by year; R&D shares 1953–2018",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1093/qje/qjac046"
+      ],
+      "id": "federal-rd-funding-university-tables-babina",
+      "title": "Federal research funding by program and university classification tables (partial replication data)",
+      "url": "https://doi.org/10.7910/DVN/EZZBCR",
+      "description": "Public tables from a study of how federal funding shocks affect university patenting, entrepreneurship and publications: federal awards by assistance program and year from the Single Audit database, the catalog of federal assistance programs, IPEDS Carnegie classifications of institutions by year and employer identifier, and national R&D funding shares. The analysis code for restricted IRIS and Census data is included without those data.",
+      "tags": [
+        "Research funding",
+        "Universities",
+        "Federal grants",
+        "Science policy",
+        "Innovation",
+        "Replication code",
+        "Partial data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Tables parsed: Single Audit awards by CFDA program and year (97,766 rows, 8 columns including R&D and ARRA amounts), CFDA program catalog (5,884 programs), IPEDS Carnegie classification by year and EIN (92,397 rows) and a one-row-per-EIN version (8,747 rows), quarterly CPI, and two small series on R&D funding shares (66 rows each) with the NSF source spreadsheets.",
+        "Partial package: the university-level patenting, publication and entrepreneurship outcomes come from IRIS UMETRICS and Census microdata, which are restricted; 59 do-files and 6 SAS programs are provided for them.",
+        "CC0 on Harvard Dataverse (QJE collection), 77 files, 10.9 MB."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (77 files)",
+          "url": "https://doi.org/10.7910/DVN/EZZBCR",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The README files were read and all public tables were downloaded in full and parsed (rows and columns). The restricted-data code was listed only. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Businesses",
+      "years": "About 2013–2019 (monthly firm panel; exact range not stated in the README)",
+      "geography": "Other / not specified",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata",
+        "R"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1093/qje/qjad012"
+      ],
+      "id": "china-ai-firms-surveillance-contracts-data",
+      "title": "Chinese facial-recognition AI firms: software, patents, government contracts and unrest data (AI-tocracy)",
+      "url": "https://doi.org/10.7910/DVN/GCOVGX",
+      "description": "Deidentified firm-level data behind a study of how government demand for surveillance technology shaped China's AI industry. The package combines AI firms' software registrations and patents, public-security procurement contracts, firm capital and location, prefecture-level unrest events from GDELT, weather, police hiring and firms' export of facial-recognition technology.",
+      "tags": [
+        "Artificial intelligence",
+        "Innovation",
+        "Government procurement",
+        "Surveillance",
+        "China",
+        "Firm-level data",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "One 610 MB zip with 190 files, including 74 Stata datasets. Main firm panel: 1,040,621 software-or-patent level rows with 120 variables (firm id, year, month, patent and software ids, AI industry flag, contract timing, police contracts, city, province, capital). Other tables: contracts (4 MB), software versions (74,229 rows), prefecture-quarter unrest (8,060 rows), weather station panel (257 MB), GDELT event files (up to 3 GB).",
+        "The README says the firm, software, capital and demographic data were bought from commercial providers (Tianyancha, Pitchbook, qcc.com, CEIC) and are released in deidentified form; procurement data were scraped from the Chinese Government Procurement site. Reuse beyond replication may be limited by those providers' terms. One column name in the software table is in Chinese.",
+        "CC0 on Harvard Dataverse (QJE collection)."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (zip and README)",
+          "url": "https://doi.org/10.7910/DVN/GCOVGX",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The README PDF was read, the zip downloaded in full (size matches), its contents listed, and the row counts and variable names of four Stata tables read from their headers. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Patents",
+      "years": "About 1978–2015 (patent and wage panels; exact range varies by table)",
+      "geography": "International",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata",
+        "Python"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1086/734778"
+      ],
+      "id": "induced-automation-innovation-patent-panels",
+      "title": "Automation patent classification and firm and industry panels (induced automation innovation)",
+      "url": "https://doi.org/10.7910/DVN/IMCSW1",
+      "description": "Large replication package behind a study of whether higher wages induce firms to innovate in automation. It provides the authors' keyword and classification-code method for identifying automation patents in European Patent Office filings, the resulting lists of classified applications, firm-level automation patent measures, country-industry panels of wages, value added and employment from EU KLEMS, WIOD and national sources, and the final regression datasets.",
+      "tags": [
+        "Patents",
+        "Automation",
+        "Innovation",
+        "Wages",
+        "Firm-level data",
+        "Industry panels",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "1,045 files, 56 GB, in folders for independent variables (26 GB), final data (13 GB), weights, spillovers, classification, macro simulation, wage data and the Autor-Levy-Murnane reproduction. Two tables were parsed as a check: industry-year automation patent measures (133 rows, 104 columns) and firm-year citation-bounded automation measures keyed by Orbis BvD id (58,731 rows). Variable names on the largest files were not read.",
+        "The README says proprietary PATSTAT, EPO full-text and Orbis inputs are excluded; freely available raw data (EU KLEMS, OECD, Swiss BFS, WIOD) and intermediate datasets derived from the proprietary sources are included so tables can be rerun. The pipeline uses PowerShell on Windows plus Python and Stata. A Sources.md file documents every input.",
+        "CC0 on Harvard Dataverse (JPE collection). Downloading everything is a large job; pick folders."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (1,045 files, 56 GB)",
+          "url": "https://doi.org/10.7910/DVN/IMCSW1",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The package README, classification README and Sources.md were read, the full file list with folder sizes was retrieved through the API, and two data tables were downloaded and parsed. Nothing else was downloaded and the paper's full text was not read."
     }
   ]
 }
