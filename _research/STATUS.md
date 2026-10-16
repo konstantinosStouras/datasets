@@ -14,7 +14,8 @@ Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the co
 - 12:22 Batch 6 submitted: ride-hail deskilling experiments (SMJ) and three named public datasets found through the abstract scan (PSED, Kauffman Firm Survey, World Bank Enterprise Surveys). SBIR.gov blocked.
 - 12:30 Batch 6 confirmed live (run 38900143266 at 12:23:29: 142 collections, 25 research entries). Batch 7 submitted: five patent and entrepreneurship replication deposits found in sweep chunks 4 to 6 (Marx and Fuegi, SBIR/DoD, disruptive patents, topology of technology space, AngelList social vision).
 - 12:35 Batch 7 confirmed live (run 38901007519 at 12:30:56: 147 collections, 30 research entries). Batch 8 submitted: Mannheim Innovation Panel (application-gated) and six open Research Policy deposits from sweep chunks 6 and 7.
-- Running: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000, started 12:06, about 3 minutes per chunk (8 of 21 done at 12:35). Two failed requests so far (proxy drops); failed DOIs are rerun at the end. Next: vet hits from each finished chunk by hand, add verified ones, publish, record each batch here.
+- 12:42 Batch 8 confirmed live (run 38901669227 at 12:36:30: 154 collections, 37 research entries; raw feed caught up). Batch 9 submitted: Community Innovation Survey (Eurostat tables) and Global Entrepreneurship Monitor.
+- Running: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000, started 12:06, about 3 minutes per chunk (10 of 21 done at 12:42). Two failed requests so far (proxy drops); failed DOIs are rerun at the end. Next: vet hits from each finished chunk by hand, add verified ones, publish, record each batch here.
 - Unresolved and blocked by publisher bot challenges (not bypassed): INFORMS supplements (two Management Science leads), Wiley, SAGE.
 
 ## Resumption log
@@ -154,9 +155,9 @@ Dry run of the publisher's merge code before pushing: 147 collections, 30 resear
 - `10.1016/j.respol.2023.104740` (Hotte, Research Policy 2023): a Bielefeld data publication (`10.4119/unibi/2967659`, CC BY 4.0, about 7.4 GB) exists, but the host answers scripted requests with an anti-bot challenge. Not bypassed.
 - Also seen in chunks 4 to 6 and not reviewed: a Federal Court Cases Integrated Data Base record linked to a patent enforcement paper (Organization Science 2012), and an SMJ 2023 paper whose link to the PSED II record needs checking against its abstract.
 
-## Batch 8 (2026-10-16): the Mannheim Innovation Panel and six open Research Policy deposits
+## Batch 8 (2026-10-16): the Mannheim Innovation Panel and six open Research Policy deposits, published
 
-Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+Status: **published and confirmed 2026-10-16.** Merged in PR 11 (merge commit `c4bbb77`). Cloud publisher run [38901669227](https://github.com/konstantinosStouras/datasets/actions/runs/38901669227) completed successfully (12:36:30 UTC). `catalog-public.json` on `main` (and the raw copy the website reads) then showed **154 collections, 37 research entries**, all seven IDs below with correct access classes, and no URLs in the sanitized JSON.
 
 | Dataset ID | Paper(s) | Evidence and file check | Limits |
 | --- | --- | --- | --- |
@@ -173,6 +174,23 @@ Dry run of the publisher's merge code before pushing: 154 collections, 37 resear
 ### Unresolved lead from this pass
 
 - DataverseNL `10.34894/0vlsgb` (a Research Policy 2019 paper on repeated ties in university-industry consortia): the record lists no files, so nothing could be verified. Not added.
+
+## Batch 9 (2026-10-16): Community Innovation Survey tables and Global Entrepreneurship Monitor
+
+Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+
+| Dataset ID | Papers | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `community-innovation-survey-eurostat` | Five Research Policy papers (2010-2025) whose abstracts state use of the Community Innovation Survey | Eurostat catalogue lists ten waves (CIS2006 to CIS2024; 263 tables). Table `inn_cis13_bas` (CIS2022) downloaded in full via the API: 60,076 values, 31 geographies, 103 industry codes. Methodology and microdata-access pages read. | **Public component is the aggregate tables only.** The papers use firm-level microdata (national or Eurostat), which need accreditation (scientific-use or Safe Centre). Entry says so. Full texts not read. |
+| `global-entrepreneurship-monitor-gem` | Nine papers in Research Policy, Journal of Business Venturing, Entrepreneurship Theory and Practice and Journal of Political Economy whose abstracts state use of GEM | GEM data page lists 68 Adult Population Survey and 61 National Expert Survey files, downloadable without login through the page's own download action. 2019 APS individual file downloaded and parsed (163,006 respondents, 419 variables, 50 countries); 2019 national file parsed (50 x 218); a 2021 NES file downloaded (zip listing only). | No license or terms text found (the terms page returned 'not found'). Files have no stable direct links. Most files only listed. Full texts not read. |
+
+Dry run of the publisher's merge code before pushing: 156 collections, 39 research entries, no duplicate IDs.
+
+### Leads from this pass not added
+
+- Zenodo `10.5281/zenodo.10960975` (ESG scores for equity crowdfunding platforms, JBV 2024): the public record is documentation of how scores were built; the dataset version (`10960976`) is **restricted**. Not added.
+- ICPSR links without a stated use: PSED II is listed on ICPSR for an SMJ 2023 paper (racial gap in entrepreneurship), an ETP 2022 paper (growth mindset) and an ETP 2025 paper; the abstracts do not say PSED/MIDUS was used (the SMJ abstract says only 'a representative sample of American new business founders in 2005', consistent with PSED II). Not added to the PSED entry.
+- openICPSR `e100177` (Tangail survey, Bangladesh, JBV 2019): not verified (ICPSR access blocked).
 
 ## State at the earlier pause (historical)
 

@@ -72,4 +72,7 @@ After publication check the actual GitHub workflow outcome and live feed. Record
 - A DataCite record's `IsDocumentedBy` list is the data provider's own list of publications that document or use the data (used for the Mannheim Innovation Panel). It is provider evidence, but it does not say which data version a paper used.
 - Application-gated survey data (for example ZEW scientific use files): read the provider pages for who may apply and for what, classify as 'Agreement or mixed', and state that no data file was opened.
 - Dataverse records can list zero files; do not add them.
+- Eurostat tables: `https://ec.europa.eu/eurostat/api/dissemination/catalogue/toc/txt?lang=en` lists every table (CIS tables are `inn_cis<n>_*`); data come from `.../statistics/1.0/data/<code>?format=JSON&lang=en` (JSON-stat; `format=SDMX-CSV` is rejected with HTTP 400). Methodology pages sit under `/eurostat/cache/metadata/en/<code>_esms.htm`.
+- GEM downloads: the data page is `https://www.gemconsortium.org/data/sets`. The buttons carry a `file` id and the page's own script posts it to `https://www.gemconsortium.org/download@file` (`id=<file id>`); this is the same call a visitor's browser makes and needs no login. Files unzip to SPSS (.sav); read with `pyreadstat` (`pip install --target ./lib pyreadstat`, then `sys.path.insert`).
+- Where only an aggregate component of a survey is public (Eurostat tables) while the papers use restricted microdata, make the entry about the public component and say what the papers used. Do not cite restricted-data papers for a public-use file.
 
