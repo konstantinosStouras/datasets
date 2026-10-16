@@ -6,6 +6,7 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the container clock. (An earlier version of this log used estimated times; they have been replaced with these observed ones.)
 
+- 18:10 Batch 17 live (run 38941641261, 17:41:59; 190 entries, all four IDs present).
 - 18:05 Batch 17 submitted: four Dataverse deposits found through the FT50 sweep leads (firm-level political risk from earnings calls; Opportunity Insights Economic Tracker; corporate foundation grants and regulatory comments; watch design images and visual conjoint). Zenodo lead metadata fetch finished (109 records); review next.
 - 17:48 Batch 16 live (run 38939877345, 17:28:21; 186 entries).
 - 17:40 Batch 15 live (run 38939563044, 17:25:37; 185 entries). Batch 16 (Brazilian hospital panel) submitted. Metadata fetch for the remaining Dataverse and Zenodo sweep leads running.
@@ -365,7 +366,7 @@ Leads inspected and not added: Boehm and Oberfield (ASI data not redistributable
 
 ## Batch 17 (2026-10-16): four deposits from the sweep's Dataverse leads
 
-Status: submitted; confirmation pending (see the live log).
+Status: published and confirmed. Workflow run 38941641261 succeeded at 17:41:59 UTC; `catalog-public.json` on `main` then held 190 entries including all four IDs.
 
 Found by scoring the 750 sweep leads and the Harvard Dataverse QJE and JPE listings for management relevance and inspecting the top Dataverse records (metadata for all 178 remaining Dataverse leads fetched first).
 
