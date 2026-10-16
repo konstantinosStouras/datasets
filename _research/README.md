@@ -2,6 +2,8 @@
 
 Start with [HANDOFF.md](HANDOFF.md) for the task, repositories and publishing workflow; [METHODS.md](METHODS.md) for verification standards; and [STATUS.md](STATUS.md) for the latest checkpoint. These are living documents: update them as findings, procedures or outstanding work change. Root [AGENTS.md](../AGENTS.md) makes this maintenance requirement discoverable to future assistants.
 
+The verified additions and current queue updates are on GitHub. [Historical helpers](archive/README.md) and dated `evidence/` files preserve the earlier local research work; no local-only pending catalog file is needed to continue.
+
 Source: the existing stouras.com paper-browser metadata in the personal GitHub repository (`lit/data` and `lit/data-ft50`). Screened on 16 October 2026, using the metadata year window 2006–2026. Boundary-year publication dates, completeness of journal coverage and full-text availability remain to be checked. This is not a completed twenty-year FT50 census.
 
 The initial pass identified 355 broadly topic-related records with abstract-level sharing or availability cues. Of these, 125 also matched priority topics in their titles. Manually verified relevant papers are appended when their abstracts did not contain a matching cue. The title-focused file is the first review queue; the broader file retains additional leads. Journal order starts Management Science, M&SOM, POM.

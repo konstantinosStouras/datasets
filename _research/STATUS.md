@@ -10,9 +10,19 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 - Queue CSV status updates (4 rows) installed in both queues.
 - Publication and live-feed confirmation: see "Publication outcome" below once recorded. Sharing-deployment check: still to do.
 
-## Publication outcome
+## Publication outcome — confirmed 2026-10-16
 
-Pending at the time of this edit. Do not treat the three additions as live until a run ID and feed check are recorded here.
+The three additions and both updated queues were merged by the separate continuation session in PR #2, merge commit `0d785aa`. The original machine independently compared its pending JSON and CSV contents to that remote version: they match semantically (CSV BOM/line-ending differences only). The local checkout adopted the published version; there is no remaining local-only research batch.
+
+Cloud publisher [38894715168](https://github.com/konstantinosStouras/datasets/actions/runs/38894715168) completed successfully. An unauthenticated fetch of the live public feed confirmed **128 collections, 10 research entries**, all three new IDs, and no source URLs in the sanitized JSON. The research catalog contains 10 distinct cited papers.
+
+Website sharing deployment [38893493361](https://github.com/konstantinosStouras/konstantinosStouras.github.io/actions/runs/38893493361) succeeded. Live requests using Facebook, LinkedIn and Twitter crawler user agents returned HTTP 200 with the new sharing title and icon markup. The preview JPEG, favicon, Apple touch icon and manifest also returned HTTP 200 with appropriate content types. These are HTTP checks, not actual in-app preview tests.
+
+A separate offline check run [38893493750](https://github.com/konstantinosStouras/konstantinosStouras.github.io/actions/runs/38893493750) failed the Firebase deployment guard check: `datasets/_backend` lacks a `.firebaserc` naming its project. This did not prevent GitHub Pages deployment. Repair and verify the repository-required project guard before any future Firebase rules deployment; do not claim all site checks passed. No rules were changed during this synchronization.
+
+The owner then requested that all relevant local work be saved on GitHub. Historical helpers and evidence have been added under `_research/archive/` and `_research/evidence/`, and the handoff documents now point to repository files. Abstract snippets were omitted from the discovery snapshot. Duplicate local exports are superseded; unrelated computer-recovery/session artifacts do not belong in this public research repository.
+
+This synchronization pass does not restart new research in the original paused conversation. A separate continuation session had already recorded its own resumption above; preserve that history without interpreting it as authorization for unrelated work.
 
 ## State at the earlier pause (historical)
 
@@ -22,7 +32,7 @@ Pending at the time of this edit. Do not treat the three additions as live until
 - Website sharing changes were committed and pushed to site `master` as `40aa3b75e6f1cfb3da1ee3192fc23abb6e1f8b5b`. GitHub Pages run [38893493361](https://github.com/konstantinosStouras/konstantinosStouras.github.io/actions/runs/38893493361) was still in progress at the last check. Offline checks run 38893493750 was also in progress. **Live deployment has not yet been confirmed.** The already-started cloud deployment may finish during the pause.
 - Site working checkout: `C:/Users/LENOVO/Dropbox/Others/GitHub/dataset-publish-work`, branch `codex/dataset-publish`. Sharing edits include complete static social tags, DataCatalog JSON-LD, favicon sizes 16/32/48, Apple touch icon, 192/512 icons and a web manifest. Existing 1200 × 630 branded JPEG retained. Nine catalog/membership tests passed; ad hoc checks confirmed image dimensions, 45,838-byte size, canonical agreement and icon paths. Icon visually inspected. No actual WhatsApp/Facebook/LinkedIn app preview tested; live crawler checks remain pending.
 
-## New verified additions saved locally, awaiting publication
+## Three additions now published (verification record)
 
 All three have dateAdded and verifiedAt `2026-10-16` with tags, citations and caveats in the authoritative JSON.
 
@@ -55,10 +65,10 @@ Both queues now mark the British-patents and crowdfunding papers as having a ver
 
 Do not count these unresolved leads as unavailable or as published additions.
 
-## Next steps only after the owner resumes
+## Next steps for an authorized continuation
 
-1. Inspect local changes and remote state; confirm the already-pushed sharing deployment and live unauthenticated HTML/image/icon responses (including social crawler user agents).
-2. Obtain the three pending local research entries and queue updates (not included in the documentation-only commit), then validate citations and merged IDs/count. Commit/push the intended research changes without overwriting upstream/bot work.
-3. Confirm the publishing workflow and the three IDs in the live sanitized feed; ensure no source URLs leak into that feed. Update this file from pending to confirmed with the actual run ID. Report the additions to the owner.
-4. Continue Management Science/M&SOM/POM priority leads, then other FT50 journals; preserve paper-level evidence and unknowns. Full twenty-year review remains outstanding.
-5. Keep documentation current. In particular, distinguish checked-in changes, successful cloud runs and observed live behavior. Never silently convert pending items into completed claims.
+1. Clone or pull the current repository and read AGENTS, HANDOFF, METHODS and this checkpoint. No local pending catalog or queue files need to be retrieved from the original machine.
+2. Inspect current workflow/feed state if making further changes; the ten research entries and the sharing deployment above are already confirmed. Do not duplicate the three additions.
+3. Before any Firebase rules deployment, repair the missing project configuration and deployment guard reported above, following the website repository instructions. This remains unfinished and was not part of the file-publication request.
+4. When the user authorizes further research in the relevant session, continue Management Science/M&SOM/POM priority leads, then other FT50 journals. The full twenty-year review remains outstanding.
+5. Keep documentation current and preserve dated evidence, unresolved leads and actual deployment outcomes. Read the archive warning before reusing historical scripts.

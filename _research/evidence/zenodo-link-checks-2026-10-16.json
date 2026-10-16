@@ -1,0 +1,90 @@
+[
+  {
+    "id": "5172146",
+    "title": "Measuring the Position and Differentiation of Firms in Technology Space",
+    "access": "open",
+    "license": {
+      "id": "cc-by-nc-1.0"
+    },
+    "files": [
+      {
+        "name": "keywords.csv",
+        "size": 2725391190,
+        "url": "https://zenodo.org/api/records/5172146/files/keywords.csv/content"
+      },
+      {
+        "name": "tech differentiation tf-idf.csv",
+        "size": 4027600,
+        "url": "https://zenodo.org/api/records/5172146/files/tech%20differentiation%20tf-idf.csv/content"
+      },
+      {
+        "name": "patent txt raw.zip",
+        "size": 6306854242,
+        "url": "https://zenodo.org/api/records/5172146/files/patent%20txt%20raw.zip/content"
+      },
+      {
+        "name": "doc2vec.zip",
+        "size": 21109008488,
+        "url": "https://zenodo.org/api/records/5172146/files/doc2vec.zip/content"
+      },
+      {
+        "name": "tech similarity tf-idf.csv",
+        "size": 6424932497,
+        "url": "https://zenodo.org/api/records/5172146/files/tech%20similarity%20tf-idf.csv/content"
+      },
+      {
+        "name": "tech differentiation tf-idf prod rivals.csv",
+        "size": 2427308,
+        "url": "https://zenodo.org/api/records/5172146/files/tech%20differentiation%20tf-idf%20prod%20rivals.csv/content"
+      },
+      {
+        "name": "0_Data Description Zenodo.pdf",
+        "size": 256962,
+        "url": "https://zenodo.org/api/records/5172146/files/0_Data%20Description%20Zenodo.pdf/content"
+      },
+      {
+        "name": "tech similarity doc2vec.csv",
+        "size": 6330444579,
+        "url": "https://zenodo.org/api/records/5172146/files/tech%20similarity%20doc2vec.csv/content"
+      },
+      {
+        "name": "tech differentiation doc2vec.csv",
+        "size": 4031370,
+        "url": "https://zenodo.org/api/records/5172146/files/tech%20differentiation%20doc2vec.csv/content"
+      }
+    ],
+    "checked_file": "tech differentiation tf-idf.csv",
+    "status": 206,
+    "type": "text/plain; charset=utf-8",
+    "sample": "gvkey,conm,year,tech_diff_tfidf_all,tech_diff_tfidf_top10p,tech_diff_tfidf_top5p,tech_diff_tfidf_top1\r\n1010,ACF INDUSTRIES INC,1980,.88181204,.68854415,.643736,.50479889\r\n1010,ACF INDUSTRIES INC,1981,.88041443,.68177032,.63849676,.50693035\r\n1010,ACF "
+  },
+  {
+    "id": "3709084",
+    "title": "DISCERN: Duke Innovation & SCientific Enterprises Research Network",
+    "access": "open",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "files": [
+      {
+        "name": "_DISCERN_DATA_MARCH_2020.zip",
+        "size": 91275448,
+        "url": "https://zenodo.org/api/records/3709084/files/_DISCERN_DATA_MARCH_2020.zip/content"
+      },
+      {
+        "name": "_DISCERN Data Appendix MARCH 2020.pdf",
+        "size": 1380207,
+        "url": "https://zenodo.org/api/records/3709084/files/_DISCERN%20Data%20Appendix%20MARCH%202020.pdf/content"
+      },
+      {
+        "name": "_README.docx",
+        "size": 21095,
+        "url": "https://zenodo.org/api/records/3709084/files/_README.docx/content"
+      }
+    ],
+    "checked_file": "_DISCERN_DATA_MARCH_2020.zip",
+    "status": 206,
+    "type": "application/octet-stream",
+    "sample": "504b0304"
+  }
+]
