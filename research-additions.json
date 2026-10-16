@@ -504,6 +504,81 @@
       "evidenceSection": "Working-paper version states it uses the Enterprise Survey merged with the Innovation Follow-Up Survey for sub-Saharan African countries",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The author working paper (UNU-MERIT, 2019) was read and states the use of the Enterprise Survey merged with the Innovation Follow-Up Survey; the published article's full text was not read."
+    },
+    "10.1002/smj.3145": {
+      "title": "Reliance on science: Worldwide front‐page patent citations to scientific articles",
+      "authors": "Matt Marx; Aaron Fuegi",
+      "journal": "Strategic Management Journal",
+      "year": 2020,
+      "volume": "41",
+      "issue": "9",
+      "pages": "1572–1594",
+      "doi": "10.1002/smj.3145",
+      "url": "https://doi.org/10.1002/smj.3145",
+      "evidenceUrl": "https://doi.org/10.5281/zenodo.3236339",
+      "evidenceSection": "Zenodo record asks users of the citation data to cite this article and gives its DOI",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Zenodo record names this article (with volume and pages) as one to cite for the citation data. The article's full text was not read."
+    },
+    "10.1016/j.respol.2025.105302": {
+      "title": "A new approach to measuring invention commercialization: An application to the SBIR program",
+      "authors": "Carlo Bottai; Gaétan de Rassenfosse; Emilio Raiteri",
+      "journal": "Research Policy",
+      "year": 2025,
+      "volume": "54",
+      "issue": "9",
+      "pages": "105302",
+      "doi": "10.1016/j.respol.2025.105302",
+      "url": "https://doi.org/10.1016/j.respol.2025.105302",
+      "evidenceUrl": "https://doi.org/10.5281/zenodo.17018422",
+      "evidenceSection": "Zenodo record states it forms the basis of the data used in this paper and is described by it",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Zenodo record (relation IsDescribedBy) and its README name this article. The article's full text was not read."
+    },
+    "10.1016/j.respol.2024.104992": {
+      "title": "Is there a secular decline in disruptive patents? Correcting for measurement bias",
+      "authors": "Jeffrey T. Macher; Christian Rutzer; Rolf Weder",
+      "journal": "Research Policy",
+      "year": 2024,
+      "volume": "53",
+      "issue": "5",
+      "pages": "104992",
+      "doi": "10.1016/j.respol.2024.104992",
+      "url": "https://doi.org/10.1016/j.respol.2024.104992",
+      "evidenceUrl": "https://doi.org/10.5281/zenodo.8020003",
+      "evidenceSection": "Zenodo record is the replication data and scripts for this article, which it cites in full",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Zenodo description names this article with volume, issue and article number. The article's full text was not read."
+    },
+    "10.1016/j.respol.2023.104821": {
+      "title": "Mapping firms’ locations in technological space: A topological analysis of patent statistics",
+      "authors": "Emerson G. Escolar; Yasuaki Hiraoka; Mitsuru Igami; Yasin Ozcan",
+      "journal": "Research Policy",
+      "year": 2023,
+      "volume": "52",
+      "issue": "8",
+      "pages": "104821",
+      "doi": "10.1016/j.respol.2023.104821",
+      "url": "https://doi.org/10.1016/j.respol.2023.104821",
+      "evidenceUrl": "https://doi.org/10.5281/zenodo.7957847",
+      "evidenceSection": "Zenodo record is the replication package for this article",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Zenodo description and README name this article. The article's full text was not read."
+    },
+    "10.1287/orsc.2023.1671": {
+      "title": "Recruiting Talent Through Entrepreneurs’ Social Vision Communication",
+      "authors": "Timo van Balen; Murat Tarakci",
+      "journal": "Organization Science",
+      "year": 2024,
+      "volume": "35",
+      "issue": "1",
+      "pages": "326–345",
+      "doi": "10.1287/orsc.2023.1671",
+      "url": "https://doi.org/10.1287/orsc.2023.1671",
+      "evidenceUrl": "https://doi.org/10.34894/ILDZ9Q",
+      "evidenceSection": "DataverseNL record is registered as a supplement to this article and holds the data and scripts for its two studies",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. DataCite records the repository entry as a supplement (IsSupplementTo) to this DOI. The article's full text was not read."
     }
   },
   "datasets": [
@@ -1809,6 +1884,257 @@
         }
       ],
       "verification": "The program page states that the survey information is publicly available at economy and firm level. The Microdata Library API returned 794 studies in the collection (earliest study year 2001) and a study record with its citation requirement and stratified sampling description. The sampling note PDF was downloaded. Login-gated microdata were not accessed."
+    },
+    {
+      "access": "Public",
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "topic": "Patents",
+      "years": "Citations through 2025; patent-paper pairs through 2021",
+      "geography": "International",
+      "types": [
+        "Research & publications"
+      ],
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "paperDois": [
+        "10.1002/smj.3145"
+      ],
+      "id": "reliance-on-science-patent-paper-citations",
+      "title": "Reliance on Science — patent-to-paper citations",
+      "url": "https://doi.org/10.5281/zenodo.3236339",
+      "description": "Author-released data linking patents to the scientific articles they cite, with confidence scores and whether the reference is on the front page or in the text, plus patent-paper pairs.",
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Science-technology linkages",
+        "Patent citations",
+        "Author-shared data"
+      ],
+      "notes": [
+        "The Zenodo concept DOI points to the latest of 64 versions. The two latest releases hold only U.S. patents, according to the record, 'in contrast to earlier releases'. The SMJ article studies worldwide front-page citations, so its data correspond to older versions; those were not inspected and the version used in the paper is not verified.",
+        "Latest release files: the citation table (1.44 GB; columns include reference type, confidence score, an article identifier named oaid, patent number and where the reference was found), a patent-paper-pairs table (59,202 rows: article id, patent id, confidence level) and a PDF describing the pairs.",
+        "Licensed CC BY-NC 4.0 (non-commercial); the authors ask to be contacted about commercial use. The record asks users to cite the SMJ article, a Journal of Economics and Management Strategy article and a patent-paper-pairs paper.",
+        "Citation counts and linking rely on automated extraction and matching, so errors remain; the confidence score helps filter."
+      ],
+      "links": [
+        {
+          "title": "Patent-paper pairs table (CSV, 1.4 MB)",
+          "url": "https://zenodo.org/api/records/22967630/files/finalpppsadjusted.csv/content",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Patent-to-article citations, U.S. patents (CSV, 1.4 GB)",
+          "url": "https://zenodo.org/api/records/22967630/files/pcs_oa_uspto.csv/content",
+          "checkedStatus": 206
+        }
+      ],
+      "verification": "Zenodo API lists three open files in the latest release under CC BY-NC 4.0. The pairs table was downloaded and parsed (59,202 rows, 3 columns). The first rows of the citation table were read by range request. Earlier versions were listed (64 in all) but not opened."
+    },
+    {
+      "access": "Public",
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "topic": "Patents",
+      "years": "1984–2018",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [],
+      "designs": [],
+      "paperDois": [
+        "10.1016/j.respol.2025.105302"
+      ],
+      "id": "dod-sbir-sttr-awards-patents-commercialization",
+      "title": "Defense SBIR/STTR awards linked to patents and commercialization",
+      "url": "https://doi.org/10.5281/zenodo.17018422",
+      "description": "Author-built database linking U.S. Department of Defense small business research awards to the utility patents they produced and to web pages that signal commercialization.",
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Public R&D funding",
+        "SBIR",
+        "Commercialization",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Covers Department of Defense SBIR and STTR awards only, not other agencies. Award data come from the Defense Contract Action Data System (1984-2001) and USAspending.gov (2001-2018); patent data mainly from PatentsView, with details from the Patent Examination Research Dataset or PATSTAT; web pages were collected by the authors' crawls.",
+        "Ten small tables (under 5 MB each), including awards (2,213 rows), patents (42,342), award-to-patent links (3,623), web pages (2,027) and legal entities (9,902), plus a README and a schema diagram.",
+        "Version 1.1 (August 2025). The record lists the Creative Commons Attribution 4.0 license and a copyright notice for the authors. The web page table holds addresses and dates, not page content.",
+        "This is a derived research database, not the official SBIR.gov award files."
+      ],
+      "links": [
+        {
+          "title": "Awards table (CSV)",
+          "url": "https://zenodo.org/api/records/17018422/files/award.csv/content",
+          "checkedStatus": 200
+        },
+        {
+          "title": "README",
+          "url": "https://zenodo.org/api/records/17018422/files/readme.txt/content",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Zenodo API lists 12 open files. Five tables and the README were downloaded and parsed (row counts above). The remaining tables were listed, not read."
+    },
+    {
+      "access": "Public",
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "topic": "Patents",
+      "years": "1976–2016",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [
+        "R"
+      ],
+      "designs": [],
+      "paperDois": [
+        "10.1016/j.respol.2024.104992"
+      ],
+      "id": "disruptive-patents-cd-index-uspto",
+      "title": "Disruptiveness (CD index) of U.S. patents — replication data",
+      "url": "https://doi.org/10.5281/zenodo.8020003",
+      "description": "Author replication data with patent-level disruptiveness (CD index) values for U.S. utility patents under several measurement choices, with citation counts, technology field and an R script.",
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Disruptive innovation",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Patent-level files for granted U.S. utility patents from 1976 to 2016 in several variants (with and without citation-window truncation, and adjusted for application dates), each as CSV and as R fst files; the largest CSV is 770 MB. Small summary tables and the replication R script are included.",
+        "The record states that the R script replicates all figures and tables of the paper. The script and the large files were not run.",
+        "Licensed CC BY 4.0. The underlying patent and citation data are public U.S. patent records.",
+        "A separate library entry covers other patent measures; this one is the disruptiveness measure only."
+      ],
+      "links": [
+        {
+          "title": "Mean patent age tables (CSV, small)",
+          "url": "https://zenodo.org/api/records/10839471/files/age_bwc_untrunc.csv/content",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Patent-level CD index, no truncation (CSV, 438 MB)",
+          "url": "https://zenodo.org/api/records/10839471/files/dat_cd5_no_trunc.csv/content",
+          "checkedStatus": 206
+        }
+      ],
+      "verification": "Zenodo API lists 29 open files under CC BY 4.0. A small summary table was downloaded and read, and the first rows of the large patent-level file were read by range request (columns: patent, publication year, CD value, type, field, backward and forward citations). Other files were listed only."
+    },
+    {
+      "access": "Public",
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "topic": "Patents",
+      "years": "1976–2010 (patents); 1976–2005 (financials)",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Python",
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1016/j.respol.2023.104821"
+      ],
+      "id": "firm-technology-space-topological-replication",
+      "title": "Firms in technological space (topological analysis) — replication package",
+      "url": "https://doi.org/10.5281/zenodo.7957847",
+      "description": "Author replication package with firm-level patent counts by technology area and year, the code to map firms in technology space, and regression data combining the map statistics with firm financial variables.",
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Technological position",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Includes 30 yearly CSV files of R&D, M&A and combined patent counts by firm and technology area, Python code for the topological (Mapper) analysis, Stata regression code and the data for the main regressions, a README and the draft paper with its online appendix.",
+        "Patent data are the first author's compilation of USPTO patents granted 1976-2010, combined with Securities Data Company merger data. Firm financial variables from Compustat (1976-2005) enter only in the regression file; the authors state they have permission to publish their derived outputs, but Compustat is a licensed source, so check its terms.",
+        "Licensed CC BY 4.0; the Python code is also on the author's GitHub page under GPL-3.0 according to the README.",
+        "Runtime for the main outputs is under 10 minutes on a desktop according to the README. Nothing was run for this entry."
+      ],
+      "links": [
+        {
+          "title": "Replication README (PDF)",
+          "url": "https://zenodo.org/api/records/7957848/files/README_TDAPatents_version_1_1.pdf/content",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Python code and patent count files (ZIP, 23 MB)",
+          "url": "https://zenodo.org/api/records/7957848/files/TDAPatents-v1.1.0.zip/content",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Zenodo API lists five open files in version 1.1 under CC BY 4.0. The README was downloaded and read and the code archive was downloaded and listed (322 entries, including yearly distance tables). The Stata archive and the draft paper were not opened."
+    },
+    {
+      "access": "Public",
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "topic": "Entrepreneurship",
+      "years": "Not specified",
+      "geography": "Other / not specified",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "R"
+      ],
+      "designs": [],
+      "paperDois": [
+        "10.1287/orsc.2023.1671"
+      ],
+      "id": "startup-social-vision-angellist-study",
+      "title": "Entrepreneurs' social vision statements on AngelList (study 1 data)",
+      "url": "https://doi.org/10.34894/ILDZ9Q",
+      "description": "Author-shared data for one of two studies: coded statements by start-ups on a talent platform about their social vision and the number of job applications received, with R scripts for both studies.",
+      "tags": [
+        "Entrepreneurship",
+        "Startups",
+        "Hiring",
+        "Social vision",
+        "Text data",
+        "Partial data"
+      ],
+      "notes": [
+        "Only part of the paper's data is public. Study 1 (a table of 1,191 start-up profiles with 66 columns, including coded statements and number of applications) and the R scripts are downloadable. The Study 2 field-experiment data file is marked restricted in the repository and was not accessed.",
+        "Company names and platform profile links appear in the study 1 table; they come from public start-up profiles but may be sensitive in publications.",
+        "Licensed CC BY-NC-ND 4.0: non-commercial and no derivatives. Version 1.1.",
+        "The record describes the two studies' datasets as XLSX files, one per study, plus scripts for descriptives and analyses and a folder of custom functions."
+      ],
+      "links": [
+        {
+          "title": "Study 1 data (XLSX, 0.8 MB)",
+          "url": "https://dataverse.nl/api/access/datafile/357041",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "DataverseNL API lists nine files, eight public and the Study 2 data restricted. The study 1 workbook was downloaded and parsed (1,191 rows, 66 columns). The R scripts were listed, not run."
     }
   ]
 }

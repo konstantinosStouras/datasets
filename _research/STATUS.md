@@ -12,7 +12,8 @@ Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the co
 - 11:52 Batch 2 live: patent text and novelty measures, in-text patent citations, inventor disambiguation (run 38896605298).
 - 11:35 Batch 1 live: the three pending items from the pause (run 38894715168). Website sharing update confirmed live earlier in the session (HTML, image, icons; crawler user agents return 200).
 - 12:22 Batch 6 submitted: ride-hail deskilling experiments (SMJ) and three named public datasets found through the abstract scan (PSED, Kauffman Firm Survey, World Bank Enterprise Surveys). SBIR.gov blocked.
-- Running: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000, started 12:06, about 3 minutes per chunk (3 of 21 done at 12:15). Next: vet hits from each finished chunk by hand, add verified ones, publish, record each batch here.
+- 12:30 Batch 6 confirmed live (run 38900143266 at 12:23:29: 142 collections, 25 research entries). Batch 7 submitted: five patent and entrepreneurship replication deposits found in sweep chunks 4 to 6 (Marx and Fuegi, SBIR/DoD, disruptive patents, topology of technology space, AngelList social vision).
+- Running: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000, started 12:06, about 3 minutes per chunk (6 of 21 done at 12:30). Two failed requests so far (proxy drops); failed DOIs are rerun at the end. Next: vet hits from each finished chunk by hand, add verified ones, publish, record each batch here.
 - Unresolved and blocked by publisher bot challenges (not bypassed): INFORMS supplements (two Management Science leads), Wiley, SAGE.
 
 ## Resumption log
@@ -109,9 +110,9 @@ Status: **published and confirmed 2026-10-16.** Merged in PR 7 (merge commit `85
 
 Found by following a lead (the paper presents public databases) with Dataverse and DataCite title searches after a web search found no download page.
 
-## Batch 6 (2026-10-16): deskilling-technology experiments and three named public datasets
+## Batch 6 (2026-10-16): deskilling-technology experiments and three named public datasets, published
 
-Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+Status: **published and confirmed 2026-10-16.** Merged in PR 9 (merge commit `efa0324`). Cloud publisher run [38900143266](https://github.com/konstantinosStouras/datasets/actions/runs/38900143266) completed successfully (12:23:29 UTC). `catalog-public.json` on `main` then showed **142 collections, 25 research entries**, all four IDs below with the right access classes, and no URLs in the sanitized JSON.
 
 | Dataset ID | Papers | Evidence and file check | Limits |
 | --- | --- | --- | --- |
@@ -131,6 +132,26 @@ Dry run of the publisher's merge code before pushing: 142 collections, 25 resear
 ### New method: named public datasets in abstracts
 
 Scanned 2006-2026 FT50 abstracts that match the innovation/entrepreneurship words for names of public data sources (count of matching papers in brackets): Kickstarter (78), PatentsView/USPTO (51), PATSTAT/EPO (48), Community Innovation Survey (36), Compustat (32, licensed), FDA data (21), Crunchbase (17), SBIR/STTR (17), Global Entrepreneurship Monitor (16), PSED (12), Kauffman Firm Survey (6), World Bank Enterprise Surveys (5). Reading the abstract wording shows genuine use versus false matches. This finds datasets used by many papers, a good complement to the per-paper repository search.
+
+## Batch 7 (2026-10-16): five patent and entrepreneurship replication deposits
+
+Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+
+| Dataset ID | Paper | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `reliance-on-science-patent-paper-citations` | Marx and Fuegi, Strategic Management Journal 41(9), 1572-1594 (2020), DOI 10.1002/smj.3145 | [Zenodo 3236339](https://doi.org/10.5281/zenodo.3236339), open, CC BY-NC 4.0; the record names the SMJ article. Pairs table downloaded and parsed (59,202 rows); first rows of the 1.4 GB citation table read by range request. | **Latest release is U.S.-only; the SMJ paper is about worldwide citations, so its data are in older versions (64 versions exist), not inspected.** Non-commercial license. |
+| `dod-sbir-sttr-awards-patents-commercialization` | Bottai, de Rassenfosse, Raiteri, Research Policy 54(9), 105302 (2025), DOI 10.1016/j.respol.2025.105302 | [Zenodo 17018422](https://doi.org/10.5281/zenodo.17018422), open, CC BY 4.0, 12 files. README and five tables downloaded and parsed (2,213 awards, 42,342 patents, 3,623 links, 2,027 web pages). | Department of Defense SBIR/STTR only, 1984-2018; a derived database, not the official SBIR.gov files. Paper full text not read. |
+| `disruptive-patents-cd-index-uspto` | Macher, Rutzer, Weder, Research Policy 53(5), 104992 (2024), DOI 10.1016/j.respol.2024.104992 | [Zenodo 8020003](https://doi.org/10.5281/zenodo.8020003) (latest 10839471), CC BY 4.0, 29 files. Small table read; first rows of the 438 MB patent-level CSV read by range request. | Large files not downloaded; R script not run. Paper full text not read. |
+| `firm-technology-space-topological-replication` | Escolar, Hiraoka, Igami, Ozcan, Research Policy 52(8), 104821 (2023), DOI 10.1016/j.respol.2023.104821 | [Zenodo 7957847](https://doi.org/10.5281/zenodo.7957847) (v1.1 record 7957848), CC BY 4.0, 5 files. README read; code archive downloaded and listed (322 entries). | Regression data include Compustat-derived variables (licensed source; authors state permission for derived outputs). Nothing run. Paper full text not read. |
+| `startup-social-vision-angellist-study` | van Balen and Tarakci, Organization Science 35(1), 326-345 (2024), DOI 10.1287/orsc.2023.1671 | [DataverseNL ILDZ9Q](https://doi.org/10.34894/ILDZ9Q), registered as a supplement to the paper. Study 1 workbook downloaded and parsed (1,191 rows, 66 columns); R scripts public. | **Partial: the Study 2 field-experiment file is restricted and was not accessed.** CC BY-NC-ND 4.0. Company names appear. Paper full text not read. |
+
+Dry run of the publisher's merge code before pushing: 147 collections, 30 research entries, no duplicate IDs.
+
+### Unresolved leads from this pass (not added)
+
+- `10.1002/smj.3464` (Hou, Png, Xiong, SMJ 2022): a replication package record at NUS ScholarBank (`10.25540/amvf-6ty0`) exists, but, like the Png R&D directory record, anonymous requests show no downloadable files.
+- `10.1016/j.respol.2023.104740` (Hotte, Research Policy 2023): a Bielefeld data publication (`10.4119/unibi/2967659`, CC BY 4.0, about 7.4 GB) exists, but the host answers scripted requests with an anti-bot challenge. Not bypassed.
+- Also seen in chunks 4 to 6 and not reviewed: a Federal Court Cases Integrated Data Base record linked to a patent enforcement paper (Organization Science 2012), and an SMJ 2023 paper whose link to the PSED II record needs checking against its abstract.
 
 ## State at the earlier pause (historical)
 
