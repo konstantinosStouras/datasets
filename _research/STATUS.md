@@ -6,6 +6,7 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the container clock. (An earlier version of this log used estimated times; they have been replaced with these observed ones.)
 
+- 13:20 Batch 12 (KPSS patent values, extended to 2025) committed through a pull request; confirmation to be added once the workflow run is seen. Batch 11 confirmed live (run 38905315190, 13:06:36). DataCite sweep: 18 of 21 chunks done.
 - 12:15 Batch 5 live (CrowdBerkeley Kickstarter database; run 38899203737 succeeded at 12:15:15). `main`'s `catalog-public.json` then showed 138 collections, 21 research entries, no URLs. The raw.githubusercontent.com copy lagged for a few minutes behind `main`, so I checked the file in git.
 - 12:12 Batch 4 live: open source write-access data, WWII patent secrecy orders, inventor-firm replication archive, NHANES enrichment (run 38898838401).
 - 12:02 Batch 3 live: patent text similarity, PatCit, inventor ages (run 38897774771). Png R&D directory data left unresolved (no downloadable file visible).
@@ -236,7 +237,7 @@ One request for the ClinicalTrials.gov bulk zip used a range header that the ser
 
 ## Batch 11 (2026-10-16): six replication deposits in finance, economics and international business journals
 
-Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+Status: published and confirmed. Workflow run 38905315190 succeeded at 13:06:36 UTC; the live feed then showed 165 collections and 48 research entries with all six IDs present.
 
 | Dataset ID | Paper | Evidence and file check | Limits |
 | --- | --- | --- | --- |
@@ -248,6 +249,18 @@ Status: committed through a pull request. **Publication is not confirmed until t
 | `populism-entrepreneurship-individual-data` | Bennett, Boudreaux, Nikolaev, Journal of International Business Studies 54(1), 151-181 (2023), DOI 10.1057/s41267-022-00515-9 | Mendeley Data `c8vz84fzfz`, CC BY-NC-SA 4.0. 407 MB Stata table: 2,467,779 rows x 43 columns. | Underlying surveys not described; may carry their own terms. Years variable 1960-2020. |
 
 Dry run of the publisher's merge code before pushing: 165 collections, 48 research entries, no duplicate IDs.
+
+## Batch 12 (2026-10-16): KPSS patent values extended to 2025
+
+Status: committed through a pull request. **Not confirmed until the workflow run and live feed are recorded here.**
+
+| Dataset ID | Paper | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `kpss-patent-values-extended-2025` | Kogan, Papanikolaou, Seru, Stoffman, Quarterly Journal of Economics 132(2), 665-712 (2017), DOI 10.1093/qje/qjw040 | [GitHub repository](https://github.com/KPSS2017/Technological-Innovation-Resource-Allocation-and-Growth-Extended-Data), head 78ecbc8 (2026-09-09). Three zips cloned and read in full: 3,831,908 rows each; issue years 1926-2025; 10,599 distinct permnos. | No license stated. CRSP codes come from a licensed source. Values differ slightly from the paper. Paper full text not read. |
+
+An earlier sweep hit pointed to Zenodo 15545361 for this paper; that record is a different dataset (Green AI patents), so it was not used.
+
+Dry run of the publisher's merge code before pushing: 166 collections, 49 research entries, no duplicate IDs.
 
 ## State at the earlier pause (historical)
 

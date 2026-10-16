@@ -1134,6 +1134,22 @@
       "evidenceSection": "Mendeley Data deposit description cites this article as the paper whose dataset and analysis code it holds",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository record or its deposited README names the paper. The article's full text was not read."
+    },
+    "10.1093/qje/qjw040": {
+      "title": "Technological Innovation, Resource Allocation, and Growth",
+      "authors": "Leonid Kogan; Dimitris Papanikolaou; Amit Seru; Noah Stoffman",
+      "journal": "The Quarterly Journal of Economics",
+      "year": 2017,
+      "volume": "132",
+      "issue": "2",
+      "pages": "665–712",
+      "onlineDate": "2017-03-21",
+      "doi": "10.1093/qje/qjw040",
+      "url": "https://doi.org/10.1093/qje/qjw040",
+      "evidenceUrl": "https://github.com/KPSS2017/Technological-Innovation-Resource-Allocation-and-Growth-Extended-Data",
+      "evidenceSection": "Repository README names the article and says the files extend its patent value series",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The repository README names the paper and links to it. The article's full text was not read."
     }
   },
   "datasets": [
@@ -3630,6 +3646,55 @@
         }
       ],
       "verification": "Mendeley Data lists two public files. The dataset was downloaded (size matches the declared size) and its row count, column names, and year range were read; the do-file was listed."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Patents",
+      "years": "1926–2025",
+      "geography": "United States",
+      "types": [
+        "Administrative"
+      ],
+      "units": [
+        "Patents",
+        "Firms"
+      ],
+      "tools": [
+        "CSV"
+      ],
+      "designs": [
+        "Panel"
+      ],
+      "paperDois": [
+        "10.1093/qje/qjw040"
+      ],
+      "id": "kpss-patent-values-extended-2025",
+      "title": "KPSS patent values, extended to 2025 (author-updated)",
+      "url": "https://github.com/KPSS2017/Technological-Innovation-Resource-Allocation-and-Growth-Extended-Data",
+      "description": "Author-maintained patent-level file with the stock-market-based value of each US patent granted to a public firm, its forward citations and its filing and issue dates, plus patent-to-CRSP and patent-to-CPC match files. Updated by the authors each year since the 2017 paper.",
+      "tags": [
+        "Patents",
+        "Patent value",
+        "Stock market",
+        "Firm innovation",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Three zipped CSV files, each with 3,831,908 patent rows: the value file (patent number, CRSP permno, issue date, filing date, nominal and real value in millions of dollars, forward citations; issue years 1926 to 2025, 10,599 distinct permnos), a patent-to-permco/permno match, and a patent-to-CPC match. Dates are stored as yyyymmdd.",
+        "The README says the 2026-09-09 release runs to the end of 2025 and that updated values differ slightly from the numbers in the paper, so results may not reproduce exactly. It asks users to cite the paper.",
+        "No license file is shown in the repository, so reuse terms are not stated. The CRSP permno and permco codes are identifiers from a separately licensed database; the files do not contain CRSP prices.",
+        "The deposit holds the values and match tables only, not the paper's estimation code."
+      ],
+      "links": [
+        {
+          "title": "GitHub repository (three zipped CSVs and README)",
+          "url": "https://github.com/KPSS2017/Technological-Innovation-Resource-Allocation-and-Growth-Extended-Data",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The repository was cloned (head 78ecbc8, 2026-09-09). All three zips were opened and every row counted, with headers matching the README; the value file was also scanned for its issue-year range and distinct permnos. The paper's full text was not read."
     }
   ]
 }
