@@ -24,9 +24,9 @@ The owner then requested that all relevant local work be saved on GitHub. Histor
 
 This synchronization pass does not restart new research in the original paused conversation. A separate continuation session had already recorded its own resumption above; preserve that history without interpreting it as authorization for unrelated work.
 
-## Batch 2 (2026-10-16): three patent-research datasets, submitted for publication
+## Batch 2 (2026-10-16): three patent-research datasets, published
 
-Status: committed to the fork's `main` through a pull request. **Publication is not confirmed until the cloud workflow run and the live feed are recorded below.**
+Status: **published and confirmed 2026-10-16.** Merged in PR 3 (merge commit `c341793`). Cloud publisher run [38896605298](https://github.com/konstantinosStouras/datasets/actions/runs/38896605298) completed successfully. The live public feed (`catalog-public.json`) then showed **131 collections, 13 research entries**, all three IDs below with their paper titles and date added 2026-10-16, and no Zenodo, Dataverse, DOI, GitHub or OSF URLs in the sanitized JSON.
 
 | Dataset ID | Paper | Evidence and file check | Limits |
 | --- | --- | --- | --- |
@@ -34,7 +34,7 @@ Status: committed to the fork's `main` through a pull request. **Publication is 
 | `in-text-patent-citation-database` | Bryan, Ozcan, Sampat, Research Policy 49(4), 103946 (2020), DOI 10.1016/j.respol.2020.103946 | [Harvard Dataverse ZEZWBX](https://doi.org/10.7910/DVN/ZEZWBX), CC0, one public 850 MB TSV. Whole file streamed: 2,408,583 rows, 26 columns, article years 1984 to 2016. Record names the authors and the user's guide. | Labelled beta 0.9 (Dataverse version 2.0, 2019). No patent grant-year column was seen in the header. Paper full text not read. |
 | `us-patent-inventor-disambiguation` | Li et al., Research Policy 43(6), 941-955 (2014), DOI 10.1016/j.respol.2014.01.012 | [Harvard Dataverse 5F1RRI](https://doi.org/10.7910/DVN/5F1RRI), CC0, 64 public files. One 73 MB inventor table parsed: 337,483 rows, 31 columns, grant years 1975 to 2010. Documentation PDF read; it points to Dataverse and the code repository (exists). | Only one table sampled; other files listed, not downloaded. Statistical disambiguation, superseded for recent years by PatentsView (already listed). Paper full text not read. |
 
-Queue rows for these three papers were set to the verified status in both CSVs. The catalog JSON now has 13 datasets and 13 papers locally, so the expected live total is 131 collections.
+Queue rows for these three papers were set to the verified status in both CSVs. The catalog JSON has 13 datasets and 13 papers; the live total of 131 matched that expectation.
 
 ## Management Science leads checked 2026-10-16 (neither added)
 
