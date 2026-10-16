@@ -95,6 +95,36 @@
       "evidenceSection": "Introduction and endnotes 1 and 4",
       "verifiedAt": "2026-10-16",
       "verification": "Exact bibliographic metadata matched against the GitHub paper database and publisher page. Publisher endnote 1 links the author-shared Zenodo data and GitHub code; endnote 4 identifies the DISCERN input dataset. Both Zenodo records and sample file bytes were independently checked."
+    },
+    "10.1287/msom.2017.0692": {
+      "title": "Product Life Cycle Data Set: Raw and Cleaned Data of Weekly Orders for Personal Computers",
+      "authors": "Jason Acimovic; Francisco Erize; Kejia Hu; Douglas J. Thomas; Jan A. Van Mieghem",
+      "journal": "Manufacturing & Service Operations Management",
+      "year": 2019,
+      "volume": "21",
+      "issue": "1",
+      "pages": "171–176",
+      "doi": "10.1287/msom.2017.0692",
+      "url": "https://doi.org/10.1287/msom.2017.0692",
+      "evidenceSection": "Abstract: description of the published dataset",
+      "evidenceUrl": "https://pubsonline.informs.org/doi/10.1287/msom.2017.0692",
+      "verifiedAt": "2026-10-16",
+      "verification": "Publisher describes the normalized weekly orders dataset and confirms metadata. The exact DOI and issue metadata also match the GitHub paper database and an originating author’s Northwestern University publication list. Online publication was in 2018; issue publication was in 2019."
+    },
+    "10.1287/msom.2022.0359": {
+      "title": "Bayesian Ensembles of Exponentially Smoothed Life-Cycle Forecasts",
+      "authors": "Xiaojia Guo; Kenneth C. Lichtendahl, Jr.; Yael Grushka-Cockayne",
+      "journal": "Manufacturing & Service Operations Management",
+      "year": 2025,
+      "volume": "27",
+      "issue": "1",
+      "pages": "230–248",
+      "doi": "10.1287/msom.2022.0359",
+      "url": "https://doi.org/10.1287/msom.2022.0359",
+      "evidenceSection": "Public research repository: Dell Computer Sales README",
+      "evidenceUrl": "https://github.com/xjguo9217/ensembles-of-life-cycle-forecasts/tree/main/Dell%20Computer%20Sales",
+      "verifiedAt": "2026-10-16",
+      "verification": "Publisher and GitHub paper database confirm the article identity. The public research repository identifies itself as data and code for this article and explicitly documents the reused Dell data and its original dataset paper. Some comparison-model code is explicitly withheld."
     }
   },
   "datasets": [
@@ -393,6 +423,55 @@
         }
       ],
       "verification": "Zenodo API marks the record open. The linked data ZIP returned HTTP 206 to a range request and its initial bytes have the ZIP signature 504b0304. Full archive contents were not inspected."
+    },
+    {
+      "id": "dell-product-life-cycle-orders",
+      "title": "Dell product life-cycle orders — public research data",
+      "topic": "New product development",
+      "url": "https://github.com/xjguo9217/ensembles-of-life-cycle-forecasts/tree/main/Dell%20Computer%20Sales",
+      "description": "Product-level normalized weekly order histories for Dell computers, useful for new-product demand forecasting and product life-cycle research.",
+      "years": "2013-2016",
+      "access": "Public",
+      "geography": "Other / not specified",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [
+        "R"
+      ],
+      "tags": [
+        "New product development",
+        "Product life cycle",
+        "Demand forecasting",
+        "Technology management",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "notes": [
+        "The originating dataset paper describes 170 computer products sold in North America. The public research copy provides raw and end-of-life-truncated CSV files.",
+        "Geography: North America, as stated in the originating paper; the website’s broader geographic filter is approximate.",
+        "This is a public reuse copy documented by the forecasting study, not a verified byte-for-byte copy of the original publisher supplement.",
+        "The repository does not specify a license. Check reuse terms with the provider and cite the original dataset paper.",
+        "The repository explicitly states that one Bayesian functional regression comparison model’s code was shared privately and is not included. This is not a complete code package for every comparison."
+      ],
+      "links": [
+        {
+          "title": "Raw normalized Dell orders CSV",
+          "url": "https://raw.githubusercontent.com/xjguo9217/ensembles-of-life-cycle-forecasts/main/Dell%20Computer%20Sales/dell_data_raw.csv",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Truncated-data documentation",
+          "url": "https://github.com/xjguo9217/ensembles-of-life-cycle-forecasts/blob/main/Dell%20Computer%20Sales/README.md"
+        }
+      ],
+      "verification": "The actual raw CSV downloaded successfully with HTTP 200 and parsed as 170 product rows plus a header, with 121 columns. README identifies both data files and their originating publication; publisher and local metadata independently verify both papers.",
+      "paperDois": [
+        "10.1287/msom.2017.0692",
+        "10.1287/msom.2022.0359"
+      ]
     }
   ]
 }
