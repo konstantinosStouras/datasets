@@ -4340,6 +4340,60 @@
         }
       ],
       "search": "inventors, firms and patent output (replication archive) patents author replication archive linking u.s. patents and inventors to publicly listed firms, with citation measures, inventor employment spells, firm financial variables, stata code and bootstrap results. 25 public files, about 2.9 gb. the largest is the inventor-patent file at 1.9 gb. includes stata code (a master script runs the analysis in order), matlab files and a readme listing every variable. the readme says some source files, for example full compustat data, cannot be shared publicly. the archive contains compustat-derived files; the authors' record says the files and code replicate the paper's results, but check which inputs are partial before assuming a full rebuild. personal data: the linkedin match file (23,703 rows) contains inventor names with employer names and employment dates. handle in line with research ethics rules. underlying patent data derive from the nber patent files (already listed). compustat terms may restrict reuse of the financial variables. the repository labels the record cc-by-4.0. bootstrapped results may not replicate exactly because of random resampling, according to the authors. replication readme (pdf) inventor-firm linkedin match file (stata) master script (stata) dataversenl api lists 25 public files under cc-by-4.0 (version 1.0, august 2025; the original erasmus repository doi forwards here). the readme was read in full. small files were downloaded and parsed (linkedin matches 23,703 rows, ownership changes 1,728 rows, a price-deflator table, the master script). range requests on the three largest stata files returned http 206 with the stata file signature. full large files were not downloaded. innovation technology management patents inventor mobility replication data author-shared data are inventors or firms the engines of innovation? ajay bhaskarabhatla; luis cabral; deepak hegde; thomas peeters management science 2021"
+    },
+    {
+      "id": "kickstarter-relational-database",
+      "title": "Kickstarter relational database (CrowdBerkeley)",
+      "topic": "Entrepreneurship",
+      "description": "Author-built SQLite database of Kickstarter crowdfunding projects, creators, funders, comments, rewards, locations and funding trends, collected from the public platform.",
+      "years": "Not specified",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "features": [
+        "Text / transcripts"
+      ],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Entrepreneurship",
+        "Crowdfunding",
+        "Innovation",
+        "Regional entrepreneurship",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "One database in a split ZIP archive: a 2 GB part and a 1.4 GB part (about 3.5 GB compressed). Download both parts into one folder before unzipping.",
+        "Checked content: the archive holds a single file, hdd/kickstarter.db. The start of it was decompressed and is a SQLite database with tables including project, creator, comments, reward, funding_trend and location. The full database was not downloaded.",
+        "Personal-data note: platform creator profiles and comment text are included. Use within research ethics rules and platform terms.",
+        "The paper presents three databases (Kickstarter, Kiva, CrowdRise). Only the Kickstarter database was found in a public repository; the other two were not located.",
+        "The Dataverse record is marked CC0 1.0 (version 2.0, January 2019). The data were scraped from Kickstarter, whose own terms may apply. Collection dates and coverage years are not stated in the record, so they are left unspecified here.",
+        "A different library entry, Kickstarter visual features, covers processed image and text features from another study.",
+        "Database archive, part 2 (ZIP, 1.4 GB)",
+        "Database archive, part 1 (2 GB)",
+        "Dataverse API lists two public files under CC0 1.0. Range requests returned HTTP 206: the first part carries the split-archive signature and its start inflates to a SQLite 3 database header with the table names above; the second part's central directory lists the single file hdd/kickstarter.db. Complete files were not downloaded."
+      ],
+      "papers": [
+        {
+          "title": "Crowdfunding and regional entrepreneurial investment: an application of the CrowdBerkeley database",
+          "authors": "Sandy Yu; Scott Johnson; Chiayu Lai; Antonio Cricelli; Lee Fleming",
+          "journal": "Research Policy",
+          "year": 2017,
+          "volume": "46",
+          "issue": "10",
+          "evidenceSection": "The paper's abstract says it presents public crowdfunding databases; the Dataverse record for the Kickstarter database cites this article as its publication"
+        }
+      ],
+      "search": "kickstarter relational database (crowdberkeley) entrepreneurship author-built sqlite database of kickstarter crowdfunding projects, creators, funders, comments, rewards, locations and funding trends, collected from the public platform. one database in a split zip archive: a 2 gb part and a 1.4 gb part (about 3.5 gb compressed). download both parts into one folder before unzipping. checked content: the archive holds a single file, hdd/kickstarter.db. the start of it was decompressed and is a sqlite database with tables including project, creator, comments, reward, funding_trend and location. the full database was not downloaded. personal-data note: platform creator profiles and comment text are included. use within research ethics rules and platform terms. the paper presents three databases (kickstarter, kiva, crowdrise). only the kickstarter database was found in a public repository; the other two were not located. the dataverse record is marked cc0 1.0 (version 2.0, january 2019). the data were scraped from kickstarter, whose own terms may apply. collection dates and coverage years are not stated in the record, so they are left unspecified here. a different library entry, kickstarter visual features, covers processed image and text features from another study. database archive, part 2 (zip, 1.4 gb) database archive, part 1 (2 gb) dataverse api lists two public files under cc0 1.0. range requests returned http 206: the first part carries the split-archive signature and its start inflates to a sqlite 3 database header with the table names above; the second part's central directory lists the single file hdd/kickstarter.db. complete files were not downloaded. entrepreneurship crowdfunding innovation regional entrepreneurship author-shared data crowdfunding and regional entrepreneurial investment: an application of the crowdberkeley database sandy yu; scott johnson; chiayu lai; antonio cricelli; lee fleming research policy 2017"
     }
   ]
 }
