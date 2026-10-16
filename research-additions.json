@@ -1582,6 +1582,68 @@
       "evidenceSection": "Dataverse record and README name the paper",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The README inside the deposit names the paper (as under review at JMR) and lists the figures and tables it reproduces. The article's full text was not read."
+    },
+    "10.1257/aer.20211478": {
+      "title": "Occupational Exposure to Capital-Embodied Technical Change",
+      "authors": "Julieta Caunedo; David Jaume; Elisa Keller",
+      "journal": "American Economic Review",
+      "year": 2023,
+      "volume": "113",
+      "issue": "6",
+      "pages": "1642–1685",
+      "doi": "10.1257/aer.20211478",
+      "url": "https://doi.org/10.1257/aer.20211478",
+      "evidenceUrl": "https://doi.org/10.5281/zenodo.7806735",
+      "evidenceSection": "Zenodo record title and README name the paper",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Zenodo record is titled as the paper's replication package and its README describes the paper's sections. The article's full text was not read."
+    },
+    "10.1287/mnsc.2022.03217": {
+      "title": "Unintended Consequences of Unemployment Insurance Benefits: The Role of Banks",
+      "authors": "Yavuz Arslan; Ahmet Degerli; Gazi Kabas",
+      "journal": "Management Science",
+      "year": 2025,
+      "volume": "71",
+      "issue": "4",
+      "pages": "2847–2866",
+      "doi": "10.1287/mnsc.2022.03217",
+      "url": "https://doi.org/10.1287/mnsc.2022.03217",
+      "evidenceUrl": "https://doi.org/10.34894/XSNWT9",
+      "evidenceSection": "DataverseNL README and data report name the paper",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The deposit's README and data report name the paper (the data report cites it as Management Science 2024, before the issue was assigned). The article's full text was not read."
+    },
+    "10.1177/00222437261417657": {
+      "title": "The Effect of Downvotes on Content Creation: Evidence from Social Media",
+      "authors": "Varad Deolankar; Jessica Fong; S. Sriram",
+      "journal": "Journal of Marketing Research",
+      "year": 2026,
+      "volume": "63",
+      "issue": "4",
+      "pages": "767–787",
+      "onlineDate": "2026-04-13",
+      "doi": "10.1177/00222437261417657",
+      "url": "https://doi.org/10.1177/00222437261417657",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/K9YIGF",
+      "evidenceSection": "Dataverse README names the paper",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Dataverse README is titled as the replication code for the paper. The article's full text was not read."
+    },
+    "10.1093/rfs/hhac038": {
+      "title": "Small Bank Lending in the Era of Fintech and Shadow Banks: A Sideshow?",
+      "authors": "Taylor A. Begley; Kandarp Srinivasan",
+      "journal": "The Review of Financial Studies",
+      "year": 2022,
+      "volume": "35",
+      "issue": "11",
+      "pages": "4948–4984",
+      "onlineDate": "2022-06-14",
+      "doi": "10.1093/rfs/hhac038",
+      "url": "https://doi.org/10.1093/rfs/hhac038",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/3QUBVN",
+      "evidenceSection": "Dataverse README names the paper and authors",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The Dataverse README names the paper and its authors. The article's full text was not read."
     }
   },
   "datasets": [
@@ -5335,6 +5397,214 @@
         }
       ],
       "verification": "The zip's directory was listed with range requests; the README, the three conjoint CSVs and one 16 MB image archive were extracted and parsed. The 286 MB main image file was not downloaded. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Working",
+      "years": "1959–2019",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1257/aer.20211478"
+      ],
+      "id": "capital-by-occupation-embodied-technical-change",
+      "title": "Capital stocks, investment and equipment prices by occupation (US, 1959–2019)",
+      "url": "https://doi.org/10.5281/zenodo.7806735",
+      "description": "Occupation-year series of the capital stock, investment and quality-adjusted equipment prices used by workers in each US occupation, built by matching the tools and equipment listed for occupations in the Dictionary of Occupational Titles and O*NET to BEA equipment investment and price tables and CPS employment, from a study of how capital-embodied technical change exposes occupations differently.",
+      "tags": [
+        "Technology adoption",
+        "Automation",
+        "Occupations",
+        "Capital equipment",
+        "Technological change",
+        "Labour markets",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "One 283 MB zip (426 files; Stata do-files, Matlab code, raw inputs, final data). Final tables parsed: capital stocks and investment by two-digit occupation and year, 10,788 rows x 40 columns (1959 to 2019, with stock splits by equipment class such as computers, communication and high-tech equipment, total hours); occupation stock prices and wages, 672 rows x 71 (1985 to 2016); elasticity estimation data, 1,260 rows x 117 (1960 to 2019); three-digit occupation web data, 10,759 rows x 7 (1984 to 2015). Yearly equipment-by-occupation workbooks (1985 on) also included.",
+        "The README says all inputs are public (BEA NIPA tables, O*NET tools and technology, Census and Deming crosswalks, IPUMS CPS extract, OECD and WDI series) except a quality-adjusted capital price series shared privately by its author and the 1991 DOT files, which need ICPSR membership and are handled in a separate Code Ocean capsule. The IPUMS CPS extract (1.6 GB) is redistributed inside the package; IPUMS terms apply to its reuse.",
+        "CC BY 4.0 on Zenodo (version record 7806735, published 2023-04-06). The authors also publish the occupation series on their own site."
+      ],
+      "links": [
+        {
+          "title": "Zenodo record (replication package)",
+          "url": "https://doi.org/10.5281/zenodo.7806735",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Authors' capital-by-occupation downloads page",
+          "url": "https://capitalbyoccupation.weebly.com/downloads.html",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The zip was downloaded in full, its contents listed, the README (PDF) read, and the four final Stata tables and two workbooks parsed (row counts, columns and year ranges above). The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Government",
+      "years": "1995–2010",
+      "geography": "United States",
+      "types": [
+        "Administrative records",
+        "Survey"
+      ],
+      "units": [
+        "Firms & institutions",
+        "Places & geographic areas"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1287/mnsc.2022.03217"
+      ],
+      "id": "unemployment-insurance-bank-deposits-lending-panels",
+      "title": "Unemployment insurance generosity, bank deposits and small-business lending: county-pair and bank-county panels (US, 1995–2010)",
+      "url": "https://doi.org/10.34894/XSNWT9",
+      "description": "County-pair-year panels of state unemployment-insurance maximum benefits, county deposits, unemployment and income along state borders, a bank-county-year panel of small-business loan amounts with bank balance-sheet controls, county and bank characteristics, a PSID household panel of deposits, and county real-outcome tables, assembled from public sources for a Management Science study of how UI generosity changes bank funding and lending.",
+      "tags": [
+        "Unemployment insurance",
+        "Banking",
+        "Small business lending",
+        "County data",
+        "Public policy",
+        "Management Science",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Seventeen Stata files (52.9 MB) parsed: county-pair panel 36,596 rows x 15 (1995 to 2010; county, state, pair id, border segment, UI maximum benefit, deposits, unemployment, income); bank-county-year lending panel 364,643 rows x 22 (1997 to 2010; bank holding company id, county FIPS, small-business loan amounts, regulatory and balance-sheet controls); county real-effects panel 35,764 rows x 21 (1999 to 2010); county characteristics 17,802 rows x 9; bank characteristics 12,268 rows x 8 (1994 to 2010); UI conditions 1,212 rows x 8 (1985 to 2009); PSID household panel 38,660 rows x 17 (1994 to 2009); within-bank, scrambled-pair and figure tables; a do-file that produces every table and figure.",
+        "The README states that all data come from public sources (FDIC deposits, CRA small-business lending, BLS, BEA, PSID) and that the final analysis datasets are included; the variables are those of the regression samples, so some are first differences or lags rather than raw levels.",
+        "CC0 on DataverseNL (Tilburg University)."
+      ],
+      "links": [
+        {
+          "title": "DataverseNL record (Stata datasets, README, data report, do-file)",
+          "url": "https://doi.org/10.34894/XSNWT9",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "All files were downloaded and every Stata table was opened with pandas (row counts, columns and year ranges above); the README and data report were read. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Social networks",
+      "years": "2022",
+      "geography": "Other / not specified",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "R"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1177/00222437261417657"
+      ],
+      "id": "reddit-downvotes-content-creation-panels",
+      "title": "Reddit user-day panels of votes, karma and content creation (downvotes and content creation study)",
+      "url": "https://doi.org/10.7910/DVN/K9YIGF",
+      "description": "Daily panels of Reddit users' posting and commenting activity, karma earned, positive and negative vote counts and score changes around rounding thresholds, with companion panels on the sentiment and intensity of later posts, replies received, topic controversiality, reputation management and submission-level polarization, from a study of how downvotes affect users' subsequent content creation.",
+      "tags": [
+        "Social media",
+        "Online platforms",
+        "User-generated content",
+        "Reddit",
+        "Feedback",
+        "Panel data",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Twelve tab-separated tables (1.1 GB) plus an R Markdown script. Parsed in full: base user-day data, 1,030,574 rows x 9 (17,525 users over 61 relative days; submissions, comments, karma earned, positive and negative karma counts, left-digit threshold change); polarization panel, 121,207 submission-days x 9 (submissions created 2022-05-22 to 2022-06-30); qualitative feedback, 127,906 comments x 10. Headers read by range for the larger panels (incidence 55 MB, intensity 56 MB, learning 48 MB, reputation management 47 MB, topic controversiality 58 MB, entity mentions 616 MB, keyed by author and subreddit id with daily sentiment measures scraped in December 2023).",
+        "User names and subreddit ids appear in several panels. The README says the largest models need about 128 GB of RAM. Raw post text is not included.",
+        "CC BY-NC-SA 4.0 on Harvard Dataverse (non-commercial)."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (panels, README and R Markdown code)",
+          "url": "https://doi.org/10.7910/DVN/K9YIGF",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Three tables were downloaded in full and parsed (counts above); the first bytes of the other panels were read to confirm their headers; the README was read. The paper's full text was not read."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "access": "Public",
+      "topic": "Businesses",
+      "years": "2008–2015",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions",
+        "Places & geographic areas"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "paperDois": [
+        "10.1093/rfs/hhac038"
+      ],
+      "id": "mortgage-lender-county-panel-fintech-shadow-banks",
+      "title": "Mortgage lender-by-county panel with lender types (big banks, small banks, credit unions, shadow banks, fintech), US 2008–2015",
+      "url": "https://doi.org/10.7910/DVN/3QUBVN",
+      "description": "Lender-county-year counts of mortgage originations for every HMDA-reporting lender classified into seven types including shadow banks and fintech lenders, with county-level lender-type shares and regulatory-shock exposure measures, and a lender-year table of assets, capital ratios and GSE sales, built from public HMDA and bank call-report data for a study of small banks' retreat in the fintech era.",
+      "tags": [
+        "Fintech",
+        "Mortgage lending",
+        "Shadow banks",
+        "Banking",
+        "County data",
+        "Panel data",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Four data files and three do-files. The 152 MB lender-county-year Stata file has 2,146,036 rows x 11 columns (year, county, lender organisation id and name, loan counts, broad lender type, county loan totals, top-ten GSE seller share, state); header read by range. Parsed in full: county-level variables, 25,060 county-years x 175 columns; lender-class variables, 53,704 lender-years x 22 (assets, fine and broad lender type, loan counts and amounts, tier-1 capital ratio, mortgage servicing rights ratio, GSE sales); county lender-type shares, 25,060 rows x 12.",
+        "The README says every input is public (HMDA, call reports) and explains the lender-type suffix codes (1 big four, 2 and 3 large banks, 4 intermediate, 7 small banks, 8 credit unions, 9 shadow banks, 10 fintech).",
+        "CC0 on Harvard Dataverse."
+      ],
+      "links": [
+        {
+          "title": "Dataverse record (four data files, README and do-files)",
+          "url": "https://doi.org/10.7910/DVN/3QUBVN",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Three tables were downloaded in full and parsed; the large lender-county-year file's Stata header was read with a range request (row and column counts above); the README was read. The paper's full text was not read."
     }
   ]
 }
