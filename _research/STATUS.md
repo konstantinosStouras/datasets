@@ -24,6 +24,25 @@ The owner then requested that all relevant local work be saved on GitHub. Histor
 
 This synchronization pass does not restart new research in the original paused conversation. A separate continuation session had already recorded its own resumption above; preserve that history without interpreting it as authorization for unrelated work.
 
+## Batch 2 (2026-10-16): three patent-research datasets, submitted for publication
+
+Status: committed to the fork's `main` through a pull request. **Publication is not confirmed until the cloud workflow run and the live feed are recorded below.**
+
+| Dataset ID | Paper | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `us-patent-text-keywords-novelty-measures` | Arts, Hou, Gomez, Research Policy 50(2), 104144 (2021), DOI 10.1016/j.respol.2020.104144 | [Zenodo 3515985](https://zenodo.org/records/3515985) is open, 20 files. Description and documentation PDF cite the paper and the code repository (exists). `patent_text_measures.zip` downloaded in full: MD5 matches Zenodo, 5,645,845 rows. Three more archives returned HTTP 206 with the ZIP signature. | Several files are many GB (up to about 46 GB), mostly not downloaded. Zenodo license label is cc-by-nc-1.0. PATSTAT-derived text may carry its own terms. Paper full text not read. |
+| `in-text-patent-citation-database` | Bryan, Ozcan, Sampat, Research Policy 49(4), 103946 (2020), DOI 10.1016/j.respol.2020.103946 | [Harvard Dataverse ZEZWBX](https://doi.org/10.7910/DVN/ZEZWBX), CC0, one public 850 MB TSV. Whole file streamed: 2,408,583 rows, 26 columns, article years 1984 to 2016. Record names the authors and the user's guide. | Labelled beta 0.9 (Dataverse version 2.0, 2019). No patent grant-year column was seen in the header. Paper full text not read. |
+| `us-patent-inventor-disambiguation` | Li et al., Research Policy 43(6), 941-955 (2014), DOI 10.1016/j.respol.2014.01.012 | [Harvard Dataverse 5F1RRI](https://doi.org/10.7910/DVN/5F1RRI), CC0, 64 public files. One 73 MB inventor table parsed: 337,483 rows, 31 columns, grant years 1975 to 2010. Documentation PDF read; it points to Dataverse and the code repository (exists). | Only one table sampled; other files listed, not downloaded. Statistical disambiguation, superseded for recent years by PatentsView (already listed). Paper full text not read. |
+
+Queue rows for these three papers were set to the verified status in both CSVs. The catalog JSON now has 13 datasets and 13 papers locally, so the expected live total is 131 collections.
+
+## Management Science leads checked 2026-10-16 (neither added)
+
+- `10.1287/mnsc.2022.03905` (Wang and Wu, Management Science 72(1), 756-782, 2026): Crossref confirms identity. The INFORMS page and supplement returned HTTP 403 to automated requests, so the supplement could not be inspected. The arXiv version (2506.16334) says the startup data are matched to the Chinese Enterprise Database, which uses proprietary government sources. No public data found. Status: unresolved, likely restricted.
+- `10.1287/mnsc.2024.06909` (Otis et al., Management Science, online 2026-07-10): Crossref confirms identity. The NBER working paper says the study was pre-registered on OSF but gives no data link; a public OSF title search found no matching project. The INFORMS supplement returned 403. Status: unresolved, no public study data found.
+
+Neither 403 was bypassed. A person with a browser could open the supplements and report what they contain.
+
 ## State at the earlier pause (historical)
 
 - Dataset fork checkout: `C:/Users/LENOVO/Dropbox/Others/GitHub/datasets`, branch `main`, last local committed checkpoint `2c9ee34` (review queues). Inspect current status/remotes before continuing; remote scheduled jobs can advance independently.

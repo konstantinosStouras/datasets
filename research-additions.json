@@ -156,6 +156,51 @@
       "evidenceSection": "Abstract links OSF supplement; Analysis_code.r explicitly reads fileforresearchbox.csv",
       "verifiedAt": "2026-10-16",
       "verification": "Publisher and Crossref confirm the paper identity. The linked public OSF project exposes its Dropbox files through the OSF API; the analysis script directly names the downloaded CSV."
+    },
+    "10.1016/j.respol.2020.104144": {
+      "title": "Natural language processing to identify the creation and impact of new technologies in patent text: Code, data, and new measures",
+      "authors": "Sam Arts; Jianan Hou; Juan Carlos Gomez",
+      "journal": "Research Policy",
+      "year": 2021,
+      "volume": "50",
+      "issue": "2",
+      "pages": "104144",
+      "doi": "10.1016/j.respol.2020.104144",
+      "url": "https://doi.org/10.1016/j.respol.2020.104144",
+      "evidenceUrl": "https://zenodo.org/records/3515985",
+      "evidenceSection": "Zenodo record and its data description name this article as the paper to cite; the article title itself announces code, data and new measures",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and article number. The Zenodo description and the deposited documentation cite this DOI and link the Zenodo record and the authors' code repository. The article's full text was not read."
+    },
+    "10.1016/j.respol.2020.103946": {
+      "title": "In-text patent citations: A user's guide",
+      "authors": "Kevin A. Bryan; Yasin Ozcan; Bhaven Sampat",
+      "journal": "Research Policy",
+      "year": 2020,
+      "volume": "49",
+      "issue": "4",
+      "pages": "103946",
+      "doi": "10.1016/j.respol.2020.103946",
+      "url": "https://doi.org/10.1016/j.respol.2020.103946",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/ZEZWBX",
+      "evidenceSection": "Harvard Dataverse record carries this article's title (working-paper version) and author names as its publication",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms the published article. The Dataverse record names the same three authors and lists 'In-text Patent Citations: A User's Guide' as its related publication. The article's full text was not read."
+    },
+    "10.1016/j.respol.2014.01.012": {
+      "title": "Disambiguation and co-authorship networks of the U.S. patent inventor database (1975–2010)",
+      "authors": "Guan-Cheng Li; Ronald Lai; Alexander D'Amour; David M. Doolin; Ye Sun; Vetle I. Torvik; Amy Z. Yu; Lee Fleming",
+      "journal": "Research Policy",
+      "year": 2014,
+      "volume": "43",
+      "issue": "6",
+      "pages": "941–955",
+      "doi": "10.1016/j.respol.2014.01.012",
+      "url": "https://doi.org/10.1016/j.respol.2014.01.012",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/5F1RRI",
+      "evidenceSection": "Dataverse record uses the article's title and deposits the project's documentation PDF, which states where the data and code are distributed",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms the article. The deposited documentation PDF describes inventor disambiguation for 1975-2010 and says the data are distributed through Harvard Dataverse and the code through the Fung Institute GitHub repository, which exists. The published article's full text was not read."
     }
   },
   "datasets": [
@@ -643,6 +688,162 @@
       "paperDois": [
         "10.1111/poms.14083"
       ]
+    },
+    {
+      "topic": "Patents",
+      "years": "1969–2018 (patent text; measures file covers a later subset)",
+      "geography": "United States",
+      "units": [],
+      "tools": [
+        "Python"
+      ],
+      "designs": [],
+      "access": "Public",
+      "types": [
+        "Administrative records"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "paperDois": [
+        "10.1016/j.respol.2020.104144"
+      ],
+      "id": "us-patent-text-keywords-novelty-measures",
+      "title": "U.S. patent text, keywords and novelty measures",
+      "url": "https://zenodo.org/records/3515985",
+      "description": "Author-released text of U.S. utility patents, cleaned keyword lists and patent-level measures of new words, word combinations and text similarity for technology and innovation research.",
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Patent text",
+        "Novelty measures",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Zenodo hosts 20 files, from small documentation to archives of several gigabytes (raw patent text about 6.3 GB; the 1,000-most-similar file about 46 GB). Choose files before downloading.",
+        "The patent-level measures file has 5,645,845 rows with new-word, new-bigram, new-trigram, word-combination and forward and backward similarity columns. Patent numbers in that file run from 4,191,307 to 9,986,670.",
+        "Text coverage before 1976 is partial and has no claims, according to the authors' documentation.",
+        "Zenodo labels the record cc-by-nc-1.0, a non-commercial licence label. Confirm it fits your use and cite the paper.",
+        "Patent text derives from public USPTO sources (PatentsView, the Patent Claims Research Dataset and PATSTAT). Reuse of PATSTAT content may have its own terms."
+      ],
+      "links": [
+        {
+          "title": "Patent-level text measures (ZIP, 100 MB)",
+          "url": "https://zenodo.org/api/records/3515985/files/patent_text_measures.zip/content",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Data description (PDF)",
+          "url": "https://zenodo.org/api/records/3515985/files/0_Data_Description_Zenodo.pdf/content",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Code used to build the data",
+          "url": "https://github.com/sam-arts/respol_patents_code"
+        }
+      ],
+      "verification": "Zenodo API lists the files as open. The measures ZIP was downloaded in full, its MD5 matches Zenodo's recorded checksum and its text file parsed as CSV. The documentation PDF was read. Three other large archives returned HTTP 206 with the ZIP signature 504b0304; the rest were not downloaded."
+    },
+    {
+      "topic": "Patents",
+      "years": "Not specified (journal-article years 1984–2016 in the file)",
+      "geography": "International",
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "access": "Public",
+      "types": [
+        "Administrative records"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "paperDois": [
+        "10.1016/j.respol.2020.103946"
+      ],
+      "id": "in-text-patent-citation-database",
+      "title": "In-text patent citations to scientific articles",
+      "url": "https://doi.org/10.7910/DVN/ZEZWBX",
+      "description": "Matched records linking U.S. patents to scientific articles cited in the body text of the patent, beyond the citations printed on the front page.",
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Science-technology linkages",
+        "Patent citations",
+        "Author-shared data"
+      ],
+      "notes": [
+        "The record title labels this a beta version (0.9); it is Dataverse version 2.0, released in April 2019. The cited user's guide describes the database.",
+        "One 850 MB tab-separated file. The checked file has 2,408,583 rows and 26 columns, with journal-article publication years from 1984 to 2016. Patent grant years are not given as a column in the header I checked.",
+        "The Dataverse record is marked CC0 1.0. Its journal-article fields come from Web of Science identifiers, which carry their own source terms.",
+        "Later versions of this database may exist elsewhere. This entry covers the Dataverse beta file only."
+      ],
+      "links": [
+        {
+          "title": "Database file (TSV, 850 MB)",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/3409554",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Dataverse API shows the file as public. The whole file was streamed and parsed: 2,408,583 rows, 26 columns, no rows with an unreadable year. The record names the three authors and lists the user's guide as its publication."
+    },
+    {
+      "topic": "Patents",
+      "years": "1975–2010",
+      "geography": "United States",
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "Python"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "access": "Public",
+      "types": [
+        "Administrative records"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "paperDois": [
+        "10.1016/j.respol.2014.01.012"
+      ],
+      "id": "us-patent-inventor-disambiguation",
+      "title": "U.S. patent inventor disambiguation and co-authorship networks",
+      "url": "https://doi.org/10.7910/DVN/5F1RRI",
+      "description": "Inventor-level records for U.S. utility patents with disambiguated inventor identities, assignees, classes, citations and co-inventor network measures, with network files.",
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Inventors",
+        "Social networks",
+        "Author-shared data"
+      ],
+      "notes": [
+        "The Dataverse record (version 5.1) holds 64 files: tab-separated inventor-patent tables in three-year slices, GraphML network files, and ZIP archives of patent, assignee, class, citation and related tables. The largest files exceed 1 GB.",
+        "Disambiguation is a statistical estimate. Error rates are discussed in the paper and in the deposited documentation.",
+        "The Dataverse record is marked CC0 1.0. The underlying patent records are U.S. government data.",
+        "Newer inventor disambiguation data, such as PatentsView, supersede this 2010 snapshot. PatentsView is already listed separately."
+      ],
+      "links": [
+        {
+          "title": "Inventor table, 1975 slice (TSV)",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/2301792",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Documentation (PDF)",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/2428147",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Disambiguation code",
+          "url": "https://github.com/funginstitute/downloads"
+        }
+      ],
+      "verification": "Dataverse API lists 64 public files. One 73 MB inventor table was streamed and parsed: 337,483 rows, 31 columns, grant years 1975 to 2010. The documentation PDF was read. The other files were listed but not downloaded."
     }
   ]
 }

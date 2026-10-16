@@ -43,3 +43,12 @@ Update both queue files when a listed paper's status changes. Use explicit statu
 Before publication parse the JSON, verify unique IDs and valid paper references, merge against the current upstream catalog, and check URLs/date formats. Existing website checks are under `datasets/_tools/*.test.mjs`; when using them ensure their bundled inputs match the new authoritative fork data. Confirm the generated public feed contains no source URLs or protected citation links. Existing membership access tests are for changes to authentication/rules, not routine metadata additions.
 
 After publication check the actual GitHub workflow outcome and live feed. Record the run URL/ID and dataset IDs, including unresolved checks. Update [STATUS.md](STATUS.md), [HANDOFF.md](HANDOFF.md) and this file where needed in the same work session.
+
+## Practical access notes (added 2026-10-16)
+
+- The INFORMS and some publisher sites answer automated requests with HTTP 403 challenges. Do not try to bypass them. Use Crossref for paper identity, author or institutional copies (arXiv, NBER, eScholarship) for text, and repository APIs for data.
+- Repository APIs work without login: Zenodo `/api/records/ID` (file list, size, MD5), Harvard Dataverse `/api/datasets/:persistentId/?persistentId=doi:...` and `/api/access/datafile/ID`, OSF `/v2/nodes/ID/files/`. Check the license field, whether each file is restricted, and a real byte range or full stream.
+- A repository record that names the paper (or the paper that names the record) is the explicit connection. Say in the entry when the paper's own full text was not read.
+- Searching OSF by title filters is noisy and not evidence of absence.
+- A good discovery shortcut: filter the priority queue for clues naming Zenodo, Dataverse, GitHub or OSF, then query the repository directly.
+
