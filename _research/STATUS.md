@@ -8,11 +8,21 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 - Pending `research-additions.json` validated: 10 datasets, 10 papers, unique IDs, no dangling paper DOIs, 3 new IDs, no existing entry modified. Line endings normalized to LF.
 - Independent re-check of source files on 2026-10-16: both Hugging Face files and both OSF files answer HTTP 206 on range requests; the OSF CSV re-downloaded in full (12,939,994 bytes, SHA-256 matches the value below, 16,527 rows, 156 columns).
 - Queue CSV status updates (4 rows) installed in both queues.
-- Publication and live-feed confirmation: see "Publication outcome" below once recorded. Sharing-deployment check: still to do.
+- Merged via pull request 2 into `main` as `0d785aa`. Workflow run [38894715168](https://github.com/konstantinosStouras/datasets/actions/runs/38894715168) (`publish-catalog.yml`) completed with success. The bot then committed the regenerated public catalog as `5b27737`.
 
-## Publication outcome
+## Publication outcome (confirmed 2026-10-16)
 
-Pending at the time of this edit. Do not treat the three additions as live until a run ID and feed check are recorded here.
+Observed in the live public feed (`catalog-public.json` on `main`): 128 total entries, 10 research entries. The three new IDs are present with their paper titles, tags and date added `2026-10-16`: `british-historical-patent-texts`, `british-patent-breakthrough-scores`, `kickstarter-visual-features-crowdfunding`. The feed contains no Hugging Face, OSF or DOI URLs (protected links stay in Firebase). Not yet checked: the rendered website itself and a signed-in member view of the new entries.
+
+## Website sharing update (commit 40aa3b7), live checks
+
+- Pages run 38893493361: its conclusion could not be read in the cloud session (repository API not in scope; the run page returned 403). **The run outcome itself is unconfirmed.**
+- Observed live and unauthenticated: the page at `/datasets/` serves the new canonical, Open Graph and Twitter tags, DataCatalog JSON-LD, favicon and manifest links (Last-Modified 2026-10-16 11:29:26 GMT). `og-image.jpg` returns 200, 45,838 bytes, 1200 x 630. Icons 16, 32, 192, 512, Apple touch icon, `favicon.ico` and `site.webmanifest` all return 200 with correct types.
+- Page and image return 200 for the facebookexternalhit, WhatsApp, LinkedInBot and Twitterbot user agents; robots.txt allows them. This tests crawler access only. **No actual WhatsApp, LinkedIn or Facebook preview was tested**, and their caches may delay updates.
+
+## Next step
+
+Management Science leads 10.1287/mnsc.2022.03905 and 10.1287/mnsc.2024.06909 still need actual supplement-file verification, then the rest of the priority queue (Management Science, M&SOM, POM, then other FT50 journals).
 
 ## State at the earlier pause (historical)
 
@@ -55,7 +65,7 @@ Both queues now mark the British-patents and crowdfunding papers as having a ver
 
 Do not count these unresolved leads as unavailable or as published additions.
 
-## Next steps only after the owner resumes
+## Earlier next-steps list (steps 1 to 3 now done, see above)
 
 1. Inspect local changes and remote state; confirm the already-pushed sharing deployment and live unauthenticated HTML/image/icon responses (including social crawler user agents).
 2. Obtain the three pending local research entries and queue updates (not included in the documentation-only commit), then validate citations and merged IDs/count. Commit/push the intended research changes without overwriting upstream/bot work.
