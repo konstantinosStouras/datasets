@@ -8,6 +8,8 @@ Build and maintain https://www.stouras.com/datasets/ using the existing GitHub d
 
 This is an unfinished research program, not an exhaustive completed census. See [STATUS.md](STATUS.md) for the latest checkpoint and [METHODS.md](METHODS.md) for inclusion and verification rules.
 
+All substantive pending research records and review queues from the original machine have now been incorporated into GitHub. A fresh clone can resume from the repository without obtaining local pending JSON files. Historical helper scripts and verification evidence are preserved under `_research/archive/` and `_research/evidence/`; read the archive warnings before reuse. The original conversation remains paused for new research; this synchronization does not itself authorize a new research run.
+
 ## Sources of truth
 
 | Component | Location and purpose |

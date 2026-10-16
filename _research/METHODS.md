@@ -2,6 +2,8 @@
 
 Last updated: 2026-10-16. Update this document when the research procedure changes.
 
+Reproducibility materials: historical discovery/verification helpers are in [archive/](archive/README.md), and dated discovery metadata and Zenodo file-check results are in `evidence/`. The initial candidate snapshot omits publisher abstract excerpts and does not supersede current CSV review statuses. Historical scripts require adaptation before reuse; some overwrite older outputs.
+
 ## Discovery, not automatic inclusion
 
 Start with the owner's GitHub paper database. Deduplicate normalized DOI values. The first exploratory scan used metadata years 2006–2026 and title/abstract terms `new product`, `innovat`, `entrepreneur`, `technology management`, `patent`, `start.?up`, and `crowdfund`. It screened abstracts for data-availability phrases, `replication`, `publicly available`, Dataverse, Zenodo, OSF, GitHub, and `open data`.
