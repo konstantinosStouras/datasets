@@ -1,0 +1,31 @@
+name: Sync datasets and notify
+on:
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+    inputs:
+      test_notification:
+        description: Send a one-time setup notification
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: datasets-upstream-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    if: github.repository == 'konstantinosStouras/datasets'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+          ref: main
+      - name: Sync upstream and send GitHub email alerts
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TEST_NOTIFICATION: ${{ inputs.test_notification || 'false' }}
+        run: node .github/scripts/sync-upstream.mjs
