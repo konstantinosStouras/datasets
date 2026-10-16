@@ -7586,6 +7586,72 @@
         }
       ],
       "search": "iri marketing data set (academic) and its public category-characteristics survey shopping the iri academic dataset is a multi-year panel of store sales and household purchases for packaged-goods categories in us markets, provided to researchers under agreement and described in a marketing science database paper. the public companion here is a survey that scores each of its product categories on hedonic nature, performance risk, social value, involvement and utilitarian nature. public part (dataversenl): a 2016 mechanical turk survey of 752 respondents and 412 columns rating grocery categories, with an spss version, r cleaning script, construct-level output and codebook. terms are custom: the depositors ask users to contact them before use. the iri dataset itself (now distributed by circana) is not in the deposit; the request page moved from the iri site to circana.com and was not checked here. the database paper describes 30 categories, 2001 to 2012 (per the codebook's citation; the span was not verified). access class reflects the agreement needed for the iri data; the survey file downloads freely. dataversenl record (category survey, codebook, r script) the survey csv was downloaded in full and parsed and the codebook pdf read. the iri data were not accessed. the papers' full texts were not read. consumer packaged goods retail scanner data household panel brand equity product categories marketing database paper: the iri marketing data set bart j. bronnenberg; michael w. kruger; carl f. mela marketing science 2008 how well does consumer-based brand equity align with sales-based brand equity and marketing-mix response? hannes datta; kusum l. ailawadi; harald j. van heerde journal of marketing 2017"
+    },
+    {
+      "id": "brazil-public-hospitals-private-management-panel",
+      "title": "Brazilian public hospitals under private management: hospital panel and contract data",
+      "topic": "Health, public health, and epidemiology",
+      "description": "Hospital-year panel of Brazilian public hospitals assembled from the Ministry of Health's DATASUS systems, with admissions, mortality, readmissions, beds, equipment, staff and costs, linked to the register of management contracts with private non-profit organisations (OSS), plus matched staff and municipal tables, from a study of outsourcing public hospital management.",
+      "years": "2006–2022",
+      "access": "Public",
+      "geography": "Other / not specified",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [
+        "Names / addresses",
+        "Employment"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          2006,
+          2022
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Hospitals",
+        "Public services",
+        "Outsourcing",
+        "Management",
+        "Brazil",
+        "Health care",
+        "Panel data",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "One 74.5 MB zip (364 MB unpacked, 273 files, 16 Stata datasets). Headers read: public hospital panel 37,584 hospital-years x 45 variables (hospital id, year, state, physicians, staff, equipment, beds, full-time equivalents); OSS contract register 43,607 rows x 30; matched-hospital staff panel 1,144,065 rows x 24; full matched labour-supply sample 4,129,686 rows x 9; municipal panel 41,755 rows x 30; predicted mortality tables; cost and target tables. Stata code and packages included.",
+        "The README says the core data are public (BDOSS contract portal and DATASUS SIH, CNES and related systems, with download instructions) and that a few variables come from identified administrative records, so the package carries aggregated data and masked identifiers where individual records appear.",
+        "CC0 on Harvard Dataverse (QJE collection). Variable names are in Portuguese.",
+        "Dataverse record (zip with data, code and README)",
+        "The zip was downloaded in full, its contents listed, the README's data-availability section read, and the row counts and variable names of all 16 Stata tables read from their headers. The paper's full text was not read."
+      ],
+      "papers": [
+        {
+          "title": "Public Services Under Private Management",
+          "authors": "Maíra Coube; Luiz Felipe Fontes; Rudi Rocha",
+          "journal": "The Quarterly Journal of Economics",
+          "year": 2026,
+          "volume": "141",
+          "issue": "3",
+          "evidenceSection": "QJE Dataverse record and README name the paper"
+        }
+      ],
+      "search": "brazilian public hospitals under private management: hospital panel and contract data health, public health, and epidemiology hospital-year panel of brazilian public hospitals assembled from the ministry of health's datasus systems, with admissions, mortality, readmissions, beds, equipment, staff and costs, linked to the register of management contracts with private non-profit organisations (oss), plus matched staff and municipal tables, from a study of outsourcing public hospital management. one 74.5 mb zip (364 mb unpacked, 273 files, 16 stata datasets). headers read: public hospital panel 37,584 hospital-years x 45 variables (hospital id, year, state, physicians, staff, equipment, beds, full-time equivalents); oss contract register 43,607 rows x 30; matched-hospital staff panel 1,144,065 rows x 24; full matched labour-supply sample 4,129,686 rows x 9; municipal panel 41,755 rows x 30; predicted mortality tables; cost and target tables. stata code and packages included. the readme says the core data are public (bdoss contract portal and datasus sih, cnes and related systems, with download instructions) and that a few variables come from identified administrative records, so the package carries aggregated data and masked identifiers where individual records appear. cc0 on harvard dataverse (qje collection). variable names are in portuguese. dataverse record (zip with data, code and readme) the zip was downloaded in full, its contents listed, the readme's data-availability section read, and the row counts and variable names of all 16 stata tables read from their headers. the paper's full text was not read. hospitals public services outsourcing management brazil health care panel data replication data author-shared data public services under private management maíra coube; luiz felipe fontes; rudi rocha the quarterly journal of economics 2026"
     }
   ]
 }
