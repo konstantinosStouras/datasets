@@ -76,3 +76,8 @@ After publication check the actual GitHub workflow outcome and live feed. Record
 - GEM downloads: the data page is `https://www.gemconsortium.org/data/sets`. The buttons carry a `file` id and the page's own script posts it to `https://www.gemconsortium.org/download@file` (`id=<file id>`); this is the same call a visitor's browser makes and needs no login. Files unzip to SPSS (.sav); read with `pyreadstat` (`pip install --target ./lib pyreadstat`, then `sys.path.insert`).
 - Where only an aggregate component of a survey is public (Eurostat tables) while the papers use restricted microdata, make the entry about the public component and say what the papers used. Do not cite restricted-data papers for a public-use file.
 
+
+- Large files: a server may ignore `Range` and send the whole file (ClinicalTrials.gov's bulk zip did). For anything that might be large, first send a HEAD request or use `curl --max-filesize` and a time limit.
+- Economics replication deposits (Harvard Dataverse) are often README-only, code-only, hosted on SharePoint or Dropbox, restricted to secure data centres, or contain synthetic 'pseudo' data. Read the README and file list for each before adding. A deposit with only pseudo data and code is not a dataset addition.
+- `_research/archive/` now also holds the helper scripts used for this work: `datacite-inspect.py` (record metadata and file lists for Zenodo and Dataverse DOIs), `dataverse-report.py` (license, restricted flags and README clues for Dataverse records) and `openalex-fulltext.py` (open-access full text lookup). They write to local folders and call public APIs only.
+

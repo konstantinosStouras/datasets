@@ -15,7 +15,8 @@ Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the co
 - 12:30 Batch 6 confirmed live (run 38900143266 at 12:23:29: 142 collections, 25 research entries). Batch 7 submitted: five patent and entrepreneurship replication deposits found in sweep chunks 4 to 6 (Marx and Fuegi, SBIR/DoD, disruptive patents, topology of technology space, AngelList social vision).
 - 12:35 Batch 7 confirmed live (run 38901007519 at 12:30:56: 147 collections, 30 research entries). Batch 8 submitted: Mannheim Innovation Panel (application-gated) and six open Research Policy deposits from sweep chunks 6 and 7.
 - 12:42 Batch 8 confirmed live (run 38901669227 at 12:36:30: 154 collections, 37 research entries; raw feed caught up). Batch 9 submitted: Community Innovation Survey (Eurostat tables) and Global Entrepreneurship Monitor.
-- Running: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000, started 12:06, about 3 minutes per chunk (10 of 21 done at 12:42). Two failed requests so far (proxy drops); failed DOIs are rerun at the end. Next: vet hits from each finished chunk by hand, add verified ones, publish, record each batch here.
+- 12:51 Batch 9 confirmed live (run 38902467271 at 12:43:11: 156 collections, 39 research entries). Batch 10 submitted: NBER Orange Book, ClinicalTrials.gov, World Bank FAT survey (found through the abstract scan and sweep chunks 9 to 12).
+- Running: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000, started 12:06, about 3 minutes per chunk (12 of 21 done at 12:51; chunks now reach AER, QJE, JPE, marketing and finance journals). Two failed requests so far (proxy drops); failed DOIs are rerun at the end. Next: vet hits from each finished chunk by hand, add verified ones, publish, record each batch here.
 - Unresolved and blocked by publisher bot challenges (not bypassed): INFORMS supplements (two Management Science leads), Wiley, SAGE.
 
 ## Resumption log
@@ -175,9 +176,9 @@ Dry run of the publisher's merge code before pushing: 154 collections, 37 resear
 
 - DataverseNL `10.34894/0vlsgb` (a Research Policy 2019 paper on repeated ties in university-industry consortia): the record lists no files, so nothing could be verified. Not added.
 
-## Batch 9 (2026-10-16): Community Innovation Survey tables and Global Entrepreneurship Monitor
+## Batch 9 (2026-10-16): Community Innovation Survey tables and Global Entrepreneurship Monitor, published
 
-Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+Status: **published and confirmed 2026-10-16.** Merged in PR 12 (merge commit `b6e8d62`). Cloud publisher run [38902467271](https://github.com/konstantinosStouras/datasets/actions/runs/38902467271) completed successfully (12:43:11 UTC). `catalog-public.json` on `main` then showed **156 collections, 39 research entries**, both IDs below, and no URLs in the sanitized JSON.
 
 | Dataset ID | Papers | Evidence and file check | Limits |
 | --- | --- | --- | --- |
@@ -191,6 +192,29 @@ Dry run of the publisher's merge code before pushing: 156 collections, 39 resear
 - Zenodo `10.5281/zenodo.10960975` (ESG scores for equity crowdfunding platforms, JBV 2024): the public record is documentation of how scores were built; the dataset version (`10960976`) is **restricted**. Not added.
 - ICPSR links without a stated use: PSED II is listed on ICPSR for an SMJ 2023 paper (racial gap in entrepreneurship), an ETP 2022 paper (growth mindset) and an ETP 2025 paper; the abstracts do not say PSED/MIDUS was used (the SMJ abstract says only 'a representative sample of American new business founders in 2005', consistent with PSED II). Not added to the PSED entry.
 - openICPSR `e100177` (Tangail survey, Bangladesh, JBV 2019): not verified (ICPSR access blocked).
+
+## Batch 10 (2026-10-16): Orange Book, ClinicalTrials.gov and the World Bank FAT survey
+
+Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+
+| Dataset ID | Paper | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `nber-fda-orange-book-patent-exclusivity` | Durvasula, Hemphill, Ouellette, Sampat, Williams, Research Policy 52(7), 104791 (2023), DOI 10.1016/j.respol.2023.104791 | [NBER data page](https://www.nber.org/research/data/orange-book-patent-and-exclusivity-data-1985-2016) names the article as the user's guide. README read; four clean Stata tables downloaded and parsed (130,259 drug-patent rows, 31 editions 1985-2016; 32,427 exclusivity rows). | Scanned PDFs and Excel folders not opened. No license statement on the pages. Historical extract only. |
+| `clinicaltrials-gov-registry` | Rathee, Malik, Salandra, Research Policy 54(1), 105112 (2025), DOI 10.1016/j.respol.2024.105112 | Public API v2 returned 607,349 studies (80,551 with results) and a full study record on 16 Oct 2026. Bulk zip starts with a ZIP signature. | The paper's abstract describes its focus on the registry but does not say 'data from', so use is inferred. Bulk archive (several GB) not inspected. |
+| `world-bank-firm-adoption-of-technology-fat` | Cirera, Comin, Cruz, Quarterly Journal of Economics 141(3), 2025-2085 (2026), DOI 10.1093/qje/qjag018 | Dataverse record for the paper points to the World Bank microdata; the Microdata Library's open API lists a 16-study FAT collection (2019-2023) and a study record whose citation requirement names the paper. | **Microdata behind a free login: no data file opened.** Full text not read. |
+
+Dry run of the publisher's merge code before pushing: 159 collections, 42 research entries, no duplicate IDs.
+
+### Leads from this pass logged and not added
+
+- JFQA 2025 innovation screening (Zheng): package holds code, intermediate outputs and **pseudo (synthetic) data**; the public USPTO inputs are on an external Dropbox link. Marked 'Code only — not a dataset addition'.
+- QJE papers: Juhasz et al. (2026) and Kalyani et al. (2025) have Dataverse records with README only (data on SharePoint links, not verifiable); Bergeaud et al. (2025) can only be run in the French secure data environment; Nguyen (2026) has logs and code, no data.
+- JMR 2025 crowdfunding by gender (Gao et al.): every file in the Dataverse record is access-restricted. JM 2026 product portfolio paper: licensing restrictions.
+- JPE 2026 (Bhalotra et al., medical innovation) uses IPUMS census extracts (5 GB; public) but its topic is health outcomes of an innovation, outside the priority topics. Not reviewed further.
+
+### Large downloads
+
+One request for the ClinicalTrials.gov bulk zip used a range header that the server ignored and pulled about 3 GB before I stopped it. The partial file was deleted. Use `curl --max-filesize` or request only headers for large bulk files.
 
 ## State at the earlier pause (historical)
 

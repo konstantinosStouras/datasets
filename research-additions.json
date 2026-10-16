@@ -999,6 +999,51 @@
       "evidenceSection": "Abstract: individual GEM data from Chile (2019-2021)",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The statement of data use is taken from the paper's published abstract, as held in the library's paper metadata. The publisher page and full text were not opened."
+    },
+    "10.1016/j.respol.2023.104791": {
+      "title": "The NBER Orange Book Dataset: A user’s guide",
+      "authors": "Maya Durvasula; C. Scott Hemphill; Lisa Larrimore Ouellette; Bhaven Sampat; Heidi L. Williams",
+      "journal": "Research Policy",
+      "year": 2023,
+      "volume": "52",
+      "issue": "7",
+      "pages": "104791",
+      "doi": "10.1016/j.respol.2023.104791",
+      "url": "https://doi.org/10.1016/j.respol.2023.104791",
+      "evidenceUrl": "https://www.nber.org/research/data/orange-book-patent-and-exclusivity-data-1985-2016",
+      "evidenceSection": "The NBER data page tells users to read this article ('The NBER Orange Book Dataset: A User's Guide') for the contents of the Orange Book; the article's abstract introduces the digitized open-access dataset",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The NBER data page names this article as the detailed guide to the data, and the abstract introduces the dataset. The article's full text was not read."
+    },
+    "10.1016/j.respol.2024.105112": {
+      "title": "Timing, modifications, and tenor of firms' mandatory R&D disclosures: The role of competition",
+      "authors": "Chandrika Rathee; Sumeet Malik; Rossella Salandra",
+      "journal": "Research Policy",
+      "year": 2025,
+      "volume": "54",
+      "issue": "1",
+      "pages": "105112",
+      "doi": "10.1016/j.respol.2024.105112",
+      "url": "https://doi.org/10.1016/j.respol.2024.105112",
+      "evidenceUrl": "https://doi.org/10.1016/j.respol.2024.105112",
+      "evidenceSection": "Abstract: focuses on pharmaceutical firms required to publish their clinical trial results on ClinicalTrials.gov",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and pages. The abstract states the study focuses on pharmaceutical firms required to publish clinical trial results on ClinicalTrials.gov and examines disclosure timing and modifications; it does not use the words 'data from', so the use is inferred from this description. The article's full text was not read."
+    },
+    "10.1093/qje/qjag018": {
+      "title": "Technology Sophistication Across Establishments",
+      "authors": "Xavier Cirera; Diego Comin; Marcio Cruz",
+      "journal": "The Quarterly Journal of Economics",
+      "year": 2026,
+      "volume": "141",
+      "issue": "3",
+      "pages": "2025–2085",
+      "doi": "10.1093/qje/qjag018",
+      "url": "https://doi.org/10.1093/qje/qjag018",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/OII0PS",
+      "evidenceSection": "The paper's replication record on Harvard Dataverse states where the survey microdata are; each FAT study record in the World Bank Microdata Library requires citing this article",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal and year. The Dataverse replication record (README only) names the paper and points to the World Bank microdata and reproducibility package, and the Microdata Library's study record lists this article in its citation requirement. The article's full text was not read."
     }
   },
   "datasets": [
@@ -3016,6 +3061,171 @@
         }
       ],
       "verification": "The data page and its inline file list were read (130 download entries). Three files were downloaded through the page's own download action: the 2019 Adult Population Survey individual-level file and its national-level file were unzipped and parsed; a 2021 National Expert Survey national file was downloaded and its zip listing shows an SPSS file (not parsed). Other files were listed only. Individual files have no stable direct links; they download through the page's buttons."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "topic": "Patents",
+      "years": "1985–2016 (Orange Book editions)",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [],
+      "paperDois": [
+        "10.1016/j.respol.2023.104791"
+      ],
+      "id": "nber-fda-orange-book-patent-exclusivity",
+      "title": "FDA Orange Book patent and exclusivity data, 1985–2016 (NBER)",
+      "url": "https://www.nber.org/research/data/orange-book-patent-and-exclusivity-data-1985-2016",
+      "description": "Digitized editions of the U.S. Food and Drug Administration's Orange Book linking approved small-molecule drugs to their listed patents and regulatory exclusivity periods, with use-code lookups and the original scanned books.",
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Pharmaceuticals",
+        "Regulatory exclusivity",
+        "Public dataset used in research"
+      ],
+      "notes": [
+        "Four folders: the scanned FDA Orange Books from a Freedom of Information Act request (1980 to 2016), the hand-entered Excel files, the cross-check sources, and the clean Stata tables with the code that builds them. Each folder can be downloaded as a zip.",
+        "Clean tables checked: 130,259 drug-patent rows (5,511 distinct patent numbers across 31 editions), 32,427 exclusivity rows, and two code lookup tables. No Orange Book was published in 1986.",
+        "Patents are those active at each edition's date; editions are snapshots, so one patent appears in many editions. Read the README and the user's guide for how to compute exclusivity periods.",
+        "The pages show no license statement; the data come from U.S. government publications via a records request. This is a historical extract; the FDA's current Orange Book data are a separate, more recent source."
+      ],
+      "links": [
+        {
+          "title": "README (PDF)",
+          "url": "https://data.nber.org/fda/orange-book/historical/1986-2016/README.pdf",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Clean tables folder (Stata)",
+          "url": "https://data.nber.org/fda/orange-book/historical/1986-2016/4_clean_tables_stata/",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Drug patents table (Stata, 32 MB)",
+          "url": "https://data.nber.org/fda/orange-book/historical/1986-2016/4_clean_tables_stata/FDA_drug_patents.dta",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The NBER data page and README were read. All four clean Stata tables were downloaded and parsed (row counts above; sizes 4.5 to 32 MB). The scanned PDFs, Excel files and cross-check folders were not opened."
+    },
+    {
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "topic": "Health, public health, and epidemiology",
+      "years": "Registered studies through 2026",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [
+        "API"
+      ],
+      "designs": [],
+      "paperDois": [
+        "10.1016/j.respol.2024.105112"
+      ],
+      "id": "clinicaltrials-gov-registry",
+      "title": "ClinicalTrials.gov study registry and results",
+      "url": "https://clinicaltrials.gov/",
+      "description": "U.S. National Library of Medicine registry of clinical studies worldwide, with study design, sponsor, conditions, timelines and, for many studies, posted results, available through a free API and bulk downloads.",
+      "tags": [
+        "Innovation",
+        "Pharmaceuticals",
+        "R&D disclosure",
+        "Clinical trials",
+        "Public dataset used in research"
+      ],
+      "notes": [
+        "On 16 October 2026 the API reported 607,349 registered studies, 80,551 of them with posted results. The registry updates daily.",
+        "Access: a free REST API (version 2, no account) and a bulk download of all study records as a zip of XML files (several gigabytes; its exact size was not recorded and it was not downloaded in full).",
+        "The cited Research Policy paper studies pharmaceutical firms that must publish their trial results on ClinicalTrials.gov. The abstract describes its focus on this registry, so the paper's use of its records is inferred from that description.",
+        "Records are sponsor-reported and may be incomplete or revised; check how a study's results fields are filled before analysing disclosure behaviour."
+      ],
+      "links": [
+        {
+          "title": "API example: studies with posted results (JSON)",
+          "url": "https://clinicaltrials.gov/api/v2/studies?pageSize=1&countTotal=true&aggFilters=results:with",
+          "checkedStatus": 200
+        },
+        {
+          "title": "One study record (JSON)",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT02807935",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Bulk download (zip of all studies)",
+          "url": "https://clinicaltrials.gov/AllPublicXML.zip"
+        }
+      ],
+      "verification": "The API returned the study counts above and one complete study record. The bulk archive redirected to a zip download whose first bytes had the ZIP signature; its content was not inspected."
+    },
+    {
+      "topic": "Businesses",
+      "years": "2019–2023",
+      "access": "Public · registration required",
+      "geography": "International",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [],
+      "designs": [
+        "Repeated cross-section"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "paperDois": [
+        "10.1093/qje/qjag018"
+      ],
+      "id": "world-bank-firm-adoption-of-technology-fat",
+      "title": "Firm Adoption of Technology (FAT) Survey (World Bank)",
+      "url": "https://microdata.worldbank.org/index.php/catalog/fat",
+      "description": "Nationally representative surveys of formal firms in agriculture, manufacturing and services that measure which technologies firms use for different business functions, and how sophisticated they are.",
+      "tags": [
+        "Technology management",
+        "Innovation",
+        "Technology adoption",
+        "Firm-level survey",
+        "Developing economies",
+        "Public dataset used in research"
+      ],
+      "notes": [
+        "The World Bank Microdata Library lists 16 FAT studies, with fieldwork between 2019 and 2023, for countries including Bangladesh, Brazil, Burkina Faso, Cambodia, Chile, Croatia, Ethiopia, Georgia, Ghana, India, Kenya, Korea, Poland, Senegal and Viet Nam, plus a combined multi-country record.",
+        "The sample is stratified random and covers formal establishments with five or more employees. The unit of analysis is the establishment.",
+        "Microdata are for registered Microdata Library users (a free account). Users must cite the dataset and the Quarterly Journal of Economics article that documents the method. The replication package for the article is at the World Bank reproducibility site.",
+        "Not verified: microdata files sit behind the login, so no data file was opened for this entry. Study records and access conditions were read through the library's open catalog API."
+      ],
+      "links": [
+        {
+          "title": "FAT collection in the World Bank Microdata Library",
+          "url": "https://microdata.worldbank.org/index.php/catalog/fat",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Example study record: Brazil 2019-2021 (catalog API)",
+          "url": "https://microdata.worldbank.org/index.php/api/catalog/BRA_2019-2021_FAT_v01_M",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Replication package record for the article",
+          "url": "https://doi.org/10.60572/xw8f-0k41",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "The catalog API returned the 16-study FAT collection and one full study record with its abstract, sampling description and citation requirement. The article's replication DOI resolves to the World Bank reproducibility site. Login-gated microdata were not accessed."
     }
   ]
 }

@@ -11,6 +11,9 @@ These scripts preserve the discovery, verification and entry-preparation work fr
 | `check-zenodo.py` | Public API metadata and bounded file checks for two Zenodo records |
 | `verify-research.py` | NBER page links and Crossref metadata check |
 | `datacite-sweep.py` | Added 2026-10-16 by the continuation session. Usage: `python3 -I datacite-sweep.py dois.txt out.json` (one DOI per line). Queries DataCite for deposits that mention each paper DOI; read-only, polite 6-thread pool. Output is a list of leads to verify by hand |
+| `datacite-inspect.py` | Added 2026-10-16. `python3 -I datacite-inspect.py <DOI> ...` prints DataCite metadata, related papers, license and (for Zenodo and Dataverse) the file list. Read-only |
+| `dataverse-report.py` | Added 2026-10-16. `python3 -I dataverse-report.py 10.7910/DVN/XXXXX ...` prints license, publication link, restricted flags and README clues for Harvard Dataverse and DataverseNL records; downloads small README files into a local `dvr/` folder |
+| `openalex-fulltext.py` | Added 2026-10-16. `python3 -I openalex-fulltext.py <DOI> '<regex>'` finds an open-access PDF through OpenAlex, converts it with `pdftotext` and prints lines matching the regex |
 | `add-dell-data.py` | Prepared the already-published Dell entry and citations |
 | `add-verified-technology-data.py` | Prepared the already-published firm technology and DISCERN entries |
 
