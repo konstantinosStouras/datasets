@@ -4394,6 +4394,326 @@
         }
       ],
       "search": "kickstarter relational database (crowdberkeley) entrepreneurship author-built sqlite database of kickstarter crowdfunding projects, creators, funders, comments, rewards, locations and funding trends, collected from the public platform. one database in a split zip archive: a 2 gb part and a 1.4 gb part (about 3.5 gb compressed). download both parts into one folder before unzipping. checked content: the archive holds a single file, hdd/kickstarter.db. the start of it was decompressed and is a sqlite database with tables including project, creator, comments, reward, funding_trend and location. the full database was not downloaded. personal-data note: platform creator profiles and comment text are included. use within research ethics rules and platform terms. the paper presents three databases (kickstarter, kiva, crowdrise). only the kickstarter database was found in a public repository; the other two were not located. the dataverse record is marked cc0 1.0 (version 2.0, january 2019). the data were scraped from kickstarter, whose own terms may apply. collection dates and coverage years are not stated in the record, so they are left unspecified here. a different library entry, kickstarter visual features, covers processed image and text features from another study. database archive, part 2 (zip, 1.4 gb) database archive, part 1 (2 gb) dataverse api lists two public files under cc0 1.0. range requests returned http 206: the first part carries the split-archive signature and its start inflates to a sqlite 3 database header with the table names above; the second part's central directory lists the single file hdd/kickstarter.db. complete files were not downloaded. entrepreneurship crowdfunding innovation regional entrepreneurship author-shared data crowdfunding and regional entrepreneurial investment: an application of the crowdberkeley database sandy yu; scott johnson; chiayu lai; antonio cricelli; lee fleming research policy 2017"
+    },
+    {
+      "id": "deskilling-technology-ride-hail-experiments",
+      "title": "Deskilling technology and ride-hail labor supply (replication data)",
+      "topic": "Businesses",
+      "description": "Author replication package with participant-level data from a vignette experiment and a field experiment on how navigation technology affects ride-hail drivers' willingness to work, with Stata code.",
+      "years": "Not specified",
+      "access": "Public",
+      "geography": "Other / not specified",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [],
+      "features": [
+        "Demographics",
+        "Employment"
+      ],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Technology management",
+        "Technology strategy",
+        "Labor supply",
+        "Experiment",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Complete analysis data and Stata code for the paper's tables and figures, according to the deposited README. Stata 18 and the reghdfe, twoway_parea and ppmlhdfe packages are listed as requirements.",
+        "Vignette experiment: 26,499 choice rows from 803 participants. Field experiment: 200 rows from 50 participants. A small bootstrap-results table is also included (11 rows).",
+        "Participant-level data with de-identified IDs, including age and sex. The country or city of the ride-hail drivers is not stated in the files I read, so geography is left unspecified.",
+        "The README lists the data as .dta files; Dataverse serves converted tab-separated copies. The record is marked CC0 1.0 (version 2.0, October 2025).",
+        "Vignette experiment data (tab-separated)",
+        "Field experiment data (tab-separated)",
+        "README",
+        "Dataverse API lists nine public files under CC0 1.0. The README, main script, bootstrap table, field experiment table (200 rows, 140 columns) and vignette table (26,499 rows, 32 columns) were downloaded and parsed."
+      ],
+      "papers": [
+        {
+          "title": "Deskilling technology affords work amenity, increases labor supply",
+          "authors": "Pinchuan Ong; I. P. L. Png",
+          "journal": "Strategic Management Journal",
+          "year": 2025,
+          "volume": "47",
+          "issue": "2",
+          "evidenceSection": "Dataverse record is titled as replication data for the article and is registered as a supplement to its DOI; the deposited README names the paper"
+        }
+      ],
+      "search": "deskilling technology and ride-hail labor supply (replication data) businesses author replication package with participant-level data from a vignette experiment and a field experiment on how navigation technology affects ride-hail drivers' willingness to work, with stata code. complete analysis data and stata code for the paper's tables and figures, according to the deposited readme. stata 18 and the reghdfe, twoway_parea and ppmlhdfe packages are listed as requirements. vignette experiment: 26,499 choice rows from 803 participants. field experiment: 200 rows from 50 participants. a small bootstrap-results table is also included (11 rows). participant-level data with de-identified ids, including age and sex. the country or city of the ride-hail drivers is not stated in the files i read, so geography is left unspecified. the readme lists the data as .dta files; dataverse serves converted tab-separated copies. the record is marked cc0 1.0 (version 2.0, october 2025). vignette experiment data (tab-separated) field experiment data (tab-separated) readme dataverse api lists nine public files under cc0 1.0. the readme, main script, bootstrap table, field experiment table (200 rows, 140 columns) and vignette table (26,499 rows, 32 columns) were downloaded and parsed. technology management technology strategy labor supply experiment replication data author-shared data deskilling technology affords work amenity, increases labor supply pinchuan ong; i. p. l. png strategic management journal 2025"
+    },
+    {
+      "id": "panel-study-of-entrepreneurial-dynamics-psed",
+      "title": "Panel Study of Entrepreneurial Dynamics (PSED)",
+      "topic": "Entrepreneurship",
+      "description": "Longitudinal surveys that follow nationally representative samples of people starting businesses in the United States, with data on start-up activities, resources, networks and whether the venture emerges.",
+      "years": "1998–2011",
+      "access": "Public · registration required",
+      "geography": "United States",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [
+        "Text / transcripts"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          1998,
+          2011
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Entrepreneurship",
+        "Nascent entrepreneurs",
+        "Startups",
+        "New venture creation",
+        "Public dataset used in research"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Two cohorts: PSED I (screening 1998-2000, 830 nascent entrepreneurs, three follow-ups) and PSED II (screening 2005-2006, six yearly interviews), plus harmonized outcome files that combine them, according to the project site.",
+        "The PSED project site states that the data, including restricted geographic data, are distributed through ICPSR. ICPSR downloads need a free account; the restricted geographic data have extra conditions.",
+        "The cited papers state in their abstracts that they use PSED I, PSED II or the harmonized files. One cited paper is a replication study of PSED-based work and reports that only some replications succeeded; treat results from this survey with that in mind.",
+        "Not verified: ICPSR blocks scripted access, so the data files themselves were not opened for this entry. The ICPSR studies were confirmed through their DOI records, not by download.",
+        "PSED project site (data access statement)",
+        "PSED I at ICPSR (study 37203)",
+        "PSED II at ICPSR (study 37202)",
+        "PSED I and II harmonized transitions outcomes (ICPSR study 38153)",
+        "The project site opened and states that PSED data are available through ICPSR. DataCite records exist for ICPSR studies 37203 (PSED I, 1998-2004), 37202 (PSED II, 2005-2011), 38153 and 38154 (harmonized files). ICPSR pages and files were not opened (access blocked), so no file content was inspected."
+      ],
+      "papers": [
+        {
+          "title": "Doing the right things at the right times: The role of temporal enactment in venture outcome attainment",
+          "authors": "Trey Lewis; Diana M. Hechavarría; David W. Williams; Melissa S. Cardon",
+          "journal": "Journal of Business Venturing",
+          "year": 2024,
+          "volume": "39",
+          "issue": "1",
+          "evidenceSection": "Abstract: logit analysis with data from the harmonized PSED"
+        },
+        {
+          "title": "Resource Acquisition in the Emergence Phase: Considering the Effects of Embeddedness and Resource Dependence",
+          "authors": "Scott L. Newbert; Erno T. Tornikoski",
+          "journal": "Entrepreneurship Theory and Practice",
+          "year": 2013,
+          "volume": "37",
+          "issue": "2",
+          "evidenceSection": "Abstract: analyzes data from the Panel Study of Entrepreneurial Dynamics I"
+        },
+        {
+          "title": "Exploring the evolution of supporter networks in the creation of new organizations",
+          "authors": "Scott L. Newbert; Erno T. Tornikoski; Narda R. Quigley",
+          "journal": "Journal of Business Venturing",
+          "year": 2013,
+          "volume": "28",
+          "issue": "2",
+          "evidenceSection": "Abstract: longitudinal analysis using data from PSED I"
+        },
+        {
+          "title": "Understanding Gendered Variations in Business Growth Intentions across the Life Course",
+          "authors": "Amy E. Davis; Kelly G. Shaver",
+          "journal": "Entrepreneurship Theory and Practice",
+          "year": 2012,
+          "volume": "36",
+          "issue": "3",
+          "evidenceSection": "Abstract: uses data from the U.S. Panel Study of Entrepreneurial Dynamics I and II"
+        },
+        {
+          "title": "Advancing Entrepreneurship Theory Through Replication: A Case Study on Contemporary Methodological Challenges, Future Best Practices, and an Entreaty for Communality",
+          "authors": "G. Christopher Crawford; Vitaliy Skorodziyevskiy; Casey J. Frid; Thomas E. Nelson; Zahra Booyavi; Diana M. Hechavarria; Xuanye Li; Paul D. Reynolds; Ehsan Teymourian",
+          "journal": "Entrepreneurship Theory and Practice",
+          "year": 2022,
+          "volume": "46",
+          "issue": "3",
+          "evidenceSection": "Abstract: attempted replications of 19 seminal studies of new venture emergence that used PSED-type data"
+        }
+      ],
+      "search": "panel study of entrepreneurial dynamics (psed) entrepreneurship longitudinal surveys that follow nationally representative samples of people starting businesses in the united states, with data on start-up activities, resources, networks and whether the venture emerges. two cohorts: psed i (screening 1998-2000, 830 nascent entrepreneurs, three follow-ups) and psed ii (screening 2005-2006, six yearly interviews), plus harmonized outcome files that combine them, according to the project site. the psed project site states that the data, including restricted geographic data, are distributed through icpsr. icpsr downloads need a free account; the restricted geographic data have extra conditions. the cited papers state in their abstracts that they use psed i, psed ii or the harmonized files. one cited paper is a replication study of psed-based work and reports that only some replications succeeded; treat results from this survey with that in mind. not verified: icpsr blocks scripted access, so the data files themselves were not opened for this entry. the icpsr studies were confirmed through their doi records, not by download. psed project site (data access statement) psed i at icpsr (study 37203) psed ii at icpsr (study 37202) psed i and ii harmonized transitions outcomes (icpsr study 38153) the project site opened and states that psed data are available through icpsr. datacite records exist for icpsr studies 37203 (psed i, 1998-2004), 37202 (psed ii, 2005-2011), 38153 and 38154 (harmonized files). icpsr pages and files were not opened (access blocked), so no file content was inspected. entrepreneurship nascent entrepreneurs startups new venture creation public dataset used in research doing the right things at the right times: the role of temporal enactment in venture outcome attainment trey lewis; diana m. hechavarría; david w. williams; melissa s. cardon journal of business venturing 2024 resource acquisition in the emergence phase: considering the effects of embeddedness and resource dependence scott l. newbert; erno t. tornikoski entrepreneurship theory and practice 2013 exploring the evolution of supporter networks in the creation of new organizations scott l. newbert; erno t. tornikoski; narda r. quigley journal of business venturing 2013 understanding gendered variations in business growth intentions across the life course amy e. davis; kelly g. shaver entrepreneurship theory and practice 2012 advancing entrepreneurship theory through replication: a case study on contemporary methodological challenges, future best practices, and an entreaty for communality g. christopher crawford; vitaliy skorodziyevskiy; casey j. frid; thomas e. nelson; zahra booyavi; diana m. hechavarria; xuanye li; paul d. reynolds; ehsan teymourian entrepreneurship theory and practice 2022"
+    },
+    {
+      "id": "kauffman-firm-survey",
+      "title": "Kauffman Firm Survey (public-use microdata)",
+      "topic": "Entrepreneurship",
+      "description": "Panel survey of 4,928 U.S. businesses founded in 2004 and followed through 2011, covering strategy, financing, employment and founder characteristics of new firms.",
+      "years": "2004–2011",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [
+        "Names / addresses",
+        "Text / transcripts",
+        "Employment"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          2004,
+          2011
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Entrepreneurship",
+        "Startups",
+        "New firms",
+        "Entrepreneurial finance",
+        "Public dataset used in research"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Public-use microdata in SAS, SPSS and Stata formats, from the baseline (2004) to the seventh follow-up (2011), plus a Stata version with logically imputed values in wide and long format.",
+        "More detailed confidential data (finer industry and location codes) are available only through the paid NORC Data Enclave. Some papers use that restricted version, for example a Management Science paper on minority-owned start-ups and a Review of Financial Studies paper on capital structure. They are not cited here because they did not use the public files.",
+        "The cited papers state in their abstracts that they use the Kauffman Firm Survey but do not say whether it was the public-use or the restricted version. Check before comparing results.",
+        "The Stata public-use file name has dashes; SAS users must remove them, according to the foundation's page.",
+        "Public-use microdata, Stata (171 MB)",
+        "Logically imputed public data, Stata (ZIP, 11 MB)",
+        "Kauffman Foundation survey page",
+        "The Stata public-use file was downloaded and read: 4,928 firms (unique IDs) and 4,492 variables, matching the foundation's description. The imputed-data ZIP was downloaded and listed (wide and long Stata files, an Excel file and a read-me). No terms of use were found on the page; the foundation provides the files for download."
+      ],
+      "papers": [
+        {
+          "title": "Debt signaling and outside investors in early stage firms",
+          "authors": "Mircea Epure; Martí Guasch",
+          "journal": "Journal of Business Venturing",
+          "year": 2020,
+          "volume": "35",
+          "issue": "2",
+          "evidenceSection": "Abstract: tests hypotheses using the Kauffman Firm Survey"
+        },
+        {
+          "title": "Industry and startup experience on entrepreneur forecast performance in new firms",
+          "authors": "Gavin Cassar",
+          "journal": "Journal of Business Venturing",
+          "year": 2014,
+          "volume": "29",
+          "issue": "1",
+          "evidenceSection": "Abstract: uses the Kauffman Firm Survey for 2,304 entrepreneurs"
+        },
+        {
+          "title": "The origins of capabilities: Resource allocation strategies, capability development, and the performance of new firms",
+          "authors": "Noni Symeonidou; Aija Leiponen; Erkko Autio; Johan Bruneel",
+          "journal": "Journal of Business Venturing",
+          "year": 2022,
+          "volume": "37",
+          "issue": "4",
+          "evidenceSection": "Abstract: draws on the longitudinal Kauffman Firm Survey of U.S. start-ups"
+        }
+      ],
+      "search": "kauffman firm survey (public-use microdata) entrepreneurship panel survey of 4,928 u.s. businesses founded in 2004 and followed through 2011, covering strategy, financing, employment and founder characteristics of new firms. public-use microdata in sas, spss and stata formats, from the baseline (2004) to the seventh follow-up (2011), plus a stata version with logically imputed values in wide and long format. more detailed confidential data (finer industry and location codes) are available only through the paid norc data enclave. some papers use that restricted version, for example a management science paper on minority-owned start-ups and a review of financial studies paper on capital structure. they are not cited here because they did not use the public files. the cited papers state in their abstracts that they use the kauffman firm survey but do not say whether it was the public-use or the restricted version. check before comparing results. the stata public-use file name has dashes; sas users must remove them, according to the foundation's page. public-use microdata, stata (171 mb) logically imputed public data, stata (zip, 11 mb) kauffman foundation survey page the stata public-use file was downloaded and read: 4,928 firms (unique ids) and 4,492 variables, matching the foundation's description. the imputed-data zip was downloaded and listed (wide and long stata files, an excel file and a read-me). no terms of use were found on the page; the foundation provides the files for download. entrepreneurship startups new firms entrepreneurial finance public dataset used in research debt signaling and outside investors in early stage firms mircea epure; martí guasch journal of business venturing 2020 industry and startup experience on entrepreneur forecast performance in new firms gavin cassar journal of business venturing 2014 the origins of capabilities: resource allocation strategies, capability development, and the performance of new firms noni symeonidou; aija leiponen; erkko autio; johan bruneel journal of business venturing 2022"
+    },
+    {
+      "id": "world-bank-enterprise-surveys",
+      "title": "World Bank Enterprise Surveys",
+      "topic": "Businesses",
+      "description": "Firm-level surveys of managers and owners in emerging and developing economies on the business environment, innovation, finance, workforce and performance, with matching economy-level indicators.",
+      "years": "2001–2026 (survey years in the catalog)",
+      "access": "Public · registration required",
+      "geography": "International",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [],
+      "designs": [
+        "Repeated cross-section"
+      ],
+      "features": [],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          2001,
+          2026
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Entrepreneurship",
+        "Innovation",
+        "Firm-level survey",
+        "Developing economies",
+        "Public dataset used in research"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "The Microdata Library lists 794 Enterprise Surveys studies, from country surveys to topical follow-ups such as the Innovation Follow-Up Surveys and a 2026 artificial intelligence follow-up (India).",
+        "Firm-level microdata need a free login on the Enterprise Surveys portal; economy-level indicators are shown without one. Users must cite the dataset in the form the World Bank gives for each study.",
+        "Most surveys are repeated cross-sections of different firms; a smaller set of panel data exists, according to the program. The cited papers use pooled or merged survey rounds.",
+        "Not verified: microdata files sit behind the login, so no data file was opened for this entry. The public sampling methodology note (a PDF) and the catalog records were checked instead.",
+        "Enterprise Surveys home and data access",
+        "World Bank Microdata Library: Enterprise Surveys collection",
+        "Sampling methodology note (PDF)",
+        "The program page states that the survey information is publicly available at economy and firm level. The Microdata Library API returned 794 studies in the collection (earliest study year 2001) and a study record with its citation requirement and stratified sampling description. The sampling note PDF was downloaded. Login-gated microdata were not accessed."
+      ],
+      "papers": [
+        {
+          "title": "Innovation and productivity among heterogeneous firms",
+          "authors": "Diego M. Morris",
+          "journal": "Research Policy",
+          "year": 2018,
+          "volume": "47",
+          "issue": "10",
+          "evidenceSection": "Abstract: harmonized data on 40,577 firms surveyed in the World Bank Enterprise Surveys"
+        },
+        {
+          "title": "Informal Entrepreneurship in Developing Economies: The Impacts of Starting up Unregistered on firm Performance",
+          "authors": "Colin C. Williams; Alvaro Martinez–Perez; Abbi M. Kedir",
+          "journal": "Entrepreneurship Theory and Practice",
+          "year": 2017,
+          "volume": "41",
+          "issue": "5",
+          "evidenceSection": "Abstract: analyzes World Bank Enterprise Survey data across 127 countries"
+        },
+        {
+          "title": "The employment impact of product innovations in sub-Saharan Africa: Firm-level evidence",
+          "authors": "Elvis Korku Avenyo; Maty Konte; Pierre Mohnen",
+          "journal": "Research Policy",
+          "year": 2019,
+          "volume": "48",
+          "issue": "9",
+          "evidenceSection": "Working-paper version states it uses the Enterprise Survey merged with the Innovation Follow-Up Survey for sub-Saharan African countries"
+        }
+      ],
+      "search": "world bank enterprise surveys businesses firm-level surveys of managers and owners in emerging and developing economies on the business environment, innovation, finance, workforce and performance, with matching economy-level indicators. the microdata library lists 794 enterprise surveys studies, from country surveys to topical follow-ups such as the innovation follow-up surveys and a 2026 artificial intelligence follow-up (india). firm-level microdata need a free login on the enterprise surveys portal; economy-level indicators are shown without one. users must cite the dataset in the form the world bank gives for each study. most surveys are repeated cross-sections of different firms; a smaller set of panel data exists, according to the program. the cited papers use pooled or merged survey rounds. not verified: microdata files sit behind the login, so no data file was opened for this entry. the public sampling methodology note (a pdf) and the catalog records were checked instead. enterprise surveys home and data access world bank microdata library: enterprise surveys collection sampling methodology note (pdf) the program page states that the survey information is publicly available at economy and firm level. the microdata library api returned 794 studies in the collection (earliest study year 2001) and a study record with its citation requirement and stratified sampling description. the sampling note pdf was downloaded. login-gated microdata were not accessed. entrepreneurship innovation firm-level survey developing economies public dataset used in research innovation and productivity among heterogeneous firms diego m. morris research policy 2018 informal entrepreneurship in developing economies: the impacts of starting up unregistered on firm performance colin c. williams; alvaro martinez–perez; abbi m. kedir entrepreneurship theory and practice 2017 the employment impact of product innovations in sub-saharan africa: firm-level evidence elvis korku avenyo; maty konte; pierre mohnen research policy 2019"
     }
   ]
 }
