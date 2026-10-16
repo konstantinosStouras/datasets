@@ -3516,6 +3516,73 @@
         }
       ],
       "search": "discern — innovation data linked to public firms patents patent-to-firm matching data accounting for company name changes, subsidiaries and ownership changes, used to construct firm technology portfolios. public input dataset used by the cited management science paper; explicitly identified in endnote 4. this entry links the historical release cited by the paper. zenodo flags newer versions; consult version documentation before combining releases. the matching database is public, but underlying commercial inputs such as compustat and orbis are not made freely available by this listing. zenodo labels this release cc-by-4.0. follow the repository’s citation requirements. discern historical data zip zenodo api marks the record open. the linked data zip returned http 206 to a range request and its initial bytes have the zip signature 504b0304. full archive contents were not inspected. innovation technology management patents firm ownership public dataset used in research position and differentiation of firms in technology space sam arts; bruno cassiman; jianan hou management science 2023"
+    },
+    {
+      "id": "dell-product-life-cycle-orders",
+      "title": "Dell product life-cycle orders — public research data",
+      "topic": "New product development",
+      "description": "Product-level normalized weekly order histories for Dell computers, useful for new-product demand forecasting and product life-cycle research.",
+      "years": "2013-2016",
+      "access": "Public",
+      "geography": "Other / not specified",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [
+        "R"
+      ],
+      "designs": [],
+      "features": [],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          2013,
+          2016
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "New product development",
+        "Product life cycle",
+        "Demand forecasting",
+        "Technology management",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "The originating dataset paper describes 170 computer products sold in North America. The public research copy provides raw and end-of-life-truncated CSV files.",
+        "Geography: North America, as stated in the originating paper; the website’s broader geographic filter is approximate.",
+        "This is a public reuse copy documented by the forecasting study, not a verified byte-for-byte copy of the original publisher supplement.",
+        "The repository does not specify a license. Check reuse terms with the provider and cite the original dataset paper.",
+        "The repository explicitly states that one Bayesian functional regression comparison model’s code was shared privately and is not included. This is not a complete code package for every comparison.",
+        "Raw normalized Dell orders CSV",
+        "Truncated-data documentation",
+        "The actual raw CSV downloaded successfully with HTTP 200 and parsed as 170 product rows plus a header, with 121 columns. README identifies both data files and their originating publication; publisher and local metadata independently verify both papers."
+      ],
+      "papers": [
+        {
+          "title": "Product Life Cycle Data Set: Raw and Cleaned Data of Weekly Orders for Personal Computers",
+          "authors": "Jason Acimovic; Francisco Erize; Kejia Hu; Douglas J. Thomas; Jan A. Van Mieghem",
+          "journal": "Manufacturing & Service Operations Management",
+          "year": 2019,
+          "volume": "21",
+          "issue": "1",
+          "evidenceSection": "Abstract: description of the published dataset"
+        },
+        {
+          "title": "Bayesian Ensembles of Exponentially Smoothed Life-Cycle Forecasts",
+          "authors": "Xiaojia Guo; Kenneth C. Lichtendahl, Jr.; Yael Grushka-Cockayne",
+          "journal": "Manufacturing & Service Operations Management",
+          "year": 2025,
+          "volume": "27",
+          "issue": "1",
+          "evidenceSection": "Public research repository: Dell Computer Sales README"
+        }
+      ],
+      "search": "dell product life-cycle orders — public research data new product development product-level normalized weekly order histories for dell computers, useful for new-product demand forecasting and product life-cycle research. the originating dataset paper describes 170 computer products sold in north america. the public research copy provides raw and end-of-life-truncated csv files. geography: north america, as stated in the originating paper; the website’s broader geographic filter is approximate. this is a public reuse copy documented by the forecasting study, not a verified byte-for-byte copy of the original publisher supplement. the repository does not specify a license. check reuse terms with the provider and cite the original dataset paper. the repository explicitly states that one bayesian functional regression comparison model’s code was shared privately and is not included. this is not a complete code package for every comparison. raw normalized dell orders csv truncated-data documentation the actual raw csv downloaded successfully with http 200 and parsed as 170 product rows plus a header, with 121 columns. readme identifies both data files and their originating publication; publisher and local metadata independently verify both papers. new product development product life cycle demand forecasting technology management author-shared data product life cycle data set: raw and cleaned data of weekly orders for personal computers jason acimovic; francisco erize; kejia hu; douglas j. thomas; jan a. van mieghem manufacturing & service operations management 2019 bayesian ensembles of exponentially smoothed life-cycle forecasts xiaojia guo; kenneth c. lichtendahl, jr.; yael grushka-cockayne manufacturing & service operations management 2025"
     }
   ]
 }
