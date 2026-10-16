@@ -201,6 +201,53 @@
       "evidenceSection": "Dataverse record uses the article's title and deposits the project's documentation PDF, which states where the data and code are distributed",
       "verifiedAt": "2026-10-16",
       "verification": "Crossref confirms the article. The deposited documentation PDF describes inventor disambiguation for 1975-2010 and says the data are distributed through Harvard Dataverse and the code through the Fung Institute GitHub repository, which exists. The published article's full text was not read."
+    },
+    "10.1002/smj.2699": {
+      "title": "Text matching to measure patent similarity",
+      "authors": "Sam Arts; Bruno Cassiman; Juan Carlos Gomez",
+      "journal": "Strategic Management Journal",
+      "year": 2018,
+      "volume": "39",
+      "issue": "1",
+      "pages": "62–84",
+      "onlineDate": "2017-10-24",
+      "doi": "10.1002/smj.2699",
+      "url": "https://doi.org/10.1002/smj.2699",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/JO2DQZ",
+      "evidenceSection": "Harvard Dataverse record lists this article as its publication and describes the released similarity data and code description",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue, pages and online date. The Dataverse record cites the same authors and title. The article's full text was not read."
+    },
+    "10.1002/smj.70027": {
+      "title": "Beyond the front page: In-text citations to patents as traces of inventor knowledge",
+      "authors": "Cyril Verluise; Gabriele Cristelli; Kyle Higham; Gaétan de Rassenfosse",
+      "journal": "Strategic Management Journal",
+      "year": 2025,
+      "volume": "47",
+      "issue": "3",
+      "pages": "678–698",
+      "onlineDate": "2025-10-22",
+      "doi": "10.1002/smj.70027",
+      "url": "https://doi.org/10.1002/smj.70027",
+      "evidenceUrl": "http://eprints.lse.ac.uk/129932/1/smj.70027.pdf",
+      "evidenceSection": "Abstract says the dataset is released as open data; footnote 3 gives the Zenodo DOI 10.5281/zenodo.3710993 and the project website",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue, pages and online date. The accepted manuscript on the LSE repository was read: it reports 49.5 million in-text patent citations, gives the Zenodo DOI in a footnote and says all data and code are described in an online appendix. The appendix was not read."
+    },
+    "10.1016/j.respol.2022.104629": {
+      "title": "Invention and the life course: Age differences in patenting",
+      "authors": "Mary Kaltenberg; Adam B. Jaffe; Margie E. Lachman",
+      "journal": "Research Policy",
+      "year": 2023,
+      "volume": "52",
+      "issue": "1",
+      "pages": "104629",
+      "doi": "10.1016/j.respol.2022.104629",
+      "url": "https://doi.org/10.1016/j.respol.2022.104629",
+      "evidenceUrl": "https://doi.org/10.7910/DVN/YRLSKU",
+      "evidenceSection": "Abstract says the inventor-age database was made publicly available on the Harvard Dataverse; the Dataverse record is by the same three authors",
+      "verifiedAt": "2026-10-16",
+      "verification": "Crossref confirms title, authors, journal, volume, issue and article number. The paper's published abstract states that the data were made public on the Harvard Dataverse, and the Dataverse record lists the same authors. The article's full text was not read."
     }
   },
   "datasets": [
@@ -844,6 +891,168 @@
         }
       ],
       "verification": "Dataverse API lists 64 public files. One 73 MB inventor table was streamed and parsed: 337,483 rows, 31 columns, grant years 1975 to 2010. The documentation PDF was read. The other files were listed but not downloaded."
+    },
+    {
+      "topic": "Patents",
+      "years": "1976–2013",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "paperDois": [
+        "10.1002/smj.2699"
+      ],
+      "id": "us-patent-text-similarity-pairs",
+      "title": "U.S. patent text similarity (closest-match pairs)",
+      "url": "https://doi.org/10.7910/DVN/JO2DQZ",
+      "description": "Author-released text-based similarity scores between U.S. utility patents, with keyword lists per patent and files of each patent's closest matches, for measuring technological proximity and novelty.",
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Patent text",
+        "Patent similarity",
+        "Author-shared data"
+      ],
+      "notes": [
+        "The Dataverse record describes patents granted by the USPTO between 1976 and 2013. Coverage was taken from that description and was not recomputed.",
+        "Thirteen data files, each 0.1 to 2.5 GB: ten files of each patent's 200 closest matches, one file of closest-match pairs, and the keyword list per patent. Only the first bytes of three files were read.",
+        "The record is marked CC0 1.0. The deposited PDF describes the Java code in words. The file list shows no code file, so do not assume runnable code is included.",
+        "A later release for other years and text sections exists on Zenodo (see the separate U.S. patent text entry); the two are different data products."
+      ],
+      "links": [
+        {
+          "title": "Closest-match pairs (TSV, 100 MB)",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/3039773",
+          "checkedStatus": 206
+        },
+        {
+          "title": "Description of code and data files (PDF)",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/3044166",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Dataverse API lists 13 public files under CC0 1.0. A range request on three data files returned HTTP 206 with tab-separated patent numbers and similarity scores (for example 4322, 4134614, .1363). The description PDF was downloaded and read. Full files were not downloaded."
+    },
+    {
+      "topic": "Patents",
+      "years": "In-text patent citations: best coverage from 1976 (per the paper)",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [
+        "Python"
+      ],
+      "designs": [],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "paperDois": [
+        "10.1002/smj.70027"
+      ],
+      "id": "patcit-patent-citations",
+      "title": "PatCit — front-page and in-text patent citations",
+      "url": "https://doi.org/10.5281/zenodo.3710993",
+      "description": "Author-released dataset of citations made in patents, including citations to other patents and to scientific literature found in the patent text, linked to patent identifiers.",
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Patent citations",
+        "Knowledge flows",
+        "Author-shared data"
+      ],
+      "notes": [
+        "The concept DOI resolves to the latest Zenodo version, 0.3.1 (December 2020). Two earlier versions exist. The paper reports 49.5 million in-text patent citations; its data statement points to an online appendix that was not read, so which version matches the paper's counts is not verified.",
+        "Eight data archives of 6 MB to 4 GB plus a README. The archives are named .tar but are gzip-wrapped and hold gzip-compressed shards, so decompress twice. Only the start of the in-text patent file was read.",
+        "A citation_flag column marks citations likely taken from patent headers. The schema advises excluding flagged rows from most analyses.",
+        "Zenodo labels the record CC-BY-4.0. The data build on DOCDB/PATSTAT and Google Patents sources, which may carry their own terms.",
+        "Different from the Bryan, Ozcan and Sampat database in this library: that one links patents to scientific articles, while the SMJ paper focuses on in-text citations between patents."
+      ],
+      "links": [
+        {
+          "title": "In-text patent citations (CSV shards, 2.8 GB archive)",
+          "url": "https://zenodo.org/api/records/4391095/files/intext_patent_csv.tar/content",
+          "checkedStatus": 206
+        },
+        {
+          "title": "README",
+          "url": "https://zenodo.org/api/records/4391095/files/README.md/content",
+          "checkedStatus": 206
+        },
+        {
+          "title": "Project documentation",
+          "url": "https://cverluise.github.io/PatCit/"
+        }
+      ],
+      "verification": "Zenodo API lists 9 open files for version 0.3.1 under CC-BY-4.0. A 3 MB range of the in-text patent archive decoded to a schema CSV and the first rows of a data shard (for example US-5728520-A, publication date 19980317, with cited-patent identifiers). Full archives were not downloaded. The project website link was not checked."
+    },
+    {
+      "topic": "Patents",
+      "years": "1976–2018 (patent grants)",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "Python"
+      ],
+      "designs": [],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "paperDois": [
+        "10.1016/j.respol.2022.104629"
+      ],
+      "id": "us-inventor-ages-gender-death-dates",
+      "title": "U.S. inventor ages, gender and death dates matched to patents",
+      "url": "https://doi.org/10.7910/DVN/YRLSKU",
+      "description": "Author-built database matching U.S.-resident patent inventors to estimated birth years, inferred gender and some death dates collected from public web directories, linked to patents by inventor ID.",
+      "tags": [
+        "Innovation",
+        "Technology management",
+        "Patents",
+        "Inventors",
+        "Age and creativity",
+        "Author-shared data"
+      ],
+      "notes": [
+        "Personal data warning: the files contain inventor names, city and state of residence, estimated birth years and, for some inventors, death dates, collected from people-search websites. Use only for legitimate research, follow your institution's data-ethics rules, and do not use it to identify or contact individuals.",
+        "Quality caveats from the authors: ages come from heuristics and a quality score; death dates are described as less reliable. The checked age file has birth years from 1800 to 2013, so apply plausibility filters.",
+        "Twenty-three public files, 3 MB to 1.9 GB. The key files are the inventor age and gender table (2,408,326 rows; 1,858,516 unique inventors), a patent-to-inventor crosswalk (8,080,135 rows, grant years 1976 to 2018) and a death-date table. Other files were listed but not read.",
+        "Gender is inferred from first name and birth year by an algorithm; 571,074 rows are marked unknown.",
+        "The Dataverse record is marked CC0 1.0. Source websites for the scraped information may have their own terms.",
+        "A companion data paper (Kaltenberg, Jaffe and Lachman, “The Age of Invention”, NBER working paper 28768) documents the database."
+      ],
+      "links": [
+        {
+          "title": "Inventor ages, scores and gender (CSV, 198 MB)",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/4601311",
+          "checkedStatus": 200
+        },
+        {
+          "title": "Patent-to-inventor crosswalk (CSV, 228 MB)",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/4601309",
+          "checkedStatus": 200
+        },
+        {
+          "title": "README (RTF)",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/4601312",
+          "checkedStatus": 200
+        }
+      ],
+      "verification": "Dataverse API lists 23 public files under CC0 1.0 (version 1.1, May 2021). The age and gender table and the crosswalk were streamed in full and parsed; the death-date table, scraped-source table and patent table were sampled by range request. The README was downloaded and read."
     }
   ]
 }

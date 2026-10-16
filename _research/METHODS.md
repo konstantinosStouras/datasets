@@ -51,4 +51,8 @@ After publication check the actual GitHub workflow outcome and live feed. Record
 - A repository record that names the paper (or the paper that names the record) is the explicit connection. Say in the entry when the paper's own full text was not read.
 - Searching OSF by title filters is noisy and not evidence of absence.
 - A good discovery shortcut: filter the priority queue for clues naming Zenodo, Dataverse, GitHub or OSF, then query the repository directly.
+- Discovery over the cloned site database: sparse-clone `lit/data`, `lit/data-ft50` and `lit/_scraper-ft50` from the site repository (`git clone --depth 1 --filter=blob:none --sparse`, then `git sparse-checkout set ...`), load each `papers-*.json` list (fields: Title, Authors, DOI, Volume, Issue, Page, Year, Abstract, Journal) and regex the abstract. `journals.json` in `_scraper-ft50` defines the journal scope. OpenAlex lists `ft50` among a journal's classifications and can confirm scope per paper.
+- Read an abstract's whole data sentence before trusting a repository word: a link to an Open Practices badge page is not a data location.
+- When a record is public but anonymous requests show no files, do not add it; log it as an unresolved lead with the reason.
+- For datasets containing personal data, state it in the entry notes and advise ethical use.
 

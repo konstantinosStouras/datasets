@@ -24,9 +24,9 @@ The owner then requested that all relevant local work be saved on GitHub. Histor
 
 This synchronization pass does not restart new research in the original paused conversation. A separate continuation session had already recorded its own resumption above; preserve that history without interpreting it as authorization for unrelated work.
 
-## Batch 2 (2026-10-16): three patent-research datasets, submitted for publication
+## Batch 2 (2026-10-16): three patent-research datasets, published
 
-Status: committed to the fork's `main` through a pull request. **Publication is not confirmed until the cloud workflow run and the live feed are recorded below.**
+Status: **published and confirmed 2026-10-16.** Merged in PR 3 (merge commit `c341793`). Cloud publisher run [38896605298](https://github.com/konstantinosStouras/datasets/actions/runs/38896605298) completed successfully. The live public feed (`catalog-public.json`) then showed **131 collections, 13 research entries**, all three IDs below with their paper titles and date added 2026-10-16, and no Zenodo, Dataverse, DOI, GitHub or OSF URLs in the sanitized JSON.
 
 | Dataset ID | Paper | Evidence and file check | Limits |
 | --- | --- | --- | --- |
@@ -34,7 +34,7 @@ Status: committed to the fork's `main` through a pull request. **Publication is 
 | `in-text-patent-citation-database` | Bryan, Ozcan, Sampat, Research Policy 49(4), 103946 (2020), DOI 10.1016/j.respol.2020.103946 | [Harvard Dataverse ZEZWBX](https://doi.org/10.7910/DVN/ZEZWBX), CC0, one public 850 MB TSV. Whole file streamed: 2,408,583 rows, 26 columns, article years 1984 to 2016. Record names the authors and the user's guide. | Labelled beta 0.9 (Dataverse version 2.0, 2019). No patent grant-year column was seen in the header. Paper full text not read. |
 | `us-patent-inventor-disambiguation` | Li et al., Research Policy 43(6), 941-955 (2014), DOI 10.1016/j.respol.2014.01.012 | [Harvard Dataverse 5F1RRI](https://doi.org/10.7910/DVN/5F1RRI), CC0, 64 public files. One 73 MB inventor table parsed: 337,483 rows, 31 columns, grant years 1975 to 2010. Documentation PDF read; it points to Dataverse and the code repository (exists). | Only one table sampled; other files listed, not downloaded. Statistical disambiguation, superseded for recent years by PatentsView (already listed). Paper full text not read. |
 
-Queue rows for these three papers were set to the verified status in both CSVs. The catalog JSON now has 13 datasets and 13 papers locally, so the expected live total is 131 collections.
+Queue rows for these three papers were set to the verified status in both CSVs. The catalog JSON has 13 datasets and 13 papers; the live total of 131 matched that expectation.
 
 ## Management Science leads checked 2026-10-16 (neither added)
 
@@ -42,6 +42,26 @@ Queue rows for these three papers were set to the verified status in both CSVs. 
 - `10.1287/mnsc.2024.06909` (Otis et al., Management Science, online 2026-07-10): Crossref confirms identity. The NBER working paper says the study was pre-registered on OSF but gives no data link; a public OSF title search found no matching project. The INFORMS supplement returned 403. Status: unresolved, no public study data found.
 
 Neither 403 was bypassed. A person with a browser could open the supplements and report what they contain.
+
+## Batch 3 (2026-10-16): two patent-research datasets added, one lead left unresolved
+
+Status: committed through a pull request. **Publication is not confirmed until the workflow run and live feed are recorded here.**
+
+| Dataset ID | Paper | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `us-patent-text-similarity-pairs` | Arts, Cassiman, Gomez, Strategic Management Journal 39(1), 62-84 (online 2017-10-24), DOI 10.1002/smj.2699 | [Dataverse JO2DQZ](https://doi.org/10.7910/DVN/JO2DQZ), CC0, 13 public files, publication field names the paper. Range requests on three data files returned tab-separated patent pairs with scores; the description PDF was read. | Files are 0.1 to 2.5 GB, not downloaded. The PDF describes Java code but no code file is listed. Coverage 1976 to 2013 is the record's statement. Paper full text not read. This paper was missing from both queues; appended. |
+| `patcit-patent-citations` | Verluise, Cristelli, Higham, de Rassenfosse, Strategic Management Journal 47(3), 678-698 (online 2025-10-22), DOI 10.1002/smj.70027 | Paper (accepted manuscript read from the LSE repository) says the in-text patent citation data are at Zenodo DOI 10.5281/zenodo.3710993. Zenodo is open, CC-BY-4.0, 9 files in the latest version 0.3.1. A 3 MB range of the in-text patent archive decoded to the schema and real data rows. | Which PatCit version matches the paper's 49.5 million citations is not verified (online appendix not read). Archives are gzip-wrapped. Underlying DOCDB/PATSTAT/Google Patents terms may apply. The Wiley page was blocked (403), so only the repository copy was read. |
+| `us-inventor-ages-gender-death-dates` | Kaltenberg, Jaffe, Lachman, Research Policy 52(1), 104629 (2023), DOI 10.1016/j.respol.2022.104629 | Abstract states the data are public on Harvard Dataverse; [record YRLSKU](https://doi.org/10.7910/DVN/YRLSKU) is by the same authors, CC0, 23 public files. Age/gender table (2,408,326 rows, 1,858,516 inventors) and crosswalk (8,080,135 rows, grant years 1976-2018) streamed and parsed; README read. | Contains named individuals, residence city/state, estimated birth years and some death dates scraped from people-search sites: flagged prominently in the entry. Birth years run 1800 to 2013 in the file; heuristics, not verified facts. Paper full text not read. |
+
+Queue rows: Arts et al. 2018 appended to both queues; the other two set to verified status.
+
+### Unresolved lead from this pass
+
+- `10.1002/smj.3001`, Png, "U.S. R&D, 1975-1998: A new dataset", Strategic Management Journal 40(5), 715-735 (2019). The abstract's data statement gives `five.dartmouth.edu/datasets` and DOI 10.25540/3wd8-dffw (the OSF link in the abstract is only the Open Practices badge page). The DOI resolves to NUS ScholarBank, a public record titled "U.S. R&D data (Cattell directories)", CC BY-NC 4.0, whose citation field names the paper and which lists .dta, .do, .docx and .zip file types. But anonymous API requests show no downloadable files in the original-files bundle, and the Dartmouth host returned HTTP 503. **Not added** because no actual file could be inspected. A person with a browser could check whether the files download. Dataset concerns noted by the author: facility-level R&D directories digitized from copyrighted print records.
+
+### How this batch was found
+
+Searched all abstracts in the cloned site database (269,424 unique DOIs across `lit/data` and `lit/data-ft50`) for repository words (Zenodo, Dataverse, OSF, GitHub, figshare, Dryad, DOI prefixes 10.5281, 10.7910, 10.17605) combined with innovation topic words: 77 hits, most from INFORMS Journal on Computing optimization code (off-topic, not reviewed). Hits that were relevant were checked by hand. Also checked repository search APIs by title; results are noisy. Abstract cues cover only part of the field: many papers state data locations only in the full text.
 
 ## State at the earlier pause (historical)
 
