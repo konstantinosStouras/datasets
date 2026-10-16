@@ -6,6 +6,7 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the container clock. (An earlier version of this log used estimated times; they have been replaced with these observed ones.)
 
+- 18:35 Batch 18 submitted: capital by occupation (AER 2023, Zenodo), UI benefits and bank lending panels (Management Science 2025, DataverseNL), Reddit downvotes panels (JMR 2026), mortgage lender-county panel with fintech and shadow-bank types (RFS 2022). Zenodo leads reviewed (109 records: mostly third-party replications, OR benchmark instances and code; one added). Ten more Dataverse leads inspected and logged.
 - 18:10 Batch 17 live (run 38941641261, 17:41:59; 190 entries, all four IDs present).
 - 18:05 Batch 17 submitted: four Dataverse deposits found through the FT50 sweep leads (firm-level political risk from earnings calls; Opportunity Insights Economic Tracker; corporate foundation grants and regulatory comments; watch design images and visual conjoint). Zenodo lead metadata fetch finished (109 records); review next.
 - 17:48 Batch 16 live (run 38939877345, 17:28:21; 186 entries).
@@ -380,6 +381,23 @@ Found by scoring the 750 sweep leads and the Harvard Dataverse QJE and JPE listi
 Leads inspected and not added (logged in both queues): GDPR and firm production, JPE 2026 (cloud, Aberdeen and Orbis inputs replaced by simulated files; only public auxiliary inputs are real); uniform pricing in US retail chains (323 processed chart inputs, Nielsen data excluded); Great East Japan earthquake supply chains (aggregate production tables only); sweat equity (public national-accounts inputs with code); consideration sets from asymmetric demand (Medicare data restricted). Also seen and set aside: an open-banking deposit with pseudo-data, a deposit whose data files are marked fake, and a field experiment.
 
 Dry run of the publisher's merge code before pushing: 190 collections, 73 research entries, no duplicate IDs.
+
+## Batch 18 (2026-10-16): four deposits from the Zenodo and Dataverse sweep leads
+
+Status: submitted; confirmation pending (see the live log).
+
+Zenodo lead review: metadata for all 109 Zenodo leads from the sweep was fetched (`zen_meta.json` in the scratchpad). Most are third-party replications or "Evidence Press" re-analyses that cite the paper, OR benchmark instance sets (EJOR, OR, IJOC), code-only records, or deposits already in the catalog. One was added (below). Also seen and not added: a Chinese newspaper directory (AER 2018), electricity price compilations (AER 2026), Indian urban geometry rasters (AER 2020), air cargo pallet layouts (EJOR, 25 GB), cadaster cross-country panel (JPE 2024, third-party reproduction without licence).
+
+| Dataset ID | Paper | Evidence and file check | Limits |
+| --- | --- | --- | --- |
+| `capital-by-occupation-embodied-technical-change` | Caunedo, Jaume, Keller, AER 113(6), 1642-1685 (2023), DOI 10.1257/aer.20211478 | [Zenodo 7806735](https://doi.org/10.5281/zenodo.7806735), CC BY 4.0, 283 MB zip downloaded in full; README (PDF) read; four final Stata tables and two workbooks parsed (stocks by occupation 10,788 x 40, 1959-2019; prices 672 x 71; elasticity data 1,260 x 117; 3-digit web data 10,759 x 7). | A privately shared capital price series and ICPSR DOT files are not public; IPUMS CPS extract redistributed inside (IPUMS terms). |
+| `unemployment-insurance-bank-deposits-lending-panels` | Arslan, Degerli, Kabas, Management Science 71(4), 2847-2866 (2025), DOI 10.1287/mnsc.2022.03217 | [DataverseNL XSNWT9](https://doi.org/10.34894/XSNWT9), CC0. All 17 Stata files downloaded and opened (county-pair panel 36,596 x 15, 1995-2010; bank-county lending 364,643 x 22; PSID panel 38,660 x 17; others); README and data report read. | Regression-sample variables (differences and lags), not raw levels. |
+| `reddit-downvotes-content-creation-panels` | Deolankar, Fong, Sriram, JMR 63(4), 767-787 (2026), DOI 10.1177/00222437261417657 | [Dataverse K9YIGF](https://doi.org/10.7910/DVN/K9YIGF), CC BY-NC-SA 4.0, 1.1 GB. Three tables parsed in full (user-day 1,030,574 x 9, 17,525 users; polarization 121,207 x 9, May-June 2022; feedback 127,906 x 10); headers of the other nine read by range; README read. | Non-commercial licence; user names present; no post text; heavy models. |
+| `mortgage-lender-county-panel-fintech-shadow-banks` | Begley, Srinivasan, RFS 35(11), 4948-4984 (2022), DOI 10.1093/rfs/hhac038 | [Dataverse 3QUBVN](https://doi.org/10.7910/DVN/3QUBVN), CC0. Three tables parsed (county 25,060 x 175; lender-year 53,704 x 22; shares 25,060 x 12); 152 MB lender-county-year Stata header read (2,146,036 x 11); README read. | Counts of originations, not loan-level records; large file not loaded. |
+
+Leads inspected and not added (logged in both queues): Gopal and Schnabl fintech small-business lending (2.6 GB of public raw inputs and intermediates, but the UCC filings at the core must be purchased); IPO agglomeration (pseudo-data, licensed inputs); ethnic diversity in advertising meta-analysis (verified 1,303 x 361 coding table, CC BY; left as a lead because advertising sits outside the owner's topic order); AdGazer (extracted features and models, main image dataset under delayed disclosure); automated versus human agents meta-analysis (downloads need terms acceptance, 403); cold-start CRM (simulations only); cross-national market response (NDA); hard-discounter listings (SAS code only); AMJ 2001 diary study (terms of use, legacy files not retrievable); third-party auditors (legacy record, download failed).
+
+Dry run of the publisher's merge code before pushing: 194 collections, 77 research entries, no duplicate IDs.
 
 ## State at the earlier pause (historical)
 
