@@ -6469,6 +6469,71 @@
         }
       ],
       "search": "who profits from patents: patent application sample (partial replication data) patents partial replication package from a study of rent-sharing at patenting firms. the shared data are a uspto patent application sample with filing dates and assignee names, small decision-lag tables and summary results, together with the full stata and sas build and analysis code. the tax and wage records the study relies on are not included. main data file: kpwz_waterfall.dta with 3,737,351 patent application rows (application years 2000 to 2013; columns for assignee name, application number, filing date, status, kind code and a count of earlier grants). 3,314,571 rows carry an assignee name. smaller files: years-to-decision for 99,871 applications, a 12-row table of years until grant after a first rejection, and a table of summary estimates. this is a partial package. the firm-level tax, payroll and wage data behind the main results are confidential and not included; the build code is there to show how they were made. estimation output tables are included. licensed cc0 on harvard dataverse (one 32.6 mb zip, version 2). dataverse record (kpwz_replication.zip, 32.6 mb) the zip was downloaded in full and its contents listed. the readmes were read, and the four small stata files and the large application file were opened with their rows counted. the paper's full text and the appendix pdf were not read. patents patent applications rent-sharing replication code partial data author-shared data who profits from patents? rent-sharing at innovative firms patrick kline; neviana petkova; heidi williams; owen zidar the quarterly journal of economics 2019"
+    },
+    {
+      "id": "management-practices-survey-bloom-van-reenen",
+      "title": "Management practices across firms and countries (anonymized author data)",
+      "topic": "Businesses",
+      "description": "Author-released anonymized data on management practices (monitoring, targets, incentives, lean operations and talent) scored from interviews with medium-sized manufacturing firms in the United States, United Kingdom, France and Germany, matched to firm performance measures. Includes the Stata code that reproduces the paper's results.",
+      "years": "1994–2004",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Firms"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel"
+      ],
+      "features": [
+        "Names / addresses",
+        "Employment"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          1994,
+          2004
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Management practices",
+        "Operations",
+        "Productivity",
+        "Firm performance",
+        "Cross-country data",
+        "Survey data",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Two tab-delimited tables with the same 189 columns and 6,267 rows each (732 distinct firm codes; years 1994 to 2004; countries us 2,920 rows, uk 1,251, gr 1,098, fr 998). Columns include the practice scores and their standardized versions, employment, sector codes and performance measures. The record does not say how the two tables differ; they differ in the values of 94 columns, which was not investigated further.",
+        "The author's instructions say company names were removed and firm identifiers replaced by new codes, and that the true data used in the paper cannot be shared freely, so results from the anonymized data may not match the paper exactly. The deposit also holds the Stata do-file, a log, the paper PDF and the author's instruction note, which was read.",
+        "Licensed CC0 on Harvard Dataverse (version 1.0).",
+        "Dataverse record (two data tables, do-file, log, notes)",
+        "Both data tables were downloaded in full and parsed (rows, columns, years, countries, firm codes counted) and the instruction note was read. The do-file and log were listed but not rerun, and the paper's full text was not read."
+      ],
+      "papers": [
+        {
+          "title": "Measuring and Explaining Management Practices Across Firms and Countries",
+          "authors": "Nicholas Bloom; John Van Reenen",
+          "journal": "The Quarterly Journal of Economics",
+          "year": 2007,
+          "volume": "122",
+          "issue": "4",
+          "evidenceSection": "Harvard Dataverse record states it holds the data from this article"
+        }
+      ],
+      "search": "management practices across firms and countries (anonymized author data) businesses author-released anonymized data on management practices (monitoring, targets, incentives, lean operations and talent) scored from interviews with medium-sized manufacturing firms in the united states, united kingdom, france and germany, matched to firm performance measures. includes the stata code that reproduces the paper's results. two tab-delimited tables with the same 189 columns and 6,267 rows each (732 distinct firm codes; years 1994 to 2004; countries us 2,920 rows, uk 1,251, gr 1,098, fr 998). columns include the practice scores and their standardized versions, employment, sector codes and performance measures. the record does not say how the two tables differ; they differ in the values of 94 columns, which was not investigated further. the author's instructions say company names were removed and firm identifiers replaced by new codes, and that the true data used in the paper cannot be shared freely, so results from the anonymized data may not match the paper exactly. the deposit also holds the stata do-file, a log, the paper pdf and the author's instruction note, which was read. licensed cc0 on harvard dataverse (version 1.0). dataverse record (two data tables, do-file, log, notes) both data tables were downloaded in full and parsed (rows, columns, years, countries, firm codes counted) and the instruction note was read. the do-file and log were listed but not rerun, and the paper's full text was not read. management practices operations productivity firm performance cross-country data survey data replication data author-shared data measuring and explaining management practices across firms and countries nicholas bloom; john van reenen the quarterly journal of economics 2007"
     }
   ]
 }
