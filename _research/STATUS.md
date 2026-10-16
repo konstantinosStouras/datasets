@@ -6,6 +6,7 @@ The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a 
 
 Times are UTC on 2026-10-16, taken from GitHub workflow run timestamps or the container clock. (An earlier version of this log used estimated times; they have been replaced with these observed ones.)
 
+- 17:48 Batch 16 live (run 38939877345, 17:28:21; 186 entries).
 - 17:40 Batch 15 live (run 38939563044, 17:25:37; 185 entries). Batch 16 (Brazilian hospital panel) submitted. Metadata fetch for the remaining Dataverse and Zenodo sweep leads running.
 - 17:30 FT50-wide sweep finished (113,511 papers; 750 clean leads). Batch 15 submitted: AIOE, Twin-2K-500, scientific complexity, OM-OR conference survey, EHR event logs, MLB managers, IRI category survey. Session worker restarted once during this stretch; files and results survived.
 - 15:12 Batch 14 live (run 38920471271, 15:01:20; 178 entries). REStud Zenodo community (544 records) matched and scored; ten mid-sized packages downloaded and listed, four large ones listed by reading the zip directory with range requests.
@@ -353,7 +354,7 @@ Dry run of the publisher's merge code before pushing: 185 collections, 68 resear
 
 ## Batch 16 (2026-10-16): Brazilian public-hospital panel
 
-Status: committed through a pull request. **Not confirmed until the workflow run and live feed are recorded here.**
+Status: published and confirmed. Workflow run 38939877345 succeeded at 17:28:21 UTC; `catalog-public.json` on `main` then held 186 entries including the new ID.
 
 | Dataset ID | Paper | Evidence and file check | Limits |
 | --- | --- | --- | --- |
