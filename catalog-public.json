@@ -6293,17 +6293,14 @@
       "access": "Public",
       "geography": "United States",
       "types": [
-        "Administrative"
+        "Administrative records"
       ],
       "units": [
-        "Patents",
-        "Firms"
+        "Firms & institutions"
       ],
-      "tools": [
-        "CSV"
-      ],
+      "tools": [],
       "designs": [
-        "Panel"
+        "Panel / longitudinal"
       ],
       "features": [],
       "period": "Historical / fixed period",
@@ -6354,18 +6351,17 @@
       "access": "Public",
       "geography": "United States",
       "types": [
-        "Administrative"
+        "Administrative records"
       ],
       "units": [
         "Individuals",
-        "Regions"
+        "Places & geographic areas"
       ],
       "tools": [
-        "Stata",
-        "CSV"
+        "Stata"
       ],
       "designs": [
-        "Panel"
+        "Panel / longitudinal"
       ],
       "features": [
         "Demographics",
@@ -6415,11 +6411,11 @@
       "access": "Public",
       "geography": "United States",
       "types": [
-        "Administrative"
+        "Administrative records"
       ],
       "units": [
         "Patents",
-        "Firms"
+        "Firms & institutions"
       ],
       "tools": [
         "Stata"
@@ -6482,13 +6478,13 @@
         "Survey"
       ],
       "units": [
-        "Firms"
+        "Firms & institutions"
       ],
       "tools": [
         "Stata"
       ],
       "designs": [
-        "Panel"
+        "Panel / longitudinal"
       ],
       "features": [
         "Names / addresses",
@@ -6534,6 +6530,196 @@
         }
       ],
       "search": "management practices across firms and countries (anonymized author data) businesses author-released anonymized data on management practices (monitoring, targets, incentives, lean operations and talent) scored from interviews with medium-sized manufacturing firms in the united states, united kingdom, france and germany, matched to firm performance measures. includes the stata code that reproduces the paper's results. two tab-delimited tables with the same 189 columns and 6,267 rows each (732 distinct firm codes; years 1994 to 2004; countries us 2,920 rows, uk 1,251, gr 1,098, fr 998). columns include the practice scores and their standardized versions, employment, sector codes and performance measures. the record does not say how the two tables differ; they differ in the values of 94 columns, which was not investigated further. the author's instructions say company names were removed and firm identifiers replaced by new codes, and that the true data used in the paper cannot be shared freely, so results from the anonymized data may not match the paper exactly. the deposit also holds the stata do-file, a log, the paper pdf and the author's instruction note, which was read. licensed cc0 on harvard dataverse (version 1.0). dataverse record (two data tables, do-file, log, notes) both data tables were downloaded in full and parsed (rows, columns, years, countries, firm codes counted) and the instruction note was read. the do-file and log were listed but not rerun, and the paper's full text was not read. management practices operations productivity firm performance cross-country data survey data replication data author-shared data measuring and explaining management practices across firms and countries nicholas bloom; john van reenen the quarterly journal of economics 2007"
+    },
+    {
+      "id": "founding-strategy-startup-website-text",
+      "title": "Measuring founding strategy: startup and public-firm website text and similarity data",
+      "topic": "Entrepreneurship",
+      "description": "Author-released data behind a text-based measure of how differentiated a startup's founding strategy is. For each year it holds the archived website text of Crunchbase startups and public firms, the fitted text models, similarity scores, and a table listing each startup's most similar public firms and startups, with the Stata scripts used in the paper.",
+      "years": "2003–2018",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [
+        "Stata",
+        "Python"
+      ],
+      "designs": [
+        "Repeated cross-section"
+      ],
+      "features": [
+        "Text / transcripts"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          2003,
+          2018
+        ]
+      ],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Entrepreneurship",
+        "Startups",
+        "Founding strategy",
+        "Differentiation",
+        "Website text",
+        "Text analysis",
+        "Crunchbase",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "102 files, about 11 GB, CC0. Yearly website-text tables for 2003 to 2018 (2003 table parsed: 4,674 rows, 493 Crunchbase startups and 4,181 public firms from Orbis, with website, text, type and Wayback Machine snapshot fields). A 245 MB Stata file lists the most similar websites (17 variables including similarity score, focal website and year; only its header was read). Fitted doc2vec, tf-idf and industry-cluster models are stored as Python pickle and NumPy files; these were not opened.",
+        "The README calls this a beta release, says the analysis file can be rebuilt only with the Crunchbase academic files, and points to a GitHub organisation for the code; that page could not be reached from this environment. Website text comes from third-party sites, so copyright may limit reuse of the text itself.",
+        "Only the 2003 text table was downloaded; later years were listed, not read.",
+        "Dataverse record (102 files, about 11 GB)",
+        "The Dataverse file list and README were read in full. The 2003 website-text table was downloaded (size matches) and parsed; the header of the most-similar-websites Stata file was read with a range request. The pickle files and the paper's full text were not read."
+      ],
+      "papers": [
+        {
+          "title": "Measuring Founding Strategy",
+          "authors": "Jorge Guzman; Aishen Li",
+          "journal": "Management Science",
+          "year": 2023,
+          "volume": "69",
+          "issue": "1",
+          "evidenceSection": "Harvard Dataverse record and README name the paper; the article abstract says public datasets of the differentiation score and scraped website data are provided"
+        }
+      ],
+      "search": "measuring founding strategy: startup and public-firm website text and similarity data entrepreneurship author-released data behind a text-based measure of how differentiated a startup's founding strategy is. for each year it holds the archived website text of crunchbase startups and public firms, the fitted text models, similarity scores, and a table listing each startup's most similar public firms and startups, with the stata scripts used in the paper. 102 files, about 11 gb, cc0. yearly website-text tables for 2003 to 2018 (2003 table parsed: 4,674 rows, 493 crunchbase startups and 4,181 public firms from orbis, with website, text, type and wayback machine snapshot fields). a 245 mb stata file lists the most similar websites (17 variables including similarity score, focal website and year; only its header was read). fitted doc2vec, tf-idf and industry-cluster models are stored as python pickle and numpy files; these were not opened. the readme calls this a beta release, says the analysis file can be rebuilt only with the crunchbase academic files, and points to a github organisation for the code; that page could not be reached from this environment. website text comes from third-party sites, so copyright may limit reuse of the text itself. only the 2003 text table was downloaded; later years were listed, not read. dataverse record (102 files, about 11 gb) the dataverse file list and readme were read in full. the 2003 website-text table was downloaded (size matches) and parsed; the header of the most-similar-websites stata file was read with a range request. the pickle files and the paper's full text were not read. entrepreneurship startups founding strategy differentiation website text text analysis crunchbase replication data author-shared data measuring founding strategy jorge guzman; aishen li management science 2023"
+    },
+    {
+      "id": "automation-specialization-cashier-taxi-data",
+      "title": "Automation and worker specialization: supermarket cashier and taxi driver data",
+      "topic": "Businesses",
+      "description": "Replication data from a field study of how automation changes what workers specialise in. It pairs a disguised panel of supermarket cashier transactions, with scanning versus manual entry and productivity measures, with an author survey of taxi drivers on map-app use, plus the Stata code for the paper's tables.",
+      "years": "Not stated in the deposit",
+      "access": "Public",
+      "geography": "Other / not specified",
+      "types": [
+        "Survey",
+        "Administrative records"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal",
+        "Cross-section"
+      ],
+      "features": [
+        "Demographics",
+        "Income / earnings",
+        "Names / addresses"
+      ],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Automation",
+        "Technology adoption",
+        "Productivity",
+        "Workers",
+        "Field data",
+        "Survey data",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "Cashier table: 152,246 rows and 350 columns (4 stores, shift, day, hour, scan versus manual entry, scanning and payment times, basket composition by category). The authors say it is proprietary data covered by a non-disclosure agreement, released in disguised form: store names, cashier IDs, dates and most categories are masked and basket size and value are replaced by interval averages, so main results replicate to one decimal place and one appendix table cannot be reproduced. A larger 1.2 GB variant for one appendix table was listed, not read.",
+        "Taxi survey: 402 drivers and 39 variables (experience, age, hours, rides, income, map use and attitude items). Country and survey year are not stated in the deposit; check the paper.",
+        "CC0 on Harvard Dataverse. README and disguise note read.",
+        "Dataverse record (7 files)",
+        "README, disguise note and both do-files were read. The cashier and taxi tables were downloaded in full and parsed (rows, columns, store count). The paper's full text was not read."
+      ],
+      "papers": [
+        {
+          "title": "Automation Enables Specialization: Field Evidence",
+          "authors": "Jie Gong; I. P. L. Png",
+          "journal": "Management Science",
+          "year": 2024,
+          "volume": "70",
+          "issue": "3",
+          "evidenceSection": "Harvard Dataverse record description cites the article DOI; the README names the paper"
+        }
+      ],
+      "search": "automation and worker specialization: supermarket cashier and taxi driver data businesses replication data from a field study of how automation changes what workers specialise in. it pairs a disguised panel of supermarket cashier transactions, with scanning versus manual entry and productivity measures, with an author survey of taxi drivers on map-app use, plus the stata code for the paper's tables. cashier table: 152,246 rows and 350 columns (4 stores, shift, day, hour, scan versus manual entry, scanning and payment times, basket composition by category). the authors say it is proprietary data covered by a non-disclosure agreement, released in disguised form: store names, cashier ids, dates and most categories are masked and basket size and value are replaced by interval averages, so main results replicate to one decimal place and one appendix table cannot be reproduced. a larger 1.2 gb variant for one appendix table was listed, not read. taxi survey: 402 drivers and 39 variables (experience, age, hours, rides, income, map use and attitude items). country and survey year are not stated in the deposit; check the paper. cc0 on harvard dataverse. readme and disguise note read. dataverse record (7 files) readme, disguise note and both do-files were read. the cashier and taxi tables were downloaded in full and parsed (rows, columns, store count). the paper's full text was not read. automation technology adoption productivity workers field data survey data replication data author-shared data automation enables specialization: field evidence jie gong; i. p. l. png management science 2024"
+    },
+    {
+      "id": "startup-hiring-phd-job-choice-replication",
+      "title": "Technology startups and talented early employees: PhD job-choice replication data",
+      "topic": "Entrepreneurship",
+      "description": "Replication file from a survey-based study of which science and engineering PhDs apply to, receive offers from and join technology startups, with ability, career preferences, demographics, field, visa status and local venture funding variables, plus the Stata code for the paper's regressions.",
+      "years": "Not stated in the deposit",
+      "access": "Public",
+      "geography": "United States",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [
+        "Stata"
+      ],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [
+        "Demographics",
+        "Income / earnings",
+        "Employment"
+      ],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": true,
+      "research": true,
+      "tags": [
+        "Entrepreneurship",
+        "Startups",
+        "Hiring",
+        "Scientists and engineers",
+        "Career choice",
+        "Survey data",
+        "Replication data",
+        "Author-shared data"
+      ],
+      "dateAdded": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "details": [
+        "One table of 2,415 respondents and 22 variables (startup employment, application and offer indicators, log starting salary, an ability measure, preference scores, visa, gender, family, postdoc, log venture funding, GDP growth, field and university codes) and a do-file for Tables 3, 5 and 6.",
+        "Important limit: the depositors state the data are provided for replication only and that use for other research is not permitted, even though the Dataverse licence is CC0. Treat it as a replication file, not a reusable dataset.",
+        "Survey years are not given in the deposit; the paper describes the underlying longitudinal PhD survey.",
+        "Dataverse record (table and do-file)",
+        "Both files were downloaded in full; the table was parsed (rows and columns) and the do-file read. The paper's full text was not read."
+      ],
+      "papers": [
+        {
+          "title": "Can Technology Startups Hire Talented Early Employees? Ability, Preferences, and Employee First Job Choice",
+          "authors": "Michael Roach; Henry Sauermann",
+          "journal": "Management Science",
+          "year": 2024,
+          "volume": "70",
+          "issue": "6",
+          "evidenceSection": "Harvard Dataverse record title and do-file header name the paper"
+        }
+      ],
+      "search": "technology startups and talented early employees: phd job-choice replication data entrepreneurship replication file from a survey-based study of which science and engineering phds apply to, receive offers from and join technology startups, with ability, career preferences, demographics, field, visa status and local venture funding variables, plus the stata code for the paper's regressions. one table of 2,415 respondents and 22 variables (startup employment, application and offer indicators, log starting salary, an ability measure, preference scores, visa, gender, family, postdoc, log venture funding, gdp growth, field and university codes) and a do-file for tables 3, 5 and 6. important limit: the depositors state the data are provided for replication only and that use for other research is not permitted, even though the dataverse licence is cc0. treat it as a replication file, not a reusable dataset. survey years are not given in the deposit; the paper describes the underlying longitudinal phd survey. dataverse record (table and do-file) both files were downloaded in full; the table was parsed (rows and columns) and the do-file read. the paper's full text was not read. entrepreneurship startups hiring scientists and engineers career choice survey data replication data author-shared data can technology startups hire talented early employees? ability, preferences, and employee first job choice michael roach; henry sauermann management science 2024"
     }
   ]
 }
