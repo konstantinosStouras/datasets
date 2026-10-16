@@ -2,6 +2,17 @@
 
 The owner lifted the pause on 2026-10-16 (Europe/London). Work restarted from a cloud checkout; the handoff files, pending JSON and updated queues were retrieved from the owner's Dropbox copy of the local workspace (they were not in the remote repository).
 
+## Live progress log (newest first; updated as work proceeds)
+
+Times are UTC on 2026-10-16. Counts are what was observed at that moment.
+
+- 12:20 Batches 1 to 4 are published and confirmed in the live feed (137 collections, 20 research entries). Running now: DataCite sweep of 20,247 topic-matched FT50 papers in 21 chunks of 1,000 (2 of 21 done, 49 papers with deposits mentioning them, roughly 2.5 minutes per chunk). Next: vet the hits from each finished chunk by hand, add verified ones, publish, and record each batch here.
+- 12:15 Batch 4 live: open source write-access data, WWII patent secrecy orders, inventor-firm replication archive, NHANES enrichment (run 38898838401).
+- 12:00 Batch 3 live: patent text similarity, PatCit, inventor ages (run 38897774771). Png R&D directory data left unresolved (no downloadable file visible).
+- 11:45 Batch 2 live: patent text and novelty measures, in-text patent citations, inventor disambiguation (run 38896605298).
+- 11:35 Batch 1 live: the three pending items from the pause (run 38894715168). Website sharing update confirmed live (HTML, image, icons; crawler user agents return 200).
+- Unresolved and blocked by publisher bot challenges (not bypassed): INFORMS supplements (two Management Science leads), Wiley, SAGE.
+
 ## Resumption log
 
 - Fast-forwarded to `main` commit `7cbabe2` (documentation checkpoint). No other remote data changes.
