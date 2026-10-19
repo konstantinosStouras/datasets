@@ -158,6 +158,9 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 - [Educator Compensation Dashboard](https://www.sreb.org/educator-compensation-dashboard) - Southern state regional database of annual educator compensation and workforce data on K-12 education
   - Years: 2016 - present; Access: Public
   - This dashboard is compiled by scraping and pulling publicly available administrative data from state and national sources
+- [Progress in International Reading Literacy Study (PIRLS)](https://pirls2021.org/data/) - across countries, it measures the reading level of the fourth grade students
+- [Trends in International Mathematics and Science Study (TIMSS)](https://timssandpirls.bc.edu/databases-landing.html) - measures math and science achievement for fourth and eighth graders around the world
+- See [here](https://ilsa-gateway.org/studies) for other international educational assessments.
 
 <!-- [University enrollments](https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/P0D1KE&version=1.0) -->
 
@@ -261,9 +264,9 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 - [LEHD Origin-Destination Employment Statistics (LODES)](https://lehd.ces.census.gov/data/) - source data for the Census [OnTheMap](https://onthemap.ces.census.gov/) data tool, providing statistics at the Census block level at both residential and workplace locations and flows between the two (origin-destination).
 - [Veteran Employment Outcomes (VEO)](https://lehd.ces.census.gov/data/veo_experimental.html) - labor market outcomes for discharged veterans from five branches of the military - Air Force, Army, Coast Guard, Marine Corps, and Navy. Tabulated by military specialization, service characteristics, employer industry, and veteran demographics.
 - [Mobility, Opportunity, and Volatility Statistics (MOVS)](https://www.census.gov/programs-surveys/ces/data/public-use-data/mobility-opportunity-volatility-statistics.html) a dataset that tracts the income changes of a 2005 cohort of U.S. adults from 2005 to 2019 by initial income decile, sex, and race/ethnicity. 
-
 <!-- - [Anthropic Economic Index](https://huggingface.co/datasets/Anthropic/EconomicIndex) - Actual AI exposure by job and by geography
 - [AI Job Exposure Index](https://github.com/openai/GPTs-are-GPTs) - [from Eloundout et. al](https://www.science.org/doi/10.1126/science.adj0998). Predicted exposure -->
+- [US healthcare job postings and posted pay (CareJobs.Now)](https://doi.org/10.5281/zenodo.23395728) - Open dataset of US healthcare job postings and the hourly pay employers post, by kind of job
 
 ---
 ### Businesses
@@ -339,6 +342,8 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 - [A list of all federal laws](https://osf.io/qa289) 
  - From [A comprehensive dataset of U.S. federal laws (1789–2022)](https://www.nature.com/articles/s41597-023-02758-z)
 - [LawAtlas](https://lawatlas.org/) - Coded laws from Temple University's Public Health Law Review 
+- [TISP](https://osf.io/5c3qd/overview) - Perceptions of science from people in 68 countries
+   - From [Perceptions of science, science communication, and climate change attitudes in 68 countries – the TISP dataset](https://www.nature.com/articles/s41597-024-04100-7)
 
 ---
 
@@ -392,6 +397,13 @@ Lidar
 - [World Macro-Financial Dataset](https://acamous.github.io/macro_financial_dataset/) - Data for many countries on credit, GDP, equity prices, bond yields and consumer prices
   - Years: 1950-2025; 49 countries; Frequency: quarterly
   - From [World Cycles Revisited: Diverging Trends in Prices and Quantities](https://www.banque-france.fr/en/publications-and-statistics/publications/world-cycles-revisited-diverging-trends-prices-and-quantities)
+
+---
+
+### Misc.
+
+- [Item Response Warehouse](https://itemresponsewarehouse.org/) - billions of item responses from thousands of datasets. Accessible with API
+- [Global Flourishing Study](https://globalflourishingstudy.com/overview) - 22 countries, >200k respondents - questions on happiness, health, meaning, character, relationships, and financial topics
 
 ---
 
