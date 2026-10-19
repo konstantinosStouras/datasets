@@ -1238,6 +1238,68 @@
       "search": "educator compensation dashboard education southern state regional database of annual educator compensation and workforce data on k-12 education years: 2016 - present; access: public this dashboard is compiled by scraping and pulling publicly available administrative data from state and national sources"
     },
     {
+      "id": "progress-in-international-reading-literacy-study-pirls",
+      "title": "Progress in International Reading Literacy Study (PIRLS)",
+      "topic": "Education",
+      "description": "across countries, it measures the reading level of the fourth grade students",
+      "years": "",
+      "access": "Not specified",
+      "geography": "International",
+      "types": [],
+      "units": [
+        "Places & geographic areas"
+      ],
+      "tools": [],
+      "designs": [],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [],
+      "papers": [],
+      "search": "progress in international reading literacy study (pirls) education across countries, it measures the reading level of the fourth grade students"
+    },
+    {
+      "id": "trends-in-international-mathematics-and-science-study-timss",
+      "title": "Trends in International Mathematics and Science Study (TIMSS)",
+      "topic": "Education",
+      "description": "measures math and science achievement for fourth and eighth graders around the world",
+      "years": "",
+      "access": "Not specified",
+      "geography": "International",
+      "types": [],
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [],
+      "papers": [],
+      "search": "trends in international mathematics and science study (timss) education measures math and science achievement for fourth and eighth graders around the world"
+    },
+    {
+      "id": "see-here-for-other-international-educational-assessments",
+      "title": "See here for other international educational assessments.",
+      "topic": "Education",
+      "description": "",
+      "years": "",
+      "access": "Not specified",
+      "geography": "International",
+      "types": [],
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [],
+      "papers": [],
+      "search": "see here for other international educational assessments. education "
+    },
+    {
       "id": "openalex",
       "title": "Openalex",
       "topic": "Academia",
@@ -2137,6 +2199,30 @@
       "search": "mobility, opportunity, and volatility statistics (movs) working a dataset that tracts the income changes of a 2005 cohort of u.s. adults from 2005 to 2019 by initial income decile, sex, and race/ethnicity."
     },
     {
+      "id": "us-healthcare-job-postings-and-posted-pay-carejobs-now",
+      "title": "US healthcare job postings and posted pay (CareJobs.Now)",
+      "topic": "Working",
+      "description": "Open dataset of US healthcare job postings and the hourly pay employers post, by kind of job",
+      "years": "",
+      "access": "Not specified",
+      "geography": "United States",
+      "types": [],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [],
+      "designs": [],
+      "features": [
+        "Employment"
+      ],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [],
+      "papers": [],
+      "search": "us healthcare job postings and posted pay (carejobs.now) working open dataset of us healthcare job postings and the hourly pay employers post, by kind of job"
+    },
+    {
       "id": "county-business-patterns",
       "title": "County Business Patterns",
       "topic": "Businesses",
@@ -2914,6 +3000,31 @@
       "search": "lawatlas law coded laws from temple university's public health law review"
     },
     {
+      "id": "tisp",
+      "title": "TISP",
+      "topic": "Law",
+      "description": "Perceptions of science from people in 68 countries",
+      "years": "",
+      "access": "Not specified",
+      "geography": "International",
+      "types": [],
+      "units": [
+        "Individuals",
+        "Places & geographic areas"
+      ],
+      "tools": [],
+      "designs": [],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [
+        "From Perceptions of science, science communication, and climate change attitudes in 68 countries – the TISP dataset"
+      ],
+      "papers": [],
+      "search": "tisp law perceptions of science from people in 68 countries from perceptions of science, science communication, and climate change attitudes in 68 countries – the tisp dataset"
+    },
+    {
       "id": "ercot",
       "title": "ERCOT",
       "topic": "Environment and energy",
@@ -3243,6 +3354,50 @@
       ],
       "papers": [],
       "search": "world macro-financial dataset macroeconomics data for many countries on credit, gdp, equity prices, bond yields and consumer prices years: 1950-2025; 49 countries; frequency: quarterly from world cycles revisited: diverging trends in prices and quantities"
+    },
+    {
+      "id": "item-response-warehouse",
+      "title": "Item Response Warehouse",
+      "topic": "Misc.",
+      "description": "billions of item responses from thousands of datasets. Accessible with API",
+      "years": "",
+      "access": "Not specified",
+      "geography": "Other / not specified",
+      "types": [],
+      "units": [],
+      "tools": [
+        "API"
+      ],
+      "designs": [],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [],
+      "papers": [],
+      "search": "item response warehouse misc. billions of item responses from thousands of datasets. accessible with api"
+    },
+    {
+      "id": "global-flourishing-study",
+      "title": "Global Flourishing Study",
+      "topic": "Misc.",
+      "description": "22 countries, >200k respondents - questions on happiness, health, meaning, character, relationships, and financial topics",
+      "years": "",
+      "access": "Not specified",
+      "geography": "International",
+      "types": [],
+      "units": [
+        "Places & geographic areas"
+      ],
+      "tools": [],
+      "designs": [],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [],
+      "papers": [],
+      "search": "global flourishing study misc. 22 countries, >200k respondents - questions on happiness, health, meaning, character, relationships, and financial topics"
     },
     {
       "id": "nber-patent-data-project",
