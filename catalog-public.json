@@ -1453,7 +1453,7 @@
     {
       "id": "prism",
       "title": "PRISM",
-      "topic": "Temperature",
+      "topic": "Weather",
       "description": "Gridded weather data, including temperature and precipitation",
       "years": "1981-present (daily), 1895-present (monthly)",
       "access": "Not specified",
@@ -1485,12 +1485,12 @@
         "Years: 1981-present (daily), 1895-present (monthly)"
       ],
       "papers": [],
-      "search": "prism temperature gridded weather data, including temperature and precipitation years: 1981-present (daily), 1895-present (monthly)"
+      "search": "prism weather gridded weather data, including temperature and precipitation years: 1981-present (daily), 1895-present (monthly)"
     },
     {
       "id": "noaa",
       "title": "NOAA",
-      "topic": "Temperature",
+      "topic": "Weather",
       "description": "Weather station data",
       "years": "",
       "access": "Not specified",
@@ -1505,12 +1505,12 @@
       "paper": false,
       "details": [],
       "papers": [],
-      "search": "noaa temperature weather station data"
+      "search": "noaa weather weather station data"
     },
     {
       "id": "open-meteo",
       "title": "Open-Meteo",
-      "topic": "Temperature",
+      "topic": "Weather",
       "description": "weather API",
       "years": "",
       "access": "Not specified",
@@ -1529,7 +1529,7 @@
         "Some of data goes back to 1940. Forecast data from 2021. Free version of API is rate limited (300k/month)"
       ],
       "papers": [],
-      "search": "open-meteo temperature weather api some of data goes back to 1940. forecast data from 2021. free version of api is rate limited (300k/month)"
+      "search": "open-meteo weather weather api some of data goes back to 1940. forecast data from 2021. free version of api is rate limited (300k/month)"
     },
     {
       "id": "nvss-natality-data",
@@ -2837,6 +2837,26 @@
       "search": "tract-level home price indices real estate  years: 1989-2021 from a flexible method of house price index construction using repeat-sales aggregates"
     },
     {
+      "id": "zillow-housing-data",
+      "title": "Zillow Housing Data",
+      "topic": "Real estate",
+      "description": "various datasets on topics including home and rental values, market heat index, new construction, price, cuts, and days on market",
+      "years": "",
+      "access": "Not specified",
+      "geography": "Other / not specified",
+      "types": [],
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [],
+      "papers": [],
+      "search": "zillow housing data real estate various datasets on topics including home and rental values, market heat index, new construction, price, cuts, and days on market"
+    },
+    {
       "id": "worldwide-patent-data",
       "title": "Worldwide patent data",
       "topic": "Patents",
@@ -3326,6 +3346,33 @@
       "search": "cshapes 2.0 states, conflict, and regimes borders and capitals of states and dependent territories, as maps years: 1886-2019 (europe from 1816); access: public (cc by-nc-sa 4.0)"
     },
     {
+      "id": "survey-of-consumer-finances",
+      "title": "Survey of Consumer Finances",
+      "topic": "Personal Finance",
+      "description": "survey on personal finances such as income, balance sheets. Includes demographics",
+      "years": "",
+      "access": "Not specified",
+      "geography": "Other / not specified",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [],
+      "designs": [],
+      "features": [
+        "Demographics",
+        "Income / earnings"
+      ],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [],
+      "papers": [],
+      "search": "survey of consumer finances personal finance survey on personal finances such as income, balance sheets. includes demographics"
+    },
+    {
       "id": "world-macro-financial-dataset",
       "title": "World Macro-Financial Dataset",
       "topic": "Macroeconomics",
@@ -3354,6 +3401,54 @@
       ],
       "papers": [],
       "search": "world macro-financial dataset macroeconomics data for many countries on credit, gdp, equity prices, bond yields and consumer prices years: 1950-2025; 49 countries; frequency: quarterly from world cycles revisited: diverging trends in prices and quantities"
+    },
+    {
+      "id": "gapminder",
+      "title": "Gapminder",
+      "topic": "Misc.",
+      "description": "various longitudinal, global datasets covering things like life expectancy, GDP, fertility, life expectancy, and child mortality",
+      "years": "",
+      "access": "Not specified",
+      "geography": "International",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Individuals"
+      ],
+      "tools": [],
+      "designs": [
+        "Panel / longitudinal"
+      ],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [],
+      "papers": [],
+      "search": "gapminder misc. various longitudinal, global datasets covering things like life expectancy, gdp, fertility, life expectancy, and child mortality"
+    },
+    {
+      "id": "our-world-in-data",
+      "title": "Our World in Data",
+      "topic": "Misc.",
+      "description": "many datasets covering many topics such as health, education, environment, war, demographics, and democracy. Generally global in nature",
+      "years": "",
+      "access": "Not specified",
+      "geography": "International",
+      "types": [],
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "features": [
+        "Demographics"
+      ],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [],
+      "papers": [],
+      "search": "our world in data misc. many datasets covering many topics such as health, education, environment, war, demographics, and democracy. generally global in nature"
     },
     {
       "id": "item-response-warehouse",
