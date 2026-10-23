@@ -1451,6 +1451,28 @@
       "search": "phd origins of academic faculty academia where hundreds of thousands of professors got their phds, by university and field from quantifying hierarchy and dynamics in us faculty hiring and retention"
     },
     {
+      "id": "scholarly-migration-database",
+      "title": "Scholarly Migration Database",
+      "topic": "Academia",
+      "description": "migration of the academics sourced from bibliometric affiliation data",
+      "years": "",
+      "access": "Not specified",
+      "geography": "Other / not specified",
+      "types": [
+        "Research & publications"
+      ],
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [],
+      "papers": [],
+      "search": "scholarly migration database academia migration of the academics sourced from bibliometric affiliation data"
+    },
+    {
       "id": "prism",
       "title": "PRISM",
       "topic": "Weather",
@@ -2768,10 +2790,112 @@
       "details": [
         "Years: 2019-present; Access: Public",
         "Geography: Global (167 countries); Units of observation: Country and school meal program; Frequency: Every 2-3 years; Implementer: Global Child Nutrition Foundation",
-        "See A comprehensive and standardized dataset on school feeding activities worldwide: The Global Survey of School Meal Programs "
+        "See A comprehensive and standardized dataset on school feeding activities worldwide: The Global Survey of School Meal Programs"
       ],
       "papers": [],
-      "search": "global survey of school meal programs health, public health, and epidemiology school meals survey across many countries years: 2019-present; access: public geography: global (167 countries); units of observation: country and school meal program; frequency: every 2-3 years; implementer: global child nutrition foundation see a comprehensive and standardized dataset on school feeding activities worldwide: the global survey of school meal programs "
+      "search": "global survey of school meal programs health, public health, and epidemiology school meals survey across many countries years: 2019-present; access: public geography: global (167 countries); units of observation: country and school meal program; frequency: every 2-3 years; implementer: global child nutrition foundation see a comprehensive and standardized dataset on school feeding activities worldwide: the global survey of school meal programs"
+    },
+    {
+      "id": "un-world-population-prospects",
+      "title": "UN World Population Prospects",
+      "topic": "Demography",
+      "description": "demographic estimates for every UN recognized country of the world",
+      "years": "1950-2023",
+      "access": "Public",
+      "geography": "International",
+      "types": [],
+      "units": [
+        "Places & geographic areas"
+      ],
+      "tools": [],
+      "designs": [],
+      "features": [
+        "Demographics"
+      ],
+      "period": "Historical / fixed period",
+      "ranges": [
+        [
+          1950,
+          2023
+        ]
+      ],
+      "paper": false,
+      "details": [
+        "Years: 1950-2023; forecast for 2024-2100; Access: Public",
+        "Geography: Global (237 countries and territories)"
+      ],
+      "papers": [],
+      "search": "un world population prospects demography demographic estimates for every un recognized country of the world years: 1950-2023; forecast for 2024-2100; access: public geography: global (237 countries and territories)"
+    },
+    {
+      "id": "human-mortality-database",
+      "title": "Human Mortality Database",
+      "topic": "Demography",
+      "description": "gold-standard demographic database",
+      "years": "varies by countries, Sweden from 1751",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Places & geographic areas"
+      ],
+      "tools": [],
+      "designs": [],
+      "features": [
+        "Demographics"
+      ],
+      "period": "Not specified",
+      "ranges": [
+        [
+          1751,
+          1751
+        ]
+      ],
+      "paper": false,
+      "details": [
+        "Years: varies by countries, Sweden from 1751",
+        "Access: free account registration",
+        "Geography: a selection of countries with high quality vital statistics, see"
+      ],
+      "papers": [],
+      "search": "human mortality database demography gold-standard demographic database years: varies by countries, sweden from 1751 access: free account registration geography: a selection of countries with high quality vital statistics, see"
+    },
+    {
+      "id": "human-fertility-database",
+      "title": "Human Fertility Database",
+      "topic": "Demography",
+      "description": "gold-standard demographic database",
+      "years": "varies by countries, Sweden from 1751",
+      "access": "Public",
+      "geography": "International",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [
+        "Places & geographic areas"
+      ],
+      "tools": [],
+      "designs": [],
+      "features": [
+        "Demographics"
+      ],
+      "period": "Not specified",
+      "ranges": [
+        [
+          1751,
+          1751
+        ]
+      ],
+      "paper": false,
+      "details": [
+        "Years: varies by countries, Sweden from 1751",
+        "Access: free account registration",
+        "Geography: a selection of countries with high quality vital statistics, see"
+      ],
+      "papers": [],
+      "search": "human fertility database demography gold-standard demographic database years: varies by countries, sweden from 1751 access: free account registration geography: a selection of countries with high quality vital statistics, see"
     },
     {
       "id": "prices-paid-dataset",
@@ -3170,6 +3294,32 @@
       "details": [],
       "papers": [],
       "search": "elevation data maps and geography r package to get elevation data from a variety of sources"
+    },
+    {
+      "id": "historical-maps-of-denmark",
+      "title": "Historical maps of Denmark",
+      "topic": "Maps and geography",
+      "description": "",
+      "years": "",
+      "access": "Not specified",
+      "geography": "Other / not specified",
+      "types": [
+        "Geospatial data"
+      ],
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "features": [
+        "Geocoded / spatial"
+      ],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [
+        "Interactive exploration of the archive"
+      ],
+      "papers": [],
+      "search": "historical maps of denmark maps and geography  interactive exploration of the archive"
     },
     {
       "id": "interstate-system-dataset-isd-version-2-1",
