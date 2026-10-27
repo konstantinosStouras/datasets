@@ -908,10 +908,10 @@
       ],
       "paper": false,
       "details": [
-        "Years: 1975-present. Includes drive and passenger demographics, car characteristics, location, and other circumstances regarding the crash."
+        "Years: 1975-present. Includes driver and passenger demographics, car characteristics, location, and other circumstances regarding the crash."
       ],
       "papers": [],
-      "search": "fatal accident reporting system (fars) crashes and traffic individual-level data on virtually the universe of us fatal car crashes years: 1975-present. includes drive and passenger demographics, car characteristics, location, and other circumstances regarding the crash."
+      "search": "fatal accident reporting system (fars) crashes and traffic individual-level data on virtually the universe of us fatal car crashes years: 1975-present. includes driver and passenger demographics, car characteristics, location, and other circumstances regarding the crash."
     },
     {
       "id": "state-level-crash-data",
@@ -1094,14 +1094,14 @@
       "ranges": [],
       "paper": false,
       "details": [
-        "Years vary.  Some of data is publicly available; rest requires agreement."
+        "Years vary.  Some of the data is publicly available; the rest requires agreement."
       ],
       "papers": [],
-      "search": "heri education detailed college freshman, senior, and faculty surveys years vary.  some of data is publicly available; rest requires agreement."
+      "search": "heri education detailed college freshman, senior, and faculty surveys years vary.  some of the data is publicly available; the rest requires agreement."
     },
     {
-      "id": "data-on-where-colleges-graduates-go-after-graduating",
-      "title": "Data on where colleges graduates go after graduating",
+      "id": "data-on-where-college-graduates-go-after-graduating",
+      "title": "Data on where college graduates go after graduating",
       "topic": "Education",
       "description": "",
       "years": "2010-2018",
@@ -1129,13 +1129,13 @@
         "Years: 2010-2018. From Grads on the Go: Measuring College-Specific Labor Markets for Graduates"
       ],
       "papers": [],
-      "search": "data on where colleges graduates go after graduating education  years: 2010-2018. from grads on the go: measuring college-specific labor markets for graduates"
+      "search": "data on where college graduates go after graduating education  years: 2010-2018. from grads on the go: measuring college-specific labor markets for graduates"
     },
     {
       "id": "pisa",
       "title": "PISA",
       "topic": "Education",
-      "description": "Data allowing cross-county comparisons on educational progress",
+      "description": "Data allowing cross-country comparisons on educational progress",
       "years": "",
       "access": "Not specified",
       "geography": "Other / not specified",
@@ -1151,7 +1151,7 @@
       "paper": false,
       "details": [],
       "papers": [],
-      "search": "pisa education data allowing cross-county comparisons on educational progress"
+      "search": "pisa education data allowing cross-country comparisons on educational progress"
     },
     {
       "id": "median-earnings-four-years-after-graduation-by-university-major",
