@@ -129,7 +129,7 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 ### Crashes and traffic
 
 - [Fatal Accident Reporting System (FARS)](https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars) - Individual-level data on virtually the universe of US fatal car crashes
-  - Years: 1975-present. Includes drive and passenger demographics, car characteristics, location, and other circumstances regarding the crash.
+  - Years: 1975-present. Includes driver and passenger demographics, car characteristics, location, and other circumstances regarding the crash.
 - State-level crash data - some states (and cities) have individual-level, geocoded car crash data. A small number of examples:
   - [California](https://data.ca.gov/@california-highway-patrol/ccrs)
   - [Massachusetts](https://massdot-impact-crashes-vhb.opendata.arcgis.com/) and then search for "Crashes"
@@ -147,10 +147,10 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 - [Common Core of Data](https://nces.ed.gov/ccd/ccddata.asp) - K-12 school- and district-level data 
 - You can access a lot of different datasets, such as IPEDS and CCD, using Urban Institute's [educationdata](https://educationdata.urban.org/documentation/), including R and Stata packages.
 - [HERI](https://heri.ucla.edu/heri-data-archive/) - Detailed college freshman, senior, and faculty surveys
-  - Years vary.  Some of data is publicly available; rest requires agreement.
-- [Data on where colleges graduates go after graduating](https://www.openicpsr.org/openicpsr/project/170381/version/V3/view)
+  - Years vary.  Some of the data is publicly available; the rest requires agreement.
+- [Data on where college graduates go after graduating](https://www.openicpsr.org/openicpsr/project/170381/version/V3/view)
   - Years: 2010-2018. From [Grads on the Go: Measuring College-Specific Labor Markets for Graduates](https://onlinelibrary.wiley.com/doi/full/10.1002/pam.22553)
-- [PISA](https://nces.ed.gov/surveys/pisa/datafiles.asp) - Data allowing cross-county comparisons on educational progress
+- [PISA](https://nces.ed.gov/surveys/pisa/datafiles.asp) - Data allowing cross-country comparisons on educational progress
 - [Median earnings four years after graduation by university-major](https://www.theheagroup.com/blog/earnings-test-data)
   - Graduates from 2017-18 and 2018-19. Access: public. A university-major is only included if there are at least 16 graduates.
   - From the Department of Education; this version is made available by the HEA Group.
