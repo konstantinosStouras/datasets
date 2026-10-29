@@ -7,7 +7,7 @@ This is a compilation of free datasets that I hope can be useful to students, pr
 
 ### Contents
 
-Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic History](#us-censuses-and-economic-history), [Household Surveys](#household-surveys), [Mobility and Migration](#mobility-and-migration), [Names](#names), [Injury and death](#injury-and-death), [Crashes and traffic](#crashes-and-traffic), [Education](#education), [Academia](#academia), [Weather](#weather), [Family](#family), [Sports](#sports), [Religion](#religion), [Government](#government), [Inflation and cost of living](#inflation-and-cost-of-living), [Working](#working), [Businesses](#businesses), [Politics and voting](#politics-and-voting), [Health, public health, and epidemiology](#health-public-health-and-epidemiology), [Demography](#demography), [Real estate](#real-estate), [Patents](#patents), [Social networks](#social-networks), [Beliefs and values](#beliefs-and-values), [Law](#law), [Environment and energy](#environment-and-energy), [Shopping](#shopping), [Maps and geography](#maps-and-geography), [States, conflict, and regimes](#states-conflict-and-regimes), [Macroeconomics](#macroeconomics), [Personal Finance](#personal-finance), [Misc.](#misc)
+Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic History](#us-censuses-and-economic-history), [Household Surveys](#household-surveys), [Mobility and Migration](#mobility-and-migration), [Names](#names), [Injury and death](#injury-and-death), [Crashes and traffic](#crashes-and-traffic), [Education](#education), [Academia](#academia), [Weather](#weather), [Family](#family), [Sports](#sports), [Religion](#religion), [Government](#government), [Inflation and cost of living](#inflation-and-cost-of-living), [Working](#working), [Businesses](#businesses), [Politics and voting](#politics-and-voting), [Health, public health, and epidemiology](#health-public-health-and-epidemiology), [Demography](#demography), [Real estate](#real-estate), [Patents](#patents), [Social networks](#social-networks), [Beliefs and values](#beliefs-and-values), [Law](#law), [Environment and energy](#environment-and-energy), [Shopping](#shopping), [Maps and geography](#maps-and-geography), [States, conflict, and regimes](#states-conflict-and-regimes), [Macroeconomics](#macroeconomics), [Finance](#finance), [Personal Finance](#personal-finance), [Misc.](#misc)
 
 ---
 
@@ -161,6 +161,7 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 - [Progress in International Reading Literacy Study (PIRLS)](https://pirls2021.org/data/) - across countries, it measures the reading level of the fourth grade students
 - [Trends in International Mathematics and Science Study (TIMSS)](https://timssandpirls.bc.edu/databases-landing.html) - measures math and science achievement for fourth and eighth graders around the world
 - See [here](https://ilsa-gateway.org/studies) for other international educational assessments.
+- [Higher Education Research and Development (HERD) Survey](https://ncses.nsf.gov/surveys/higher-education-research-development/2024) - data on college R&D expenditures, headcounts, etc.
 
 <!-- [University enrollments](https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/P0D1KE&version=1.0) -->
 
@@ -179,6 +180,8 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 - [PhD origins of academic faculty](https://larremorelab.github.io/us-faculty/) - where hundreds of thousands of professors got their PhDs, by university and field
    - From [Quantifying hierarchy and dynamics in US faculty hiring and retention](https://www.nature.com/articles/s41586-022-05222-x)
 - [Scholarly Migration Database](https://www.scholarlymigration.org) - migration of the academics sourced from bibliometric affiliation data
+- [The Lens](https://www.lens.org/) - database of scholarly works and patents
+  - Much of it is free, though bulk download and API is not
   
 --- 
 
@@ -285,6 +288,8 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 - [NYT's Presidential precinct data for the 2024 U.S. general election](https://github.com/nytimes/presidential-precinct-map-2024)
    - See also this [map](https://www.nytimes.com/interactive/2025/us/elections/2024-election-map-precinct-results.html)
 - [North Carolina voter registration data](https://www.ncsbe.gov/results-data/voter-registration-data)
+- [PolData](https://github.com/erikgahner/PolData/) - Amazing compilation of hundreds of political science datasets
+  - It also includes a dataset of the datasets with a large amount of metadata as well as a list of useful R packages
 
 ---
 
@@ -304,6 +309,8 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
    - Years: 2019-present; Access: Public
    - Geography: Global (167 countries); Units of observation: Country and school meal program; Frequency: Every 2-3 years; Implementer: Global Child Nutrition Foundation
    - See [A comprehensive and standardized dataset on school feeding activities worldwide: The Global Survey of School Meal Programs](https://doi.org/10.1016/j.dib.2026.113018)
+- [Wellbeing as Outcome in Economic Evaluations](https://ssh.datastations.nl/dataset.xhtml?persistentId=doi:10.17026/SS/5IEOPC) - compares multiple wellbeing measures 
+   - See [here](https://wmicstudy.nl/) for more information
 
 ---
 
@@ -338,6 +345,7 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 - [Worldwide patent data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OTTBDX) - Geocoded, 1980-2014, 46 countries
   - From [Geocoding of Worldwide Patent Data](https://www.nature.com/articles/s41597-019-0264-6)
 - [US patent data](https://data.uspto.gov/home)
+- [The Lens](https://www.lens.org/) - see entry in [Academia](#academia)
 
 ---
 
@@ -351,6 +359,7 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 ### Beliefs and values
 - [World Values Survey](https://www.worldvaluessurvey.org/WVSContents.jsp) - Worldwide survey on beliefs and values
 - [European Social Survey](https://www.europeansocialsurvey.org/) - European survey on attitudes, values, etc.
+- [World Risk Poll & Resilience Index](https://www.lrfoundation.org.uk/world-risk-poll-data) - Global survey on safety, risk, and harm
 
 ---
 
@@ -408,6 +417,15 @@ Lidar
   - Years: 1789-present; Access: Public
 - [CShapes 2.0](https://icr.ethz.ch/data/cshapes/) - Borders and capitals of states and dependent territories, as maps
   - Years: 1886-2019 (Europe from 1816); Access: Public (CC BY-NC-SA 4.0)
+
+---
+
+### Finance
+
+- [Monetary Policy Statement Database](https://centralbanktexts.github.io/) - standardized set of central bank statements from banks over time
+- [Corporate Ownership Data](https://corporateownershipdata.com/) - The owners and voteholders of US companies
+  - From 2000 to 2020. Covers institutional holders, blockholders, and insiders
+  - Free for academic with data use agreement
  
 ---
 
