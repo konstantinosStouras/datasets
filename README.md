@@ -421,6 +421,9 @@ Lidar
 ### Finance
 
 - [Monetary Policy Statement Database](https://centralbanktexts.github.io/) - standardized set of central bank statements from banks over time
+- [Corporate Ownership Data](https://corporateownershipdata.com/) - The owners and voteholders of US companies
+  - From 2000 to 2020. Covers institutional holders, blockholders, and insiders
+  - Free for academic with data use agreement
  
 ---
 
