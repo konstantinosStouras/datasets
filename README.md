@@ -353,6 +353,7 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 ### Beliefs and values
 - [World Values Survey](https://www.worldvaluessurvey.org/WVSContents.jsp) - Worldwide survey on beliefs and values
 - [European Social Survey](https://www.europeansocialsurvey.org/) - European survey on attitudes, values, etc.
+- [World Risk Poll & Resilience Index](https://www.lrfoundation.org.uk/world-risk-poll-data) - Global survey on safety, risk, and harm
 
 ---
 
