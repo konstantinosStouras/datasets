@@ -1300,6 +1300,30 @@
       "search": "see here for other international educational assessments. education "
     },
     {
+      "id": "higher-education-research-and-development-herd-survey",
+      "title": "Higher Education Research and Development (HERD) Survey",
+      "topic": "Education",
+      "description": "data on college R&D expenditures, headcounts, etc.",
+      "years": "",
+      "access": "Not specified",
+      "geography": "Other / not specified",
+      "types": [
+        "Survey"
+      ],
+      "units": [
+        "Firms & institutions"
+      ],
+      "tools": [],
+      "designs": [],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [],
+      "papers": [],
+      "search": "higher education research and development (herd) survey education data on college r&d expenditures, headcounts, etc."
+    },
+    {
       "id": "openalex",
       "title": "Openalex",
       "topic": "Academia",
@@ -1471,6 +1495,32 @@
       "details": [],
       "papers": [],
       "search": "scholarly migration database academia migration of the academics sourced from bibliometric affiliation data"
+    },
+    {
+      "id": "the-lens",
+      "title": "The Lens",
+      "topic": "Academia",
+      "description": "database of scholarly works and patents",
+      "years": "",
+      "access": "Not specified",
+      "geography": "Other / not specified",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [
+        "API"
+      ],
+      "designs": [],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [
+        "Much of it is free, though bulk download and API is not"
+      ],
+      "papers": [],
+      "search": "the lens academia database of scholarly works and patents much of it is free, though bulk download and api is not"
     },
     {
       "id": "prism",
@@ -2506,6 +2556,32 @@
       "search": "north carolina voter registration data politics and voting "
     },
     {
+      "id": "poldata",
+      "title": "PolData",
+      "topic": "Politics and voting",
+      "description": "Amazing compilation of hundreds of political science datasets",
+      "years": "",
+      "access": "Not specified",
+      "geography": "Other / not specified",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [
+        "R"
+      ],
+      "designs": [],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [
+        "It also includes a dataset of the datasets with a large amount of metadata as well as a list of useful R packages"
+      ],
+      "papers": [],
+      "search": "poldata politics and voting amazing compilation of hundreds of political science datasets it also includes a dataset of the datasets with a large amount of metadata as well as a list of useful r packages"
+    },
+    {
       "id": "national-health-and-nutrition-examination-survey-nhanes",
       "title": "National Health and Nutrition Examination Survey (NHANES)",
       "topic": "Health, public health, and epidemiology",
@@ -2796,6 +2872,28 @@
       "search": "global survey of school meal programs health, public health, and epidemiology school meals survey across many countries years: 2019-present; access: public geography: global (167 countries); units of observation: country and school meal program; frequency: every 2-3 years; implementer: global child nutrition foundation see a comprehensive and standardized dataset on school feeding activities worldwide: the global survey of school meal programs"
     },
     {
+      "id": "wellbeing-as-outcome-in-economic-evaluations",
+      "title": "Wellbeing as Outcome in Economic Evaluations",
+      "topic": "Health, public health, and epidemiology",
+      "description": "compares multiple wellbeing measures",
+      "years": "",
+      "access": "Not specified",
+      "geography": "Other / not specified",
+      "types": [],
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [
+        "See here for more information"
+      ],
+      "papers": [],
+      "search": "wellbeing as outcome in economic evaluations health, public health, and epidemiology compares multiple wellbeing measures see here for more information"
+    },
+    {
       "id": "un-world-population-prospects",
       "title": "UN World Population Prospects",
       "topic": "Demography",
@@ -3032,6 +3130,28 @@
       "search": "us patent data patents "
     },
     {
+      "id": "the-lens",
+      "title": "The Lens",
+      "topic": "Patents",
+      "description": "see entry in Academia",
+      "years": "",
+      "access": "Not specified",
+      "geography": "Other / not specified",
+      "types": [
+        "Administrative records"
+      ],
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [],
+      "papers": [],
+      "search": "the lens patents see entry in academia"
+    },
+    {
       "id": "facebook-social-connectedness-index-sci",
       "title": "Facebook Social Connectedness Index (SCI)",
       "topic": "Social networks",
@@ -3098,6 +3218,28 @@
       "details": [],
       "papers": [],
       "search": "european social survey beliefs and values european survey on attitudes, values, etc."
+    },
+    {
+      "id": "world-risk-poll-resilience-index",
+      "title": "World Risk Poll & Resilience Index",
+      "topic": "Beliefs and values",
+      "description": "Global survey on safety, risk, and harm",
+      "years": "",
+      "access": "Not specified",
+      "geography": "International",
+      "types": [
+        "Survey"
+      ],
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [],
+      "papers": [],
+      "search": "world risk poll & resilience index beliefs and values global survey on safety, risk, and harm"
     },
     {
       "id": "a-list-of-all-federal-laws",
@@ -3494,6 +3636,54 @@
       ],
       "papers": [],
       "search": "cshapes 2.0 states, conflict, and regimes borders and capitals of states and dependent territories, as maps years: 1886-2019 (europe from 1816); access: public (cc by-nc-sa 4.0)"
+    },
+    {
+      "id": "monetary-policy-statement-database",
+      "title": "Monetary Policy Statement Database",
+      "topic": "Finance",
+      "description": "standardized set of central bank statements from banks over time",
+      "years": "",
+      "access": "Not specified",
+      "geography": "Other / not specified",
+      "types": [],
+      "units": [],
+      "tools": [],
+      "designs": [],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [],
+      "papers": [],
+      "search": "monetary policy statement database finance standardized set of central bank statements from banks over time"
+    },
+    {
+      "id": "corporate-ownership-data",
+      "title": "Corporate Ownership Data",
+      "topic": "Finance",
+      "description": "The owners and voteholders of US companies",
+      "years": "",
+      "access": "Agreement or mixed",
+      "geography": "United States",
+      "types": [
+        "Research & publications"
+      ],
+      "units": [
+        "Places & geographic areas",
+        "Firms & institutions"
+      ],
+      "tools": [],
+      "designs": [],
+      "features": [],
+      "period": "Not specified",
+      "ranges": [],
+      "paper": false,
+      "details": [
+        "From 2000 to 2020. Covers institutional holders, blockholders, and insiders",
+        "Free for academic with data use agreement"
+      ],
+      "papers": [],
+      "search": "corporate ownership data finance the owners and voteholders of us companies from 2000 to 2020. covers institutional holders, blockholders, and insiders free for academic with data use agreement"
     },
     {
       "id": "survey-of-consumer-finances",
