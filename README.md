@@ -288,6 +288,8 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 - [NYT's Presidential precinct data for the 2024 U.S. general election](https://github.com/nytimes/presidential-precinct-map-2024)
    - See also this [map](https://www.nytimes.com/interactive/2025/us/elections/2024-election-map-precinct-results.html)
 - [North Carolina voter registration data](https://www.ncsbe.gov/results-data/voter-registration-data)
+- [PolData](https://github.com/erikgahner/PolData/) - Amazing compilation of hundreds of political science datasets
+  - It also includes a dataset of the datasets with a large amount of metadata as well as a list of useful R packages
 
 ---
 
