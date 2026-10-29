@@ -408,6 +408,12 @@ Lidar
   - Years: 1789-present; Access: Public
 - [CShapes 2.0](https://icr.ethz.ch/data/cshapes/) - Borders and capitals of states and dependent territories, as maps
   - Years: 1886-2019 (Europe from 1816); Access: Public (CC BY-NC-SA 4.0)
+
+---
+
+### Finance
+
+- [Monetary Policy Statement Database](https://centralbanktexts.github.io/) - standardized set of central bank statements from banks over time
  
 ---
 
